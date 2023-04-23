@@ -1,0 +1,301 @@
+﻿###OOB File for SIC.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Glauco Class"
+		role_icon_index = 37
+		type = ship_hull_submarine_2
+		name_group = SIC_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "F/H/N/X Class"
+		role_icon_index = 37
+		type = ship_hull_submarine_1
+		name_group = SIC_SS_FHNX
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Otranto/Scilla Class" 			#Improved mid-war destroyers - universal escort and asw ship
+		role_icon_index = 31
+		type = ship_hull_light_2
+		name_group = SIC_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Alessandro Poerio Class" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
+		role_icon_index = 29
+		type = ship_hull_light_1
+		name_group = SIC_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_2_custom_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Regina Elena Class"
+		role_icon_index = 5
+		type = ship_hull_pre_dreadnought
+		name_group = SIC_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Andrea Doria Class"
+		role_icon_index = 3
+		icon = "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
+		type = ship_hull_heavy_1
+		name_group = SIC_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = pugliese_system
+			front_1_custom_slot = ship_heavy_battery_1_triple
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1_triple
+			rear_2_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Francesco Caracciolo Class"
+		role_icon_index = 3
+		type = ship_hull_heavy_1
+		name_group = SIC_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = pugliese_system
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_heavy_battery_big_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+			rear_2_custom_slot = ship_heavy_battery_big_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Littorio Class"
+		role_icon_index = 3
+		type = ship_hull_heavy_2
+		name_group = SIC_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2_triple
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
+			fixed_ship_torpedo_defense_system_slot = pugliese_system
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_heavy_battery_2_triple
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_2_triple
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Regioni Class"			# WK hulls, all scrapped
+		role_icon_index = 23
+		type = ship_hull_cruiser_1
+		name_group = SIC_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Crimoso Class"
+		role_icon_index = 25
+		type = ship_hull_cruiser_2
+		name_group = SIC_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2_double
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_light_medium_battery_2_double
+			rear_2_custom_slot = ship_light_medium_battery_2_double
+		}
+	}
+	create_equipment_variant = {
+		name = "Imera Class"
+		role_icon_index = 25
+		type = ship_hull_cruiser_2
+		name_group = SIC_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2_double
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_medium_battery_2_double
+			rear_2_custom_slot = ship_light_medium_battery_2_double
+		}
+	}
+	create_equipment_variant = {#TBC
+		name = "Altavilla Class"
+		role_icon_index = 27
+		type = ship_hull_cruiser_1
+		name_group = SIC_BC_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			rear_1_custom_slot = ship_medium_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+		}
+		obsolete = yes
+	}
+}
+
+
+units = {
+	fleet = {
+		name = "Regia Marina Siciliana"
+		naval_base = 819
+		task_force = {
+			name = "1a Flotta"
+			location = 819
+			ship = { name = "RN	Francesco Caracciolo" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "RN	Andrea Doria" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
+			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
+			ship = { name = "RN	Abruzzo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Aquila" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Falco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Nibbio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Sparviero" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Ardente" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Ardito" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Irrequieto" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Benevento" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Capri" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Fioro Ischia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Lago Negro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Lioni" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Manfredonia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Mondragone" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Orta Nova" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Otranto" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Senise" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Centauro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Delfino" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Iupiter" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Scilla" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Capua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
+			ship = { name = "RN	Guglielmo II" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Roberto Guiscardo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Ruggero I" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Tancredi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Crimiso" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
+			ship = { name = "RN	Taormina" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
+			ship = { name = "RN	Gela" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Imera" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Lilibeo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Mozia" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Trinicaria" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = SIC version_name = "Regina Elena Class" } } }
+		}
+		task_force = {
+			name = "I Gruppo Sommergibile"
+			location = 4014
+			ship = { name = "R.Smg. F13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. F14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. F15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. F16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. F17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. F18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. H8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. N6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. X1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. X2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+			ship = { name = "R.Smg. X3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "F/H/N/X Class" } } }
+		}
+	}
+}
+
