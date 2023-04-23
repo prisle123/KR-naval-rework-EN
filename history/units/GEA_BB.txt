@@ -1,0 +1,14 @@
+﻿###OOB File for GEA.txt
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GEA"
+			version_name = "Blücher Class"
+		}
+		name = "SMS Steinmetz"
+		requested_factories = 3
+		progress = 0.6
+		amount = 1
+	}
+}

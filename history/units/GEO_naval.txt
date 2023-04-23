@@ -1,0 +1,41 @@
+﻿###OOB File for GEO.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Bars Class"
+		type = ship_hull_submarine_1
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Batumi Class"
+		type = ship_hull_submarine_2
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Pirveli popularuli flotilla"
+		naval_base = 772
+		task_force = {
+			name = "Pirveli popularuli flotilla"
+			location = 772
+			ship = { name = "Ayety" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "Batumi Class" } } }
+			ship = { name = "Batumi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "Batumi Class" } } }
+			ship = { name = "Dioskuria " definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "Batumi Class" } } }
+			ship = { name = "Ochamchire" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "Batumi Class" } } }
+			ship = { name = "Tbilisi" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "Batumi Class" } } }
+		}
+	}
+}
+

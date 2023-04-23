@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "Australasia Exile Fleet, Screen ships"
+		naval_base = 9458
+		task_force = {
+			name = "Australasia Exile Fleet, Screen ships"
+			location = 9458
+			ship = { name = "HMS L-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L Type" } } }
+			ship = { name = "HMS L-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L Type" } } }
+			ship = { name = "HMS L-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L Type" } } }
+			ship = { name = "HMS H-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS H-49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS H-50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS K-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS K-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS K-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
+			ship = { name = "HMS Venturous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Verdun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Versatile" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Verulam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Veteran" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Viceroy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Walker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Walpole" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Walrus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Weazel" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+			ship = { name = "HMS Wellesley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
+		}
+	}
+}

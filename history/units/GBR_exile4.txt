@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "Australasia Exile Fleet, Capital ships"
+		naval_base = 9458
+		task_force = {
+			name = "Australasia Exile Fleet, Capital ships"
+			location = 9458
+			ship = { name = "HMS Drake" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Nelson Class" } } }
+			ship = { name = "HMS Malaya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Queen Elizabeth Class" } } }
+		}
+	}
+}
