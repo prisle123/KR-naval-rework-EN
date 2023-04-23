@@ -1,0 +1,15 @@
+﻿l_english:
+ modern_carrier_equipments:0 "Modern Carrier Modification"
+ modern_carrier_equipments_desc:0 "The aircraft carrier has emerged as the strongest naval ship in the war. With the development of jet fighters and catapults, the airsea-battle doctrine is meant to be inevitable."
+ 
+ anti_air_rockets:0 "Anti-Air Rockets"
+ anti_air_rockets_desc:0 "A primitive type of ship-to-air missile without any guiding system."
+ 
+ advanced_heavy_armor_scheme: "Enhanced All-or-Nothing Armor Scheme"
+ advanced_heavy_armor_scheme_desc:1 "This scheme focuses on only protecting the most vital areas of the ship, while ignoring the unimportant parts. It is enhanced with the hardened steel.\n\nMounting this module on §YHeavy Ships§! improves their ability to §Ywithstand enemy damage§!. §YBattleships§! and §YBattlecruisers§! are defined by their different §YArmor Schemes§!."
+ 
+ advanced_sonar: "Towed Sonar Array"
+ advanced_sonar_desc: "Towed sonar is also known as variable depth sonar. It can operate in deeper waters to avoid the interference of ship noise.\n\nMounting this module in an §YElectronics Slot§! on §YLight Ships§! or §YCruisers§! will help them detect enemy §YSubmarines§!."
+ 
+ ship_to_ship_missile: "Wire-guided Anti-Ship Missile"
+ ship_to_ship_missile_desc: "A wire-guided anti-ship missile is a primitive one with high speed and can cause great damage."
