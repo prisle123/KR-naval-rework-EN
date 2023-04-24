@@ -1,4 +1,4 @@
-﻿###OOB File for AUS.txt
+###OOB File for AUS.txt
 instant_effect = {
 	### Ship Variants ###
 	###Destroyers
@@ -22,10 +22,10 @@ instant_effect = {
 	}
 
 	create_equipment_variant = { #modern torpedoboat hunter
-		name = "Wildspitze Class"
+		name = "Dragoner Class"
 		role_icon_index = 31
 		type = ship_hull_light_2
-		name_group = AUS_DD_T_M_ZERSTORER
+		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -77,8 +77,9 @@ instant_effect = {
 		obsolete = yes
 	}
 
-	create_equipment_variant = {
+	create_equipment_variant = { # Italian destroyer collection
 		name = "Turul Class"
+		icon = "gfx/interface/technologies/Italy/ITA_destroyer1.png"
 		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
@@ -99,7 +100,7 @@ instant_effect = {
 
 	create_equipment_variant = { #minelayer
 		name = "Huszár Class"
-		role_icon_index = 35
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
@@ -363,8 +364,8 @@ units = {
 			ship = { name = "SMS Komet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
 			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
 			ship = { name = "SMS Planet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
-			ship = { name = "SMS Wildspitze" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
-			ship = { name = "SMS Weißkugel" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
+			ship = { name = "SMS Dragoner" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
+			ship = { name = "SMS Labanc" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Lika" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Triglav Class" } } }
 			ship = { name = "SMS Triglav" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Triglav Class" } } }
 			ship = { name = "SMS Balaton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Tátra Class" } } }
@@ -379,9 +380,9 @@ units = {
 			location = 11735
 			ship = { name = "SMS Monarch" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Schwarzenberg Class" } } }
 			ship = { name = "SMS Schwarzenberg" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Schwarzenberg Class" } } }
-			ship = { name = "SMS Similaun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
-			ship = { name = "SMS Ramolkogel" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
-			ship = { name = "SMS Schalfkogel" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
+			ship = { name = "SMS Grenzer" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
+			ship = { name = "SMS Grenadier" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
+			ship = { name = "SMS Füsilier" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Csikós" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Huszár" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Pandur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
@@ -400,9 +401,9 @@ units = {
 			ship = { name = "SMS Helgoland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Helgoland Class" } } }
 			ship = { name = "SMS Saida" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Helgoland Class" } } }
 			ship = { name = "SMS Novara" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Helgoland Class" } } }
-			ship = { name = "SMS Hochvernagtspitze" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
-			ship = { name = "SMS Watzespitze" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
-			ship = { name = "SMS Weißseespitze" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Wildspitze Class" } } }
+			ship = { name = "SMS Landsknecht" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
+			ship = { name = "SMS Vojnik" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
+			ship = { name = "SMS Kürassier" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Orjen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Tátra Class" } } }
 			ship = { name = "SMS Tátra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Tátra Class" } } }
 			ship = { name = "SMS Dukla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Triglav Class" } } }
