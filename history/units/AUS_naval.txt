@@ -42,6 +42,7 @@ instant_effect = {
 
 	create_equipment_variant = { #oldest dd in arsenal -nearly Torpedoboat
 		name = "Tátra Class"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
 		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_M_ZERSTORER
@@ -61,6 +62,7 @@ instant_effect = {
 
 	create_equipment_variant = { #bigger old tbd
 		name = "Triglav Class"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
 		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
