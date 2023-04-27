@@ -579,7 +579,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			reliability = -0.08
+			reliability = -0.1
 			hg_attack = 20
 			build_cost_ic = 1250
 		}
@@ -794,7 +794,7 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 20
 			build_cost_ic = 1200
-			reliability = -0.08
+			reliability = -0.09
 		}
 		
 		multiply_stats = {
@@ -813,7 +813,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			reliability = -0.1
+			reliability = -0.15
 			hg_attack = 24
 			build_cost_ic = 1400
 		}
@@ -1034,7 +1034,7 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 30
 			build_cost_ic = 1500
-			reliability = -0.1
+			reliability = -0.12
 		}
 		
 		multiply_stats = {
@@ -1056,7 +1056,7 @@ equipment_modules = {
 			
 			hg_attack = 36
 			build_cost_ic = 1700
-			reliability = -0.1
+			reliability = -0.2
 		}
 		multiply_stats = {
 			naval_speed = -0.1
@@ -2596,7 +2596,6 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.05
 			
-
 		}
 
 		
@@ -3873,6 +3872,7 @@ equipment_modules = {
 			armor_value = 35
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.1
 		}
 		dismantle_cost_ic = 6000
 		
@@ -3893,6 +3893,7 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 28
 			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.1
 		}
 		dismantle_cost_ic = 5500
 	}
@@ -3914,6 +3915,7 @@ equipment_modules = {
 			armor_value = 40
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.15
 		}
 		dismantle_cost_ic = 7500
 		
@@ -3936,6 +3938,7 @@ equipment_modules = {
 			armor_value = 34
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.15
 		}
 		dismantle_cost_ic = 6200
 		
@@ -3957,7 +3960,7 @@ equipment_modules = {
 			armor_value = 45
 			naval_torpedo_enemy_critical_chance_factor = -0.15
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.1
+			reliability = 0.2
 		}
 		dismantle_cost_ic = 8000
 	}
@@ -3978,7 +3981,7 @@ equipment_modules = {
 			armor_value = 40
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.1
+			reliability = 0.2
 		}
 		dismantle_cost_ic = 6700
 	}
@@ -4001,6 +4004,7 @@ equipment_modules = {
 			surface_visibility = 10
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.2
 		}
 		dismantle_cost_ic = 8200
 		
