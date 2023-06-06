@@ -8,7 +8,7 @@
 			location = 7552 #New Orleans
 			ship = { name = "USS Indiana" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = TEX version_name = "South Carolina Class" } } }
 			ship = { name = "USS Tennessee" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Tennessee Class" } } }
-			ship = { name = "USS Maryland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Colorado Class" } } }
+			ship = { name = "USS Maryland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = TEX version_name = "Colorado Class" } } }
 			ship = { name = "USS Mississippi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Pennsylvania/New Mexico Class" } } }
 			ship = { name = "USS Idaho" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Pennsylvania/New Mexico Class" } } }
 			ship = { name = "USS California" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Tennessee Class" } } }
@@ -17,13 +17,13 @@
 		task_force = {
 			name = "Cruisers, U.S. Battle Fleet"
 			location = 1572 ###Green Cove Springs
-			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
-			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
-			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
+			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
+			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
+			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
 			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Pittsburgh/Memphis Class" } } }
 			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Denver Class" } } }
 			ship = { name = "USS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Lexington Class" } } }
-			ship = { name = "USS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
+			ship = { name = "USS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "Northampton Class" } } }
 			ship = { name = "USS Trenton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Omaha Class" } } }
 		}
 
@@ -63,7 +63,7 @@
 			name = "Destroyer Squadron 2"
 			location = 1843 #Miami
 			#Leader
-			ship = { name = "USS Selfridge" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TEX version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS Selfridge" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = TEX version_name = "Porter/Somers Class" } } }
 			#Division 19
 			ship = { name = "USS McCormick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Truxtun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }

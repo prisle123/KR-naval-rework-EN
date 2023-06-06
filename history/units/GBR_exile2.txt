@@ -10,13 +10,13 @@ units = {
 			ship = { name = "HMS Westminster" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
 			ship = { name = "HMS Wivern" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
 			ship = { name = "HMS Wolverine" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
-			ship = { name = "HMS Danae" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Euphrates" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Caledon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Caradoc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Ceres" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = D01 version_name = "Emerald Class" } } }
-			ship = { name = "HMS Anson" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Admiral Class" } } }
+			ship = { name = "HMS Danae" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Euphrates" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Caledon" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Caradoc" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Ceres" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = D01 version_name = "C/Danae/Emerald Class" } } }
+			ship = { name = "HMS Anson" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = D01 version_name = "Admiral Class" } } }
 			ship = { name = "HMS H-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
 			ship = { name = "HMS H-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }
 			ship = { name = "HMS K-29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H Type" } } }

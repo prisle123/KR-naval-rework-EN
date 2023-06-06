@@ -16,23 +16,23 @@
 			ship = { name = "USS Tennessee" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }
 			ship = { name = "USS California" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }
 			#Battle Division 6
-			ship = { name = "USS Colorado" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
-			ship = { name = "USS Maryland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
-			ship = { name = "USS West Virginia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
-			ship = { name = "USS Washington" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Colorado" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Maryland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS West Virginia" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Washington" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
 		}
 
 		task_force = {
 			name = "Cruisers, Battle Fleet"
 			location = 788 ###NS+SB Norfolk
 			#Cruiser Squadron 1
-			ship = { name = "USS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
-			ship = { name = "USS Woodrow Wilson" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }	#USS United States
+			ship = { name = "USS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
+			ship = { name = "USS Woodrow Wilson" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }	#USS United States
 			#Cruiser Squadron 3
-			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			#Cruiser Squadron 7
 			ship = { name = "USS Richmond" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			ship = { name = "USS Concord" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
@@ -51,7 +51,7 @@
 			name = "Destroyer Squadron 1"
 			location = 788 ###NS+SB Norfolk
 			#Leader
-			ship = { name = "USS Porter" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS Porter" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
 			#Division 1
 			ship = { name = "USS Cassin" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Farragut/Mahan Class" } } }
 			ship = { name = "USS Shaw" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Farragut/Mahan Class" } } }
@@ -79,7 +79,7 @@
 			name = "Destroyer Squadron 2"
 			location = 9832 ###NS+SB Newport and Groton (Rhode Island)
 			#Leader
-			ship = { name = "USS McDougal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS McDougal" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
 			#Division 4
 			ship = { name = "USS Farragut" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Farragut/Mahan Class" } } }
 			ship = { name = "USS Dewey" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Farragut/Mahan Class" } } }
@@ -107,7 +107,7 @@
 			name = "Destroyer Squadron 6"
 			location = 6845 ###NSY Philadelphia
 			#Leader
-			ship = { name = "USS Selfridge" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS Selfridge" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
 			#Division 19
 			ship = { name = "USS McCormick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Truxtun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
@@ -212,15 +212,15 @@
 			name = "Cruisers, Scouting Fleet"
 			location = 7315 ###NS Puget Sound (Seattle)
 			#Cruiser Squadron 4
-			ship = { name = "USS Lexington" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
-			ship = { name = "USS Saratoga" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
-			ship = { name = "USS Pensacola" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
-			ship = { name = "USS Salt Lake City" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
+			ship = { name = "USS Lexington" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
+			ship = { name = "USS Saratoga" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
+			ship = { name = "USS Pensacola" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
+			ship = { name = "USS Salt Lake City" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
 			#Cruiser Squadron 5
 			ship = { name = "USS Seattle" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
 			ship = { name = "USS Pittsburgh" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
 			ship = { name = "USS San Diego" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Louisville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Louisville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			#Cruiser Squadron 9
 			ship = { name = "USS Omaha" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			ship = { name = "USS Milwaukee" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
@@ -232,7 +232,7 @@
 			name = "Destroyer Squadron 6"
 			location = 1562 ###NS+SB San Diego
 			#Leader
-			ship = { name = "USS Winslow" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS Winslow" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
 			#Division 16
 			ship = { name = "USS Abel P. Upshur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Hunt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
@@ -367,7 +367,7 @@
 		task_force = {
 			name = "Flagship Squadron"
 			location = 10265 ###Manila (Philippines)
-			ship = { name = "USS Augusta" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Augusta" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			ship = { name = "USS Marblehead" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 		}
@@ -437,7 +437,7 @@
 
 		task_force = {
 			name = "Destroyer Squadron 3"
-			location = 1572 ###Green Cove Springs
+			location = 6845 ###Green Cove Springs
 			#Division 7
 			ship = { name = "USS McKee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Robinson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
@@ -550,7 +550,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Rodgers/Bagley Class"
 		}
@@ -561,7 +561,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Rodgers/Bagley Class"
 		}
@@ -572,7 +572,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}

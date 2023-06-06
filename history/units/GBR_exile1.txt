@@ -11,20 +11,20 @@ units = {
 			ship = { name = "HMS Ramillies" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Revenge Class" } } }
 			ship = { name = "HMS Resolution" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Revenge Class" } } }
 			ship = { name = "HMS Revenge" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Revenge Class" } } }
-			ship = { name = "HMS Howe" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = D01 version_name = "Admiral Class" } } }
+			ship = { name = "HMS Howe" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = D01 version_name = "Admiral Class" } } }
 			ship = { name = "HMS Magnificent" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = D01 version_name = "Magnificent Class" } } }
 			ship = { name = "HMS Majestic" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = D01 version_name = "Magnificent Class" } } }
-			ship = { name = "HMS Acasta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Achates" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Acheron" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Active" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Antelope" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Anthony" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Ardent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Arrow" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Codrington" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Amazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
-			ship = { name = "HMS Ambuscade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Acasta" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Achates" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Acheron" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Active" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Antelope" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Anthony" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Ardent" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Arrow" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Codrington" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Amazon" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
+			ship = { name = "HMS Ambuscade" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = D01 version_name = "Acasta Class" } } }
 			ship = { name = "HMS Count Raymond de Saint-Gilles" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
 			ship = { name = "HMS Count Robert II" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }
 			ship = { name = "HMS Crusader" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = D01 version_name = "V/W Class" } } }

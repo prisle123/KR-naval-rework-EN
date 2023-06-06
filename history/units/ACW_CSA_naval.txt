@@ -15,8 +15,8 @@
 		task_force = {
 			name = "Cruisers, Continental Battle Fleet"
 			location = 6845 #Philadelphia
-			ship = { name = "CNS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Lexington Class" } } }
-			ship = { name = "CNS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
+			ship = { name = "CNS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = CSA version_name = "Lexington Class" } } }
+			ship = { name = "CNS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
 			ship = { name = "CNS Trenton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
 			ship = { name = "CNS Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Denver Class" } } }
 			ship = { name = "CNS Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Denver Class" } } }
@@ -26,7 +26,7 @@
 			name = "Destroyer Squadron 1"
 			location = 6845 #Philadelphia
 			#Leader
-			ship = { name = "CNS Selfridge" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "Porter/Somers Class" } } }
+			ship = { name = "CNS Selfridge" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = CSA version_name = "Porter/Somers Class" } } }
 			#Division 19
 			ship = { name = "CNS McCormick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "CNS Truxtun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }

@@ -108,7 +108,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Francesco Caracciolo Class"
 		role_icon_index = 3
-		type = ship_hull_heavy_1
+		type = ship_hull_heavy_2
 		name_group = SIC_BC_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -131,7 +131,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Littorio Class"
 		role_icon_index = 3
-		type = ship_hull_heavy_2
+		type = ship_hull_heavy_3
 		name_group = SIC_BB_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2_triple
@@ -238,7 +238,7 @@ units = {
 		task_force = {
 			name = "1a Flotta"
 			location = 819
-			ship = { name = "RN	Francesco Caracciolo" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "RN	Francesco Caracciolo" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
 			ship = { name = "RN	Andrea Doria" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			ship = { name = "RN	Abruzzo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }

@@ -10,6 +10,7 @@ instant_effect = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_armor_slot = pressure_hull_1
 			rear_1_custom_slot = ship_mine_layer_sub
 		}
 	}
@@ -80,7 +81,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Crusader Class"
 		role_icon_index = 31
-		type = ship_hull_light_2
+		type = ship_hull_light_3
 		name_group = AST_DD_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -119,7 +120,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "King George V Class"
 		role_icon_index = 3
-		type = ship_hull_heavy_2
+		type = ship_hull_heavy_3
 		name_group = AST_BB_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2_triple
@@ -162,8 +163,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Nelson Class"
 		role_icon_index = 1
-		icon = "gfx/interface/technologies/Canada/CAN_battleship_Nelson.png"
-		type = ship_hull_heavy_1
+		type = ship_hull_heavy_2
 		name_group = AST_GBR_CA_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2_triple
@@ -186,7 +186,7 @@ instant_effect = {
 		name = "Admiral Class"
 		role_icon_index = 15
 		icon = "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
-		type = ship_hull_heavy_1
+		type = ship_hull_heavy_2
 		name_group = AST_GBR_BC_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -269,6 +269,7 @@ instant_effect = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			front_1_custom_slot = ship_heavy_battery_big_1
 			mid_1_custom_slot = empty
@@ -317,6 +318,7 @@ instant_effect = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			front_1_custom_slot = ship_heavy_battery_big_1
 			mid_1_custom_slot = ship_airplane_launcher_1
@@ -350,7 +352,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Moncton Class"
 		role_icon_index = 25
-		type = ship_hull_cruiser_2
+		type = ship_hull_cruiser_3
 		name_group = AST_CITIES
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2
@@ -490,7 +492,7 @@ units = {
 			ship = { name = "HMAS K-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
 			ship = { name = "HMAS K-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
 			ship = { name = "HMAS K-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS Drake" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Nelson Class" } } }
+			ship = { name = "HMAS Drake" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AST version_name = "Nelson Class" } } }
 			ship = { name = "HMAS Malaya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMAS Royal Sovereign" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
 		}

@@ -1,23 +1,24 @@
-###OOB File for AUS.txt
+﻿###OOB File for AUS.txt
 instant_effect = {
 	### Ship Variants ###
 	###Destroyers
 	create_equipment_variant = { #modern screen dd
 		name = "Meteor Class"
 		role_icon_index = 31
-		type = ship_hull_light_2
+		type = ship_hull_light_3
 		name_group = AUS_DD_T_C_ZERSTORER
 		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_battery_slot = ship_light_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
-			front_1_custom_slot = ship_light_battery_2
-			mid_1_custom_slot = ship_light_battery_2
+			fixed_ship_role_slot = ship_hull_light_role_dl
+			front_1_custom_slot = ship_light_battery_2_double
+			mid_1_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_depth_charge_1
-			rear_2_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_light_battery_2_double
 		}
 	}
 
@@ -27,22 +28,20 @@ instant_effect = {
 		type = ship_hull_light_2
 		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_battery_slot = ship_light_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
-			front_1_custom_slot = ship_light_battery_2
-			mid_1_custom_slot = ship_light_battery_2
-			rear_1_custom_slot = ship_torpedo_2
-			rear_2_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			rear_2_custom_slot = ship_light_battery_2_double
 		}
 	}
 
 	create_equipment_variant = { #oldest dd in arsenal -nearly Torpedoboat
 		name = "Tátra Class"
-		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
 		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_M_ZERSTORER
@@ -62,7 +61,7 @@ instant_effect = {
 
 	create_equipment_variant = { #bigger old tbd
 		name = "Triglav Class"
-		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
 		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
@@ -129,7 +128,7 @@ instant_effect = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -153,9 +152,9 @@ instant_effect = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ship_armor_slot = ship_armor_bc_1
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			front_1_custom_slot = ship_heavy_battery_1_triple
@@ -177,7 +176,7 @@ instant_effect = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
@@ -216,7 +215,7 @@ instant_effect = {
 	create_equipment_variant = { #modern light cruiser coopearation with Italian Dockyards
 		name = "Custozza Class"
 		role_icon_index = 25
-		type = ship_hull_cruiser_2
+		type = ship_hull_cruiser_3
 		name_group = AUS_C_T_B_Kreuzer
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2_double
@@ -362,10 +361,10 @@ units = {
 			ship = { name = "SMS Hunyadi" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
 			ship = { name = "SMS Kaiser Franz Josef" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
 			ship = { name = "SMS Svatý Václav" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
-			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
-			ship = { name = "SMS Komet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
-			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
-			ship = { name = "SMS Planet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
+			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
+			ship = { name = "SMS Komet" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
+			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
+			ship = { name = "SMS Planet" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
 			ship = { name = "SMS Dragoner" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Labanc" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Lika" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Triglav Class" } } }
@@ -390,8 +389,8 @@ units = {
 			ship = { name = "SMS Pandur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Reka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Scharfschutze" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
-			ship = { name = "SMS Custozza" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Custozza Class" } } }
-			ship = { name = "SMS Lissa" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Custozza Class" } } }
+			ship = { name = "SMS Custozza" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = AUS version_name = "Custozza Class" } } }
+			ship = { name = "SMS Lissa" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = AUS version_name = "Custozza Class" } } }
 		}
 
 		task_force = {
@@ -526,7 +525,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "AUS"
 			version_name = "Meteor Class"
 		}
@@ -537,7 +536,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "AUS"
 			version_name = "Meteor Class"
 		}

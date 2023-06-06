@@ -1,5 +1,6 @@
 ﻿###OOB File for HOL.txt
 instant_effect = {
+	set_technology = { early_ship_hull_carrier = 1 }
 	create_equipment_variant = {
 		name = "O9 Class"					# represents O9-15, K XI-XIII subs
 		role_icon_index = 37

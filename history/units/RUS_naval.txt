@@ -15,8 +15,8 @@ units = {
 			ship = { name = "Fedor Stratilat" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Gadzhibey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Tserigo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
-			ship = { name = "Kagul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
-			ship = { name = "Pamiat Merkuria" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
+			ship = { name = "Kagul" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
+			ship = { name = "Pamiat Merkuria" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Gromoboy" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Gromoboy Class" } } }
 		}
 	}
@@ -39,12 +39,12 @@ units = {
 			ship = { name = "Pobiditel" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Orfey Class" } } }
 			ship = { name = "Izyaslav" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Prymyslav" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
-			ship = { name = "Askold" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Askold Class" } } }
-			ship = { name = "Bogatyr" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
-			ship = { name = "Oleg" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
+			ship = { name = "Askold" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Askold Class" } } }
+			ship = { name = "Bogatyr" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
+			ship = { name = "Oleg" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Admiral Butakov" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Svetlana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
-			ship = { name = "Aurora" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Pallada Class" } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Pallada Class" } } }
 			ship = { name = "Andrey Pervozvannyy" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RUS version_name = "Andrey Pervozvannyy Class" } } }
 			ship = { name = "Imperator Pavel I" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RUS version_name = "Andrey Pervozvannyy Class" } } }
 		}

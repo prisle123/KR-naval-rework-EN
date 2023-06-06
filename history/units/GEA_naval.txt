@@ -7,21 +7,21 @@ units = {
 			name = "Camranhgeschwader"
 			location = 4401 ###Change to proper province number
 			ship = { name = "SMS Graf Spee" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Mackensen Class" } } }
-			ship = { name = "SMS Gneisenau" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
-			ship = { name = "SMS Scharnhorst" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
+			ship = { name = "SMS Gneisenau" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
+			ship = { name = "SMS Scharnhorst" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
 			ship = { name = "SMS Hindenburg" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Derfflinger Class" } } }
 
 			ship = { name = "SMS Pillau" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			ship = { name = "SMS Frankfurt" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			ship = { name = "SMS Kolberg" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Kolberg Class" } } }
 			ship = { name = "SMS Mainz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Kolberg Class" } } }
-			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Mülhausen Class" } } }
+			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GEA version_name = "Mülhausen Class" } } }
 
 			ship = { name = "SMS S 155" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS S 156" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS S 157" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
-			ship = { name = "SMS S 296" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS V 293" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS S 296" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS V 293" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
 		}
 	}
 	fleet = {
@@ -37,9 +37,9 @@ units = {
 			ship = { name = "SMS G 121" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS S 113" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS S 114" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
-			ship = { name = "SMS B 290" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS B 291" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS V 292" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS B 290" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS B 291" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS V 292" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
 			ship = { name = "SMS G 38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
 			ship = { name = "SMS V 69" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
 			ship = { name = "SMS V 71" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
@@ -55,8 +55,8 @@ units = {
 			name = "Ostasienflotte"
 			location = 12299 ###Change to proper province number
 			# IV Battle Squadron
-			ship = { name = "SMS Brynhild" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Siegfried Class" } } }
-			ship = { name = "SMS Witege" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Brynhild" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Witege" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Siegfried Class" } } }
 			ship = { name = "SMS Grosser Kurfürst" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "König Class" } } }
 			ship = { name = "SMS Markgraf" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "König Class" } } }
 			ship = { name = "SMS Ostfriesland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GEA version_name = "Helgoland Class" } } }
@@ -77,7 +77,7 @@ units = {
 			ship = { name = "SMS Albatross" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GEA version_name = "Aachen Class" } } }
 			ship = { name = "SMS Königsberg" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			ship = { name = "SMS Emden" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Erfurt" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEA version_name = "Mülhausen Class" } } }
+			ship = { name = "SMS Erfurt" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GEA version_name = "Mülhausen Class" } } }
 
 			# Full Squadron
 			ship = { name = "SMS B 124" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
@@ -88,9 +88,9 @@ units = {
 			ship = { name = "SMS V 116" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS V 117" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS V 118" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
-			ship = { name = "SMS B 297" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS B 298" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS B 299" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS B 297" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS B 298" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS B 299" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
 			ship = { name = "SMS V 43" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
 			ship = { name = "SMS V 44" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
 			ship = { name = "SMS V 45" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V25 Class" } } }
@@ -165,8 +165,8 @@ units = {
 			ship = { name = "SMS B 123" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS G 119" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
 			ship = { name = "SMS G 120" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "S113 Class" } } }
-			ship = { name = "SMS S 295" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
-			ship = { name = "SMS V 294" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS S 295" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS V 294" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
 			ship = { name = "SMS S 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS S 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS S 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEA version_name = "V1/G7 Class" } } }
