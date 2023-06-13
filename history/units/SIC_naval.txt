@@ -239,7 +239,6 @@ units = {
 			name = "1a Flotta"
 			location = 819
 			ship = { name = "RN	Francesco Caracciolo" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
-			ship = { name = "RN	Andrea Doria" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			ship = { name = "RN	Abruzzo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
 			ship = { name = "RN	Aquila" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio Class" } } }
