@@ -109,6 +109,7 @@ GER_add_naval_variants = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 			mid_1_custom_slot = ship_deck_space
 		}
 	}
@@ -125,6 +126,7 @@ GER_add_naval_variants = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = empty
 		}
 	}
@@ -1750,6 +1752,7 @@ USA_starting_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
 	create_equipment_variant = {
@@ -1766,6 +1769,7 @@ USA_starting_naval_variants = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_deck_space
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 		}
 		obsolete = yes
 	}
@@ -1783,6 +1787,8 @@ USA_starting_naval_variants = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
 }
@@ -2359,6 +2365,7 @@ CSA_starting_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
 	create_equipment_variant = {
@@ -2375,6 +2382,7 @@ CSA_starting_naval_variants = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_deck_space
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 		}
 		obsolete = yes
 	}
@@ -2392,6 +2400,8 @@ CSA_starting_naval_variants = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
 }
