@@ -26,4 +26,5 @@
  armored_cruiser_desc: "Armored cruiser was put into navy playing the role of cruiser-killer after a short absence since Weltkrieg, it is commonly equipped with guns above 8 inches. Some second-rate countries will make it capital ship."
  battlecarrier: "Battlecarrier"
  battlecarrier_desc: "A large, often hypothetical, hybrid naval ship designed to combine aspects of both an aircraft carrier and either a battleship or battlecruiser."
- 
+ auxiliary_ship: "Auxiliary Ship"
+ auxiliary_ship_desc: "A civilian standard auxiliary ship responsible for fleet supporting."
