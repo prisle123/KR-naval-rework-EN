@@ -1,4 +1,4 @@
-﻿﻿units = {
+﻿units = {
 	fleet = {
 		name = "New England States Fleet"
 		naval_base = 6732 #Boston
@@ -51,3 +51,4 @@
 		}
 	}
 }
+

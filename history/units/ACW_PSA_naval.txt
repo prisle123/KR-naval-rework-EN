@@ -40,7 +40,7 @@
 			name = "Destroyer Squadron 6"
 			location = 1562 ###NS+SB San Diego
 			#Leader
-			ship = { name = "USS Winslow" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PSA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS Winslow" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = PSA version_name = "Porter/Somers Class" } } }
 			#Division 16
 			ship = { name = "USS Abel P. Upshur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Hunt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
@@ -49,12 +49,12 @@
 			ship = { name = "USS Branch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Herndon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			#Division 17
-			ship = { name = "USS Clemson" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Dahlgren" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Goldsborough" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Semmes" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Satterlee" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Greer" definition = destroyer equipment = { ship_light_hull_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Clemson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Dahlgren" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Goldsborough" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Semmes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Satterlee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Greer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			#Division 18
 			ship = { name = "USS Ward" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Claxton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "Caldwell/Clemson/Wickes Class" } } }
@@ -155,7 +155,7 @@
 		task_force = {
 			name = "Flagship Squadron"
 			location = 10265 ###Manila (Philippines)
-			ship = { name = "USS Augusta" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "Northampton Class" } } }
+			ship = { name = "USS Augusta" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PSA version_name = "Northampton Class" } } }
 			ship = { name = "USS Marblehead" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "Omaha Class" } } }
 			ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "Omaha Class" } } }
 		}
