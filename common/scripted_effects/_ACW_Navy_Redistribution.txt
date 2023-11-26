@@ -73,6 +73,13 @@ USA_release_PSA = {
 
 		send_equipment_fraction = { target = PSA value = 0.2 }
 		USA_remove_acw_templates_if_created = yes #no cheating
+
+		clr_country_flag = PSA_companies_allowed_industrial
+		clr_country_flag = PSA_companies_allowed_weapons
+		clr_country_flag = PSA_companies_allowed_heavy_equipment
+		clr_country_flag = PSA_companies_allowed_naval
+		clr_country_flag = PSA_companies_allowed_aviation
+
 		PSA = {
 			every_owned_state = { set_demilitarized_zone = no }
 
@@ -380,41 +387,6 @@ ACW_navy_redistribution_CSA = {
 		transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
 		transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
 
-		# Pacific Fleet
-		if = {
-			limit = { country_exists = PSA }
-			PSA = {
-				transfer_ship = { prefer_name = "USS Wyoming" type = battleship target = XXA }
-				transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Craven" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Conner" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Manley" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Ward" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = XXA }
-			}
-		}
-		else = {
-			transfer_ship = { prefer_name = "USS Wyoming" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Craven" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Conner" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Manley" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ward" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = XXA }
-		}
-
 		if = {
 			limit = { NOT = { country_exists = TEX } }
 			transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = XXA }
@@ -540,43 +512,6 @@ ACW_navy_redistribution_TEX = {
 		transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = XXA }
 		transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = XXA }
 		transfer_ship = { prefer_name = "USS Pike" type = submarine target = XXA }
-
-		# Pacific Fleet
-		if = {
-			limit = { country_exists = PSA }
-			PSA = {
-				transfer_ship = { prefer_name = "USS Oklahoma" type = battleship target = XXA }
-				transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = XXA }
-				transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Hart" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Schley" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Chew" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS McKean" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = XXA }
-			}
-		}
-		else = {
-			transfer_ship = { prefer_name = "USS Oklahoma" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hart" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Schley" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Chew" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS McKean" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = XXA }
-		}
 
 		if = {
 			limit = { NOT = { country_exists = CSA } }

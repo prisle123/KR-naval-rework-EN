@@ -1,0 +1,12 @@
+﻿l_english:
+ SHIP_DESIGNER_TITLE: ""
+
+ VNR_SHIP_DESIGNER_TITLE: "[get_designer_title]"
+ ship_designer_title_gen: "Ship Designer"
+ ship_designer_title_eng: "Commission of Naval Construction" # Director of Naval Construction
+ ship_designer_title_can: "Director of Naval Construction" # Director of Naval Construction
+ ship_designer_title_usa: "Bureau of Construction and Repair" # Bureau of Construction and Repair
+ ship_designer_title_jap: "Navy Technical Department" # 艦政本部
+ ship_designer_title_fra: "Service Technique des Constructions Navales" # Service technique des constructions navales
+ ship_designer_title_ger: "Hauptamt Kriegsschiffsbau"
+ ship_designer_title_rus: "Naval Technical Committee"

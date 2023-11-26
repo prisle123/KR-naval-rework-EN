@@ -1,0 +1,50 @@
+﻿###OOB File for BUL.txt
+
+units = {
+	fleet = {
+		name = "Belomorski Flot"
+		naval_base = 11905 ###Change to proper province number
+		task_force = {
+			name = "Povurhnostna flotiliya"
+			location = 11905 ###Dedeagac
+			#1st battle division
+			# War reparations from Greece, Kilkis
+			ship = { name = "Simeon I Veliki" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = BUL version_name = "Mississippi Class" } } }
+			ship = { name = "Hrabri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Nea Genea Class" } } }
+			ship = { name = "Letyashchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Nea Genea Class" } } }
+			ship = { name = "Dobrotich" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Thyella/Niki Class" } } }
+			ship = { name = "Briz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Thyella/Niki Class" } } }
+			ship = { name = "Gordi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Thyella/Niki Class" } } }
+			ship = { name = "Verni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Thyella/Niki Class" } } }
+			ship = { name = "Malnyi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Thyella/Niki Class" } } }
+			ship = { name = "Nadezhda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Nadezhda Class" } } }
+		}
+		task_force = {
+			name = "Podvodna flotiliya"
+			location = 11905 ###Dedeagac
+			#1st destroyer division
+			ship = { name = "Podvodnik no. 18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "Type I Class" } } }
+			ship = { name = "Gagara" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "Type I Class" } } }
+			ship = { name = "Pobeda" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "Type I Class" } } }
+			ship = { name = "Slava" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "Type I Class" } } }
+		}
+	}
+	fleet = {
+		name = "Chernomorski Flot"
+		naval_base = 9783 ###Change to proper province number
+		task_force = {
+			name = "Povurhnostna flotiliya"
+			location = 9783 ###Varna
+			#2nd battle division
+			# War reparations from Greece, Limnos
+			ship = { name = "Asparuh" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = BUL version_name = "Mississippi Class" } } }
+			ship = { name = "Haskovo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUL version_name = "Niobe Class" } } }
+			ship = { name = "Druzki" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "Druzki Class" } } }
+			ship = { name = "Smeli" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "Druzki Class" } } }
+			ship = { name = "Strogi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "Druzki Class" } } }
+			ship = { name = "Petrovski" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Petrovski Class" } } }
+			ship = { name = "Ferdinand" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Petrovski Class" } } }
+		}
+	}
+}
+

@@ -1,0 +1,84 @@
+﻿###OOB File for SIA.txt
+
+units = {
+	fleet = {
+		name = "Royal Siamese Navy"
+		naval_base = 4433 ## Sattahip
+		task_force = {
+			name = "RSN 1st Naval Command"
+			location = 4433 ## Sattahip
+			ship = { name = "HSMS Sri Ayuthia" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Sri Ayuthia Class" } } }
+			ship = { name = "HSMS Rattanakosin" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ibuki Class" } } }
+			ship = { name = "HSMS Sukhothai" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ibuki Class" } } }
+			ship = { name = "HSMS Phra Ruang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Phra Ruang Class" } } }
+            ship = { name = "HSMS Sua Tayanchon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
+            ship = { name = "HSMS Sua Khamronsin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
+            ship = { name = "HSMS Chao Phraya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Chao Phraya Class" } } }
+		}
+		task_force = {
+			name = "RSN Submarine Taskforce"
+			location = 4433 ## Sattahip
+			ship = { name = "HSMS Matchanu" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "L Type" } } }
+			ship = { name = "HSMS Sinsamut" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "L Type" } } }
+			ship = { name = "HSMS Wirun" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "L Type" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_coastal_defense_ship
+			creator = "SIA"
+			version_name = "Sri Ayuthia Class"
+		}
+		name = "HSMS Thonburi" 
+		requested_factories = 1
+		progress = 0.03
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SIA"
+			version_name = "Trad Class"
+		}
+		name = "HSMS Trad" 
+		requested_factories = 1
+		progress = 0.9
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SIA"
+			version_name = "Trad Class"
+		}
+		name = "HSMS Puket" 
+		requested_factories = 1
+		progress = 0.87
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SIA"
+			version_name = "Trad Class"
+		}
+		name = "HSMS Patani" 
+		requested_factories = 1
+		progress = 0.4
+		amount = 1
+	}
+    add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SIA"
+			version_name = "Trad Class"
+		}
+		name = "HSMS Surasdra" 
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+}

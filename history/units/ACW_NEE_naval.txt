@@ -1,4 +1,8 @@
-﻿units = {
+﻿instant_effect = {
+	USA_starting_naval_variants_kr = yes
+}
+
+units = {
 	fleet = {
 		name = "New England States Fleet"
 		naval_base = 6732 #Boston

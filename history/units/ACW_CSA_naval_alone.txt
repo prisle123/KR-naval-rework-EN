@@ -1,4 +1,8 @@
-﻿﻿units = {
+﻿﻿instant_effect = {
+	CSA_starting_naval_variants_kr = yes
+}
+
+units = {
 	fleet = {
 		name = "Continental Battle Fleet"
 		naval_base = 6845 #Philadelphia
@@ -83,23 +87,8 @@
 		task_force = {
 			name = "West Coast Squadron"
 			location = 2284 #North from Panama canal
-			ship = { name = "CNS Wyoming" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Florida/Wyoming Class" } } }
 			ship = { name = "CNS Oklahoma" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "Nevada Class" } } }
 			ship = { name = "CNS Omaha" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
-			#Division 13
-			ship = { name = "CNS Caldwell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Craven" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Gwin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Conner" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Stockton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Manley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			#Division 18
-			ship = { name = "CNS Ward" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Claxton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Hamilton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Tarbell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Yarnall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "CNS Upshur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			#Division 14
 			ship = { name = "CNS Ballard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "CNS Champlin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Caldwell/Clemson/Wickes Class" } } }

@@ -150,30 +150,13 @@ QIE_create_battleship_variant = {
 }
 
 QIE_spawn_battleship = {
-	create_ship = { name = "Wu Yuanshuai" type = ship_hull_pre_dreadnought equipment_variant = "Braunschweig/Deutschland Class" creator = ROOT }
+	create_ship = { name = "Zhenyuan" type = ship_hull_heavy_1 equipment_variant = "Nassau Class" creator = ROOT }
 }
 
 SiaCW_navy_redistribution = {
 	hidden_effect = {
-		### RSN 1st Naval Command
-		# CL
-		transfer_ship = { prefer_name = "HSMS Thonburi" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "HSMS Rattanakosin" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "HSMS Sukhothai" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "HSMS Naresuan" type = light_cruiser target = XXA }
-		transfer_ship = { prefer_name = "HSMS Taksin" type = light_cruiser target = XXA }
-		# DD
-		transfer_ship = { prefer_name = "HSMS Mahachakri" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "HSMS Chao Phraya" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "HSMS Phra Ruang" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "HSMS Suea Kamronsin" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "HSMS Suea Tayarnchol" type = destroyer target = XXA }
-
-		### RSN Submarine Taskforce
-		# SS
-		transfer_ship = { prefer_name = "HSMS Matchanu" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "HSMS Sinsamut" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "HSMS Wirun" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "HSMS Phlai-Chumphon" type = submarine target = XXA }
+		transfer_navy = {
+    		target = XXA
+		}
 	}
 }

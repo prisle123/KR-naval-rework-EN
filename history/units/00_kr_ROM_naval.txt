@@ -1,0 +1,21 @@
+﻿###OOB File for ROM.txt
+
+units = {
+	fleet = {
+		name = "Marina Regala Romana"
+		naval_base = 6727
+		task_force = {
+			name = "Prima Flota"
+			location = 6727
+			ship = { name = "NMS Marasti" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Marasti Class" } } }
+			ship = { name = "NMS Marasesti" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Marasti Class" } } }
+			ship = { name = "NMS Regele Ferdinand" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
+			ship = { name = "NMS Regina Maria" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
+			ship = { name = "Delfinul" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ROM version_name = "Delfinul Class" } } }
+			ship = { name = "Rechinul" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ROM version_name = "Delfinul Class" } } }
+			ship = { name = "Marsuinul" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ROM version_name = "Delfinul Class" } } }
+			ship = { name = "Stiuca" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ROM version_name = "Delfinul Class" } } }
+		}
+	}
+}
+

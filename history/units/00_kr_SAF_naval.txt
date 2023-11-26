@@ -1,0 +1,18 @@
+﻿###OOB File for SAF.txt
+
+units = {
+	fleet = {
+		name = "South African Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "South African Fleet"
+			location = 12589
+			ship = { name = "SAS Matchless" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "SAS Milne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "SAS Lawford" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "SAS Lance" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "SAS Laverock" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+		}
+	}
+}
+

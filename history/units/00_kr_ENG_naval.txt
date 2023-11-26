@@ -1,0 +1,454 @@
+﻿
+units = {
+	fleet = {
+		name = "Southern Command"
+		naval_base = 9458
+		task_force = {
+			name = "Channel Fleet"
+			location = 9458
+			ship = { name = "RNS Eagle" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Eagle Class" } } }
+			ship = { name = "RNS Tolpuddle" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Iron Duke Class" } } }
+			ship = { name = "RNS Centurion" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "RNS Audacious" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			
+			ship = { name = "RNS Plymouth" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
+			ship = { name = "RNS Daring" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Daedalus" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Desperate" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Dryad" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Durban" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Enterprise" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+			
+			ship = { name = "RNS Bulldog" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Commissar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Crescent" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Comet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Commodore" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Crusader" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Cygnet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Diana" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Kempenfelt" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Eclipse" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Electra" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Foresight" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Forester" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fortune" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Foxhound" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Torbay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Toreador" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Tourmaline" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Bruce" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Shakespeare/Scott Class" } } }
+			ship = { name = "RNS Douglas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Shakespeare/Scott Class" } } }
+			ship = { name = "RNS Valhalla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wayfarer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Woodpecker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Westward Ho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Zebra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Plymouth Fleet"
+			location = 540
+			ship = { name = "RNS Dunedin" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "RNS Vanoc" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Verity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vanquisher" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vectis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vendetta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vesper" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Reserved Fleet"
+			location = 9458
+			ship = { name = "RNS John Churchill" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "RNS Cardiff" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Coventry" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Winchester" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wolfhound" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wolsey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wrestler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wryneck" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Valkyrie" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Valentine" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Valorous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Nore Fleet"
+			location = 3501
+			ship = { name = "RNS Allen" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Endurance" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
+			ship = { name = "RNS Regardless" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
+			ship = { name = "RNS Vidette" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vimiera" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Violent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Viscount" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vittoria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vivacious" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Voyager" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Votary" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wakeful" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "2nd Submarine Flotilla"
+			location = 9458
+			ship = { name = "RNS L-64" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-65" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-66" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-67" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-68" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-69" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-70" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-72" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-73" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-74" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS R1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS R2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS R3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS R4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS R5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+		}
+		task_force = {
+			name = "5th Submarine Flotilla"
+			location = 3501
+			ship = { name = "RNS S1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S10" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Northern Command"
+		naval_base = 13631
+		task_force = {
+			name = "North Sea Fleet"
+			location = 13631
+			ship = { name = "RNS Courageous" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } }
+			ship = { name = "RNS Glorious" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } }
+			
+			ship = { name = "RNS Union" definition = battle_cruiser equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Union Class" } } }
+			ship = { name = "RNS Leveller" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+			ship = { name = "RNS Nelson" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "RNS Repulse" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
+			ship = { name = "RNS Renown" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
+			
+			ship = { name = "RNS Pickard" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Woods" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Measureless" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
+			ship = { name = "RNS Cordelia" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Concord" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			
+			ship = { name = "RNS Echo" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Exmouth" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fierce" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fiery" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fury" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Basilisk" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Beagle" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Blanche" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Boadicea" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Boreas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Brazen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Brilliant" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Duchess" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Keith" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Warwick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Watchman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Waterhen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Westcott" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Whirlwind" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Whitley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Winchelsea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Rosyth Escort Force"
+			location = 6300
+			ship = { name = "RNS Sabre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Saladin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Scythe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Seabear" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+		}
+		task_force = {
+			name = "Northern Patrol"
+			location = 13631
+			ship = { name = "RNS Chatham" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Collins" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Mackay" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Shakespeare/Scott Class" } } }
+			ship = { name = "RNS Spenser" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Shakespeare/Scott Class" } } }
+			ship = { name = "RNS Yeoman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Zodiac" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Humber Force"
+			location = 11297
+			ship = { name = "RNS Seafire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Searcher" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Seawolf" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Senator" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Sepoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Seraph" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Serapis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Serene" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+		}
+		task_force = {
+			name = "1st Submarine Flotilla"
+			location = 13631
+			ship = { name = "RNS H-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-43" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS H-44" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "H/R Type" } } }
+			ship = { name = "RNS L-50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-51" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-52" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-53" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-54" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+		}
+		task_force = {
+			name = "4th Submarine Flotilla"
+			location = 351
+			ship = { name = "RNS S11" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS S12" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "RNS T1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS T2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS T3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS T4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS T5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS T6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Western Command"
+		naval_base = 6384
+		task_force = {
+			name = "Western Approaches Fleet"
+			location = 6384
+			ship = { name = "RNS Rebecca" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Rebecca Class" } } }
+			ship = { name = "RNS Judson" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
+			ship = { name = "RNS Hawk" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			
+			ship = { name = "RNS Marx" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Champion" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Cleopatra" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+			ship = { name = "RNS Comus" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
+
+			ship = { name = "RNS Faulknor" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fearless" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Firedrake" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Sesame" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Shark" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Sikh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Simoom" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Spear" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Splendid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Sportive" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Survivor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Strenuous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Stronghold" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Swallow" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Swordsman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Typhoon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Tasmania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Tattoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Truant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Trusty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Vivien" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Volage" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Volcano" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Volunteer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vortigern" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wager" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wake" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Waldegrave" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wanderer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Atlantic Fleet"
+			location = 6384
+			ship = { name = "RNS Freedom" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Republic Class" } } }
+			ship = { name = "RNS Republic" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Republic Class" } } }
+			ship = { name = "RNS Bondfield" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
+			ship = { name = "RNS Hood" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
+			ship = { name = "RNS Cockburn" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			
+			ship = { name = "RNS Talbot" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
+			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Quaker" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Resurgence" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
+			
+			ship = { name = "RNS Commission" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Cormorant" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Dainty" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Decoy" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Defender" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Delight" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Diamond" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Duncan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Dynamo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "RNS Encounter" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Escapade" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Escort" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Fame" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }
+			ship = { name = "RNS Warren" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Welcome" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Welfare" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Werewolf" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Westphal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Whitaker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Whitehall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Whitehead" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Willoughby" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Winter" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Witch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Witherington" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Worcester" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wrangler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wren" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "Irish Squadron"
+			location = 6395
+			ship = { name = "RNS Sparrowhawk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Tomahawk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Torch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Tryphon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S Class" } } }
+			ship = { name = "RNS Marksman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Marksman/Parker Class" } } }
+			ship = { name = "RNS Nimrod" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Marksman/Parker Class" } } }
+			ship = { name = "RNS Vansittart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vashon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Vigo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Wistful" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "RNS Virulent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {
+			name = "3rd Submarine Flotilla"
+			location = 6384
+			ship = { name = "RNS L-56" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-57" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-58" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-59" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-60" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-61" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-62" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+			ship = { name = "RNS L-63" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type" } } }
+		}
+		task_force = {
+			name = "6th Submarine Flotilla"
+			location = 377
+			ship = { name = "RNS U7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U10" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U11" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U12" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U13" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U14" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS U15" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "T/U Type" } } }
+			ship = { name = "RNS M-1" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "M Type" } } }
+			ship = { name = "RNS M-2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "M Type" } } }
+			ship = { name = "RNS M-3" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "M Type" } } }
+			ship = { name = "RNS M-4" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "M Type" } } }
+			ship = { name = "RNS X-1" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "X Type" } } }
+			ship = { name = "RNS X-2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "X Type" } } }
+			ship = { name = "RNS X-3" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "X Type" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_3
+			creator = ENG
+			version_name = "Union Class"
+		}
+		name = "RNS Revolution"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_3
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		name = "RNS Mottershead"
+		requested_factories = 3
+		progress = 0.85
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_3
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		name = "RNS Smillie"
+		requested_factories = 3
+		progress = 0.85
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "ENG"
+			version_name = "Measureless Class"
+		}
+		name = "RNS Indomitable"
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "ENG"
+			version_name = "Measureless Class"
+		}
+		name = "RNS Independence"
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "ENG"
+			version_name = "Measureless Class"
+		}
+		name = "RNS Rapid"
+		requested_factories = 1
+		progress = 0.2
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "ENG"
+			version_name = "Measureless Class"
+		}
+		name = "RNS Leap"
+		requested_factories = 1
+		progress = 0.2
+		amount = 1
+	}
+}

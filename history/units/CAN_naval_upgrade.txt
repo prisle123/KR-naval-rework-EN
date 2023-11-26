@@ -1,0 +1,20 @@
+units = {
+    fleet = {
+        name = "Reserved Ships"
+        naval_base = 7361
+        task_force = {
+            name = "Reserved Ships"
+            location = 7361
+            ship = { name = "HMCS Anson" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }
+			ship = { name = "HMCS Royal Oak" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
+            ship = { name = "HMCS Ramillies" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
+			ship = { name = "HMCS Resolution" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
+			ship = { name = "HMCS Revenge" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
+			ship = { name = "HMCS Bellerophon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Bellerophon Class" } } }
+			ship = { name = "HMCS Conqueror" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Orion Class" } } }
+			ship = { name = "HMCS Orion" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Orion Class" } } }
+			ship = { name = "HMCS Thunderer" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Orion Class" } } }
+			ship = { name = "HMCS Iron Duke" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Iron Duke Class" } } }
+        }
+    }
+}

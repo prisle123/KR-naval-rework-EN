@@ -1,0 +1,22 @@
+﻿air_wings = {
+	"SMS Roon" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS Blumenthal" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS Mosel" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS Rhein" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+}

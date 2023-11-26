@@ -1,0 +1,28 @@
+﻿air_wings = {
+	"Ryujo" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 5 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 }
+	}
+	"Ryuen" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 5 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 }
+	}
+	"Hosho" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+	}
+	"Soryu" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+	}
+}

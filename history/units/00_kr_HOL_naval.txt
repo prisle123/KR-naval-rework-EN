@@ -1,0 +1,60 @@
+﻿###OOB File for HOL.txt
+
+units = {
+	fleet = {
+		name = "Koninklijke Marine"
+		naval_base = 9498
+		task_force = {
+			name = "Kustverdedigingseskader"
+			location = 9498
+			ship = { name = "HrMs Gouden Leeuw" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = HOL version_name = "Gouden Leeuw Class" } } }
+			ship = { name = "HrMs Aemalia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HOL version_name = "Aemalia Class" } } }
+			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } } }
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }
+			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
+			ship = { name = "HrMs Gelderland" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }
+			ship = { name = "HrMs Noordbrabant" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }	
+			ship = { name = "HrMs Jakhals" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Hermelijn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Lynx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Vos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Panter" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+		}
+	}
+	fleet = {
+		name = "Onderzeebootvloot"
+		naval_base = 9498
+		task_force = {
+			name = "1e Onderzeebootseskader"
+			location = 9498
+			ship = { name = "HrMs O-12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-21" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "HrMs O-9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+		}
+	}
+	
+}
+
+instant_effect = {
+	### Ships Under Contruction ###
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "HOL" 
+			version_name = "Tromp Class"
+		}
+		requested_factories = 1
+		progress = 0.05
+		amount = 2
+	}
+}

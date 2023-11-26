@@ -1,4 +1,8 @@
-﻿units = {
+﻿instant_effect = {
+	USA_starting_naval_variants_kr = yes
+}
+
+units = {
 	fleet = {
 		name = "U.S. Battle Fleet"
 		naval_base = 7552 #New Orleans
@@ -50,27 +54,6 @@
 			ship = { name = "USS Belknap" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS MacLeish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Simpson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-		}
-
-		task_force = {
-			name = "Pacific Squadron"
-			location = 2284 #North from Panama canal
-			ship = { name = "USS Oklahoma" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "Nevada Class" } } }
-			ship = { name = "USS Omaha" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "Omaha Class" } } }
-			#Division 14
-			ship = { name = "USS Ballard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Champlin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Mugford" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Hazelwood" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Hart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Ingraham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			#Divisions 22-23
-			ship = { name = "USS Taylor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Schley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Chew" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Colhoun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS McKean" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Fairfax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "Caldwell/Clemson/Wickes Class" } } }
 		}
 	}
 	fleet = {

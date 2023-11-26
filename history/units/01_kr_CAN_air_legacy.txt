@@ -1,0 +1,10 @@
+﻿air_wings = {
+	"HMCS Argus" = {
+		cv_fighter_equipment_0 = { owner = "IMP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "IMP" amount = 5 }
+	}
+	"HMCS Furious" = {
+		cv_fighter_equipment_0 = { owner = "IMP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "IMP" amount = 10 }
+	}
+}

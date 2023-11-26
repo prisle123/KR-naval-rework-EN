@@ -1,0 +1,13 @@
+﻿air_wings = {
+	"SMS Main" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 10 }
+	}
+	"SMS Weser" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 15 }
+		cv_nav_bomber_equipment_1 = { owner = "GER" amount = 5 }
+	}
+	"SMS Elbe" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 15 }
+		cv_nav_bomber_equipment_1 = { owner = "GER" amount = 5 }
+	}
+}

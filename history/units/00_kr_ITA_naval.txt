@@ -1,0 +1,39 @@
+﻿###OOB File for ITA.txt
+
+units = {
+	fleet = {
+		name = "Marina Nazionale Repubblicana"
+		naval_base = 11584 ###Change to proper province number
+		task_force = {
+			name = "Marina Nazionale Repubblicana"
+			location = 11584 ###Change to proper province number
+			ship = { name = "RCT Roma" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Regina Elena Class" } } }
+			
+			# imported Austrian ships
+			ship = { name = "RCT Repubblica" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ITA version_name = "Dragoner Class" } } }
+			ship = { name = "RCT Veneto" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ITA version_name = "Dragoner Class" } } }
+			ship = { name = "RCT Lombardia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ITA version_name = "Dragoner Class" } } }
+			# WWI ships
+			ship = { name = "RCT Ardente" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "RCT Impavido" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "RCT Rosolino Pilo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pilo/Sirtori Class" } } }
+			ship = { name = "RCT Giuseppe Missori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pilo/Sirtori Class" } } }
+		}
+		task_force = {
+			name = "Squadra Sommergibili"
+			location = 11584
+			ship = { name = "RCT Nautilus" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Nautilus Class" } } }
+			ship = { name = "RCT Nereide" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Nautilus Class" } } }
+			ship = { name = "RCT W1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "W/H/N/X Class" } } }
+			ship = { name = "RCT W2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "W/H/N/X Class" } } }
+			ship = { name = "RCT W3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "W/H/N/X Class" } } }
+			ship = { name = "RCT Sla 1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+			ship = { name = "RCT Sla 2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+			ship = { name = "RCT Sla 3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+			ship = { name = "RCT Sla 4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+			ship = { name = "RCT Sla 5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+			ship = { name = "RCT Sla 6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sla Class" } } }
+		}
+	}
+}
+
