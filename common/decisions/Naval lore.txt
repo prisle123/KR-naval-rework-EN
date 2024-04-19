@@ -7,11 +7,7 @@ Naval_lore_category = {
 		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }
 		
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	GER_naval_lore = {
 		icon = GFX_vnr_ger_flag
@@ -22,11 +18,7 @@ Naval_lore_category = {
 				tag = MAF
 			}
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	ENG_naval_lore = {
 		icon = GFX_vnr_eng_flag
@@ -39,11 +31,7 @@ Naval_lore_category = {
 				tag = WIF
 			}
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	USA_naval_lore = {
 		icon = GFX_vnr_usa_flag
@@ -57,11 +45,7 @@ Naval_lore_category = {
 				tag = HAW
 			}
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	FRA_naval_lore = {
 		icon = GFX_vnr_fra_flag
@@ -71,22 +55,14 @@ Naval_lore_category = {
 				tag = NFA
 			}
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	RUS_naval_lore = {
 		icon = GFX_vnr_rus_flag
 		allowed = {
 			tag = RUS
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	AUS_naval_lore = {
 		icon = GFX_vnr_aus_flag
@@ -99,21 +75,7 @@ Naval_lore_category = {
 				tag = CZE
 			}
 		}
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.0
-			}
-		}
-	}
-	
-	ship_category_background = {
-		icon = generic_naval
-		
-		complete_effect = {
-			FROM = {
-				country_event = Naval_lore.100
-			}
-		}
+		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
 	
 	
@@ -230,6 +192,9 @@ Naval_lore_category = {
 		allowed = { tag = HOL }
 		visible = {
 			country_exists = DEI
+			DEI = {
+				is_ally_with = HOL
+			}
 		}
 		ai_will_do = {
 			base = 0

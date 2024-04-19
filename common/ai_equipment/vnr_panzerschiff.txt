@@ -1,9 +1,8 @@
-# By Pelmen, 1.10.7
 naval_cruiser_armor = {
 	category = naval
 	#available_for = {}
 	#blocked_for = {}
-	roles = { kr_naval_cruiser_armor }
+	roles = { vnr_naval_cruiser_armor }
 	priority = { base = 10 }
 
 	capital_cruiser_armor_1936 = {
@@ -11,7 +10,7 @@ naval_cruiser_armor = {
 		role_icon_index = 21
 
 		priority = {
-			base = 1
+			base = 0
 		}
 
 		target_variant = {
@@ -41,7 +40,7 @@ naval_cruiser_armor = {
 		role_icon_index = 21
 
 		priority = {
-			base = 5
+			base = 0
 		}
 
 		target_variant = {
@@ -69,7 +68,7 @@ naval_cruiser_armor = {
 		role_icon_index = 21
 
 		priority = {
-			base = 5
+			base = 0
 		}
 
 		target_variant = {

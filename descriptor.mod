@@ -2,6 +2,7 @@ version="v2.0"
 replace_path="common/units/names_ships"
 dependencies={
 	"Kaiserreich"
+	"KR Tech Extension"
 }
 tags={
 	"Military"
@@ -9,5 +10,5 @@ tags={
 }
 name="Kaiserreich Naval Rework"
 picture="thumbnail.png"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2862849828"

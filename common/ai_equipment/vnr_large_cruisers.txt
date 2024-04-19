@@ -2,7 +2,7 @@ naval_cruiser_large = {
 	category = naval
 	#available_for = {}
 	#blocked_for = {}
-	roles = { kr_naval_cruiser_large }
+	roles = { vnr_naval_cruiser_large }
 	priority = { base = 10 }
 
     capital_cruiser_1932_big = {
@@ -10,15 +10,15 @@ naval_cruiser_large = {
 		role_icon_index = 21
 
 		priority = {
-			base = 30
-			modifier = { factor = 0 has_tech = improved_ship_hull_cruiser }
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
 		target_variant = {
 			match_value = 500.0
 			type = ship_hull_cruiser_3
 			modules = {
-				fixed_ship_battery_slot = ship_medium_heavy_battery
+				fixed_ship_battery_slot = ship_medium_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
@@ -29,12 +29,13 @@ naval_cruiser_large = {
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_heavy_3 ship_armor_cruiser_heavy_2 ship_armor_cruiser_heavy_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
                 fixed_ship_role_slot = ship_hull_cruiser_role_cb
-				front_1_custom_slot = ship_medium_heavy_battery
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
+				front_1_custom_slot = ship_medium_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
 				mid_3_custom_slot = ship_airplane_launcher
-				rear_1_custom_slot = ship_medium_heavy_battery
-				rear_2_custom_slot = ship_medium_heavy_battery
+				rear_1_custom_slot = ship_medium_heavy_battery_triple
+				rear_2_custom_slot = ship_medium_heavy_battery_triple
 			}
 		}
 	}
@@ -45,7 +46,7 @@ naval_cruiser_large = {
 
 		priority = {
 			base = 30
-			modifier = { factor = 0 has_tech = advanced_ship_hull_cruiser }
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
 		target_variant = {
@@ -53,7 +54,7 @@ naval_cruiser_large = {
 
 			type = ship_hull_cruiser_4
 			modules = {
-				fixed_ship_battery_slot = ship_medium_heavy_battery
+				fixed_ship_battery_slot = ship_medium_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
@@ -61,12 +62,13 @@ naval_cruiser_large = {
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_heavy_4 ship_armor_cruiser_heavy_3 ship_armor_cruiser_heavy_2 ship_armor_cruiser_heavy_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
                 fixed_ship_role_slot = ship_hull_cruiser_role_cb
-				front_1_custom_slot = ship_medium_heavy_battery
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
+				front_1_custom_slot = ship_medium_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
 				mid_3_custom_slot = ship_airplane_launcher
-				rear_1_custom_slot = ship_medium_heavy_battery
-				rear_2_custom_slot = ship_medium_heavy_battery
+				rear_1_custom_slot = ship_medium_heavy_battery_triple
+				rear_2_custom_slot = ship_medium_heavy_battery_triple
 			}
 		}
 	}
@@ -76,8 +78,8 @@ naval_cruiser_large = {
 		role_icon_index = 21
 
 		priority = {
-			base = 20
-			modifier = { add = 10 has_tech = advanced_ship_hull_cruiser }
+			base = 0
+			modifier = { add = 50 has_tech = advanced_ship_hull_cruiser }
 		}
 
 		target_variant = {
@@ -85,7 +87,7 @@ naval_cruiser_large = {
 
 			type = ship_hull_cruiser_5
 			modules = {
-				fixed_ship_battery_slot = ship_medium_heavy_battery
+				fixed_ship_battery_slot = ship_medium_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_5 cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
@@ -93,13 +95,14 @@ naval_cruiser_large = {
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_heavy_4 ship_armor_cruiser_heavy_3 ship_armor_cruiser_heavy_2 ship_armor_cruiser_heavy_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
                 fixed_ship_role_slot = ship_hull_cruiser_role_cb
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_anti_air
-				front_2_custom_slot = ship_medium_heavy_battery
+				front_2_custom_slot = ship_medium_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
 				mid_3_custom_slot = ship_airplane_launcher
-				rear_1_custom_slot = ship_medium_heavy_battery
-				rear_2_custom_slot = ship_medium_heavy_battery
+				rear_1_custom_slot = ship_medium_heavy_battery_triple
+				rear_2_custom_slot = ship_medium_heavy_battery_triple
 			}
 		}
 	}

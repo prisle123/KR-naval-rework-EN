@@ -30,6 +30,94 @@ defined_text = {
 }
 
 defined_text = {
+	name = get_vnr_ai_production
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 0 } }
+		localization_key = vnr_ai_production_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 1 } }
+		localization_key = vnr_ai_production_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 2 } }
+		localization_key = vnr_ai_production_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 3 } }
+		localization_key = vnr_ai_production_mad
+	}
+}
+
+defined_text = {
+	name = get_naval_lore_gui_title
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = ENG
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = ENG_naval_lore
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = USA_naval_lore
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = JAP_naval_lore
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = FRA_naval_lore
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = AUS_naval_lore
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = GER_naval_lore
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = RUS_naval_lore
+	}
+}
+
+defined_text = {
 	name = naval_lore_loc_title_1
 	text = {
 		trigger = { 

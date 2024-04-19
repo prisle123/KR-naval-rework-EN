@@ -278,13 +278,13 @@ naval_unit_role_ratios_minors_coastal = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 50
 	}
 }
@@ -316,25 +316,25 @@ naval_unit_role_ratios_minors_defensive = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 20
 	}
 }
@@ -366,31 +366,31 @@ naval_unit_role_ratios_minors_offensive = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 80
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 20
 	}
 }
@@ -421,37 +421,37 @@ naval_unit_role_ratios_minors_global = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 80
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 20
 	}
 }
@@ -471,37 +471,37 @@ naval_unit_role_ratios_GER_prewar = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 350
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 20
 	}
 }
@@ -521,37 +521,37 @@ naval_unit_role_ratios_GER_atwar = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 100
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 200
+		id = vnr_naval_screen
+		value = 400
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 }
@@ -571,43 +571,43 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 180
+		id = vnr_naval_screen
+		value = 400
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 40
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 5
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 50
 	}
 }
@@ -625,43 +625,43 @@ naval_unit_role_ratios_GER_late_peace = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 120
+		id = vnr_naval_screen
+		value = 200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 40
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 }
@@ -684,43 +684,43 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 80
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 300
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = -30
 	}
 }
@@ -742,43 +742,43 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = -50
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 80
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 180
+		id = vnr_naval_screen
+		value = 350
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
 }
@@ -798,25 +798,25 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 180
+		id = vnr_naval_screen
+		value = 350
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 }
@@ -837,37 +837,37 @@ naval_unit_role_ratios_ENG_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 100
+		id = vnr_naval_screen
+		value = 200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 }
@@ -887,27 +887,27 @@ naval_unit_role_ratios_FRA_prewar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 }
@@ -925,22 +925,22 @@ naval_unit_role_ratios_FRA_atwar_with_germany = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 120
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = -100
 	}
 }
@@ -958,27 +958,27 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	ai_strategy = {
@@ -988,7 +988,7 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 }
@@ -1006,37 +1006,37 @@ naval_unit_role_ratios_FRA_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 100
+		id = vnr_naval_screen
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 40
 	}
 }
@@ -1063,23 +1063,23 @@ naval_unit_role_ratios_CAN_prewar = {
 
 	ai_strategy  = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 80
+		id = vnr_naval_screen
+		value = 150
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 25
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_armor
+		id = vnr_naval_cruiser_armor
 		value = 10
 	}
 	ai_strategy = {
@@ -1107,43 +1107,43 @@ naval_unit_role_ratios_CAN_atwar_in_USA = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 50
+		id = vnr_naval_screen
+		value = 100
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bc
+		id = vnr_naval_capital_bc
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_armor
+		id = vnr_naval_cruiser_armor
 		value = -50
 	}
 }
@@ -1170,29 +1170,29 @@ naval_unit_role_ratios_CAN_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 160
+		id = vnr_naval_screen
+		value = 300
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 30
 	}
 }
@@ -1210,38 +1210,38 @@ naval_unit_role_ratios_CAN_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 50
 	}
 }
@@ -1263,18 +1263,18 @@ naval_unit_role_ratios_RUS_need_to_knock_germany = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 50
+		id = vnr_naval_screen
+		value = 180
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
-		value = 50
+		id = vnr_naval_cruiser_light
+		value = 10
 	}
 }
 
@@ -1293,32 +1293,32 @@ naval_unit_role_ratios_RUS_germany_is_dead = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 60
 	}
 	ai_strategy = {
@@ -1343,32 +1343,32 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = -50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier_light
+		id = vnr_naval_carrier_light
 		value = 30
 	}
 }
@@ -1387,37 +1387,37 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 150
+		id = vnr_naval_screen
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = -20
 	}
 }
@@ -1437,27 +1437,27 @@ naval_unit_role_ratios_JAP_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 180
+		id = vnr_naval_screen
+		value = 400
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 60
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 30
 	}
 }
@@ -1474,32 +1474,32 @@ naval_unit_role_ratios_JAP_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 140
+		id = vnr_naval_screen
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 20
 	}
 	ai_strategy = {
@@ -1522,43 +1522,43 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = -20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_submarine
+		id = vnr_naval_submarine
 		value = 25
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = 180
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 80
 	}
 }
@@ -1584,31 +1584,31 @@ naval_unit_role_ratios_ACW = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
+		id = vnr_naval_screen
 		value = -200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = -200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = -200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = -200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = -200
 	}
 }
@@ -1631,36 +1631,36 @@ naval_unit_role_ratios_ACW_end = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 180
+		id = vnr_naval_screen
+		value = 350
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_leader
+		id = vnr_naval_screen_leader
 		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 5
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 5
 	}
 	
@@ -1689,41 +1689,41 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen
-		value = 250
+		id = vnr_naval_screen
+		value = 600
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_screen_cruiser
+		id = vnr_naval_screen_cruiser
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_light
+		id = vnr_naval_cruiser_light
 		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_cruiser_large
+		id = vnr_naval_cruiser_large
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_capital_bb
+		id = vnr_naval_capital_bb
 		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = kr_naval_carrier
+		id = vnr_naval_carrier
 		value = 40
 	}
 	

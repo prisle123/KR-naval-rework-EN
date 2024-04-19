@@ -644,7 +644,7 @@ USA_spawn_new_england = {
 	}
 	set_autonomy = {
 		target = NEE
-		autonomy_state = kr_autonomous_puppet
+		autonomy_state = autonomous_puppet
 		end_wars = no
 	}
 	add_to_faction = NEE

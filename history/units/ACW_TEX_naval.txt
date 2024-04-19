@@ -1,4 +1,5 @@
 ﻿instant_effect = {
+	inherit_technology = USA
 	USA_starting_naval_variants_kr = yes
 }
 
