@@ -11,6 +11,8 @@ units = {
 			ship = { name = "Kaga" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Tosa Class" } } }
 			ship = { name = "Nagato" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Nagato Class" } } }
 			ship = { name = "Mutsu" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Nagato Class" } } }
+			ship = { name = "Fuso" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
+			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
 			
 			ship = { name = "Tokachi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
 			ship = { name = "Mikuma" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
@@ -245,9 +247,7 @@ units = {
 		naval_base = 1092
 		task_force = {
 			name = "Nanyo Homen Kantai"
-			location = 1092
-			ship = { name = "Ise" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
-			ship = { name = "Hyuga" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
+			location = 1092	
 			ship = { name = "Hiei" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
 			ship = { name = "Haruna" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
 			ship = { name = "Aoba" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "Furutaka/Aoba Class" } } }
@@ -308,8 +308,8 @@ units = {
 		task_force = {
 			name = "Yobikantai"
 			location = 1092 ###Change to proper province number
-			ship = { name = "Fuso" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
-			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
+			ship = { name = "Ise" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
+			ship = { name = "Hyuga" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
 			ship = { name = "Kongo" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
 			ship = { name = "Tenryu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Tenryu Class" } } }
 			ship = { name = "Shimakaze" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
