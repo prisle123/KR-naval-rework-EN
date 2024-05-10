@@ -268,10 +268,9 @@ naval_unit_role_ratios_minors_coastal = {
 		}
 	}
 	enable = { 
-		AND = {
-			num_of_naval_factories > 0 
-			num_of_naval_factories < 10
-		}
+		num_of_naval_factories > 0 
+		num_of_naval_factories < 10
+		has_navy_size = { size < 50 }
 	}
 
 	abort_when_not_enabled = yes
@@ -306,10 +305,9 @@ naval_unit_role_ratios_minors_defensive = {
 		}
 	}
 	enable = { 
-		AND = {
-			num_of_naval_factories > 9 
-			num_of_naval_factories < 20
-		}
+		num_of_naval_factories > 9 
+		num_of_naval_factories < 20
+		has_navy_size = { size < 100 }
 	}
 
 	abort_when_not_enabled = yes
@@ -356,10 +354,9 @@ naval_unit_role_ratios_minors_offensive = {
 		}
 	}
 	enable = { 
-		AND = {
-			num_of_naval_factories > 19 
-			num_of_naval_factories < 30
-		}
+		num_of_naval_factories > 19 
+		num_of_naval_factories < 30
+		has_navy_size = { size < 200 }
 	}
 
 	abort_when_not_enabled = yes
@@ -412,9 +409,8 @@ naval_unit_role_ratios_minors_global = {
 		}
 	}
 	enable = { 
-		AND = {
-			num_of_naval_factories > 29
-		}
+		num_of_naval_factories > 29
+		has_navy_size = { size < 300 }
 	}
 
 	abort_when_not_enabled = yes
@@ -1516,7 +1512,10 @@ naval_unit_role_ratios_USA_great_depression = {
 		tag = USA
 	}
 	enable = {
-		NOT = { has_global_flag = USA_civil_war_begun_flag }
+		NOT = { 
+			has_global_flag = USA_civil_war_begun_flag 
+			has_global_flag = USA_civil_war_avoided_flag 
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -1624,7 +1623,10 @@ naval_unit_role_ratios_ACW_end = {
 		}
 	}
 	enable = {
-		has_global_flag = USA_civil_war_over_flag
+		OR = {
+			has_global_flag = USA_civil_war_over_flag
+			has_global_flag = USA_civil_war_avoided_flag
+		}
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1681,7 +1683,10 @@ naval_unit_role_ratios_USA_go_to_war = {
 		}
 	}
 	enable = {
-		has_global_flag = USA_civil_war_over_flag
+		OR = {
+			has_global_flag = USA_civil_war_over_flag
+			has_global_flag = USA_civil_war_avoided_flag
+		}
 		has_war_with_major = yes
 	}
 	abort_when_not_enabled = yes

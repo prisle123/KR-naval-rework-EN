@@ -132,6 +132,21 @@ JAP_SS_HISTORICAL = {
 	}
 }
 
+JAP_SSC_HISTORICAL = {
+	name = NAME_THEME_IJN_SUBMARINES_2nd
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	fallback_name = "Ro-%d"
+
+	unique = {
+		"Ro-34"
+	}
+}
+
 ### THEME: JAPANESE PREFECTURES + Other names for Japan###
 JAP_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES #battleships and bb converted carriers

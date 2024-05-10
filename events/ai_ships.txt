@@ -450,10 +450,6 @@ country_event = {
 				set_technology = {
 					improved_submarine_snorkel = 1
 					sub_AIP_engine = 1
-					full_armored_carrier = 1
-					carrier_steam_catapult = 1
-					carrier_angled_deck = 1
-					super_carriers = 1
 					anechoic_tile = 1
 					damage_control_3 = 1
 					fire_control_methods_3 = 1
@@ -530,6 +526,9 @@ country_event = {
 					tactical_air_navigation_system = 1
 					iff_device = 1
 					wire_guided_torpedo = 1
+					full_armored_carrier = 1
+					carrier_steam_catapult = 1
+					carrier_angled_deck = 1
 				}
 				ai_get_navy_experience = yes
 			}
@@ -571,6 +570,11 @@ country_event = {
 					rescue_submarine = 1
 					hydrocooling_battery = 1
 					sonar_telephone = 1
+					wake_homing_torpedo = 1
+					unmanned_gun_turret = 1
+					modern_generic_battery = 1
+					missile_submarine = 1
+					super_carriers = 1
 				}
 				ai_get_navy_experience = yes
 			}
