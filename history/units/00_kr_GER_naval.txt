@@ -62,10 +62,9 @@ units = {
 			# carriers
 			ship = { name = "SMS Elbe" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 			# battlecruisers
-			ship = { name = "SMS Yorck" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
-			ship = { name = "SMS Graf Wartensleben" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
-			ship = { name = "SMS Goeben" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
 			ship = { name = "SMS Mackensen" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Prinz Eitel Friedrich" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Fürst Bismarck" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
 			# cruisers
 			ship = { name = "SMS Osnabrück" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
 			ship = { name = "SMS Augsburg" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
@@ -191,7 +190,9 @@ units = {
 
 			ship = { name = "SMS Blücher" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
 			ship = { name = "SMS Admiral Scheer" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
-			ship = { name = "SMS Prinz Eitel Friedrich" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Yorck" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
+			ship = { name = "SMS Graf Wartensleben" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
+			ship = { name = "SMS Goeben" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
 			# cruisers
 			ship = { name = "SMS Straßburg" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
 			ship = { name = "SMS Liegnitz" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
@@ -250,7 +251,7 @@ units = {
 		task_force = {
 			name = "Aufklarungsgruppe III"
 			location = 362
-			ship = { name = "SMS Fürst Bismarck" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Derfflinger" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
 
 			ship = { name = "SMS V 125" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
 			ship = { name = "SMS V 126" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
@@ -274,11 +275,6 @@ units = {
 			location = 6332
 			ship = { name = "SMS Kaiser" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Class" } } }
 			ship = { name = "SMS Kaiserin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Class" } } }
-			ship = { name = "SMS Helgoland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Helgoland Class" } } }
-			ship = { name = "SMS Ostfriesland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Helgoland Class" } } }
-			ship = { name = "SMS Oldenburg" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Helgoland Class" } } }
-			ship = { name = "SMS Thüringen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Helgoland Class" } } }
-			ship = { name = "SMS Derfflinger" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
 			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
 			ship = { name = "SMS Erfurt" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
 		
