@@ -1,8 +1,9 @@
 create_alicorn = {
 	set_technology = { ship_alicorn = 1 wunderwaffe_modules = 1 popup = no }
-	
+
 	create_equipment_variant = {
 		name = "Alicorn Class"
+		parent_version = 0
 		role_icon_index = 7
 		type = ship_hull_alicorn
 		modules = {
@@ -30,6 +31,7 @@ create_constitution = {
 	set_technology = { ship_constitution = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
 		name = "Constitution Class"
+		parent_version = 0
 		role_icon_index = 5
 		type = ship_hull_constitution
 		modules = {
@@ -50,6 +52,7 @@ create_macross = {
 	set_technology = { ship_macross = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
 		name = "Macross Class"
+		parent_version = 0
 		role_icon_index = 7
 		type = ship_hull_macross
 		modules = {
@@ -77,6 +80,7 @@ create_space_yamato = {
 	set_technology = { ship_space_yamato = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
 		name = "Yamato Class"
+		parent_version = 0
 		role_icon_index = 7
 		type = ship_hull_space_yamato
 		modules = {
