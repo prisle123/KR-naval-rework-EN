@@ -2214,3 +2214,40 @@ we_need_cv_planes_3 = {
 		value = 60
 	}
 }
+
+build_more_missile_cruisers = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = modern_ship_hull_cruiser
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -80
+	}
+}
+
+restrict_early_landing = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		enemies_naval_strength_ratio > 1.5
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = -1000
+	}
+}

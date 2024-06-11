@@ -214,7 +214,6 @@ equipment_modules = {
 
     modern_deck_space_1 = {
         category = modern_deck_space
-		gui_category = ship_deck_space
         gfx = ship_deck_space
 
         add_stats = {

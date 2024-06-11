@@ -52,7 +52,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { light_ship_engine civilian_ship_engine }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -136,6 +136,11 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 3
+		}
+
+		module_count_limit = {
+			category = ship_anti_air
+			count < 4
 		}
 
 		default_modules = {
@@ -281,6 +286,11 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 		naval_speed = 32
+
+		module_count_limit = {
+			category = ship_anti_air
+			count < 5
+		}
 	}
 
 	ship_hull_light_5 = {
@@ -350,6 +360,11 @@ equipments = {
 		}
 		manpower = 500
 		naval_speed = 34
+
+		module_count_limit = {
+			category = ship_anti_air
+			count < 5
+		}
 	}
 
 	ship_hull_light_6 = {
@@ -470,6 +485,10 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 3
+		}
+		module_count_limit = {
+			category = ship_anti_air
+			count < 5
 		}
 	}
 }
