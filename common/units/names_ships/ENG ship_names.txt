@@ -312,7 +312,7 @@ ENG_CV_QUALITIES = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "RNS "
 	fallback_name = "Carrier %s"
@@ -341,7 +341,7 @@ ENG_CV_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "RNS "
 	fallback_name = "Carrier %s"

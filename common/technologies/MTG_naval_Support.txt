@@ -35,6 +35,7 @@ technologies = {
 			ship_heavy_battery_small_1
 			ship_secondaries_1
 			ship_civilian_light_battery_1
+			ship_anti_air_1_h
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -172,6 +173,7 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			ship_anti_air_2_h
 		}
 
 
@@ -227,10 +229,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	lg_armor_piercing = 0.05
+		##! }
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -291,6 +293,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_3
 			ship_light_battery_3_double
+			ship_anti_air_3_h
 		}
 
 		folder = {
@@ -342,10 +345,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	lg_armor_piercing = 0.05
+		##! }
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -401,6 +404,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_4
 			ship_light_battery_4_double
+			ship_anti_air_4_h
 		}
 
 		on_research_complete = {
@@ -860,10 +864,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	hg_attack = 0.05
+		##! 	hg_armor_piercing = 0.05
+		##! }
 
 		enable_equipment_modules = {
 			ship_high_velocity_shell
@@ -915,10 +919,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	hg_attack = 0.05
+		##! 	hg_armor_piercing = 0.05
+		##! }
 
 		enable_equipment_modules = {
 			ship_super_heavy_weight_shell
@@ -1442,13 +1446,12 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
-		start_year = 1936
+		start_year = 1932
 
 		path = {
-			leads_to_tech = homing_torpedo
+			leads_to_tech = oxygen_torpedo
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = electric_torpedo
 			research_cost_coeff = 1
@@ -1469,15 +1472,15 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		armored_cruiser = {
-			torpedo_attack = 0.1
-		}
+		##! armored_cruiser = {
+		##! 	torpedo_attack = 0.1
+		##! }
 
 
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 7 }
 		}
 
 		ai_will_do = {
@@ -1532,19 +1535,19 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.05
 		}
-		armored_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	naval_torpedo_hit_chance_factor = 0.05
+		##! }
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
 		}
 		path = {
-			leads_to_tech = wire_guided_torpedo
+			leads_to_tech = proximity_detonator
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = proximity_detonator
+			leads_to_tech = wire_guided_torpedo
 			research_cost_coeff = 1
 		}
 
@@ -1641,9 +1644,9 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-		armored_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.1
-		}
+		##! armored_cruiser = {
+		##! 	naval_torpedo_hit_chance_factor = 0.1
+		##! }
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 25 }
@@ -1681,15 +1684,64 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
-		start_year = 1940
+		start_year = 1936
 
 
 		naval_torpedo_reveal_chance_factor = -0.15
+		
+		path = {
+			leads_to_tech = homing_torpedo
+			research_cost_coeff = 1
+		}
 
-
+		xor = { oxygen_torpedo }
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 13 }
+			position = { x = 3 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	oxygen_torpedo = {
+
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1936
+
+
+		naval_torpedo_screen_penetration_factor = 0.1
+		
+		path = {
+			leads_to_tech = homing_torpedo
+			research_cost_coeff = 1
+		}
+
+		xor = { electric_torpedo }
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1739,9 +1791,9 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		armored_cruiser = {
-			torpedo_attack = 0.1
-		}
+		##! armored_cruiser = {
+		##! 	torpedo_attack = 0.1
+		##! }
 
 
 		folder = {
@@ -2130,10 +2182,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		armored_cruiser = {
-			lg_attack = 0.05
-			hg_attack = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	hg_attack = 0.05
+		##! }
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -2187,10 +2239,10 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		armored_cruiser = {
-			lg_attack = 0.05
-			hg_attack = 0.05
-		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	hg_attack = 0.05
+		##! }
 		heavy_cruiser = {
 			lg_attack = 0.1
 			hg_attack = 0.1

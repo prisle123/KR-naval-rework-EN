@@ -266,7 +266,7 @@ GER_SS_IMPERIAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	prefix = "SM "
-	fallback_name = "U-%d"
+	fallback_name = "SM U-%d"
 
 	ordered = {
 		1 = { "U-%d" }
@@ -481,7 +481,7 @@ GER_DD_IMPERIAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
-	fallback_name = "T %d"
+	fallback_name = "SMS T %d"
 
 	unique = {
 		"G 200"

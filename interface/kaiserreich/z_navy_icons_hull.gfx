@@ -138,6 +138,10 @@ spriteTypes = {
         		name = "GFX_AST_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Australasia/AST_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -302,6 +306,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_CAN_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
         	}
 	# submarine
 
@@ -468,6 +476,10 @@ spriteTypes = {
         		name = "GFX_IMP_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_IMP_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -632,6 +644,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_GBR_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_GBR_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
         	}
 	# submarine
 
@@ -3719,6 +3735,10 @@ spriteTypes = {
         		name = "GFX_JAP_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_JAP_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -6507,4 +6527,12 @@ spriteTypes = {
 				name = "GFX_SIA_ship_hull_cruiser_coastal_defense_ship_medium"
 				texturefile = "gfx/interface/technologies/Japan/SIA_cruiser_coastal_defense_ship.png"
 			}
+
+### GRE ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_GRE_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Balkan/GRE_destroyer1.png"
+        	}
 }

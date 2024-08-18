@@ -262,6 +262,7 @@ units = {
 
 			ship = { name = "Oboro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class" } } }
 			ship = { name = "Akebono" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class" } } }
+			ship = { name = "Shirayuki" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class" } } }
 			ship = { name = "Hatsuyuki" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class" } } }
 			ship = { name = "Sawakaze" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class" } } }
 			ship = { name = "Tokitsukaze" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class" } } }

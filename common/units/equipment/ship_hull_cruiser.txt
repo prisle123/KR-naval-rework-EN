@@ -108,6 +108,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -133,6 +134,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -154,6 +156,14 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 4
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 4
+		}
+		module_count_limit = {
+			category = seaplane_hangar
+			count < 3
 		}
 
 		default_modules = {
@@ -210,6 +220,7 @@ equipments = {
 
 	### vnr hulls
 	ship_hull_cruiser_coastal_defense_ship = {
+		derived_variant_name = cruiser_equipment_cd
 		abbreviation = "hbg"
 		year = 1910
 		visual_level = 0
@@ -358,6 +369,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_panzerschiff = {
+		derived_variant_name = cruiser_equipment_ps
 		abbreviation = "hbf"
 		year = 1929
 		model = heavy_cruiser
@@ -428,6 +440,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_torpedo
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -442,6 +455,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -458,6 +472,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_1 = {
+		derived_variant_name = cruiser_equipment_1
 		year = 1914
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -559,6 +574,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -584,6 +600,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -617,6 +634,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_2 = {
+		derived_variant_name = cruiser_equipment_2
 		abbreviation = "hba"
 		parent = ship_hull_cruiser_1
 		year = 1922
@@ -634,6 +652,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_3 = {
+		derived_variant_name = cruiser_equipment_3
 		abbreviation = "hbb"
 		year = 1936
 		visual_level = 1
@@ -658,6 +677,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_4 = {
+		derived_variant_name = cruiser_equipment_4
 		abbreviation = "hbc"
 		year = 1940
 		visual_level = 1
@@ -682,6 +702,7 @@ equipments = {
 	}
 
 	ship_hull_cruiser_5 = {
+		derived_variant_name = cruiser_equipment_5
 		abbreviation = "hbd"
 		year = 1944
 		visual_level = 1
@@ -757,6 +778,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -784,6 +806,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -793,6 +816,7 @@ equipments = {
 		}
 	}
 	ship_hull_cruiser_6 = {
+		derived_variant_name = cruiser_equipment_6
 		year = 1949
 		visual_level = 1
 		archetype = ship_hull_cruiser
@@ -887,6 +911,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -914,6 +939,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -944,11 +970,11 @@ equipments = {
 		}
 	}
 
-	vnr_ship_hull_torpedo_cruiser = {
+	ship_hull_torpedo_cruiser = {
 		year = 1940
 		visual_level = 0
 		archetype = ship_hull_cruiser
-		can_convert_from = { vnr_ship_hull_torpedo_cruiser ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_5 ship_hull_cruiser_6 }
+		can_convert_from = { ship_hull_torpedo_cruiser ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_5 ship_hull_cruiser_6 }
 		priority = 1850
 
 		interface_category = interface_category_screen_ships
@@ -1004,6 +1030,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -1024,6 +1051,7 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1049,8 +1077,6 @@ equipments = {
 
 		armor_value = 0
 
-
-		surface_detection = 23
 		sub_detection = 1
 		surface_visibility = 15
 		naval_speed = 30
