@@ -52,6 +52,22 @@ ARG = {
         }
 
     }
+	
+	ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_ARG_ship_hull_light_1_medium
+            }
+        }
+
+    }
 
     ship_hull_cruiser_1 = {
         pool = {
@@ -78,6 +94,15 @@ ARG = {
             }
         }
 
+    }
+	
+	ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
     }
 
     ship_hull_heavy_1 = {
@@ -353,6 +378,13 @@ AST = {
             }
         }
 
+		pool = {
+            icons = {
+                GFX_AST_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
     }
 
     ship_hull_heavy_2 = {
@@ -366,6 +398,7 @@ AST = {
         pool = {
             icons = {
                 GFX_AST_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -383,6 +416,7 @@ AST = {
             icons = {
                 GFX_AST_ship_hull_heavy_1_medium
 				GFX_AST_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -401,6 +435,7 @@ AST = {
                 GFX_AST_ship_hull_heavy_1_medium
 				GFX_AST_ship_hull_heavy_2_medium
 				GFX_AST_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -420,6 +455,7 @@ AST = {
 				GFX_AST_ship_hull_heavy_2_medium
 				GFX_AST_ship_hull_heavy_3_medium
 				GFX_AST_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1625,6 +1661,7 @@ CAL = {
 				GFX_CAL_ship_hull_cruiser_2_medium
 				GFX_CAL_ship_hull_cruiser_1_capital_medium
 				GFX_CAL_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -1647,6 +1684,7 @@ CAL = {
 				GFX_CAL_ship_hull_cruiser_1_capital_medium
 				GFX_CAL_ship_hull_cruiser_2_capital_medium
 				GFX_CAL_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -1671,6 +1709,7 @@ CAL = {
 				GFX_CAL_ship_hull_cruiser_2_capital_medium
 				GFX_CAL_ship_hull_cruiser_3_capital_medium
 				GFX_CAL_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -1697,6 +1736,7 @@ CAL = {
 				GFX_CAL_ship_hull_cruiser_3_capital_medium
 				GFX_CAL_ship_hull_cruiser_4_capital_medium
 				GFX_CAL_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -2330,6 +2370,7 @@ CAN = {
                 "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -2350,6 +2391,7 @@ CAN = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -2371,6 +2413,7 @@ CAN = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -2393,6 +2436,7 @@ CAN = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -2416,6 +2460,7 @@ CAN = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -2704,10 +2749,32 @@ CHL = {
         pool = {
             weight = 5
             icons = {
-                GFX_CHL_ship_hull_cruiser_1_capital_medium
-				GFX_CHL_ship_hull_cruiser_1_medium
+                GFX_CHL_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CHL_vnr_ship_hull_cruiser_1_medium
             }
         }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
+
+    }
+	
+	ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
 
     }
 
@@ -3720,6 +3787,7 @@ CSA = {
 				GFX_CSA_ship_hull_cruiser_2_medium
 				GFX_CSA_ship_hull_cruiser_1_capital_medium
 				GFX_CSA_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -3742,6 +3810,7 @@ CSA = {
 				GFX_CSA_ship_hull_cruiser_1_capital_medium
 				GFX_CSA_ship_hull_cruiser_2_capital_medium
 				GFX_CSA_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -3766,6 +3835,7 @@ CSA = {
 				GFX_CSA_ship_hull_cruiser_2_capital_medium
 				GFX_CSA_ship_hull_cruiser_3_capital_medium
 				GFX_CSA_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -3792,6 +3862,7 @@ CSA = {
 				GFX_CSA_ship_hull_cruiser_3_capital_medium
 				GFX_CSA_ship_hull_cruiser_4_capital_medium
 				GFX_CSA_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -8617,6 +8688,7 @@ HAW = {
 				GFX_HAW_ship_hull_cruiser_2_medium
 				GFX_HAW_ship_hull_cruiser_1_capital_medium
 				GFX_HAW_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -8639,6 +8711,7 @@ HAW = {
 				GFX_HAW_ship_hull_cruiser_1_capital_medium
 				GFX_HAW_ship_hull_cruiser_2_capital_medium
 				GFX_HAW_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -8663,6 +8736,7 @@ HAW = {
 				GFX_HAW_ship_hull_cruiser_2_capital_medium
 				GFX_HAW_ship_hull_cruiser_3_capital_medium
 				GFX_HAW_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -8689,6 +8763,7 @@ HAW = {
 				GFX_HAW_ship_hull_cruiser_3_capital_medium
 				GFX_HAW_ship_hull_cruiser_4_capital_medium
 				GFX_HAW_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -9856,6 +9931,7 @@ IMP = {
                 "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -9876,6 +9952,7 @@ IMP = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -9897,6 +9974,7 @@ IMP = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -9919,6 +9997,7 @@ IMP = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -9942,6 +10021,7 @@ IMP = {
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -10417,6 +10497,7 @@ ITA = {
             icons = {
                 GFX_ITA_ship_hull_cruiser_1_medium
 				GFX_ITA_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
@@ -11158,6 +11239,7 @@ JAP = {
         pool = {
             weight = 5
             icons = {
+				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
                 GFX_JAP_ship_hull_carrier_conversion_bb_medium
             }
         }
@@ -11236,6 +11318,7 @@ JAP = {
 				GFX_JAP_ship_hull_carrier_1_medium
 				GFX_JAP_ship_hull_carrier_2_medium
 				GFX_JAP_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
             }
         }
@@ -12121,6 +12204,7 @@ NEE = {
 				GFX_NEE_ship_hull_cruiser_2_medium
 				GFX_NEE_ship_hull_cruiser_1_capital_medium
 				GFX_NEE_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -12143,6 +12227,7 @@ NEE = {
 				GFX_NEE_ship_hull_cruiser_1_capital_medium
 				GFX_NEE_ship_hull_cruiser_2_capital_medium
 				GFX_NEE_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -12167,6 +12252,7 @@ NEE = {
 				GFX_NEE_ship_hull_cruiser_2_capital_medium
 				GFX_NEE_ship_hull_cruiser_3_capital_medium
 				GFX_NEE_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -12193,6 +12279,7 @@ NEE = {
 				GFX_NEE_ship_hull_cruiser_3_capital_medium
 				GFX_NEE_ship_hull_cruiser_4_capital_medium
 				GFX_NEE_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -14341,6 +14428,7 @@ PAP = {
             icons = {
                 GFX_PAP_ship_hull_cruiser_1_medium
 				GFX_PAP_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
@@ -14826,6 +14914,7 @@ PSA = {
 				GFX_PSA_ship_hull_cruiser_2_medium
 				GFX_PSA_ship_hull_cruiser_1_capital_medium
 				GFX_PSA_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -14848,6 +14937,7 @@ PSA = {
 				GFX_PSA_ship_hull_cruiser_1_capital_medium
 				GFX_PSA_ship_hull_cruiser_2_capital_medium
 				GFX_PSA_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -14872,6 +14962,7 @@ PSA = {
 				GFX_PSA_ship_hull_cruiser_2_capital_medium
 				GFX_PSA_ship_hull_cruiser_3_capital_medium
 				GFX_PSA_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -14898,6 +14989,7 @@ PSA = {
 				GFX_PSA_ship_hull_cruiser_3_capital_medium
 				GFX_PSA_ship_hull_cruiser_4_capital_medium
 				GFX_PSA_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -16730,6 +16822,7 @@ SIC = {
             icons = {
                 GFX_SIC_ship_hull_cruiser_1_medium
 				GFX_SIC_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
@@ -18202,6 +18295,7 @@ SRD = {
             icons = {
                 GFX_SRD_ship_hull_cruiser_1_medium
 				GFX_SRD_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
@@ -18745,6 +18839,7 @@ SRI = {
             icons = {
                 GFX_SRI_ship_hull_cruiser_1_medium
 				GFX_SRI_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
@@ -19468,6 +19563,7 @@ TEX = {
 				GFX_TEX_ship_hull_cruiser_2_medium
 				GFX_TEX_ship_hull_cruiser_1_capital_medium
 				GFX_TEX_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -19490,6 +19586,7 @@ TEX = {
 				GFX_TEX_ship_hull_cruiser_1_capital_medium
 				GFX_TEX_ship_hull_cruiser_2_capital_medium
 				GFX_TEX_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -19514,6 +19611,7 @@ TEX = {
 				GFX_TEX_ship_hull_cruiser_2_capital_medium
 				GFX_TEX_ship_hull_cruiser_3_capital_medium
 				GFX_TEX_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -19540,6 +19638,7 @@ TEX = {
 				GFX_TEX_ship_hull_cruiser_3_capital_medium
 				GFX_TEX_ship_hull_cruiser_4_capital_medium
 				GFX_TEX_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20150,6 +20249,7 @@ USA = {
 				GFX_USA_ship_hull_cruiser_2_medium
 				GFX_USA_ship_hull_cruiser_1_capital_medium
 				GFX_USA_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20172,6 +20272,7 @@ USA = {
 				GFX_USA_ship_hull_cruiser_1_capital_medium
 				GFX_USA_ship_hull_cruiser_2_capital_medium
 				GFX_USA_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20196,6 +20297,7 @@ USA = {
 				GFX_USA_ship_hull_cruiser_2_capital_medium
 				GFX_USA_ship_hull_cruiser_3_capital_medium
 				GFX_USA_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20222,6 +20324,7 @@ USA = {
 				GFX_USA_ship_hull_cruiser_3_capital_medium
 				GFX_USA_ship_hull_cruiser_4_capital_medium
 				GFX_USA_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20736,6 +20839,7 @@ WCC = {
 				GFX_WCC_ship_hull_cruiser_2_medium
 				GFX_WCC_ship_hull_cruiser_1_capital_medium
 				GFX_WCC_ship_hull_cruiser_2_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20758,6 +20862,7 @@ WCC = {
 				GFX_WCC_ship_hull_cruiser_1_capital_medium
 				GFX_WCC_ship_hull_cruiser_2_capital_medium
 				GFX_WCC_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20782,6 +20887,7 @@ WCC = {
 				GFX_WCC_ship_hull_cruiser_2_capital_medium
 				GFX_WCC_ship_hull_cruiser_3_capital_medium
 				GFX_WCC_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 
@@ -20808,6 +20914,7 @@ WCC = {
 				GFX_WCC_ship_hull_cruiser_3_capital_medium
 				GFX_WCC_ship_hull_cruiser_4_capital_medium
 				GFX_WCC_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
 

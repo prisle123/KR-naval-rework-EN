@@ -4686,6 +4686,10 @@ spriteTypes = {
         		name = "GFX_ARG_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/South_America/ARG_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_ARG_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_destroyer2.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4701,6 +4705,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ARG_ship_hull_cruiser_2_capital_medium"
         		texturefile = "gfx/interface/technologies/South_America/ARG_heavy_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_ARG_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 
@@ -4747,6 +4755,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_CHL_ship_hull_cruiser_1_capital_medium"
         		texturefile = "gfx/interface/technologies/South_America/CHL_heavy_cruiser1.png"
+        	}
+			spriteType = {
+        		name = "GFX_CHL_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/South_America/CHL_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 

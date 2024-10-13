@@ -1,5 +1,0 @@
-﻿###OOB File for FLA.txt
-instant_effect = {
-	BEL_starting_naval_variants = yes
-}
-

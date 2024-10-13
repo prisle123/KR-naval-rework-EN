@@ -173,6 +173,7 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			dp_ship_secondaries_1_bb
 			ship_anti_air_2_h
 		}
 
@@ -229,10 +230,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.05
-		##! 	lg_armor_piercing = 0.05
-		##! }
+		armored_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -345,10 +346,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.05
-		##! 	lg_armor_piercing = 0.05
-		##! }
+		armored_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -864,10 +865,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	hg_attack = 0.05
-		##! 	hg_armor_piercing = 0.05
-		##! }
+		armored_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 
 		enable_equipment_modules = {
 			ship_high_velocity_shell
@@ -919,10 +920,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	hg_attack = 0.05
-		##! 	hg_armor_piercing = 0.05
-		##! }
+		armored_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 
 		enable_equipment_modules = {
 			ship_super_heavy_weight_shell
@@ -958,6 +959,7 @@ technologies = {
 			dp_light_battery_2
 			dp_light_battery_2_single
 			dp_ship_secondaries_2
+			dp_ship_secondaries_2_bb
 		}
 
 		path = {
@@ -1004,6 +1006,7 @@ technologies = {
 			dp_light_battery_3
 			dp_light_battery_3_single
 			dp_ship_secondaries_3
+			dp_ship_secondaries_3_bb
 		}
 
 		on_research_complete = {
@@ -1050,6 +1053,7 @@ technologies = {
 			dp_light_battery_4
 			dp_light_battery_4_single
 			dp_ship_secondaries_4
+			dp_ship_secondaries_4_bb
 		}
 
 		on_research_complete = {
@@ -1400,7 +1404,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_1
 			torpedo_mounting
-			ship_torpedo_fire_control
+			ship_torpedo_fire_control_1
 			ship_torpedo_bb
 			ship_torpedo_sub_1
 		}
@@ -1472,9 +1476,9 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	torpedo_attack = 0.1
-		##! }
+		armored_cruiser = {
+			torpedo_attack = 0.1
+		}
 
 
 
@@ -1535,9 +1539,9 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	naval_torpedo_hit_chance_factor = 0.05
-		##! }
+		armored_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
@@ -1644,9 +1648,9 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	naval_torpedo_hit_chance_factor = 0.1
-		##! }
+		armored_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 25 }
@@ -1791,9 +1795,9 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	torpedo_attack = 0.1
-		##! }
+		armored_cruiser = {
+			torpedo_attack = 0.1
+		}
 
 
 		folder = {
@@ -1891,6 +1895,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_3
 			ship_torpedo_sub_3
+			ship_torpedo_fire_control_2
 		}
 
 
@@ -1925,6 +1930,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_4
 			ship_torpedo_sub_4
+			ship_torpedo_fire_control_3
 		}
 
 		on_research_complete = {
@@ -1964,6 +1970,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_5
 			ship_torpedo_sub_5
+			ship_torpedo_fire_control_4
 		}
 
 		on_research_complete = {
@@ -2182,10 +2189,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.05
-		##! 	hg_attack = 0.05
-		##! }
+		armored_cruiser = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -2239,10 +2246,10 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.05
-		##! 	hg_attack = 0.05
-		##! }
+		armored_cruiser = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		heavy_cruiser = {
 			lg_attack = 0.1
 			hg_attack = 0.1

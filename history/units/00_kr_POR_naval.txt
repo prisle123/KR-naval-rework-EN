@@ -2,31 +2,24 @@
 
 units = {
 	fleet = {
-		name = "Frota Ultramarina"
-		naval_base = 11805 ###Change to proper province number
-		task_force = {
-			name = "Frota Ultramarina"
-			location = 11805 ###Change to proper province number
-			ship = { name = "NRP Delfim" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
-			ship = { name = "NRP Espadarte" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
-			ship = { name = "NRP Foca" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
-			ship = { name = "NRP Golfinho" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
-		}
-	}
-	fleet = {
-		name = "Frota Continental"
-		naval_base = 11805 ###Change to proper province number
-		task_force = {
-			name = "Frota Continental"
-			location = 11805 ###Change to proper province number
-			ship = { name = "NRP Rainha Dona Amélia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = POR version_name = "Rainha Dona Amélia Class" } } }
-			ship = { name = "NRP Douro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
-			ship = { name = "NRP Dão" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
-			ship = { name = "NRP Lima" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
-			ship = { name = "NRP Tejo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
-			ship = { name = "NRP Vouga" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
-			ship = { name = "NRP Guadiana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+		name = "Marinha de Portugal"			
+		naval_base = 11805 # Lisbon
+		task_force = {				
+			name = "Flotilha 'Viana do Castelo'"			
+			location = 11805 # Lisbon
 			ship = { name = "NRP Tamega" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
-		}
+			ship = { name = "NRP Dão" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Douro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Lima" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }	
+			ship = { name = "NRP Vouga" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }	
+			ship = { name = "NRP Tejo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POR version_name = "Douro Class" } } }	
+		}				
+		task_force = {				
+			name = "Flotilha Delfim"			
+			location = 11805 # Lisbon
+			ship = { name = "NRP Delfim" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }		
+			ship = { name = "NRP Espadarte" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }	
+			ship = { name = "NRP Golfinho" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POR version_name = "Delfim Class" } } }	
+		}				
 	}
 }

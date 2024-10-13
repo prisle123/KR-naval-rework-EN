@@ -1,5 +1,0 @@
-﻿###OOB File for GBR.txt
-instant_effect = {
-	CAN_starting_naval_variants = yes
-}
-

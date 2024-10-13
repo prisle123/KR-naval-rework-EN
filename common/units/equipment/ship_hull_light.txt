@@ -132,7 +132,10 @@ equipments = {
 			category = ship_sonar
 			count < 2
 		}
-
+		module_count_limit = {
+			category = ship_missile
+			count < 3
+		}
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 3
@@ -141,6 +144,10 @@ equipments = {
 		module_count_limit = {
 			category = ship_anti_air
 			count < 4
+		}
+		module_count_limit = {
+			module = ship_aa_fire_control
+			count < 2
 		}
 
 		default_modules = {
@@ -318,7 +325,10 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { dd_role dd_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -403,7 +413,10 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { dd_role dd_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -473,7 +486,7 @@ equipments = {
 
 
 		surface_detection = 20
-		reliability = 1.5
+		reliability = 1.25
 		naval_range = 3000
 		max_strength = 100
 		build_cost_ic = 800
@@ -484,14 +497,6 @@ equipments = {
 		manpower = 600
 		naval_speed = 36.5
 
-		module_count_limit = {
-			category = ship_missile
-			count < 3
-		}
-		module_count_limit = {
-			category = ship_missile_aa
-			count < 3
-		}
 		module_count_limit = {
 			category = ship_anti_air
 			count < 5

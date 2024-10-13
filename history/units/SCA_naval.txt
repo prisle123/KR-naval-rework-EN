@@ -1,7 +1,0 @@
-﻿###OOB File for SCA.txt
-instant_effect = {
-	SWE_starting_naval_variants = yes
-	DEN_starting_naval_variants = yes
-	NOR_starting_naval_variants = yes
-}
-
