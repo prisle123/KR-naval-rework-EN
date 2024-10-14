@@ -10,6 +10,7 @@ units = {
 			location = 12406 ###Change to proper province number
 			ship = { name = "HMAS Hermes" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = AST version_name = "Hermes Class" } } }
 			ship = { name = "HMAS Malaya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Queen Elizabeth Class" } } }
+			ship = { name = "HMCS Revenge" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
 			ship = { name = "HMAS Royal Sovereign" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
 
 			ship = { name = "HMAS Effingham" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Hawkins Class" } } }
