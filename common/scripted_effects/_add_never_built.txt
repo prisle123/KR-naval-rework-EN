@@ -1,3 +1,83 @@
+ENG_never_built_blueprints = {
+	create_equipment_variant = {
+		name = "Incomparable Class"
+		parent_version = 0
+		icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
+		type = ship_hull_heavy_1
+		role_icon_index = 15
+		name_group = ENG_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_super_heavy_battery_big_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_super_heavy_battery_big_1
+		}
+	}
+}
+
+JAP_never_built_blueprints = {
+	create_equipment_variant = {
+		name = "No.13 Battlecruiser"
+		parent_version = 0
+		role_icon_index = 2
+		icon = "gfx/interface/technologies/Fun/JAP_NO13.png"
+		type = ship_hull_heavy_2
+		name_group = JAP_MOUNTAIN
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_super_heavy_battery_1
+			front_2_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_super_heavy_battery_1
+			rear_2_custom_slot = ship_super_heavy_battery_1
+		}
+	}
+}
+
+USA_never_built_blueprints = {
+	create_equipment_variant = {
+		name = "Nebraska Class"
+		role_icon_index = 7
+		type = ship_hull_super_heavy_1
+		name_group = USA_STATES
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = super_heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_shbb
+			fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_super_heavy_battery_1_triple
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_secondaries_2
+			mid_3_custom_slot = ship_super_heavy_battery_1_triple
+			rear_1_custom_slot = ship_super_heavy_battery_1_triple
+			rear_2_custom_slot = ship_super_heavy_battery_1_triple
+		}
+	}
+}
+
 create_alicorn = {
 	set_technology = { ship_alicorn = 1 wunderwaffe_modules = 1 popup = no }
 	
