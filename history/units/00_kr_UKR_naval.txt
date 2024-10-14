@@ -22,9 +22,6 @@ units = {
 			ship = { name = "Volodymyr-Volyns'kyy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
 			ship = { name = "Schastlivyy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
 			ship = { name = "Odesa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
-			ship = { name = "Evstafi" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = UKR version_name = "Evstafi Class" } } }
-			ship = { name = "Hetman Sahaydachnyy" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = UKR version_name = "Evstafi Class" } } }
-			ship = { name = "Try Svyatyteli" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = UKR version_name = "Try Svyatyteli Class" } } }
 			ship = { name = "PCh-122" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = UKR version_name = "AG Class" } } }
 			ship = { name = "PCh-123" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = UKR version_name = "AG Class" } } }
 			ship = { name = "PCh-124" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = UKR version_name = "AG Class" } } }

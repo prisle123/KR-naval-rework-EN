@@ -26,6 +26,8 @@ units = {
 		task_force = {
 			name = "Baltiyskiy Flot"
 			location = 6174
+			ship = { name = "Gangut" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
+			ship = { name = "Petropavlovsk" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Poltava" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Sevastopol" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Borodino" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Izmail Class" } } }
@@ -45,8 +47,6 @@ units = {
 			ship = { name = "Admiral Butakov" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Svetlana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Aurora" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Pallada Class" } } }
-			ship = { name = "Andrey Pervozvannyy" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RUS version_name = "Andrey Pervozvannyy Class" } } }
-			ship = { name = "Imperator Pavel I" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = RUS version_name = "Andrey Pervozvannyy Class" } } }
 		}
 		task_force = {
 			name = "Baltiyskiy Podvodniy Flot"
@@ -69,8 +69,6 @@ units = {
 		task_force = {
 			name = "Chernomorskiy Flot"
 			location = 11668
-			ship = { name = "Gangut" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
-			ship = { name = "Petropavlovsk" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Admiral Greig" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Admiral Spiridov" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Leytenant Shestakov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Leytenant Shestakov Class" } } }
