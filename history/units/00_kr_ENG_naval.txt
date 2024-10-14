@@ -241,8 +241,9 @@ units = {
 			name = "Western Approaches Fleet"
 			location = 6384
 			ship = { name = "RNS Rebecca" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Rebecca Class" } } }
-			ship = { name = "RNS Judson" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
+			ship = { name = "RNS Hood" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
 			ship = { name = "RNS Hawk" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "RNS Cockburn" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			
 			ship = { name = "RNS Marx" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
 			ship = { name = "RNS Champion" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
@@ -284,9 +285,9 @@ units = {
 			location = 6384
 			ship = { name = "RNS Freedom" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Republic Class" } } }
 			ship = { name = "RNS Republic" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Republic Class" } } }
+			
 			ship = { name = "RNS Bondfield" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
-			ship = { name = "RNS Hood" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
-			ship = { name = "RNS Cockburn" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "RNS Judson" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
 			
 			ship = { name = "RNS Talbot" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
 			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
@@ -382,7 +383,7 @@ instant_effect = {
 		}
 		name = "RNS Revolution"
 		requested_factories = 2
-		progress = 0.65
+		progress = 0.7
 		amount = 1
 	}
 	add_equipment_production = {
@@ -404,7 +405,7 @@ instant_effect = {
 		}
 		name = "RNS Smillie"
 		requested_factories = 3
-		progress = 0.85
+		progress = 0.8
 		amount = 1
 	}
 	add_equipment_production = {
