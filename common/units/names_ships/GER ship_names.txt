@@ -481,7 +481,7 @@ GER_DD_IMPERIAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
-	fallback_name = "SMS T %d"
+	fallback_name = "SMS Z %d"
 
 	unique = {
 		"G 200"

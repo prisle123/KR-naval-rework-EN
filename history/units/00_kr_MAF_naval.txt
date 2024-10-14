@@ -32,10 +32,7 @@ units = {
 		task_force = {
 			name = "Westafrikageschwader"
 			location = 6039 ###Change to proper province number
-
-			ship = { name = "SMS Von Der Tann" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = MAF version_name = "Von Der Tann Class" } } }
 			ship = { name = "SMS Moltke" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = MAF version_name = "Moltke Class" } } }
-			
 
 			ship = { name = "SMS V 1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAF version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS V 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAF version_name = "V1/G7 Class" } } }
