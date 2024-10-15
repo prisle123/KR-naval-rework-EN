@@ -216,10 +216,6 @@
 			ship = { name = "USS Saratoga" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
 			ship = { name = "USS Pensacola" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
 			ship = { name = "USS Salt Lake City" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }
-			#Cruiser Squadron 5
-			ship = { name = "USS Seattle" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Pittsburgh" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS San Diego" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
 			ship = { name = "USS Louisville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			#Cruiser Squadron 9
 			ship = { name = "USS Omaha" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
@@ -353,7 +349,7 @@
 		task_force = {
 			name = "Special Service Squadron"
 			location = 7617 ###NSB Coco Solo (Panama)
-			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
+			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
 			ship = { name = "USS Denver" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
 			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
 			ship = { name = "USS Galveston" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
@@ -477,14 +473,6 @@
 			ship = { name = "USS R25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS R26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS R27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
-		}
-
-		task_force = {
-			name = "Cruiser Squadron 2"
-			location = 9814 ###Long Beach (Los Angeles)
-			ship = { name = "USS Charlotte" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Missoula" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Huron" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
 		}
 
 		task_force = {
