@@ -29,7 +29,7 @@ units = {
 		task_force = {
 			name = "k.u.k II. Schlachtschwadron"
 			location = 11735
-			ship = { name = "SMS Monarch" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Schwarzenberg Class" } } }
+			ship = { name = "SMS Erzherzog Johann" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Schwarzenberg Class" } } }
 			ship = { name = "SMS Schwarzenberg" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Schwarzenberg Class" } } }
 			ship = { name = "SMS Grenzer" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
 			ship = { name = "SMS Grenadier" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "Dragoner Class" } } }
