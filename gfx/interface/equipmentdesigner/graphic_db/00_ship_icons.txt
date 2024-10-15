@@ -2749,8 +2749,8 @@ CHL = {
         pool = {
             weight = 5
             icons = {
-                GFX_CHL_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_CHL_vnr_ship_hull_cruiser_1_medium
+                GFX_CHL_ship_hull_cruiser_1_capital_medium
+				GFX_CHL_ship_hull_cruiser_1_medium
             }
         }
 
@@ -7665,6 +7665,7 @@ GER = {
 				"gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Von.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Yorck.png"
+				"gfx/interface/technologies/Germany/GER_battleship_Mackensen.png"
 				"gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
             }
         }
@@ -7686,6 +7687,7 @@ GER = {
 				"gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Derfflinger.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Yorck.png"
+				"gfx/interface/technologies/Germany/GER_battleship_Mackensen.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Helgoland.png"
 				"gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
             }
@@ -7709,6 +7711,7 @@ GER = {
 				"gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Derfflinger.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Yorck.png"
+				"gfx/interface/technologies/Germany/GER_battleship_Mackensen.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Helgoland.png"
 				"gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
             }
@@ -7733,6 +7736,7 @@ GER = {
 				"gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Derfflinger.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Yorck.png"
+				"gfx/interface/technologies/Germany/GER_battleship_Mackensen.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Helgoland.png"
 				"gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
             }
@@ -7758,6 +7762,7 @@ GER = {
 				"gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Derfflinger.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Yorck.png"
+				"gfx/interface/technologies/Germany/GER_battleship_Mackensen.png"
 				"gfx/interface/technologies/Germany/GER_battleship_Helgoland.png"
 				"gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
             }

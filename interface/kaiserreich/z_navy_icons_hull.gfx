@@ -139,7 +139,7 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Australasia/AST_super_carrier.png"
         	}
 			spriteType = {
-        		name = "GFX_AST_vnr_ship_hull_escort_carrier_medium"
+        		name = "GFX_AST_ship_hull_escort_carrier_medium"
         		texturefile = "gfx/interface/technologies/Australasia/AST_escort_carrier.png"
         	}
 	# submarine
@@ -308,7 +308,7 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
         	}
 			spriteType = {
-        		name = "GFX_CAN_vnr_ship_hull_escort_carrier_medium"
+        		name = "GFX_CAN_ship_hull_escort_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
         	}
 	# submarine
@@ -477,7 +477,7 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
         	}
 			spriteType = {
-        		name = "GFX_IMP_vnr_ship_hull_escort_carrier_medium"
+        		name = "GFX_IMP_ship_hull_escort_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
         	}
 	# submarine
@@ -646,7 +646,7 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
         	}
 			spriteType = {
-        		name = "GFX_GBR_vnr_ship_hull_escort_carrier_medium"
+        		name = "GFX_GBR_ship_hull_escort_carrier_medium"
         		texturefile = "gfx/interface/technologies/Canada/CAN_escort_carrier.png"
         	}
 	# submarine
@@ -5120,6 +5120,10 @@ spriteTypes = {
         		name = "GFX_USA_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
 	# battleship
 
         	spriteType = {
@@ -5284,6 +5288,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_CSA_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
+        	}
+			spriteType = {
+        		name = "GFX_CSA_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 
@@ -5450,6 +5458,10 @@ spriteTypes = {
         		name = "GFX_CAL_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
         	}
+			spriteType = {
+        		name = "GFX_CAL_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
 	# battleship
 
         	spriteType = {
@@ -5614,6 +5626,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_PSA_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
+        	}
+			spriteType = {
+        		name = "GFX_PSA_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 
@@ -5780,6 +5796,10 @@ spriteTypes = {
         		name = "GFX_TEX_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
         	}
+			spriteType = {
+        		name = "GFX_TEX_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
 	# battleship
 
         	spriteType = {
@@ -5944,6 +5964,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_WCC_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
+        	}
+			spriteType = {
+        		name = "GFX_WCC_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 
@@ -6110,6 +6134,10 @@ spriteTypes = {
         		name = "GFX_COR_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
         	}
+			spriteType = {
+        		name = "GFX_COR_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
 	# battleship
 
         	spriteType = {
@@ -6275,6 +6303,10 @@ spriteTypes = {
         		name = "GFX_NEE_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
         	}
+			spriteType = {
+        		name = "GFX_NEE_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
 	# battleship
 
         	spriteType = {
@@ -6439,6 +6471,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_HAW_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
+        	}
+			spriteType = {
+        		name = "GFX_HAW_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
         	}
 	# battleship
 

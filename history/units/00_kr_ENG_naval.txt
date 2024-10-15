@@ -473,7 +473,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
@@ -484,7 +484,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
@@ -495,7 +495,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
@@ -506,7 +506,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
@@ -517,7 +517,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
@@ -528,7 +528,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_3
+			type = ship_hull_light_3
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
