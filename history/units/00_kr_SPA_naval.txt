@@ -52,7 +52,7 @@ units = {
 			name = "Escuadròn de Batalla"
 			location = 758 ###Change to proper province number
 			ship = { name = "España" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPA version_name = "España Class" } } }
-			ship = { name = "Jaime I" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPA version_name = "España Class" } } }
+			ship = { name = "Jaime I" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPA version_name = "España Class" } } }
 			ship = { name = "Almirante Miranda" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "Churruca Class" } } }
 			ship = { name = "Almirante Antequera" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "Churruca Class" } } }
 			ship = { name = "Almirante Ferrándiz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "Churruca Class" } } }

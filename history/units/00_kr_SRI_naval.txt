@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "Flotta Genovese"
 			location = 6788 ###Change to proper province number
-			ship = { name = "NdP Italia" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "NdP Italia" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "Francesco Caracciolo Class" } } }
 			ship = { name = "NdP Unione" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "Andrea Doria Class" } } }
 			
 			ship = { name = "NdP Carlo Dell'Avalle" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Carlo Dell'Avalle Class" } } }

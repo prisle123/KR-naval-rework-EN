@@ -26,16 +26,3 @@ units = {
 		}
 	}
 }
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_2
-			creator = "BAT"
-			version_name = "Type VII Class"
-		}
-		requested_factories = 2
-		progress = 0.55
-		amount = 4
-	}
-}

@@ -9,7 +9,7 @@ units = {
 			location = 9994 ###Bizerte
 			#1re Escadre de ligne
 			ship = { name = "France" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = NFA version_name = "Union Sacrée Class" } } }
-			ship = { name = "Union Sacrée" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = NFA version_name = "Union Sacrée Class" } } }
+			ship = { name = "Union Sacrée" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = NFA version_name = "Union Sacrée Class" } } }
 			#1re Division cuirassée
 			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }
 			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }

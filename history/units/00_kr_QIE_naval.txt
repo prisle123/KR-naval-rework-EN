@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "1st Fleet"
 			location = 7191 ###Change to proper province number
-			ship = { name = "Wuwei" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = QIE version_name = "Nassau Class" } } }
+			ship = { name = "Wuwei" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = QIE version_name = "Nassau Class" } } }
 			ship = { name = "Pinghai" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "Pinghai Class" } } }
 			
 			ship = { name = "Hairong" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hairong Class" } } }

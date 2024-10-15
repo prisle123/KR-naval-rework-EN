@@ -8,7 +8,7 @@ units = {
 			name = "Battle Fleet"
 			location = 7361
 			# 1st Battle Squadron
-			ship = { name = "HMCS Magnificent" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "Magnificent Class" } } }
+			ship = { name = "HMCS Magnificent" pride_of_the_fleet = yes definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "Magnificent Class" } } }
 			ship = { name = "HMCS Majestic" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "Magnificent Class" } } }
 			
 			# 2nd Battle Squadron

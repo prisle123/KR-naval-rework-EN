@@ -9,7 +9,7 @@ units = {
 			location = 9998
 			ship = { name = "Tosa" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Tosa Class" } } }
 			ship = { name = "Kaga" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Tosa Class" } } }
-			ship = { name = "Nagato" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Nagato Class" } } }
+			ship = { name = "Nagato" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Nagato Class" } } }
 			ship = { name = "Mutsu" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Nagato Class" } } }
 			ship = { name = "Fuso" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
 			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }

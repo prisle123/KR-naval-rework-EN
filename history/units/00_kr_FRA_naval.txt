@@ -86,7 +86,7 @@ units = {
 			location = 911 #Toulon
 			ship = { name = "Internationale" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = FRA version_name = "Internationale Class" } } }
 			ship = { name = "Commune de Paris" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = FRA version_name = "Internationale Class" } } }
-			ship = { name = "Jean Jaurès" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }
+			ship = { name = "Jean Jaurès" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }
 			ship = { name = "Paul Brousse" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
 			ship = { name = "Pierre Biétry" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
 			ship = { name = "Bordeaux" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }

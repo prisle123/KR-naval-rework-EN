@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "I Flotta"
 			location = 819
-			ship = { name = "RN	Francesco Caracciolo" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "RN	Francesco Caracciolo" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
 			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			
 			ship = { name = "RN	Guglielmo II" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }

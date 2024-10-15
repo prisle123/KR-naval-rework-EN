@@ -109,7 +109,7 @@ units = {
 			ship = { name = "SMS Blumenthal" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GEA version_name = "Roon Class" } } }
 			ship = { name = "SMS Roon" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GEA version_name = "Roon Class" } } }
 
-			ship = { name = "SMS Yorck" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
+			ship = { name = "SMS Yorck" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
 			ship = { name = "SMS Gneisenau" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
 			ship = { name = "SMS Scharnhorst" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GEA version_name = "Yorck Class" } } }
 			

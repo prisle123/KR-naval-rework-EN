@@ -8,7 +8,7 @@ units = {
 			name = "k.u.k I. Schlachtschwadron"
 			location = 11735 ###Change to proper province number
 			ship = { name = "SMS Corvinus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
-			ship = { name = "SMS Hunyadi" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
+			ship = { name = "SMS Hunyadi" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
 			ship = { name = "SMS Kaiser Franz Josef" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
 			ship = { name = "SMS Svatý Václav" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Hunyadi Class" } } }
 			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "Meteor Class" } } }
