@@ -477,7 +477,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Gallant"
+		name = "RNS Gallant"
 		requested_factories = 1
 		progress = 0.94
 		amount = 1
@@ -488,7 +488,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Garland"
+		name = "RNS Garland"
 		requested_factories = 1
 		progress = 0.90
 		amount = 1
@@ -499,7 +499,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Gipsy"
+		name = "RNS Gipsy"
 		requested_factories = 1
 		progress = 0.94
 		amount = 1
@@ -510,7 +510,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Glowworm"
+		name = "RNS Glowworm"
 		requested_factories = 1
 		progress = 0.98
 		amount = 1
@@ -521,7 +521,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Grafton"
+		name = "RNS Grafton"
 		requested_factories = 1
 		progress = 0.90
 		amount = 1
@@ -532,7 +532,7 @@ instant_effect = {
 			creator = "ENG" 
 			version_name = "E/F/G/H Class"
 		}
-		name = "HMS Grenade"
+		name = "RNS Grenade"
 		requested_factories = 1
 		progress = 0.88
 		amount = 1
