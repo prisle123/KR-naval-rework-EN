@@ -350,6 +350,39 @@ instant_effect = {
 	# }
 	add_equipment_production = {
 		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "JAP"
+			version_name = "Tone Class"
+		}
+		name = "Tone"
+		requested_factories = 2
+		progress = 0.47
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "JAP"
+			version_name = "Tone Class"
+		}
+		name = "Maya"
+		requested_factories = 2
+		progress = 0.29
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_3
+			creator = "JAP"
+			version_name = "Katori Class"
+		}
+		name = "Katori"
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
 			type = ship_hull_light_3
 			creator = "JAP"
 			version_name = "Hatsuharu/Shiratsuyu Class"

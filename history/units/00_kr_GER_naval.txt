@@ -489,7 +489,7 @@ instant_effect = {
 			version_name = "Weser Class"
 		}
 		requested_factories = 1
-		progress = 0.3
+		progress = 0.15
 		amount = 1
 	}
 	add_equipment_production = {
@@ -499,7 +499,7 @@ instant_effect = {
 			version_name = "Weser Class"
 		}
 		requested_factories = 1
-		progress = 0.3
+		progress = 0.08
 		amount = 1
 	}
 	add_equipment_production = {

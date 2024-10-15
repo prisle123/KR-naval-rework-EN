@@ -383,7 +383,7 @@ instant_effect = {
 		}
 		name = "RNS Revolution"
 		requested_factories = 2
-		progress = 0.7
+		progress = 0.5
 		amount = 1
 	}
 	add_equipment_production = {
@@ -394,7 +394,7 @@ instant_effect = {
 		}
 		name = "RNS Mottershead"
 		requested_factories = 3
-		progress = 0.85
+		progress = 0.65
 		amount = 1
 	}
 	add_equipment_production = {
@@ -405,7 +405,7 @@ instant_effect = {
 		}
 		name = "RNS Smillie"
 		requested_factories = 3
-		progress = 0.8
+		progress = 0.58
 		amount = 1
 	}
 	add_equipment_production = {
@@ -450,6 +450,72 @@ instant_effect = {
 		name = "RNS Leap"
 		requested_factories = 1
 		progress = 0.2
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Gallant"
+		requested_factories = 1
+		progress = 0.94
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Garland"
+		requested_factories = 1
+		progress = 0.90
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Gipsy"
+		requested_factories = 1
+		progress = 0.94
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Glowworm"
+		requested_factories = 1
+		progress = 0.98
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Grafton"
+		requested_factories = 1
+		progress = 0.90
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "ENG" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Grenade"
+		requested_factories = 1
+		progress = 0.88
 		amount = 1
 	}
 }
