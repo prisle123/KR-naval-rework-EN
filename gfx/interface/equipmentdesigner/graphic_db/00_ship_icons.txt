@@ -1761,6 +1761,16 @@ CAL = {
 
     }
 
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAL_ship_hull_cruiser_coastal_defense_ship
+            }
+        }
+
+    }
+
     ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -3043,6 +3053,16 @@ COR = {
 
     }
 
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_COR_ship_hull_cruiser_coastal_defense_ship
+            }
+        }
+
+    }
+
     ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -3882,6 +3902,16 @@ CSA = {
 				GFX_CSA_ship_hull_cruiser_2_medium
 				GFX_CSA_ship_hull_cruiser_1_capital_medium
 				GFX_CSA_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CSA_ship_hull_cruiser_coastal_defense_ship
             }
         }
 
@@ -12309,6 +12339,16 @@ NEE = {
 
     }
 
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_NEE_ship_hull_cruiser_coastal_defense_ship
+            }
+        }
+
+    }
+
     ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -15014,6 +15054,16 @@ PSA = {
 				GFX_PSA_ship_hull_cruiser_2_medium
 				GFX_PSA_ship_hull_cruiser_1_capital_medium
 				GFX_PSA_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_PSA_ship_hull_cruiser_coastal_defense_ship
             }
         }
 
@@ -19668,6 +19718,16 @@ TEX = {
 
     }
 
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_TEX_ship_hull_cruiser_coastal_defense_ship
+            }
+        }
+
+    }
+
     ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -20354,6 +20414,16 @@ USA = {
 
     }
 
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_ship_hull_cruiser_coastal_defense_ship
+            }
+        }
+
+    }
+
     ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -20939,6 +21009,16 @@ WCC = {
 				GFX_WCC_ship_hull_cruiser_2_medium
 				GFX_WCC_ship_hull_cruiser_1_capital_medium
 				GFX_WCC_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_WCC_ship_hull_cruiser_coastal_defense_ship
             }
         }
 
