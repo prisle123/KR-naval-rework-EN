@@ -5755,7 +5755,7 @@ ENG_starting_naval_variants_kr = {
 	}
 
 	create_equipment_variant = { ## Fake heavy cruiser
-		name = "Republican Class"
+		name = "Revolutionary Class"
 		icon = "gfx/interface/technologies/UOB/ENG_heavy_cruiser3.png"
 		role_icon_index = 27
 		type = ship_hull_cruiser_3

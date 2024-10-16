@@ -75,7 +75,7 @@ units = {
 		task_force = {
 			name = "Nore Fleet"
 			location = 3501
-			ship = { name = "RNS Allen" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Allen" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Endurance" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
 			ship = { name = "RNS Regardless" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
 			ship = { name = "RNS Vidette" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
@@ -138,8 +138,8 @@ units = {
 			ship = { name = "RNS Repulse" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			ship = { name = "RNS Renown" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			
-			ship = { name = "RNS Pickard" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
-			ship = { name = "RNS Woods" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Pickard" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
+			ship = { name = "RNS Woods" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Measureless" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
 			ship = { name = "RNS Cordelia" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
 			ship = { name = "RNS Concord" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
@@ -245,7 +245,7 @@ units = {
 			ship = { name = "RNS Hawk" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			ship = { name = "RNS Cockburn" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			
-			ship = { name = "RNS Marx" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Marx" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Champion" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
 			ship = { name = "RNS Cleopatra" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
 			ship = { name = "RNS Comus" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }
@@ -287,8 +287,8 @@ units = {
 			ship = { name = "RNS Judson" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
 			
 			ship = { name = "RNS Talbot" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
-			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
-			ship = { name = "RNS Quaker" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Republican Class" } } }
+			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
+			ship = { name = "RNS Quaker" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Resurgence" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }
 			
 			ship = { name = "RNS Commission" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
