@@ -350,9 +350,9 @@
 			name = "Special Service Squadron"
 			location = 7617 ###NSB Coco Solo (Panama)
 			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Denver" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
-			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
-			ship = { name = "USS Galveston" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Denver" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Galveston" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
 		}
 	}
 
@@ -426,8 +426,8 @@
 		task_force = {
 			name = "Cruiser Squadron 6"
 			location = 6845 ###NSY Philadelphia
-			ship = { name = "USS Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
-			ship = { name = "USS Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
 			
 		}
 

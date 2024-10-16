@@ -25,13 +25,13 @@ units = {
 			ship = { name = "CNS Constitution" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = CSA version_name = "Lexington Class" } } }
 			ship = { name = "CNS Chicago" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
 			ship = { name = "CNS Trenton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Omaha Class" } } }
-			ship = { name = "CNS Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Denver Class" } } }
-			ship = { name = "CNS Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Denver Class" } } }
+			ship = { name = "CNS Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CSA version_name = "Denver Class" } } }
+			ship = { name = "CNS Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CSA version_name = "Denver Class" } } }
 			ship = { name = "CNS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
 			ship = { name = "CNS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
 			ship = { name = "CNS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "Northampton Class" } } }
-			ship = { name = "CNS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "CNS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "Denver Class" } } }
+			ship = { name = "CNS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CSA version_name = "Pittsburgh/Memphis Class" } } }
+			ship = { name = "CNS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CSA version_name = "Denver Class" } } }
 		}
 
 		task_force = {
