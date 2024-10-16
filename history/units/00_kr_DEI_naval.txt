@@ -21,8 +21,6 @@ units = {
 		task_force = {
 			name = "2e Eskader"
 			location = 7381 ###Change to proper province number
-			ship = { name = "HrMs Groote Liefde" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "Aemalia Class" } } }
-			ship = { name = "HrMs Sint Matheuus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "Aemalia Class" } } }
 			ship = { name = "HrMs Celebes" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
 			ship = { name = "HrMs Sumatra" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
 			ship = { name = "HrMs Java" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }

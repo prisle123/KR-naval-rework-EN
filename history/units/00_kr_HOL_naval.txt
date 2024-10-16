@@ -8,7 +8,6 @@ units = {
 			name = "Kustverdedigingseskader"
 			location = 9498
 			ship = { name = "HrMs Gouden Leeuw" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = HOL version_name = "Gouden Leeuw Class" } } }
-			ship = { name = "HrMs Aemalia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HOL version_name = "Aemalia Class" } } }
 			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } } }
 			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }
 			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
