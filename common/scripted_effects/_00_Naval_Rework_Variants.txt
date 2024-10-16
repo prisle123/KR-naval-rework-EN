@@ -594,7 +594,6 @@ GER_starting_naval_variants_kr = {
 			rear_1_custom_slot = ship_super_heavy_battery_1_triple
 			rear_2_custom_slot = ship_super_heavy_battery_1_triple
 		}
-		obsolete = yes
 	}
 
 	create_equipment_variant = {
