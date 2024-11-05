@@ -7,9 +7,10 @@
 			name = "Battleships, Battle Fleet"
 			location = 788 ###NS+SB Norfolk
 			#Battle Division 3
-			ship = { name = "USS Indiana" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
-			ship = { name = "USS Montana" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
-			ship = { name = "USS North Carolina" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
+			ship = { name = "USS Kentucky" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
+			ship = { name = "USS Indiana" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "USS Montana" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "USS North Carolina" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
 			#Battle Division 5
 			ship = { name = "USS Mississippi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
 			ship = { name = "USS Idaho" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
@@ -187,12 +188,12 @@
 			name = "Battleships, Scouting Fleet"
 			location = 4180 ###NS+SB Pearl-Harbour
 			#Battle Division 1
-			ship = { name = "USS Utah" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Florida/Wyoming Class" } } }
-			ship = { name = "USS Arkansas" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Florida/Wyoming Class" } } }
-			ship = { name = "USS Wyoming" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Florida/Wyoming Class" } } }
+			ship = { name = "USS South Dakota" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "USS Iowa" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
 			ship = { name = "USS Texas" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
 			#Battle Division 2
 			ship = { name = "USS South Carolina" pride_of_the_fleet = yes definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
+			ship = { name = "USS Georgia" pride_of_the_fleet = yes definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
 			ship = { name = "USS Nevada" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 			ship = { name = "USS Oklahoma" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 			#Battle Division 4

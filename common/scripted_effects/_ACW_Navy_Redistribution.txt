@@ -207,9 +207,6 @@ USA_release_PSA = {
 
 PSA_defect_navy = {
 	# Pacific Fleet
-	transfer_ship = { prefer_name = "USS Utah" type = battleship target = XXA }
-	transfer_ship = { prefer_name = "USS Arkansas" type = battleship target = XXA }
-	transfer_ship = { prefer_name = "USS Wyoming" type = battleship target = XXA }
 	transfer_ship = { prefer_name = "USS Texas" type = battleship target = XXA }
 	transfer_ship = { prefer_name = "USS South Carolina" type = SH_battleship target = XXA }
 	transfer_ship = { prefer_name = "USS Langley" type = carrier target = XXA }
@@ -343,8 +340,8 @@ PSA_defect_navy = {
 ACW_navy_redistribution_CSA = {
 	hidden_effect = {
 		# Atlantic Battle Fleet
-		transfer_ship = { prefer_name = "USS Indiana" type = SH_battleship target = XXA }
-		transfer_ship = { prefer_name = "USS Montana" type = SH_battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Indiana" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Montana" type = battleship target = XXA }
 
 		transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = XXA }
 		transfer_ship = { prefer_name = "USS Idaho" type = battleship target = XXA }
@@ -510,7 +507,7 @@ ACW_navy_redistribution_TEX = {
 		if = {
 			limit = { NOT = { country_exists = CSA } }
 			# Atlantic Battle Fleet
-			transfer_ship = { prefer_name = "USS Indiana" type = SH_battleship target = XXA }
+			transfer_ship = { prefer_name = "USS Indiana" type = battleship target = XXA }
 			transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = XXA }
 			transfer_ship = { prefer_name = "USS Idaho" type = battleship target = XXA }
 			transfer_ship = { prefer_name = "USS California" type = battleship target = XXA }
@@ -543,7 +540,6 @@ ACW_navy_redistribution_TEX = {
 			transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
 			transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
 
-			transfer_ship = { prefer_name = "USS Wyoming" type = battleship target = XXA }
 			transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = XXA }
 			transfer_ship = { prefer_name = "USS Craven" type = destroyer target = XXA }
 			transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = XXA }
