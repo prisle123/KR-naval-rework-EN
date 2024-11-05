@@ -18,6 +18,8 @@ units = {
 			ship = { name = "HrMs Lynx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
 			ship = { name = "HrMs Vos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
 			ship = { name = "HrMs Panter" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Koningin Wilhelmina" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HOL version_name = "Koningin Wilhelmina Class" } } }
+			ship = { name = "HrMs Prinses Juliana" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HOL version_name = "Koningin Wilhelmina Class" } } }
 		}
 	}
 	fleet = {
@@ -52,6 +54,7 @@ instant_effect = {
 			creator = "HOL" 
 			version_name = "Tromp Class"
 		}
+		name = "HrMs Tromp"
 		requested_factories = 1
 		progress = 0.05
 		amount = 2

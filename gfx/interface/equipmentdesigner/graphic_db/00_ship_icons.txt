@@ -1765,7 +1765,7 @@ CAL = {
         pool = {
             weight = 5
             icons = {
-                GFX_CAL_ship_hull_cruiser_coastal_defense_ship
+                GFX_CAL_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -3057,7 +3057,7 @@ COR = {
         pool = {
             weight = 5
             icons = {
-                GFX_COR_ship_hull_cruiser_coastal_defense_ship
+                GFX_COR_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -3911,7 +3911,7 @@ CSA = {
         pool = {
             weight = 5
             icons = {
-                GFX_CSA_ship_hull_cruiser_coastal_defense_ship
+                GFX_CSA_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -12343,7 +12343,7 @@ NEE = {
         pool = {
             weight = 5
             icons = {
-                GFX_NEE_ship_hull_cruiser_coastal_defense_ship
+                GFX_NEE_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -15063,7 +15063,7 @@ PSA = {
         pool = {
             weight = 5
             icons = {
-                GFX_PSA_ship_hull_cruiser_coastal_defense_ship
+                GFX_PSA_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -16404,8 +16404,10 @@ RUS = {
             }
         }
 		pool = {
-			GFX_RUS_ship_hull_carrier_conversion_ca_medium
-			GFX_RUS_ship_hull_carrier_conversion_bb_medium
+			icons = {
+				GFX_RUS_ship_hull_carrier_conversion_ca_medium
+				GFX_RUS_ship_hull_carrier_conversion_bb_medium
+			}
 		}
     }
 
@@ -19722,7 +19724,7 @@ TEX = {
         pool = {
             weight = 5
             icons = {
-                GFX_TEX_ship_hull_cruiser_coastal_defense_ship
+                GFX_TEX_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -20418,7 +20420,7 @@ USA = {
         pool = {
             weight = 5
             icons = {
-                GFX_USA_ship_hull_cruiser_coastal_defense_ship
+                GFX_USA_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -21018,7 +21020,7 @@ WCC = {
         pool = {
             weight = 5
             icons = {
-                GFX_WCC_ship_hull_cruiser_coastal_defense_ship
+                GFX_WCC_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 

@@ -13,7 +13,7 @@ units = {
 			ship = { name = "BNS Urta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
 			ship = { name = "BNS Legia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
 			ship = { name = "BNS Sabis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
-			ship = { name = "BNS Antverpia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BEL version_name = "Victoria Louise Class" } } }
+			ship = { name = "BNS Antverpia" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = BEL version_name = "Victoria Louise Class" } } }
 		}
 	}
 }

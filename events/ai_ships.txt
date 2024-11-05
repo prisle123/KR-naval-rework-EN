@@ -7,6 +7,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = GER
 		GER = {
 			is_ai = yes
 			NOT = { has_country_flag = GER_SHIPS_1940 }
@@ -31,6 +32,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = GER
 		GER = {
 			is_ai = yes
 			NOT = { has_country_flag = GER_SHIPS_1942 }
@@ -55,6 +57,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = GER
 		GER = {
 			is_ai = yes
 			NOT = { has_country_flag = GER_SHIPS_1943 }
@@ -80,6 +83,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = ENG
 		ENG = {
 			is_ai = yes
 			NOT = { has_country_flag = ENG_SHIPS_1940 }
@@ -105,6 +109,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 100 }
 	trigger = {
+		tag = ENG
 		ENG = {
 			is_ai = yes
 			NOT = { has_country_flag = ENG_SHIPS_1943 }
@@ -129,6 +134,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = JAP
 		JAP = {
 			is_ai = yes
 			NOT = { has_country_flag = JAP_SHIPS_1940 }
@@ -151,6 +157,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = JAP
 		JAP = {
 			is_ai = yes
 			NOT = { has_country_flag = JAP_SHIPS_1943 }
@@ -184,7 +191,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			USA_AI_variants_1940 = yes
 			set_global_flag = USA_SHIPS_1940
 		}
@@ -209,7 +216,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			USA_AI_variants_1943 = yes
 			set_global_flag = USA_SHIPS_1943
 		}
@@ -223,6 +230,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = CSA
 		CSA = {
 			is_ai = yes
 			NOT = { has_country_flag = CSA_SHIPS_1940 }
@@ -232,7 +240,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			CSA_AI_variants_1940 = yes
 			set_country_flag = CSA_SHIPS_1940
 		}
@@ -245,6 +253,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = CSA
 		CSA = {
 			is_ai = yes
 			NOT = { has_country_flag = CSA_SHIPS_1943 }
@@ -255,7 +264,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			CSA_AI_variants_1943 = yes
 			set_country_flag = CSA_SHIPS_1943
 		}
@@ -268,6 +277,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = FRA
 		FRA = {
 			is_ai = yes
 			NOT = { has_country_flag = FRA_SHIPS_1940 }
@@ -277,7 +287,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			FRA_AI_variants_1940 = yes
 			set_country_flag = FRA_SHIPS_1940
 		}
@@ -290,6 +300,7 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
+		tag = FRA
 		FRA = {
 			is_ai = yes
 			NOT = { has_country_flag = FRA_SHIPS_1943 }
@@ -299,7 +310,7 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ROOT = {
+		FROM = {
 			FRA_AI_variants_1943 = yes
 			set_country_flag = FRA_SHIPS_1943
 		}

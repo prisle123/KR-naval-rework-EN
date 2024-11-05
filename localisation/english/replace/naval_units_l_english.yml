@@ -22,7 +22,7 @@
  convoy_desc: "Convoys used for international trade of goods and resources. Also used to ferry troops around and for performing naval invasions."
  sh_battleship: "Dreadnought"
  sh_battleship_desc: "The largest capital ship with the biggest guns and strongest armour that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
- SH_battleship: "Super Dreadnought"
+ SH_battleship: "Super Heavy Dreadnought"
  SH_battleship_desc: "The largest capital ship with the biggest guns and strongest armour that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
  armored_cruiser: "Revived Armored Cruiser"
  armored_cruiser_desc: "Armored cruiser was put into navy playing the role of cruiser-killer after a short absence since Weltkrieg, it is commonly equipped with guns above 8 inches. Some second-rate countries will make it capital ship."

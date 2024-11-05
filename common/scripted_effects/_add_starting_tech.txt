@@ -402,6 +402,7 @@ add_starting_techs = {
 			basic_ship_hull_heavy = 1
             interwar_ship_hull_light = 1
 			interwar_ship_hull_cruiser = 1
+			early_ship_hull_carrier = 1
             searchlight = 1
             large_cruiser_trend = 1
             early_cruiser_armor = 1

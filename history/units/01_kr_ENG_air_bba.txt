@@ -9,16 +9,6 @@
 		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
 		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
 	}
-	"RNS Republic" = {
-		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
-	}
-	"RNS Freedom" = {
-		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Baffin" }
-	}
 	"RNS Courageous" = {
 		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
 		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
