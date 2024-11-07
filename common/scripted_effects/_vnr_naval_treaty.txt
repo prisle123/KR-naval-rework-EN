@@ -61,13 +61,16 @@ add_starting_navy_spirits = {
 	JAP = {
 		add_ideas = etajima_naval_academy
 		add_ideas = inflexible_headquarter
+		add_ideas = recovering_from_naval_race
 	}
 	GER = {
 		add_ideas = kiel_standard
+		add_ideas = recovering_from_naval_race
 	}
 	USA = {
 		add_ideas = annapolis_naval_academy
 		add_ideas = panama_standard
+		add_ideas = recovering_from_naval_race
 	}
 	ENG = {
 		add_ideas = dartmouth_naval_academy
