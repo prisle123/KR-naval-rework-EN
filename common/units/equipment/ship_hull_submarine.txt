@@ -108,7 +108,7 @@ equipments = {
 		surface_detection = 10
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 27
+		sub_visibility = 26
 		naval_speed = 13
 		reliability = 0.60
 
@@ -134,27 +134,27 @@ equipments = {
 	}
 
 	### vnr hulls
-	ship_hull_submarine_1 = {
+	vnr_ship_hull_submarine_1 = {
 		derived_variant_name = submarine_equipment_1
 		abbreviation = "heb"
 		year = 1922
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		can_convert_from = { ship_hull_submarine_1 }
+		can_convert_from = { vnr_ship_hull_submarine_1 }
 
 		module_slots = inherit
 	}
 
-	ship_hull_submarine_2 = {
+	vnr_ship_hull_submarine_2 = {
 		derived_variant_name = submarine_equipment_2
 		abbreviation = "hec"
 		year = 1936
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		can_convert_from = { ship_hull_submarine_2 }
-		parent = ship_hull_submarine_1
+		can_convert_from = { vnr_ship_hull_submarine_2 }
+		parent = vnr_ship_hull_submarine_1
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -195,15 +195,15 @@ equipments = {
 		}
 	}
 
-	ship_hull_submarine_3 = {
+	vnr_ship_hull_submarine_3 = {
 		derived_variant_name = submarine_equipment_3
 		abbreviation = "hed"
 		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		can_convert_from = { ship_hull_submarine_3 }
-		parent = ship_hull_submarine_2
+		can_convert_from = { vnr_ship_hull_submarine_3 }
+		parent = vnr_ship_hull_submarine_2
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -236,7 +236,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_3
 		}
 
-		sub_visibility = 20
+		sub_visibility = 18
 		naval_speed = 18
 		reliability = 0.75
 
@@ -251,15 +251,15 @@ equipments = {
 			steel = 2
 		}
 	}
-	ship_hull_submarine_4 = {
+	vnr_ship_hull_submarine_4 = {
 		derived_variant_name = submarine_equipment_4
 		abbreviation = "hee"
 		year = 1944
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		can_convert_from = { ship_hull_submarine_4 }
-		parent = ship_hull_submarine_3
+		can_convert_from = { vnr_ship_hull_submarine_4 }
+		parent = vnr_ship_hull_submarine_3
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -287,7 +287,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_4
 		}
 
-		sub_visibility = 18
+		sub_visibility = 15
 		naval_speed = 18
 		reliability = 0.80
 
@@ -304,13 +304,13 @@ equipments = {
 		}
 	}
 
-	ship_hull_submarine_5 = {
+	vnr_ship_hull_submarine_5 = {
 		derived_variant_name = submarine_equipment_5
 		year = 1944
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		parent = ship_hull_submarine_4
+		parent = vnr_ship_hull_submarine_4
 		module_slots = {
 			fixed_ship_torpedo_slot = {
 				required = yes
@@ -331,7 +331,10 @@ equipments = {
 					sub_ship_stealth
 				}
 			}
-			rear_1_custom_slot = front_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub ship_rocket ship_nuclear_rocket }
+			}
 			rear_2_custom_slot = rear_1_custom_slot
 		}
 
@@ -343,7 +346,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_4
 		}
 
-		sub_visibility = 16
+		sub_visibility = 11
 		naval_speed = 18
 		reliability = 1.5
 
@@ -358,13 +361,13 @@ equipments = {
 		}
 	}
 
-	ship_hull_cruiser_submarine = {
+	vnr_ship_hull_cruiser_submarine = {
 		derived_variant_name = submarine_equipment_sc
 		abbreviation = "hef"
 		year = 1940
 
 		archetype = ship_hull_submarine
-		can_convert_from = { ship_hull_cruiser_submarine }
+		can_convert_from = { vnr_ship_hull_cruiser_submarine }
 		priority = 2600
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -387,7 +390,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo_sub
-					ship_airplane_launcher
+					sub_airplane_launcher
 					ship_mine_layer_sub
 					ship_extra_fuel_tank
 				}
@@ -415,7 +418,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
-					ship_airplane_launcher
+					sub_airplane_launcher
 					ship_extra_fuel_tank
 				}
 			}
@@ -444,12 +447,12 @@ equipments = {
 		}
 	}
 
-	ship_hull_midget_submarine = {
+	vnr_ship_hull_midget_submarine = {
 		abbreviation = "ssm"
 		year = 1930
 
 		archetype = ship_hull_submarine
-		can_convert_from = { ship_hull_midget_submarine }
+		can_convert_from = { vnr_ship_hull_midget_submarine }
 		priority = 1500
 		module_slots = {
 			fixed_ship_engine_slot = inherit

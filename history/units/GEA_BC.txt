@@ -3,7 +3,7 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "Prinz Leopold Class" 				# Fictional
 		icon = "gfx/interface/technologies/Germany/GER_battleship_Leopold.png"
-		type = ship_hull_heavy_2
+		type = vnr_ship_hull_heavy_2
 		name_group = GER_THEME_BATTLE_IMPERIAL
 		parent_version = 0
 		modules = {
@@ -27,7 +27,7 @@ instant_effect = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = vnr_ship_hull_heavy_2
 			creator = "GEA"
 			version_name = "Prinz Leopold Class"
 		}
@@ -38,7 +38,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = vnr_ship_hull_heavy_2
 			creator = "GEA"
 			version_name = "Prinz Leopold Class"
 		}

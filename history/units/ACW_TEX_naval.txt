@@ -11,50 +11,50 @@ units = {
 		task_force = {
 			name = "Battleships, U.S. Battle Fleet"
 			location = 7552 #New Orleans
-			ship = { name = "USS Tennessee" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }
-			ship = { name = "USS Maryland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Tennessee" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }
+			ship = { name = "USS Maryland" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
 		}
 
 		task_force = {
 			name = "Cruisers, U.S. Battle Fleet"
 			location = 1572 ###Green Cove Springs
-			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
-			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
-			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Northampton" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Chester" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Houston" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
+			ship = { name = "USS Pueblo" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Pittsburgh/Memphis Class" } } }
+			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
 		}
 
 		task_force = {
 			name = "Carrier Division 1"
 			location = 7552 #New Orleans
-			ship = { name = "USS Ranger" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = USA version_name = "Ranger Class" } } }
+			ship = { name = "USS Ranger" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = USA version_name = "Ranger Class" } } }
 		}
 
 		task_force = {
 			name = "Destroyer Squadron 1"
 			location = 1572 ###Green Cove Springs
 			#Division 7
-			ship = { name = "USS McKee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Robinson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Ringgold" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Harding" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Gridley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Bell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS McKee" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Robinson" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Ringgold" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Harding" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Gridley" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Bell" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			#Division 8
-			ship = { name = "USS Kimberly" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Dyer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Stevens" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Hovey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Long" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Broome" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Kimberly" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Dyer" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Stevens" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Hovey" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Long" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Broome" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			#Division 9
-			ship = { name = "USS Alexander Dallas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Chandler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Southard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Belknap" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS MacLeish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Simpson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Alexander Dallas" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Chandler" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Southard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Belknap" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS MacLeish" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Simpson" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 		}
 	}
 	fleet = {
@@ -64,14 +64,14 @@ units = {
 		task_force = {
 			name = "1st Submarine Division"
 			location = 1843 #Miami
-			ship = { name = "USS Barracuda" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Bass" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Bonita" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Cachalot" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Cuttlefish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Doplhin" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Porpoise" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
-			ship = { name = "USS Pike" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Barracuda" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Bass" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Bonita" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Cachalot" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Cuttlefish" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Doplhin" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Porpoise" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Pike" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 		}
 	}
 }

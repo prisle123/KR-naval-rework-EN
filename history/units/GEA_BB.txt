@@ -2,7 +2,7 @@
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_3
+			type = vnr_ship_hull_heavy_3
 			creator = "GEA"
 			version_name = "Blücher Class"
 		}

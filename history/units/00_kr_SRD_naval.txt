@@ -7,30 +7,30 @@ units = {
 		task_force = {
 			name = "Regia Marina Sarda"
 			location = 6891
-			ship = { name = "RN Dante Alighieri" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRD version_name = "Dante Alighieri Class" } } }
-			ship = { name = "RN San Marco" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRD version_name = "Pisa/San Giorgio Class" } } }
-			ship = { name = "RN	Anita Garibaldi" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "Imera Class" } } }
-			ship = { name = "RN	Paleologo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "Imera Class" } } }
-			ship = { name = "RN Insidioso" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
-			ship = { name = "RN Animoso" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
-			ship = { name = "RN Irrequieto" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
-			ship = { name = "RN Audace" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Giuseppe La Farina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Giacinto Carini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Agostino Bertani" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Giacomo Medici" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Dante Alighieri" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SRD version_name = "Dante Alighieri Class" } } }
+			ship = { name = "RN San Marco" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRD version_name = "Pisa/San Giorgio Class" } } }
+			ship = { name = "RN	Anita Garibaldi" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "Imera Class" } } }
+			ship = { name = "RN	Paleologo" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "Imera Class" } } }
+			ship = { name = "RN Insidioso" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "RN Animoso" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "RN Irrequieto" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "RN Audace" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Giuseppe La Farina" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Giacinto Carini" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Agostino Bertani" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Giacomo Medici" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRD version_name = "Audace/La Masa Class" } } }
 		}
 		task_force = {
 			name = "Sottomarini"
 			location = 6891
-			ship = { name = "Rs.Smg. Caliope" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Ciclope" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Argo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Fisalia" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Jalea" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Medusa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Guglielmotti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
-			ship = { name = "Rs.Smg. Pacinotti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Caliope" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Ciclope" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Argo" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Fisalia" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Jalea" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Medusa" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Guglielmotti" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
+			ship = { name = "Rs.Smg. Pacinotti" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "Medusa/Pacinotti Class" } } }
 		}
 	}
 }

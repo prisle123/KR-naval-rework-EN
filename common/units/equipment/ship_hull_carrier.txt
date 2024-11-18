@@ -139,13 +139,13 @@ equipments = {
 	}
 
 	### vnr hulls
-	ship_hull_carrier_conversion_ca = {
+	vnr_ship_hull_carrier_conversion_ca = {
 		derived_variant_name = carrier_equipment_ca
 		abbreviation = "hae"
 		year = 1922
 		archetype = ship_hull_carrier
 		priority = 1200
-		can_convert_from = { ship_hull_carrier_conversion_ca ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_panzerschiff }
+		can_convert_from = { vnr_ship_hull_carrier_conversion_ca vnr_ship_hull_cruiser_1 vnr_ship_hull_cruiser_2 vnr_ship_hull_cruiser_3 vnr_ship_hull_cruiser_4 vnr_ship_hull_cruiser_panzerschiff }
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -184,14 +184,14 @@ equipments = {
 		manpower = 1300
 	}
 	
-	ship_hull_carrier_conversion_bb = {
+	vnr_ship_hull_carrier_conversion_bb = {
 		derived_variant_name = carrier_equipment_bb
 		abbreviation = "had"
 		year = 1922
 		archetype = ship_hull_carrier
-		parent = ship_hull_carrier_conversion_ca
+		parent = vnr_ship_hull_carrier_conversion_ca
 		priority = 1100
-		can_convert_from = { ship_hull_carrier_conversion_bb ship_hull_heavy_1 ship_hull_heavy_2 ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_super_heavy_1 }
+		can_convert_from = { vnr_ship_hull_carrier_conversion_bb vnr_ship_hull_heavy_1 vnr_ship_hull_heavy_2 vnr_ship_hull_heavy_3 vnr_ship_hull_heavy_4 vnr_ship_hull_super_heavy_1 }
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -250,13 +250,13 @@ equipments = {
 		manpower = 3500
 	}
 	
-	ship_hull_carrier_1 = {
+	vnr_ship_hull_carrier_1 = {
 		derived_variant_name = carrier_equipment_1
 		abbreviation = "haa"
 		year = 1936
-		can_convert_from = { ship_hull_carrier_1 }
+		can_convert_from = { vnr_ship_hull_carrier_1 }
 		archetype = ship_hull_carrier
-		parent = ship_hull_carrier_conversion_bb
+		parent = vnr_ship_hull_carrier_conversion_bb
 		priority = 1000
 
 		module_slots = {
@@ -320,14 +320,14 @@ equipments = {
 		}
 	}
 
-	ship_hull_carrier_2 = {
+	vnr_ship_hull_carrier_2 = {
 		derived_variant_name = carrier_equipment_2
 		abbreviation = "hab"
 		year = 1940
 		archetype = ship_hull_carrier
-		can_convert_from = { ship_hull_carrier_2 }
+		can_convert_from = { vnr_ship_hull_carrier_2 }
 		priority = 1000
-		parent = ship_hull_carrier_1
+		parent = vnr_ship_hull_carrier_1
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -402,14 +402,14 @@ equipments = {
 		manpower = 3100
 	}
 
-	ship_hull_carrier_3 = {
+	vnr_ship_hull_carrier_3 = {
 		derived_variant_name = carrier_equipment_3
 		abbreviation = "hac"
 		year = 1944
 		archetype = ship_hull_carrier
 		priority = 1000
-		can_convert_from = { ship_hull_carrier_3 }
-		parent = ship_hull_carrier_2
+		can_convert_from = { vnr_ship_hull_carrier_3 }
+		parent = vnr_ship_hull_carrier_2
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -496,12 +496,12 @@ equipments = {
 		manpower = 3500
 	}
 
-	ship_hull_escort_carrier = {
+	vnr_ship_hull_escort_carrier = {
 		derived_variant_name = carrier_equipment_cve
 		year = 1941
 		archetype = ship_hull_carrier
 		priority = 1200
-		can_convert_from = { ship_hull_escort_carrier vnr_ship_hull_civilian_1 vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
+		can_convert_from = { vnr_ship_hull_escort_carrier vnr_ship_hull_civilian_1 vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -554,12 +554,12 @@ equipments = {
 		manpower = 700
 	}
 
-	ship_hull_merchant_carrier = {
+	vnr_ship_hull_merchant_carrier = {
 		derived_variant_name = carrier_equipment_cve
 		year = 1941
 		archetype = ship_hull_carrier
 		priority = 1000
-		can_convert_from = { ship_hull_merchant_carrier }
+		can_convert_from = { vnr_ship_hull_merchant_carrier }
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -599,13 +599,14 @@ equipments = {
 		manpower = 400
 	}
 
-	ship_hull_super_carrier = {
+	vnr_ship_hull_super_carrier = {
 		derived_variant_name = carrier_equipment_cvh
 		year = 1944
 		archetype = ship_hull_carrier
+		model = vnr_ship_hull_super_carrier
 		priority = 1000
-		can_convert_from = { ship_hull_super_carrier }
-		parent = ship_hull_carrier_3
+		can_convert_from = { vnr_ship_hull_super_carrier }
+		parent = vnr_ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes

@@ -6,16 +6,16 @@ units = {
 		task_force = {
 			name = "Upgraded Fleet 1"
 			location = 12406 ###Change to proper province number
-			ship = { name = "HMAS Mons" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Marne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Milbrook" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Marmion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Negro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Lark" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Lassoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Louis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Legion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
-			ship = { name = "HMAS Loyal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Mons" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Marne" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Milbrook" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Marmion" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Negro" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Lark" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Lassoo" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Louis" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Legion" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
+			ship = { name = "HMAS Loyal" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "L/M Class" } } }
 		}
 	}
 }

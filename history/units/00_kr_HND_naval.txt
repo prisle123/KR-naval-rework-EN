@@ -7,10 +7,10 @@ units = {
 		task_force = {
 			name = "First Fleet "
 			location = 4245 ###Change to proper province number
-			ship = { name = "INS Durgam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
-			ship = { name = "INS Durjoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
-			ship = { name = "INS Nirmul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
-			ship = { name = "INS Nishan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
+			ship = { name = "INS Durgam" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
+			ship = { name = "INS Durjoy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
+			ship = { name = "INS Nirmul" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
+			ship = { name = "INS Nishan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HND version_name = "R/S Class" } } }
 		}
 	}
 }

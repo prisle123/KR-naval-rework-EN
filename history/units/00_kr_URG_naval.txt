@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "Armada Uruguaya"
 			location = 10362 ###Change to proper province number
-			ship = { name = "ROU Uruguay" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Uruguay Class" } } }
+			ship = { name = "ROU Uruguay" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = URG version_name = "Uruguay Class" } } }
 		}
 	}
 }

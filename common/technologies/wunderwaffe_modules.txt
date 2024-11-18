@@ -1,6 +1,6 @@
 technologies = {
 	ship_alicorn = {
-		enable_equipments = { ship_hull_alicorn }
+		enable_equipments = { vnr_ship_hull_alicorn }
 		start_year = 1900
 		research_cost = 1
 		allow = {
@@ -8,7 +8,7 @@ technologies = {
 		}
 	}
 	ship_constitution = {
-		enable_equipments = { ship_hull_constitution }
+		enable_equipments = { vnr_ship_hull_constitution }
 		start_year = 1900
 		research_cost = 1
 		allow = {
@@ -16,7 +16,7 @@ technologies = {
 		}
 	}
 	ship_macross = {
-		enable_equipments = { ship_hull_macross }
+		enable_equipments = { vnr_ship_hull_macross }
 		start_year = 1900
 		research_cost = 1
 		allow = {
@@ -24,7 +24,7 @@ technologies = {
 		}
 	}
 	ship_space_yamato = {
-		enable_equipments = { ship_hull_space_yamato }
+		enable_equipments = { vnr_ship_hull_space_yamato }
 		start_year = 1900
 		research_cost = 1
 		allow = {

@@ -7,10 +7,10 @@ units = {
 		task_force = {
 			name = "Home Squadron"
 			location = 4982 ###Change to proper province number
-			ship = { name = "HMWIS Magic" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
-			ship = { name = "HMWIS Martial" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
-			ship = { name = "HMWIS Marvel" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
-			ship = { name = "HMWIS Menace" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
+			ship = { name = "HMWIS Magic" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
+			ship = { name = "HMWIS Martial" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
+			ship = { name = "HMWIS Marvel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
+			ship = { name = "HMWIS Menace" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
 		}
 	}
 }

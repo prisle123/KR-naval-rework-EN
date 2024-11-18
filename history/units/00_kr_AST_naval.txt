@@ -8,54 +8,54 @@ units = {
 		task_force = {
 			name = "Capital Fleet"
 			location = 12406 ###Change to proper province number
-			ship = { name = "HMAS Hermes" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = AST version_name = "Hermes Class" } } }
-			ship = { name = "HMAS Malaya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Queen Elizabeth Class" } } }
-			ship = { name = "HMCS Revenge" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
-			ship = { name = "HMAS Royal Sovereign" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
+			ship = { name = "HMAS Hermes" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = AST version_name = "Hermes Class" } } }
+			ship = { name = "HMAS Malaya" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Queen Elizabeth Class" } } }
+			ship = { name = "HMAS Revenge" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
+			ship = { name = "HMAS Royal Sovereign" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
 
-			ship = { name = "HMAS Effingham" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Hawkins Class" } } }
-			ship = { name = "HMAS Raleigh" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Hawkins Class" } } }
-			ship = { name = "HMAS Constance" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "C Class" } } }
-			ship = { name = "HMAS Anzac" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMAS Grenville" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMAS Parker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMAS Saumarez" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMAS Seymour" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMAS Vancouver" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Vanessa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Venomous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Venturous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Verdun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Versatile" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Verulam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Veteran" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Viceroy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Walker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Walpole" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Effingham" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Hawkins Class" } } }
+			ship = { name = "HMAS Raleigh" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Hawkins Class" } } }
+			ship = { name = "HMAS Constance" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "C Class" } } }
+			ship = { name = "HMAS Anzac" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Grenville" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Parker" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Saumarez" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Seymour" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Vancouver" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vanessa" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vanity" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Venomous" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Venturous" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Verdun" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Versatile" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Verulam" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Veteran" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Viceroy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Walker" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Walpole" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
 		}
 		task_force = {
 			name = "Submarine Squadron"
 			location = 12406
-			ship = { name = "HMAS L-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
-			ship = { name = "HMAS L-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
-			ship = { name = "HMAS L-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
-			ship = { name = "HMAS H-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS H-49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS H-50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS L-1" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
+			ship = { name = "HMAS L-2" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
+			ship = { name = "HMAS L-3" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L Type" } } }
+			ship = { name = "HMAS H-48" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS H-49" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS H-50" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-23" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-24" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-26" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-27" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-28" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
 		}
 		task_force = {
 			name = "New Zealand Squadron"
 			location = 1814
-			ship = { name = "HMAS Vantage" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Venetia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Vengeful" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vantage" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Venetia" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vengeful" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
 		}
 	}
 }

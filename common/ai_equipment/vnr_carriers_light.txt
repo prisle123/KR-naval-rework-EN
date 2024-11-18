@@ -15,7 +15,7 @@ naval_light_carrier = {
 	# 	target_variant = {
 	# 		match_value = 1000.0
 
-	# 		type = ship_hull_carrier_1
+	# 		type = vnr_ship_hull_carrier_1
 	# 		modules = {
 	# 			fixed_ship_deck_slot_1 = ship_deck_space
 	# 			fixed_ship_deck_slot_2 = { any_of = { ship_deck_space ship_carrier_armor } }
@@ -33,7 +33,7 @@ naval_light_carrier = {
 
 		# priority = { base = 0 }
 		# target_variant = {
-			# type = ship_hull_carrier_conversion_ca
+			# type = vnr_ship_hull_carrier_conversion_ca
 		# }
 	# }
 
@@ -42,7 +42,7 @@ naval_light_carrier = {
 
 		# priority = { base = 0 }
 		# target_variant = {
-			# type = ship_hull_carrier_conversion_bb
+			# type = vnr_ship_hull_carrier_conversion_bb
 		# }
 	# }
 
@@ -55,7 +55,7 @@ naval_light_carrier = {
 		}
 		target_variant = {
 			match_value = 100.0
-			type = ship_hull_carrier_1
+			type = vnr_ship_hull_carrier_1
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
 				fixed_ship_deck_slot_2 = ship_deck_space
@@ -81,7 +81,7 @@ naval_light_carrier = {
 		target_variant = {
 			match_value = 300.0
 
-			type = ship_hull_carrier_2
+			type = vnr_ship_hull_carrier_2
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
 				fixed_ship_deck_slot_2 = ship_deck_space
@@ -107,7 +107,7 @@ naval_light_carrier = {
 		target_variant = {
 			match_value = 800.0
 
-			type = ship_hull_carrier_3
+			type = vnr_ship_hull_carrier_3
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
 				fixed_ship_deck_slot_2 = ship_deck_space
@@ -133,14 +133,13 @@ naval_light_carrier = {
 		target_variant = {
 			match_value = 10.0
 
-			type = ship_hull_escort_carrier
+			type = vnr_ship_hull_escort_carrier
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_small
 				fixed_ship_deck_slot_2 = ship_deck_space_small
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 			}
 		}
 	}

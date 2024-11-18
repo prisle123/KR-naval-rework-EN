@@ -12,7 +12,7 @@ QIE_create_variant_destroyer = {
 	}
 	# create_equipment_variant = {
 		# name = "Chu Tong Class" #V170-class DD
-		# type = ship_hull_light_1
+		# type = vnr_ship_hull_light_1
 		# name_group = CHYN_DD_HISTORICAL
 		# parent_version = 0
 		# modules = {
@@ -28,11 +28,11 @@ QIE_create_variant_destroyer = {
 }
 
 QIE_spawn_destroyers = {
-	create_ship = { name = "Xiangyang" type = ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
-	create_ship = { name = "Yuncheng" type = ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
-	create_ship = { name = "Zhaotong" type = ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
-	create_ship = { name = "Wenzhou" type = ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
-	create_ship = { name = "Linfen" type = ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
+	create_ship = { name = "Xiangyang" type = vnr_ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
+	create_ship = { name = "Yuncheng" type = vnr_ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
+	create_ship = { name = "Zhaotong" type = vnr_ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
+	create_ship = { name = "Wenzhou" type = vnr_ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
+	create_ship = { name = "Linfen" type = vnr_ship_hull_light_1 equipment_variant = "Yimen Shan Class" creator = ROOT }
 }
 
 QIE_create_variant_submarine = {
@@ -49,7 +49,7 @@ QIE_create_variant_submarine = {
 	}
 	create_equipment_variant = {
 		name = "Type II Class" #OTL German class
-		type = ship_hull_submarine_1
+		type = vnr_ship_hull_submarine_1
 		name_group = CHYN_SS_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -61,13 +61,13 @@ QIE_create_variant_submarine = {
 }
 
 QIE_spawn_submarines = {
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
-	create_ship = { type = ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
+	create_ship = { type = vnr_ship_hull_submarine_1 equipment_variant = "Type II Class" creator = ROOT }
 }
 
 QIE_create_variant_cruiser = {
@@ -92,7 +92,7 @@ QIE_create_variant_cruiser = {
 	}
 	create_equipment_variant = {
 		name = "Jiangjun Class" #Hamburg-class CL
-		type = ship_hull_cruiser_1
+		type = vnr_ship_hull_cruiser_1
 		name_group = CHYN_CL_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -109,8 +109,8 @@ QIE_create_variant_cruiser = {
 }
 
 QIE_spawn_cruisers = {
-	create_ship = { name = "Feng Jiangjun" type = ship_hull_cruiser_1 equipment_variant = "Jiangjun Class" creator = ROOT }
-	create_ship = { name = "Cao Jiangjun" type = ship_hull_cruiser_1 equipment_variant = "Jiangjun Class" creator = ROOT }
+	create_ship = { name = "Feng Jiangjun" type = vnr_ship_hull_cruiser_1 equipment_variant = "Jiangjun Class" creator = ROOT }
+	create_ship = { name = "Cao Jiangjun" type = vnr_ship_hull_cruiser_1 equipment_variant = "Jiangjun Class" creator = ROOT }
 }
 
 QIE_create_battleship_variant = {
@@ -131,7 +131,7 @@ QIE_create_battleship_variant = {
 	}
 	# create_equipment_variant = {
 		# name = "Wuwei Class" #Kaiser-class BB
-		# type = ship_hull_heavy_1
+		# type = vnr_ship_hull_heavy_1
 		# name_group = CHYN_BB_HISTORICAL
 		# parent_version = 0
 		# modules = {
@@ -150,7 +150,7 @@ QIE_create_battleship_variant = {
 }
 
 QIE_spawn_battleship = {
-	create_ship = { name = "Zhenyuan" type = ship_hull_heavy_1 equipment_variant = "Nassau Class" creator = ROOT }
+	create_ship = { name = "Zhenyuan" type = vnr_ship_hull_heavy_1 equipment_variant = "Nassau Class" creator = ROOT }
 }
 
 SiaCW_navy_redistribution = {

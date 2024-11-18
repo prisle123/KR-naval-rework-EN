@@ -377,7 +377,7 @@ naval_develop_category = {
 					create_equipment_variant = {
     				    name = "Converted Merchant Carrier"
 						role_icon_index = 67
-    				    type = ship_hull_merchant_carrier
+    				    type = vnr_ship_hull_merchant_carrier
     				    modules = {
     				        fixed_ship_deck_slot_1 = ship_deck_space_small
     				        fixed_ship_anti_air_slot = ship_anti_air_1
@@ -391,7 +391,7 @@ naval_develop_category = {
 			custom_effect_tooltip = wartime_carrier_conversion_tt_1
 			hidden_effect = {
 				add_equipment_to_stockpile = { type = convoy amount = -1 }
-				create_ship = { type = ship_hull_merchant_carrier equipment_variant = "Converted Merchant Carrier" creator = ROOT }
+				create_ship = { type = vnr_ship_hull_merchant_carrier equipment_variant = "Converted Merchant Carrier" creator = ROOT }
 			}
 		}
 
@@ -438,7 +438,7 @@ naval_develop_category = {
 					create_equipment_variant = {
     				    name = "Converted Escort Carrier"
 						role_icon_index = 67
-    				    type = ship_hull_escort_carrier
+    				    type = vnr_ship_hull_escort_carrier
     				    modules = {
     				        fixed_ship_deck_slot_1 = ship_deck_space_small
     				        fixed_ship_deck_slot_2 = ship_deck_space_small
@@ -453,7 +453,7 @@ naval_develop_category = {
 			custom_effect_tooltip = wartime_carrier_conversion_tt_2
 			hidden_effect = {
 				add_equipment_to_stockpile = { type = ocean_liner_equipment amount = -1 }
-				create_ship = { type = ship_hull_escort_carrier equipment_variant = "Converted Escort Carrier" creator = ROOT }
+				create_ship = { type = vnr_ship_hull_escort_carrier equipment_variant = "Converted Escort Carrier" creator = ROOT }
 			}
 		}
 

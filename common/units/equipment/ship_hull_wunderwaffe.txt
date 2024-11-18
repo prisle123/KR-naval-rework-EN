@@ -1,5 +1,5 @@
 equipments = {
-    ship_hull_alicorn = {
+    vnr_ship_hull_alicorn = {
         year = 1914
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -81,7 +81,7 @@ equipments = {
 		manpower = 20000
     }
 
-    ship_hull_constitution = {
+    vnr_ship_hull_constitution = {
         year = 1914
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -133,7 +133,7 @@ equipments = {
 		manpower = 500
     }
 
-    ship_hull_macross = {
+    vnr_ship_hull_macross = {
         year = 1914
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -216,7 +216,7 @@ equipments = {
 		manpower = 50000
     }
 
-    ship_hull_space_yamato = {
+    vnr_ship_hull_space_yamato = {
         year = 1914
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship

@@ -7,39 +7,39 @@ units = {
 		task_force = {
 			name = "Armada de Chile"
 			location = 13499 # Valparaiso
-			ship = { name = "CSN Almirante Latorre" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Almirante Latorre Class" } } }
-			ship = { name = "CSN Capitán Prat" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CHL version_name = "Capitán Prat Class" } } }
-			ship = { name = "CSN O'Higgins" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "O'Higgins Class" } } }
-			ship = { name = "CSN Chacabuco" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
-			ship = { name = "CSN Cochrane" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Cochrane Class" } } }
-			ship = { name = "CSN Eyzaguirre" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Cochrane Class" } } }
+			ship = { name = "CSN Almirante Latorre" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Almirante Latorre Class" } } }
+			ship = { name = "CSN Capitán Prat" definition = battleship equipment = { vnr_ship_hull_pre_dreadnought = { amount = 1 owner = CHL version_name = "Capitán Prat Class" } } }
+			ship = { name = "CSN O'Higgins" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "O'Higgins Class" } } }
+			ship = { name = "CSN Chacabuco" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
+			ship = { name = "CSN Cochrane" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Cochrane Class" } } }
+			ship = { name = "CSN Eyzaguirre" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Cochrane Class" } } }
 			# Flotilla de Destructores nro. 1
-			ship = { name = "CSN Almirante Lynch" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
-			ship = { name = "CSN Serrano" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "CSN Hyatt" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "CSN Orella" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Almirante Lynch" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
+			ship = { name = "CSN Serrano" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Hyatt" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Orella" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
 			# Flotilla de Destructores nro. 2
-			ship = { name = "CSN Almirante Condell" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
-			ship = { name = "CSN Aldea" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "CSN Requelme" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "CSN Videla" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Almirante Condell" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
+			ship = { name = "CSN Aldea" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Requelme" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "CSN Videla" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
 		}				
 		task_force = {				
 			name = "Flotilla de Submarinos nro. 1"			
 			location = 13499 # Valparaiso
-			ship = { name = "CSN Gualcolda" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
-			ship = { name = "CSN Tegualda" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
-			ship = { name = "CSN Rucumilla" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
-			ship = { name = "CSN Quidora" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
-			ship = { name = "CSN Fresia" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
-			ship = { name = "CSN Guale" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Gualcolda" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Tegualda" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Rucumilla" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Quidora" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Fresia" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
+			ship = { name = "CSN Guale" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H Class" } } }
 		}				
 		task_force = {				
 			name = "Flotilla de Submarinos nro. 2"			
 			location = 12994 # Coquimbo
-			ship = { name = "CSN Capitán O`Brien" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
-			ship = { name = "CSN Almirante Simpson" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
-			ship = { name = "CSN Capitán Thomson" definition = submarine start_experience_factor = 0.04 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+			ship = { name = "CSN Capitán O`Brien" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+			ship = { name = "CSN Almirante Simpson" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+			ship = { name = "CSN Capitán Thomson" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
 		}				
 	}
 }

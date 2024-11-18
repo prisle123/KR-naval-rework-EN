@@ -7,43 +7,43 @@ units = {
 		task_force = {
 			name = "Flotta Genovese"
 			location = 6788 ###Change to proper province number
-			ship = { name = "NdP Italia" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "Francesco Caracciolo Class" } } }
-			ship = { name = "NdP Unione" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "Andrea Doria Class" } } }
+			ship = { name = "NdP Italia" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "NdP Unione" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "Andrea Doria Class" } } }
 			
-			ship = { name = "NdP Carlo Dell'Avalle" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Carlo Dell'Avalle Class" } } }
-			ship = { name = "NdP Costantino Lazzari" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Carlo Dell'Avalle Class" } } }
-			ship = { name = "NdP Enomao" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = SRI version_name = "Enomao Class" } } }
-			ship = { name = "NdP Gannico" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = SRI version_name = "Enomao Class" } } }
-			ship = { name = "NdP Crixo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Crixo Class" } } }
-			ship = { name = "NdP Casto" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Crixo Class" } } }
+			ship = { name = "NdP Carlo Dell'Avalle" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Carlo Dell'Avalle Class" } } }
+			ship = { name = "NdP Costantino Lazzari" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Carlo Dell'Avalle Class" } } }
+			ship = { name = "NdP Enomao" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = SRI version_name = "Enomao Class" } } }
+			ship = { name = "NdP Gannico" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = SRI version_name = "Enomao Class" } } }
+			ship = { name = "NdP Crixo" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Crixo Class" } } }
+			ship = { name = "NdP Casto" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SRI version_name = "Crixo Class" } } }
 
-			ship = { name = "NdP Etruria" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
-			ship = { name = "NdP Picenum" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
-			ship = { name = "NdP Umbria" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
-			ship = { name = "NdP Liguria" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
-			ship = { name = "NdP Bianco" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Breithorn" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Cervino" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Alessandro Poerio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Alessandro Poerio/Aquila Class" } } }
-			ship = { name = "NdP Ardito" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Ardito/Indomito Class" } } }
-			ship = { name = "NdP Indomito" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Ardito/Indomito Class" } } }
-			ship = { name = "NdP Carlo Mirabello" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
-			ship = { name = "NdP Augusto Riboty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
+			ship = { name = "NdP Etruria" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
+			ship = { name = "NdP Picenum" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
+			ship = { name = "NdP Umbria" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
+			ship = { name = "NdP Liguria" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SRI version_name = "Etruria Class" } } }
+			ship = { name = "NdP Bianco" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Breithorn" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Cervino" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Alessandro Poerio" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Alessandro Poerio/Aquila Class" } } }
+			ship = { name = "NdP Ardito" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "NdP Indomito" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Ardito/Indomito Class" } } }
+			ship = { name = "NdP Carlo Mirabello" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
+			ship = { name = "NdP Augusto Riboty" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
 		}
 		task_force = {
 			name = "I Squadra Sommergibili"
 			location = 6788
-			ship = { name = "NdP SE 1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP SE 8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
-			ship = { name = "NdP H1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP SE 1" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 2" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 3" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 4" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 5" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 6" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 7" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP SE 8" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SRI version_name = "SE-I/II Class" } } }
+			ship = { name = "NdP H1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H7" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H8" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
 		}
 	}
 	fleet = {
@@ -52,28 +52,28 @@ units = {
 		task_force = {
 			name = "Flotta Adriatico"
 			location = 925
-			ship = { name = "NdP Francesco Ferruccio" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRI version_name = "Giuseppe Garibaldi Class" } } }
-			ship = { name = "NdP Varese" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRI version_name = "Giuseppe Garibaldi Class" } } }
-			ship = { name = "NdP Campania" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SRI version_name = "Nino Boxio/Campania Class" } } }
-			ship = { name = "NdP Marsala" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SRI version_name = "Nino Boxio/Campania Class" } } }
-			ship = { name = "NdP Gorzano" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Maiella" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Cimone" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
-			ship = { name = "NdP Guglielmo Pepe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Alessandro Poerio/Aquila Class" } } }
-			ship = { name = "NdP Carlo Alberto Racchia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
+			ship = { name = "NdP Francesco Ferruccio" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRI version_name = "Giuseppe Garibaldi Class" } } }
+			ship = { name = "NdP Varese" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SRI version_name = "Giuseppe Garibaldi Class" } } }
+			ship = { name = "NdP Campania" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SRI version_name = "Nino Boxio/Campania Class" } } }
+			ship = { name = "NdP Marsala" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SRI version_name = "Nino Boxio/Campania Class" } } }
+			ship = { name = "NdP Gorzano" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Maiella" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Cimone" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SRI version_name = "Alpino/Gorzano Class" } } }
+			ship = { name = "NdP Guglielmo Pepe" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Alessandro Poerio/Aquila Class" } } }
+			ship = { name = "NdP Carlo Alberto Racchia" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SRI version_name = "Carlo Mirabello Class" } } }
 		}
 		task_force = {
 			name = "II Squadra Sommergibili"
 			location = 925
-			ship = { name = "NdP Andrea Provana" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
-			ship = { name = "NdP Agostino Barbarigo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
-			ship = { name = "NdP Giacomo Nani" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
-			ship = { name = "NdP Sebastiano Veniero" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
-			ship = { name = "NdP H2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
-			ship = { name = "NdP H6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP Andrea Provana" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
+			ship = { name = "NdP Agostino Barbarigo" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
+			ship = { name = "NdP Giacomo Nani" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
+			ship = { name = "NdP Sebastiano Veniero" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "Andrea Provana Class" } } }
+			ship = { name = "NdP H2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H3" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H4" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H5" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
+			ship = { name = "NdP H6" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SRI version_name = "W/H/N/X Class" } } }
 		}
 	}
 }

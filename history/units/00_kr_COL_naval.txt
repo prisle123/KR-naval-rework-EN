@@ -7,8 +7,8 @@ units = {
 		task_force = {
 			name = "Armada Nacional Colombiana "
 			location = 12790 ###Change to proper province number
-			ship = { name = "BAE Antioquia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
-			ship = { name = "BAE Caldas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
+			ship = { name = "BAE Antioquia" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
+			ship = { name = "BAE Caldas" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
 		}
 	}
 }

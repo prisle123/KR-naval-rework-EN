@@ -7,86 +7,86 @@ units = {
 		task_force = {
 			name = "I Flotta"
 			location = 819
-			ship = { name = "RN	Francesco Caracciolo" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
-			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
+			ship = { name = "RN	Francesco Caracciolo" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "Francesco Caracciolo Class" } } }
+			ship = { name = "RN	Caio Duilio" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "Andrea Doria Class" } } }
 			
-			ship = { name = "RN	Guglielmo II" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
-			ship = { name = "RN	Roberto Guiscardo" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
-			ship = { name = "RN	Crimiso" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
-			ship = { name = "RN	Gela" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
-			ship = { name = "RN	Imera" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
-			ship = { name = "RN	Lilibeo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
-			ship = { name = "RN	Basilicata" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Nino Boxio/Campania Class" } } }
+			ship = { name = "RN	Guglielmo II" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Roberto Guiscardo" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Crimiso" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
+			ship = { name = "RN	Gela" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Imera" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Lilibeo" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Basilicata" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Nino Boxio/Campania Class" } } }
 			
-			ship = { name = "RN	Freccia" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
-			ship = { name = "RN	Dardo" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
-			ship = { name = "RN	Saetta" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
-			ship = { name = "RN	Benevento" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Capri" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Fioro Ischia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Lago Negro" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Lioni" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN Falco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio/Aquila Class" } } }
-			ship = { name = "RN Giuseppe Sirtori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
-			ship = { name = "RN Giovanni Acerbi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
-			ship = { name = "RN Vincenzo Giordano Orsini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
-			ship = { name = "RN Francesco Stocco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
-			ship = { name = "RN La Masa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Curtatone" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN Castelfidardo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN	Freccia" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
+			ship = { name = "RN	Dardo" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
+			ship = { name = "RN	Saetta" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
+			ship = { name = "RN	Benevento" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Capri" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Fioro Ischia" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Lago Negro" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Lioni" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN Falco" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio/Aquila Class" } } }
+			ship = { name = "RN Giuseppe Sirtori" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
+			ship = { name = "RN Giovanni Acerbi" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
+			ship = { name = "RN Vincenzo Giordano Orsini" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
+			ship = { name = "RN Francesco Stocco" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Pilo/Sirtori Class" } } }
+			ship = { name = "RN La Masa" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Curtatone" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN Castelfidardo" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
 		}
 		task_force = {
 			name = "II Flotta"
 			location = 11846
-			ship = { name = "RN	Ruggero I" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
-			ship = { name = "RN	Tancredi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
-			ship = { name = "RN	Taormina" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
-			ship = { name = "RN	Mozia" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
-			ship = { name = "RN	Strale" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
-			ship = { name = "RN	Manfredonia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Mondragone" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Orta Nova" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Otranto" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN	Senise" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN Aquila" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio/Aquila Class" } } }
-			ship = { name = "RN Palestro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN Confienza" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN San Martino" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN Solferino" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN	Ruggero I" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Tancredi" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Altavilla Class" } } }
+			ship = { name = "RN	Taormina" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Crimoso Class" } } }
+			ship = { name = "RN	Mozia" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SIC version_name = "Imera Class" } } }
+			ship = { name = "RN	Strale" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = SIC version_name = "Freccia Class" } } }
+			ship = { name = "RN	Manfredonia" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Mondragone" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Orta Nova" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Otranto" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN	Senise" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN Aquila" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Alessandro Poerio/Aquila Class" } } }
+			ship = { name = "RN Palestro" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN Confienza" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN San Martino" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN Solferino" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
 		}
 		task_force = {
 			name = "III Flotta"
 			location = 11837
-			ship = { name = "RN	Trinicaria" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = SIC version_name = "Regina Elena Class" } } }
-			ship = { name = "RN	Pisa" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIC version_name = "Pisa/San Giorgio Class" } } }
-			ship = { name = "RN	San Giorgio" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIC version_name = "Pisa/San Giorgio Class" } } }
-			ship = { name = "RN	Nino Boxio" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Nino Boxio/Campania Class" } } }
-			ship = { name = "RN	Scilla" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
-			ship = { name = "RN Monzambano" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN Calatafimi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
-			ship = { name = "RN Benedetto Cairoli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Angelo Bassini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
-			ship = { name = "RN Nicola Fabrizi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN	Trinicaria" definition = battleship equipment = { vnr_ship_hull_pre_dreadnought = { amount = 1 owner = SIC version_name = "Regina Elena Class" } } }
+			ship = { name = "RN	Pisa" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIC version_name = "Pisa/San Giorgio Class" } } }
+			ship = { name = "RN	San Giorgio" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIC version_name = "Pisa/San Giorgio Class" } } }
+			ship = { name = "RN	Nino Boxio" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SIC version_name = "Nino Boxio/Campania Class" } } }
+			ship = { name = "RN	Scilla" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = SIC version_name = "Otranto/Scilla Class" } } }
+			ship = { name = "RN Monzambano" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN Calatafimi" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Palestro/Curtatone Class" } } }
+			ship = { name = "RN Benedetto Cairoli" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Angelo Bassini" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
+			ship = { name = "RN Nicola Fabrizi" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIC version_name = "Audace/La Masa Class" } } }
 		}
 		task_force = {
 			name = "I Gruppo Sommergibile"
 			location = 819
-			ship = { name = "R.Smg. F13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. F14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. F15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. F16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. F17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. F18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. H8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. N6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. X1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. X2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
-			ship = { name = "R.Smg. X3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F13" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F14" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F16" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F17" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. F18" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. H8" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N3" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N4" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N5" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. N6" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. X1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. X2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
+			ship = { name = "R.Smg. X3" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = SIC version_name = "W/H/N/X Class" } } }
 		}
 	}
 }

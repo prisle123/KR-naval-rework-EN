@@ -20,7 +20,7 @@ naval_screen_leader = {
 		target_variant = {
 			match_value = 500.0
 
-			type = ship_hull_light_2
+			type = vnr_ship_hull_light_2
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_battery_slot = ship_light_battery
@@ -53,7 +53,7 @@ naval_screen_leader = {
 		target_variant = {
 			match_value = 600.0
 
-			type = ship_hull_light_3
+			type = vnr_ship_hull_light_3
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_battery_slot = ship_light_battery
@@ -86,7 +86,7 @@ naval_screen_leader = {
 		target_variant = {
 			match_value = 800.0
 
-			type = ship_hull_light_4
+			type = vnr_ship_hull_light_4
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_battery_slot = ship_light_battery_double
@@ -118,7 +118,7 @@ naval_screen_leader = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = ship_hull_light_5
+			type = vnr_ship_hull_light_5
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_battery_slot = ship_light_battery_double

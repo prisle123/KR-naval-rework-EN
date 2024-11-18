@@ -3,7 +3,7 @@ ENG_never_built_blueprints = {
 		name = "Incomparable Class"
 		parent_version = 0
 		icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		role_icon_index = 15
 		name_group = ENG_BC_HISTORICAL
 		modules = {
@@ -29,7 +29,7 @@ JAP_never_built_blueprints = {
 		parent_version = 0
 		role_icon_index = 2
 		icon = "gfx/interface/technologies/Fun/JAP_NO13.png"
-		type = ship_hull_heavy_2
+		type = vnr_ship_hull_heavy_2
 		name_group = JAP_MOUNTAIN
 		modules = {
 			fixed_ship_battery_slot = ship_super_heavy_battery_1
@@ -56,7 +56,7 @@ USA_never_built_blueprints = {
 	create_equipment_variant = {
 		name = "Nebraska Class"
 		role_icon_index = 7
-		type = ship_hull_super_heavy_1
+		type = vnr_ship_hull_super_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
@@ -84,7 +84,7 @@ create_alicorn = {
 	create_equipment_variant = {
 		name = "Alicorn Class"
 		role_icon_index = 7
-		type = ship_hull_alicorn
+		type = vnr_ship_hull_alicorn
 		modules = {
 			fixed_ship_battery_slot = ship_em_battery_1
 			fixed_ship_anti_air_slot = ship_sam_1
@@ -103,7 +103,7 @@ create_alicorn = {
 		}
 	}
 
-	create_ship = { type = ship_hull_alicorn equipment_variant = "Alicorn Class" creator = ROOT name = "Alicorn" }
+	create_ship = { type = vnr_ship_hull_alicorn equipment_variant = "Alicorn Class" creator = ROOT name = "Alicorn" }
 }
 
 create_constitution = {
@@ -111,7 +111,7 @@ create_constitution = {
 	create_equipment_variant = {
 		name = "Constitution Class"
 		role_icon_index = 5
-		type = ship_hull_constitution
+		type = vnr_ship_hull_constitution
 		modules = {
 			fixed_ship_battery_slot = ship_space_battery_0
 			fixed_ship_anti_air_slot = ship_sam_1
@@ -123,7 +123,7 @@ create_constitution = {
 		}
 	}
 
-	create_ship = { type = ship_hull_constitution equipment_variant = "Constitution Class" creator = ROOT name = "Constitution" }
+	create_ship = { type = vnr_ship_hull_constitution equipment_variant = "Constitution Class" creator = ROOT name = "Constitution" }
 }
 
 create_macross = {
@@ -131,7 +131,7 @@ create_macross = {
 	create_equipment_variant = {
 		name = "Macross Class"
 		role_icon_index = 7
-		type = ship_hull_macross
+		type = vnr_ship_hull_macross
 		modules = {
 			fixed_ship_battery_slot = ship_space_battery_1
 			fixed_ship_anti_air_slot = ship_sam_1
@@ -150,7 +150,7 @@ create_macross = {
 		}
 	}
 
-	create_ship = { type = ship_hull_macross equipment_variant = "Macross Class" creator = ROOT name = "SDF-1" }
+	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Macross Class" creator = ROOT name = "SDF-1" }
 }
 
 create_space_yamato = {
@@ -158,7 +158,7 @@ create_space_yamato = {
 	create_equipment_variant = {
 		name = "Yamato Class"
 		role_icon_index = 7
-		type = ship_hull_space_yamato
+		type = vnr_ship_hull_space_yamato
 		modules = {
 			fixed_ship_battery_slot = ship_space_battery_1
 			fixed_ship_anti_air_slot = ship_sam_1
@@ -177,5 +177,5 @@ create_space_yamato = {
 		}
 	}
 
-	create_ship = { type = ship_hull_space_yamato equipment_variant = "Yamato Class" creator = ROOT name = "Space Battleship Yamato" }
+	create_ship = { type = vnr_ship_hull_space_yamato equipment_variant = "Yamato Class" creator = ROOT name = "Space Battleship Yamato" }
 }

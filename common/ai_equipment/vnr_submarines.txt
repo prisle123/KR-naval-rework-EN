@@ -11,7 +11,7 @@ naval_sub = {
 
 		priority = { base = 1 }
 		target_variant = {
-			type = ship_hull_cruiser_submarine
+			type = vnr_ship_hull_cruiser_submarine
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
@@ -37,7 +37,7 @@ naval_sub = {
 
 		target_variant = {
 			match_value = 2000.0
-			type = ship_hull_submarine_1
+			type = vnr_ship_hull_submarine_1
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
@@ -62,7 +62,7 @@ naval_sub = {
 		target_variant = {
 			match_value = 4000.0
 
-			type = ship_hull_submarine_2
+			type = vnr_ship_hull_submarine_2
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
@@ -87,7 +87,7 @@ naval_sub = {
 		target_variant = {
 			match_value = 4500.0
 
-			type = ship_hull_submarine_3
+			type = vnr_ship_hull_submarine_3
 			modules = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
@@ -112,7 +112,7 @@ naval_sub = {
 		}
 
 		target_variant = {
-			type = ship_hull_submarine_4
+			type = vnr_ship_hull_submarine_4
 			match_value = 5000.0
 
 			modules = {
@@ -140,7 +140,7 @@ naval_sub = {
 		}
 
 		target_variant = {
-			type = ship_hull_submarine_5
+			type = vnr_ship_hull_submarine_5
 			match_value = 5500.0
 
 			modules = {
@@ -174,7 +174,7 @@ naval_sub = {
 		target_variant = {
 			match_value = 4000.0
 
-			type = ship_hull_submarine_2
+			type = vnr_ship_hull_submarine_2
 			modules = {
 				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_2 sub_ship_engine_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo_sub
@@ -200,7 +200,7 @@ naval_sub = {
 		target_variant = {
 			match_value = 4500.0
 
-			type = ship_hull_submarine_3
+			type = vnr_ship_hull_submarine_3
 			modules = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
@@ -225,7 +225,7 @@ naval_sub = {
 		}
 
 		target_variant = {
-			type = ship_hull_submarine_4
+			type = vnr_ship_hull_submarine_4
 			match_value = 5000.0
 
 			modules = {
@@ -253,7 +253,7 @@ naval_sub = {
 		}
 
 		target_variant = {
-			type = ship_hull_submarine_5
+			type = vnr_ship_hull_submarine_5
 			match_value = 5500.0
 
 			modules = {

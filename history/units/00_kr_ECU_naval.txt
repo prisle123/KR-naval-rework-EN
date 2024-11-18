@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "Armada del Ecuador "
 			location = 8252 ###Change to proper province number
-			ship = { name = "BAE Quito" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ECU version_name = "Smith Class" } } }
+			ship = { name = "BAE Quito" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = ECU version_name = "Smith Class" } } }
 		}
 	}
 }
