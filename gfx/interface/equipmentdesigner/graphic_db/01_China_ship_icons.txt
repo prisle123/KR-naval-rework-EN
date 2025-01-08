@@ -1,0 +1,622 @@
+CHI = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHI_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHI_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CHI_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHI_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CHI_vnr_ship_hull_cruiser_1_medium
+				GFX_CHI_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+XSM = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_XSM_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_XSM_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_XSM_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_XSM_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_XSM_vnr_ship_hull_cruiser_1_medium
+				GFX_XSM_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SHX = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SHX_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SHX_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_SHX_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SHX_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SHX_vnr_ship_hull_cruiser_1_medium
+				GFX_SHX_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+GXC = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_GXC_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_GXC_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_GXC_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_GXC_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_GXC_vnr_ship_hull_cruiser_1_medium
+				GFX_GXC_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SIK = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SIK_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SIK_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_SIK_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SIK_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SIK_vnr_ship_hull_cruiser_1_medium
+				GFX_SIK_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+ANQ = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ANQ_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ANQ_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_ANQ_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ANQ_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_ANQ_vnr_ship_hull_cruiser_1_medium
+				GFX_ANQ_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SQI = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SQI_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SQI_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_SQI_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SQI_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SQI_vnr_ship_hull_cruiser_1_medium
+				GFX_SQI_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+QIE = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+LEP = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_LEP_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_LEP_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_LEP_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_LEP_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_LEP_vnr_ship_hull_cruiser_1_medium
+				GFX_LEP_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+HNN = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_HNN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_HNN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_HNN_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_HNN_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_HNN_vnr_ship_hull_cruiser_1_medium
+				GFX_HNN_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+EST = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_EST_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_EST_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_EST_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_EST_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_EST_vnr_ship_hull_cruiser_1_medium
+				GFX_EST_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+KUM = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_KUM_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_KUM_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_KUM_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_KUM_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_KUM_vnr_ship_hull_cruiser_1_medium
+				GFX_KUM_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SZC = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SZC_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SZC_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_SZC_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SZC_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SZC_vnr_ship_hull_cruiser_1_medium
+				GFX_SZC_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+FNG = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FNG_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FNG_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_FNG_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FNG_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_FNG_vnr_ship_hull_cruiser_1_medium
+				GFX_FNG_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
