@@ -101,10 +101,10 @@ units = {
 	}
 	fleet = {
 		name = "Tikhookeanskiy Flot"
-		naval_base = 12559
+		naval_base = 957
 		task_force = {
 			name = "Tikhookeanskiy Flot"
-			location = 12559
+			location = 957
 			ship = { name = "Admiral Makarov" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bayan Class" } } }
 			ship = { name = "Bayan" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bayan Class" } } }
 			ship = { name = "Samson" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Orfey Class" } } }
@@ -117,7 +117,7 @@ units = {
 		}
 		task_force = {
 			name = "Tikhookeanskiy Podvodniy Flot"
-			location = 12559
+			location = 957
 			ship = { name = "Bars" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 			ship = { name = "Pantera" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 			ship = { name = "Rys" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }

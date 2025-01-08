@@ -116,6 +116,10 @@ spriteTypes = {
         		name = "GFX_vnr_ship_hull_super_heavy_1_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_heavy_battleship1.png"
         	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_arsenal_ship_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_arsenal_ship.png"
+        	}
 	# carrier
 
         	spriteType = {
@@ -145,6 +149,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_mega_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_mega_carrier.png"
         	}
 	# submarine
 
@@ -195,93 +203,93 @@ spriteTypes = {
 	# destroyer
 
         	spriteType = {
-        		name = "GFX_early_vnr_ship_hull_light_medium"
+        		name = "GFX_early_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer1.png"
         	}
         	spriteType = {
-        		name = "GFX_basic_vnr_ship_hull_light_medium"
+        		name = "GFX_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer2.png"
         	}
 			spriteType = {
-        		name = "GFX_interwar_vnr_ship_hull_light_medium"
+        		name = "GFX_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_improved_vnr_ship_hull_light_medium"
+        		name = "GFX_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer4.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_vnr_ship_hull_light_medium"
+        		name = "GFX_advanced_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer5.png"
         	}
 			spriteType = {
-        		name = "GFX_modern_vnr_ship_hull_light_medium"
+        		name = "GFX_modern_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
-        		name = "GFX_early_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_early_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_basic_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser2.png"
         	}
 			spriteType = {
-        		name = "GFX_interwar_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_improved_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser4.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_advanced_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser5.png"
         	}
 			spriteType = {
-        		name = "GFX_modern_vnr_ship_hull_cruiser_medium"
+        		name = "GFX_modern_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
-        		name = "GFX_early_vnr_ship_hull_heavy_medium"
+        		name = "GFX_early_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship1.png"
         	}
         	spriteType = {
-        		name = "GFX_basic_vnr_ship_hull_heavy_medium"
+        		name = "GFX_basic_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship2.png"
         	}
 			spriteType = {
-        		name = "GFX_interwar_vnr_ship_hull_heavy_medium"
+        		name = "GFX_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_improved_vnr_ship_hull_heavy_medium"
+        		name = "GFX_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship4.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_vnr_ship_hull_heavy_medium"
+        		name = "GFX_advanced_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
-        		name = "GFX_early_vnr_ship_hull_carrier_medium"
+        		name = "GFX_early_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier1.png"
         	}
         	spriteType = {
-        		name = "GFX_basic_vnr_ship_hull_carrier_medium"
+        		name = "GFX_basic_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier2.png"
         	}
         	spriteType = {
-        		name = "GFX_improved_vnr_ship_hull_carrier_medium"
+        		name = "GFX_improved_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier3.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_vnr_ship_hull_carrier_medium"
+        		name = "GFX_advanced_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier4.png"
         	}
 			spriteType = {
@@ -291,23 +299,23 @@ spriteTypes = {
 	# submarine
 
         	spriteType = {
-        		name = "GFX_early_vnr_ship_hull_submarine_medium"
+        		name = "GFX_early_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine1.png"
         	}
         	spriteType = {
-        		name = "GFX_basic_vnr_ship_hull_submarine_medium"
+        		name = "GFX_basic_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine2.png"
         	}
         	spriteType = {
-        		name = "GFX_improved_vnr_ship_hull_submarine_medium"
+        		name = "GFX_improved_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine3.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_vnr_ship_hull_submarine_medium"
+        		name = "GFX_advanced_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine4.png"
         	}
 			spriteType = {
-        		name = "GFX_modern_vnr_ship_hull_submarine_medium"
+        		name = "GFX_modern_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine5.png"
         	}
 			

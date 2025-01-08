@@ -36,7 +36,7 @@ GER_starting_naval_variants_kr = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
-			front_1_custom_slot = ship_airplane_launcher_1
+			front_1_custom_slot = sub_airplane_launcher_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
@@ -1238,7 +1238,7 @@ USA_starting_naval_variants_kr = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
-			front_1_custom_slot = ship_airplane_launcher_1
+			front_1_custom_slot = sub_airplane_launcher_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
@@ -1837,7 +1837,7 @@ CSA_starting_naval_variants_kr = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
-			front_1_custom_slot = ship_airplane_launcher_1
+			front_1_custom_slot = sub_airplane_launcher_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
@@ -7002,7 +7002,7 @@ JAP_starting_naval_variants_kr = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
-			front_1_custom_slot = ship_airplane_launcher_2
+			front_1_custom_slot = sub_airplane_launcher_1
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_extra_fuel_tank
 		}
@@ -7015,7 +7015,7 @@ JAP_starting_naval_variants_kr = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
-			front_1_custom_slot = ship_airplane_launcher_1
+			front_1_custom_slot = sub_airplane_launcher_1
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_extra_fuel_tank
 		}
@@ -7413,8 +7413,9 @@ JAP_starting_naval_variants_kr = {
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			front_1_custom_slot = ship_heavy_battery_1
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1
+			mid_2_custom_slot = empty
+			mid_3_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_airplane_launcher_1
 			rear_2_custom_slot = ship_heavy_battery_1
 		}
 		obsolete = yes
