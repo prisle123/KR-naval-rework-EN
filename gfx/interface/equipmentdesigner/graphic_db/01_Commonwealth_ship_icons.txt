@@ -982,7 +982,11 @@ CAN = {
                 GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
             }
         }
-
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
     }
 
     vnr_ship_hull_carrier_1 = {
@@ -1054,6 +1058,7 @@ CAN = {
 				GFX_CAN_vnr_ship_hull_carrier_1_medium
 				GFX_CAN_vnr_ship_hull_carrier_2_medium
 				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -1188,7 +1193,7 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
             }
         }
 
@@ -1198,13 +1203,13 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_2_medium
+                GFX_CAN_vnr_ship_hull_light_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
             }
         }
 
@@ -1214,14 +1219,14 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_3_medium
+                GFX_CAN_vnr_ship_hull_light_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
-				GFX_GBR_vnr_ship_hull_light_2_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
             }
         }
 
@@ -1231,15 +1236,15 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_4_medium
+                GFX_CAN_vnr_ship_hull_light_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
-				GFX_GBR_vnr_ship_hull_light_2_medium
-				GFX_GBR_vnr_ship_hull_light_3_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
             }
         }
 
@@ -1249,16 +1254,16 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_5_medium
+                GFX_CAN_vnr_ship_hull_light_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
-				GFX_GBR_vnr_ship_hull_light_2_medium
-				GFX_GBR_vnr_ship_hull_light_3_medium
-				GFX_GBR_vnr_ship_hull_light_4_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
             }
         }
 
@@ -1268,17 +1273,17 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_light_6_medium
+                GFX_CAN_vnr_ship_hull_light_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_light_1_medium
-				GFX_GBR_vnr_ship_hull_light_2_medium
-				GFX_GBR_vnr_ship_hull_light_3_medium
-				GFX_GBR_vnr_ship_hull_light_4_medium
-				GFX_GBR_vnr_ship_hull_light_5_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+				GFX_CAN_vnr_ship_hull_light_5_medium
             }
         }
 
@@ -1288,8 +1293,8 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_medium
             }
         }
 
@@ -1299,15 +1304,15 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
+                GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -1317,17 +1322,17 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_medium
+                GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -1337,19 +1342,19 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_4_medium
+                GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -1360,21 +1365,21 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_5_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_5_medium
+                GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_medium
-				GFX_GBR_vnr_ship_hull_cruiser_4_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_4_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -1385,23 +1390,23 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_6_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_6_medium
+                GFX_CAN_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_medium
-				GFX_GBR_vnr_ship_hull_cruiser_4_medium
-				GFX_GBR_vnr_ship_hull_cruiser_5_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_5_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -1412,16 +1417,16 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_panzerschiff_medium
+                GFX_CAN_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GBR_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -1431,7 +1436,7 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_pre_dreadnought_medium
+                GFX_CAN_vnr_ship_hull_pre_dreadnought_medium
             }
         }
 
@@ -1441,16 +1446,17 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_super_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1460,18 +1466,19 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_heavy_2_medium
+                GFX_CAN_vnr_ship_hull_heavy_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_super_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
-				GFX_GBR_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1481,19 +1488,20 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_heavy_3_medium
+                GFX_CAN_vnr_ship_hull_heavy_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_super_heavy_1_medium
-                GFX_GBR_vnr_ship_hull_heavy_1_medium
-				GFX_GBR_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1503,20 +1511,21 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_heavy_4_medium
+                GFX_CAN_vnr_ship_hull_heavy_4_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_super_heavy_1_medium
-                GFX_GBR_vnr_ship_hull_heavy_1_medium
-				GFX_GBR_vnr_ship_hull_heavy_2_medium
-				GFX_GBR_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1526,21 +1535,22 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_heavy_5_medium
+                GFX_CAN_vnr_ship_hull_heavy_5_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_super_heavy_1_medium
-                GFX_GBR_vnr_ship_hull_heavy_1_medium
-				GFX_GBR_vnr_ship_hull_heavy_2_medium
-				GFX_GBR_vnr_ship_hull_heavy_3_medium
-				GFX_GBR_vnr_ship_hull_heavy_4_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
             }
         }
 
@@ -1550,7 +1560,7 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_super_heavy_1_medium
             }
         }
 
@@ -1560,7 +1570,7 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_conversion_ca_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
             }
         }
 
@@ -1570,23 +1580,27 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
             }
         }
-
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
     }
 
     vnr_ship_hull_carrier_1 = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_1_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
             }
         }
 		pool = {
 			icons = {
-				GFX_GBR_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_GBR_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
 			}
 		}
     }
@@ -1595,15 +1609,15 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_2_medium
+                GFX_CAN_vnr_ship_hull_carrier_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_GBR_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_GBR_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -1614,16 +1628,16 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_3_medium
+                GFX_CAN_vnr_ship_hull_carrier_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_GBR_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_GBR_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_GBR_vnr_ship_hull_carrier_1_medium
-				GFX_GBR_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -1634,17 +1648,18 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_super_carrier_medium
+                GFX_CAN_vnr_ship_hull_super_carrier_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_GBR_vnr_ship_hull_carrier_conversion_bb_medium
-				GFX_GBR_vnr_ship_hull_carrier_1_medium
-				GFX_GBR_vnr_ship_hull_carrier_2_medium
-				GFX_GBR_vnr_ship_hull_carrier_3_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -1655,7 +1670,7 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_escort_carrier_medium
+                GFX_CAN_vnr_ship_hull_escort_carrier_medium
             }
         }
 
@@ -1665,13 +1680,13 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1681,14 +1696,14 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_2_medium
+                GFX_CAN_vnr_ship_hull_submarine_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
-				GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1698,15 +1713,15 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_3_medium
+                GFX_CAN_vnr_ship_hull_submarine_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
-				GFX_GBR_vnr_ship_hull_submarine_2_medium
-				GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1716,16 +1731,16 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_4_medium
+                GFX_CAN_vnr_ship_hull_submarine_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
-				GFX_GBR_vnr_ship_hull_submarine_2_medium
-				GFX_GBR_vnr_ship_hull_submarine_3_medium
-				GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1735,17 +1750,17 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_5_medium
+                GFX_CAN_vnr_ship_hull_submarine_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
-				GFX_GBR_vnr_ship_hull_submarine_2_medium
-				GFX_GBR_vnr_ship_hull_submarine_3_medium
-				GFX_GBR_vnr_ship_hull_submarine_4_medium
-				GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_submarine_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1755,16 +1770,16 @@ GBR = {
         pool = {
             weight = 5
             icons = {
-                GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_GBR_vnr_ship_hull_submarine_1_medium
-				GFX_GBR_vnr_ship_hull_submarine_2_medium
-				GFX_GBR_vnr_ship_hull_submarine_3_medium
-				GFX_GBR_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1779,7 +1794,7 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
             }
         }
 
@@ -1789,13 +1804,13 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_2_medium
+                GFX_CAN_vnr_ship_hull_light_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
             }
         }
 
@@ -1805,14 +1820,14 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_3_medium
+                GFX_CAN_vnr_ship_hull_light_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
-				GFX_IMP_vnr_ship_hull_light_2_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
             }
         }
 
@@ -1822,15 +1837,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_4_medium
+                GFX_CAN_vnr_ship_hull_light_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
-				GFX_IMP_vnr_ship_hull_light_2_medium
-				GFX_IMP_vnr_ship_hull_light_3_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
             }
         }
 
@@ -1840,16 +1855,16 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_5_medium
+                GFX_CAN_vnr_ship_hull_light_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
-				GFX_IMP_vnr_ship_hull_light_2_medium
-				GFX_IMP_vnr_ship_hull_light_3_medium
-				GFX_IMP_vnr_ship_hull_light_4_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
             }
         }
 
@@ -1859,17 +1874,17 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_light_6_medium
+                GFX_CAN_vnr_ship_hull_light_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_light_1_medium
-				GFX_IMP_vnr_ship_hull_light_2_medium
-				GFX_IMP_vnr_ship_hull_light_3_medium
-				GFX_IMP_vnr_ship_hull_light_4_medium
-				GFX_IMP_vnr_ship_hull_light_5_medium
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+				GFX_CAN_vnr_ship_hull_light_5_medium
             }
         }
 
@@ -1879,8 +1894,8 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_medium
             }
         }
 
@@ -1890,15 +1905,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
+                GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -1908,17 +1923,17 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_medium
+                GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -1928,19 +1943,19 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_4_medium
+                GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -1951,21 +1966,21 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_5_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_5_medium
+                GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_medium
-				GFX_IMP_vnr_ship_hull_cruiser_4_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_4_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -1976,23 +1991,23 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_6_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_6_medium
+                GFX_CAN_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_medium
-				GFX_IMP_vnr_ship_hull_cruiser_4_medium
-				GFX_IMP_vnr_ship_hull_cruiser_5_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_5_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
 				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
@@ -2003,16 +2018,16 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_panzerschiff_medium
+                GFX_CAN_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_IMP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -2022,7 +2037,7 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_pre_dreadnought_medium
+                GFX_CAN_vnr_ship_hull_pre_dreadnought_medium
             }
         }
 
@@ -2032,13 +2047,13 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_super_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
@@ -2052,15 +2067,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_heavy_2_medium
+                GFX_CAN_vnr_ship_hull_heavy_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_super_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
-				GFX_IMP_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
@@ -2074,15 +2089,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_heavy_3_medium
+                GFX_CAN_vnr_ship_hull_heavy_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_super_heavy_1_medium
-                GFX_IMP_vnr_ship_hull_heavy_1_medium
-				GFX_IMP_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
@@ -2097,16 +2112,16 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_heavy_4_medium
+                GFX_CAN_vnr_ship_hull_heavy_4_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_super_heavy_1_medium
-                GFX_IMP_vnr_ship_hull_heavy_1_medium
-				GFX_IMP_vnr_ship_hull_heavy_2_medium
-				GFX_IMP_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
@@ -2121,17 +2136,17 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_heavy_5_medium
+                GFX_CAN_vnr_ship_hull_heavy_5_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_super_heavy_1_medium
-                GFX_IMP_vnr_ship_hull_heavy_1_medium
-				GFX_IMP_vnr_ship_hull_heavy_2_medium
-				GFX_IMP_vnr_ship_hull_heavy_3_medium
-				GFX_IMP_vnr_ship_hull_heavy_4_medium
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
 				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
@@ -2146,7 +2161,7 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_super_heavy_1_medium
             }
         }
 
@@ -2156,7 +2171,7 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_conversion_ca_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
             }
         }
 
@@ -2166,23 +2181,27 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
             }
         }
-
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
     }
 
     vnr_ship_hull_carrier_1 = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_1_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
             }
         }
 		pool = {
 			icons = {
-				GFX_IMP_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_IMP_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
 			}
 		}
     }
@@ -2191,15 +2210,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_2_medium
+                GFX_CAN_vnr_ship_hull_carrier_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_IMP_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_IMP_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -2210,16 +2229,16 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_3_medium
+                GFX_CAN_vnr_ship_hull_carrier_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_IMP_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_IMP_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_IMP_vnr_ship_hull_carrier_1_medium
-				GFX_IMP_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -2230,17 +2249,18 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_super_carrier_medium
+                GFX_CAN_vnr_ship_hull_super_carrier_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_IMP_vnr_ship_hull_carrier_conversion_bb_medium
-				GFX_IMP_vnr_ship_hull_carrier_1_medium
-				GFX_IMP_vnr_ship_hull_carrier_2_medium
-				GFX_IMP_vnr_ship_hull_carrier_3_medium
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
 				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
@@ -2251,7 +2271,7 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_escort_carrier_medium
+                GFX_CAN_vnr_ship_hull_escort_carrier_medium
             }
         }
 
@@ -2261,13 +2281,13 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2277,14 +2297,14 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_2_medium
+                GFX_CAN_vnr_ship_hull_submarine_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
-				GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2294,15 +2314,15 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_3_medium
+                GFX_CAN_vnr_ship_hull_submarine_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
-				GFX_IMP_vnr_ship_hull_submarine_2_medium
-				GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2312,16 +2332,16 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_4_medium
+                GFX_CAN_vnr_ship_hull_submarine_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
-				GFX_IMP_vnr_ship_hull_submarine_2_medium
-				GFX_IMP_vnr_ship_hull_submarine_3_medium
-				GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2331,17 +2351,17 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_5_medium
+                GFX_CAN_vnr_ship_hull_submarine_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
-				GFX_IMP_vnr_ship_hull_submarine_2_medium
-				GFX_IMP_vnr_ship_hull_submarine_3_medium
-				GFX_IMP_vnr_ship_hull_submarine_4_medium
-				GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_submarine_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2351,23 +2371,22 @@ IMP = {
         pool = {
             weight = 5
             icons = {
-                GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_IMP_vnr_ship_hull_submarine_1_medium
-				GFX_IMP_vnr_ship_hull_submarine_2_medium
-				GFX_IMP_vnr_ship_hull_submarine_3_medium
-				GFX_IMP_vnr_ship_hull_cruiser_submarine_medium
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
     }
 
 }
-
 
 AST = {
 
@@ -2946,6 +2965,1806 @@ AST = {
 				GFX_AST_vnr_ship_hull_submarine_2_medium
 				GFX_AST_vnr_ship_hull_submarine_3_medium
 				GFX_AST_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+}
+
+SAF = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+				GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_panzerschiff = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_panzerschiff_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_pre_dreadnought = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_pre_dreadnought_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				GFX_CAN_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_ca = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_bb = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+            }
+        }
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
+    }
+
+    vnr_ship_hull_carrier_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+            }
+        }
+		pool = {
+			icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+			}
+		}
+    }
+
+    vnr_ship_hull_carrier_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_carrier_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_escort_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_escort_carrier_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_submarine_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_submarine = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+}
+
+WIF = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+				GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_panzerschiff = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_panzerschiff_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_pre_dreadnought = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_pre_dreadnought_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				GFX_CAN_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_ca = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_bb = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+            }
+        }
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
+    }
+
+    vnr_ship_hull_carrier_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+            }
+        }
+		pool = {
+			icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+			}
+		}
+    }
+
+    vnr_ship_hull_carrier_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_carrier_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_escort_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_escort_carrier_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_submarine_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_submarine = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+}
+
+RAJ = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_light_1_medium
+				GFX_CAN_vnr_ship_hull_light_2_medium
+				GFX_CAN_vnr_ship_hull_light_3_medium
+				GFX_CAN_vnr_ship_hull_light_4_medium
+				GFX_CAN_vnr_ship_hull_light_5_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_panzerschiff = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_panzerschiff_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CAN_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_pre_dreadnought = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_pre_dreadnought_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				GFX_CAN_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_heavy_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+                GFX_CAN_vnr_ship_hull_heavy_1_medium
+				GFX_CAN_vnr_ship_hull_heavy_2_medium
+				GFX_CAN_vnr_ship_hull_heavy_3_medium
+				GFX_CAN_vnr_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+				"gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+				"gfx/interface/technologies/Canada/CAN_battleship_Revenge.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_ca = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_bb = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+            }
+        }
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+            }
+        }
+    }
+
+    vnr_ship_hull_carrier_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+            }
+        }
+		pool = {
+			icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+			}
+		}
+    }
+
+    vnr_ship_hull_carrier_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_super_carrier_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_CAN_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_CAN_vnr_ship_hull_carrier_1_medium
+				GFX_CAN_vnr_ship_hull_carrier_2_medium
+				GFX_CAN_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/Australasia/AST_carrier_conversion_bb.png"
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_escort_carrier = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_escort_carrier_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_submarine_4_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_submarine = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_CAN_vnr_ship_hull_submarine_1_medium
+				GFX_CAN_vnr_ship_hull_submarine_2_medium
+				GFX_CAN_vnr_ship_hull_submarine_3_medium
+				GFX_CAN_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
