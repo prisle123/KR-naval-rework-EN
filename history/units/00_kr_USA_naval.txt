@@ -570,4 +570,48 @@ instant_effect = {
 		progress = 0.70
 		amount = 5
 	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "USA"
+			version_name = "Philadelphia Class"
+		}
+		name = "USS Philadelphia"
+		requested_factories = 1
+		progress = 0.45
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "USA"
+			version_name = "Philadelphia Class"
+		}
+		name = "USS Savannah"
+		requested_factories = 1
+		progress = 0.23
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "USA"
+			version_name = "Philadelphia Class"
+		}
+		name = "USS Nashville"
+		requested_factories = 1
+		progress = 0.2
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "USA"
+			version_name = "Philadelphia Class"
+		}
+		name = "USS Phoenix"
+		requested_factories = 1
+		progress = 0.12
+		amount = 1
+	}
 }

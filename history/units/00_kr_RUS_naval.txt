@@ -30,8 +30,6 @@ units = {
 			ship = { name = "Petropavlovsk" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Poltava" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Sevastopol" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
-			ship = { name = "Borodino" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Izmail Class" } } }
-			ship = { name = "Izmail" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Izmail Class" } } }
 			ship = { name = "Rurik" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Rurik Class" } } }
 			ship = { name = "Novik" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Novik/Bespokoyny Class" } } }
 			ship = { name = "Kapitan Belli" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Orfey Class" } } }
@@ -129,5 +127,151 @@ units = {
 			ship = { name = "Vepr" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 			ship = { name = "Yaguar" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 		}
+	}
+}
+
+instant_effect = {
+	# 2x Okhotnik Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_2
+			creator = RUS
+			version_name = "Okhotnik Class"
+		}
+		requested_factories = 1
+		progress = 0.65
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_2
+			creator = RUS
+			version_name = "Okhotnik Class"
+		}
+		requested_factories = 1
+		progress = 0.4
+		amount = 1
+	}
+	# 6x Besstrashny Class DD
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.78
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.72
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.64
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.55
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.51
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = RUS
+			version_name = "Besstrashny Class"
+		}
+		requested_factories = 1
+		progress = 0.26
+		amount = 1
+	}
+	# 6x SS
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.4
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.32
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = RUS
+			version_name = "Akula Class"
+		}
+		requested_factories = 1
+		progress = 0.11
+		amount = 1
 	}
 }
