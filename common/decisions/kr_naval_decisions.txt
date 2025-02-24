@@ -56,7 +56,6 @@ CAN_returning_home_decisions = {
 			is_subject = no
 			NOT = { country_exists = GBR }
 			can_declare_war_on = FROM
-            NOT = { has_country_flag = CAN_fleet_refurbished }
 		}
 
 		priority = 70
