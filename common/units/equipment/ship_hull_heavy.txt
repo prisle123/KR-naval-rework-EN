@@ -131,14 +131,18 @@ equipments = {
 		}
 		module_count_limit = {
 			category = ship_missile
-			count < 3
+			count < 7
 		}
 		module_count_limit = {
 			category = ship_missile_aa
-			count < 4
+			count < 7
 		}
 		module_count_limit = {
 			module = ship_aa_fire_control
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_radar_jammer
 			count < 2
 		}
 
@@ -525,6 +529,10 @@ equipments = {
 		fuel_consumption = 67
 		surface_visibility = 29
 		build_cost_ic = 3000
+		resources = {
+			steel = 4
+			chromium = 1
+		}
 
 		manpower = 2800
 	}
@@ -632,6 +640,10 @@ equipments = {
 		surface_visibility = 27
 		reliability = 0.95
 		build_cost_ic = 3300
+		resources = {
+			steel = 5
+			chromium = 1
+		}
 
 		manpower = 3800
 	}
@@ -761,7 +773,7 @@ equipments = {
 		surface_visibility = 46
 		build_cost_ic = 3800
 		resources = {
-			steel = 4
+			steel = 5
 			chromium = 1
 		}
 		manpower = 3500
@@ -860,6 +872,11 @@ equipments = {
 		surface_visibility = 30
 		reliability = 1.4
 		build_cost_ic = 3500
+		resources = {
+			steel = 4
+			chromium = 2
+			aluminium = 1
+		}
 
 		manpower = 4500
 

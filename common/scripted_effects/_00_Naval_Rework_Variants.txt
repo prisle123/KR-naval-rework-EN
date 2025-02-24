@@ -573,7 +573,7 @@ GER_starting_naval_variants_kr = {
 	}
 
 	create_equipment_variant = {
-		name = "Schlesien Class"			# L-27 battleship
+		name = "Elsaß Class"			# L-27 battleship
 		role_icon_index = 8
 		icon = "gfx/interface/technologies/Generic/generic_heavy_battleship1.png"
 		type = vnr_ship_hull_super_heavy_1		# Dreadnought
@@ -984,6 +984,7 @@ RUS_starting_naval_variants_kr = {
 			mid_3_custom_slot = ship_heavy_battery_1_triple
 			rear_1_custom_slot = ship_heavy_battery_1_triple
 		}
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Gangut Class"
@@ -1722,6 +1723,7 @@ USA_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -2321,6 +2323,7 @@ CSA_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -2553,7 +2556,8 @@ AST_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = ship_armor_cruiser_1
-			mid_1_custom_slot = ship_deck_space
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
+			fixed_ship_role_slot = carrier_bc_conversion
 		}
 	}
 
@@ -3741,6 +3745,7 @@ CAN_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -3773,6 +3778,8 @@ CAN_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
+			fixed_ship_role_slot = carrier_bc_conversion
 		}
 	}
 
@@ -4278,6 +4285,7 @@ GBR_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -4310,6 +4318,8 @@ GBR_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
+			fixed_ship_role_slot = carrier_bc_conversion
 		}
 	}
 
@@ -5263,6 +5273,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -5280,6 +5291,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_role_slot = carrier_bc_conversion
 			mid_1_custom_slot = ship_deck_space
 		}
 		obsolete = yes
@@ -5299,8 +5311,10 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_role_slot = carrier_shbb_conversion
 			mid_1_custom_slot = ship_deck_space
 			mid_2_custom_slot = ship_deck_space
+			rear_1_custom_slot = ship_deck_space_converted
 		}
 		obsolete = yes
 	}
@@ -7117,6 +7131,7 @@ JAP_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 	}
 	create_equipment_variant = {
@@ -7130,6 +7145,7 @@ JAP_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 		}
 		obsolete = yes
 	}
@@ -7145,6 +7161,7 @@ JAP_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 			front_1_custom_slot = empty
 		}
 	}
@@ -7449,7 +7466,7 @@ JAP_starting_naval_variants_kr = {
 	create_equipment_variant = {
 		name = "Kii Class"
 		role_icon_index = 2
-		icon = "gfx/interface/technologies/Japan/JAP_battleship2.png"
+		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kii.png"
 		type = vnr_ship_hull_heavy_3
 		name_group = JAP_PREFECTURES
 		modules = {

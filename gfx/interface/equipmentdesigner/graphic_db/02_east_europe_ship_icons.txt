@@ -1616,6 +1616,7 @@ RUS = {
 				GFX_RUS_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_RUS_vnr_ship_hull_cruiser_4_capital_medium
 				GFX_RUS_vnr_ship_hull_cruiser_5_capital_medium
+                "gfx/interface/technologies/extra/RUS_heavy_cruiser_Frunze.png"
             }
         }
 
@@ -1848,6 +1849,7 @@ RUS = {
 				GFX_RUS_vnr_ship_hull_carrier_1_medium
 				GFX_RUS_vnr_ship_hull_carrier_2_medium
 				GFX_RUS_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/extra/RUS_carrier_Kuznetsov.png"
             }
         }
 
@@ -1977,7 +1979,13 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -1987,13 +1995,14 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_2_medium
+                GFX_RUS_vnr_ship_hull_light_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -2003,14 +2012,15 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_3_medium
+                GFX_RUS_vnr_ship_hull_light_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
-				GFX_SOV_vnr_ship_hull_light_2_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+				GFX_RUS_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -2020,15 +2030,16 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_4_medium
+                GFX_RUS_vnr_ship_hull_light_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
-				GFX_SOV_vnr_ship_hull_light_2_medium
-				GFX_SOV_vnr_ship_hull_light_3_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+				GFX_RUS_vnr_ship_hull_light_2_medium
+				GFX_RUS_vnr_ship_hull_light_3_medium
+				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -2038,16 +2049,17 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_5_medium
+                GFX_RUS_vnr_ship_hull_light_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
-				GFX_SOV_vnr_ship_hull_light_2_medium
-				GFX_SOV_vnr_ship_hull_light_3_medium
-				GFX_SOV_vnr_ship_hull_light_4_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+				GFX_RUS_vnr_ship_hull_light_2_medium
+				GFX_RUS_vnr_ship_hull_light_3_medium
+				GFX_RUS_vnr_ship_hull_light_4_medium
+				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -2057,17 +2069,18 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_light_6_medium
+                GFX_RUS_vnr_ship_hull_light_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_light_1_medium
-				GFX_SOV_vnr_ship_hull_light_2_medium
-				GFX_SOV_vnr_ship_hull_light_3_medium
-				GFX_SOV_vnr_ship_hull_light_4_medium
-				GFX_SOV_vnr_ship_hull_light_5_medium
+                GFX_RUS_vnr_ship_hull_light_1_medium
+				GFX_RUS_vnr_ship_hull_light_2_medium
+				GFX_RUS_vnr_ship_hull_light_3_medium
+				GFX_RUS_vnr_ship_hull_light_4_medium
+				GFX_RUS_vnr_ship_hull_light_5_medium
+				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
             }
         }
 
@@ -2077,8 +2090,8 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_medium
             }
         }
 
@@ -2088,15 +2101,15 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
+                GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -2106,17 +2119,17 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
+                GFX_RUS_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -2126,19 +2139,19 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_medium
+                GFX_RUS_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_capital_medium
             }
         }
 
@@ -2148,21 +2161,21 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_5_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_5_medium
+                GFX_RUS_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_medium
+				GFX_RUS_vnr_ship_hull_cruiser_4_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_4_capital_medium
             }
         }
 
@@ -2172,23 +2185,24 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_6_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_6_medium
+                GFX_RUS_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_medium
-				GFX_SOV_vnr_ship_hull_cruiser_5_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_5_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_medium
+				GFX_RUS_vnr_ship_hull_cruiser_4_medium
+				GFX_RUS_vnr_ship_hull_cruiser_5_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_5_capital_medium
+                "gfx/interface/technologies/extra/RUS_heavy_cruiser_Frunze.png"
             }
         }
 
@@ -2198,14 +2212,14 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+                GFX_RUS_vnr_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -2215,16 +2229,16 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
+                GFX_RUS_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_RUS_vnr_ship_hull_cruiser_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -2234,7 +2248,7 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_pre_dreadnought_medium
+                GFX_RUS_vnr_ship_hull_pre_dreadnought_medium
             }
         }
 
@@ -2244,7 +2258,7 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_heavy_1_medium
             }
         }
 
@@ -2254,14 +2268,14 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_heavy_2_medium
+                GFX_RUS_vnr_ship_hull_heavy_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_super_heavy_1_medium
-                GFX_SOV_vnr_ship_hull_heavy_1_medium
+				GFX_RUS_vnr_ship_hull_super_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_heavy_1_medium
             }
         }
 
@@ -2271,15 +2285,15 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_heavy_3_medium
+                GFX_RUS_vnr_ship_hull_heavy_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_super_heavy_1_medium
-                GFX_SOV_vnr_ship_hull_heavy_1_medium
-				GFX_SOV_vnr_ship_hull_heavy_2_medium
+				GFX_RUS_vnr_ship_hull_super_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_heavy_1_medium
+				GFX_RUS_vnr_ship_hull_heavy_2_medium
             }
         }
 
@@ -2289,16 +2303,16 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_heavy_4_medium
+                GFX_RUS_vnr_ship_hull_heavy_4_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_super_heavy_1_medium
-                GFX_SOV_vnr_ship_hull_heavy_1_medium
-				GFX_SOV_vnr_ship_hull_heavy_2_medium
-				GFX_SOV_vnr_ship_hull_heavy_3_medium
+				GFX_RUS_vnr_ship_hull_super_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_heavy_1_medium
+				GFX_RUS_vnr_ship_hull_heavy_2_medium
+				GFX_RUS_vnr_ship_hull_heavy_3_medium
             }
         }
 
@@ -2308,17 +2322,17 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_heavy_5_medium
+                GFX_RUS_vnr_ship_hull_heavy_5_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_super_heavy_1_medium
-                GFX_SOV_vnr_ship_hull_heavy_1_medium
-				GFX_SOV_vnr_ship_hull_heavy_2_medium
-				GFX_SOV_vnr_ship_hull_heavy_3_medium
-				GFX_SOV_vnr_ship_hull_heavy_4_medium
+				GFX_RUS_vnr_ship_hull_super_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_heavy_1_medium
+				GFX_RUS_vnr_ship_hull_heavy_2_medium
+				GFX_RUS_vnr_ship_hull_heavy_3_medium
+				GFX_RUS_vnr_ship_hull_heavy_4_medium
             }
         }
 
@@ -2328,7 +2342,7 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_super_heavy_1_medium
+                GFX_RUS_vnr_ship_hull_super_heavy_1_medium
             }
         }
 
@@ -2338,7 +2352,7 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
+                GFX_RUS_vnr_ship_hull_carrier_conversion_ca_medium
             }
         }
 
@@ -2348,7 +2362,7 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_RUS_vnr_ship_hull_carrier_conversion_bb_medium
             }
         }
 
@@ -2358,13 +2372,13 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_1_medium
+                GFX_RUS_vnr_ship_hull_carrier_1_medium
             }
         }
 		pool = {
 			icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_bb_medium
 			}
 		}
     }
@@ -2373,15 +2387,15 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_2_medium
+                GFX_RUS_vnr_ship_hull_carrier_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_SOV_vnr_ship_hull_carrier_1_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_RUS_vnr_ship_hull_carrier_1_medium
             }
         }
 
@@ -2391,16 +2405,16 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_3_medium
+                GFX_RUS_vnr_ship_hull_carrier_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_SOV_vnr_ship_hull_carrier_1_medium
-				GFX_SOV_vnr_ship_hull_carrier_2_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_RUS_vnr_ship_hull_carrier_1_medium
+				GFX_RUS_vnr_ship_hull_carrier_2_medium
             }
         }
 
@@ -2410,17 +2424,18 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_super_carrier_medium
+                GFX_RUS_vnr_ship_hull_super_carrier_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
-				GFX_SOV_vnr_ship_hull_carrier_1_medium
-				GFX_SOV_vnr_ship_hull_carrier_2_medium
-				GFX_SOV_vnr_ship_hull_carrier_3_medium
+                GFX_RUS_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_RUS_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_RUS_vnr_ship_hull_carrier_1_medium
+				GFX_RUS_vnr_ship_hull_carrier_2_medium
+				GFX_RUS_vnr_ship_hull_carrier_3_medium
+                "gfx/interface/technologies/extra/RUS_carrier_Kuznetsov.png"
             }
         }
 
@@ -2430,13 +2445,14 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/Russia/RUS_submarine_AG.png"
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2446,14 +2462,15 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_2_medium
+                GFX_RUS_vnr_ship_hull_submarine_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/Russia/RUS_submarine_AG.png"
             }
         }
 
@@ -2463,15 +2480,16 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_3_medium
+                GFX_RUS_vnr_ship_hull_submarine_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
-				GFX_SOV_vnr_ship_hull_submarine_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
+				GFX_RUS_vnr_ship_hull_submarine_2_medium
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/Russia/RUS_submarine_AG.png"
             }
         }
 
@@ -2481,16 +2499,17 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_4_medium
+                GFX_RUS_vnr_ship_hull_submarine_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
-				GFX_SOV_vnr_ship_hull_submarine_2_medium
-				GFX_SOV_vnr_ship_hull_submarine_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
+				GFX_RUS_vnr_ship_hull_submarine_2_medium
+				GFX_RUS_vnr_ship_hull_submarine_3_medium
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/Russia/RUS_submarine_AG.png"
             }
         }
 
@@ -2500,17 +2519,18 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_5_medium
+                GFX_RUS_vnr_ship_hull_submarine_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
-				GFX_SOV_vnr_ship_hull_submarine_2_medium
-				GFX_SOV_vnr_ship_hull_submarine_3_medium
-				GFX_SOV_vnr_ship_hull_submarine_4_medium
-				GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
+				GFX_RUS_vnr_ship_hull_submarine_2_medium
+				GFX_RUS_vnr_ship_hull_submarine_3_medium
+				GFX_RUS_vnr_ship_hull_submarine_4_medium
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/Russia/RUS_submarine_AG.png"
             }
         }
 
@@ -2520,16 +2540,17 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_submarine_1_medium
-				GFX_SOV_vnr_ship_hull_submarine_2_medium
-				GFX_SOV_vnr_ship_hull_submarine_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_submarine_medium
+                GFX_RUS_vnr_ship_hull_submarine_1_medium
+				GFX_RUS_vnr_ship_hull_submarine_2_medium
+				GFX_RUS_vnr_ship_hull_submarine_3_medium
+				GFX_RUS_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/Russia/RUS_submarine_AG.png"
             }
         }
 

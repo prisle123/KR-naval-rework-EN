@@ -97,6 +97,8 @@ USA = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -714,6 +716,8 @@ PSA = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -1331,6 +1335,8 @@ CAL = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -1948,6 +1954,8 @@ CSA = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -2565,6 +2573,8 @@ TEX = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -3182,6 +3192,8 @@ NEE = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -3799,6 +3811,8 @@ COR = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -4416,6 +4430,8 @@ WCC = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -5033,6 +5049,8 @@ HAW = {
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 

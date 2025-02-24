@@ -684,6 +684,10 @@ spriteTypes = {
         		name = "GFX_QIE_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/QIE_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_QIE_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -693,6 +697,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_QIE_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/QIE_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_QIE_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_light_cruiser6.png"
         	}
 	# heavy cruiser
 

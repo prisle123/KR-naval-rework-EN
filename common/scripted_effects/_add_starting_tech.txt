@@ -133,6 +133,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
 			ship_hull_super_heavy = 1
+			converted_super_heavy_carrier = 1
 
             basic_super_heavy_battery = 1
 			popup = no
@@ -365,7 +366,9 @@ add_starting_techs = {
         set_technology = {
             interwar_ship_hull_light = 1
 			basic_ship_hull_light = 1
+			interwar_ship_hull_cruiser = 1
 			basic_ship_hull_cruiser = 1
+			basic_ship_hull_heavy = 1
             searchlight = 1
             large_cruiser_trend = 1
             early_cruiser_armor = 1
@@ -603,4 +606,15 @@ makeup_starting_techs = {
             popup = no
         }
     }
+	for_each_scope_loop = {
+		array = global.vnr_naval_powers
+		
+		set_technology = {
+			dry_dock = 1
+			heavy_crane = 1
+            repair_ship = 1
+            hospital_ship = 1
+			popup = no
+		}
+	}
 }

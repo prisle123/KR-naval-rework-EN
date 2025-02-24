@@ -15,10 +15,10 @@ units = {
 			# Fleet Flagship
 			ship = { name = "SMS Kaiser Wilhelm" pride_of_the_fleet = yes definition = SH_battleship equipment = {vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Wilhelm Class" } } }
 			# VI Battle Squadron
-			ship = { name = "SMS Hagen" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Pommern" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 			ship = { name = "SMS Hessen" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 			ship = { name = "SMS Preußen" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
-			ship = { name = "SMS Schwerin" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Anhalt" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 
 			ship = { name = "SMS Dresden" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			ship = { name = "SMS Königsberg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
@@ -52,8 +52,8 @@ units = {
 			name = "Schlachtgeschwader III"
 			location = 241
 			# Grand Battle Squadron
-			ship = { name = "SMS Schlesien" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Schlesien Class" } } }
-			ship = { name = "SMS Strelitz" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Schlesien Class" } } }
+			ship = { name = "SMS Elsaß" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
+			ship = { name = "SMS Lothringen" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
 			# VII Battle Squadron
 			ship = { name = "SMS Siegfried" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
 			ship = { name = "SMS Beowulf" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
@@ -186,7 +186,7 @@ units = {
 			ship = { name = "SMS Weser" definition = carrier equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 
 			ship = { name = "SMS Blücher" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
-			ship = { name = "SMS Admiral Scheer" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
+			ship = { name = "SMS Scheer" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
 			# cruisers
 			ship = { name = "SMS Straßburg" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
 			ship = { name = "SMS Liegnitz" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
@@ -466,7 +466,7 @@ instant_effect = {
 			creator = "GER"
 			version_name = "Blücher Class"
 		}
-		name = "SMS Prinz August"
+		name = "SMS Hipper"
 		requested_factories = 1
 		progress = 0.3
 		amount = 1
@@ -477,7 +477,7 @@ instant_effect = {
 			creator = "GER"
 			version_name = "Blücher Class"
 		}
-		name = "SMS Friedrich I"
+		name = "SMS Ingenohl"
 		requested_factories = 1
 		progress = 0.3
 		amount = 1
