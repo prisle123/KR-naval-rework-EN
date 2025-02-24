@@ -11,9 +11,6 @@ units = {
 			ship = { name = "VBHS Heinrich" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BAT version_name = "V170 Class" } } }
 			ship = { name = "VBHS Ulrich" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BAT version_name = "V170 Class" } } }
 			ship = { name = "VBHS Gerhard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BAT version_name = "V170 Class" } } }
-			ship = { name = "VBHS Mitau" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = BAT version_name = "T214 Class" } } }
-			ship = { name = "VBHS Reval" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = BAT version_name = "T214 Class" } } }
-			ship = { name = "VBHS Riga" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = BAT version_name = "T214 Class" } } }
 		}
 		task_force = {
 			name = "I. U-boot-geschwader"
