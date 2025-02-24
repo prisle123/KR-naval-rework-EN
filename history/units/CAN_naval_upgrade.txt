@@ -5,11 +5,9 @@ units = {
         task_force = {
             name = "Reserved Ships"
             location = 7361
-            ship = { name = "HMCS Anson" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }
 			ship = { name = "HMCS Royal Oak" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
             ship = { name = "HMCS Ramillies" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
 			ship = { name = "HMCS Resolution" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
-			ship = { name = "HMCS Iron Duke" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Iron Duke Class" } } }
         }
     }
 }

@@ -9,6 +9,7 @@ units = {
 			name = "Capital Fleet"
 			location = 12406 ###Change to proper province number
 			ship = { name = "HMAS Hermes" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = AST version_name = "Hermes Class" } } }
+			ship = { name = "HMAS Anson" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = AST version_name = "Admiral Class" } } }
 			ship = { name = "HMAS Malaya" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMAS Revenge" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
 			ship = { name = "HMAS Royal Sovereign" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Revenge Class" } } }
