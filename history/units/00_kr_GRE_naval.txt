@@ -20,7 +20,6 @@ units = {
 		task_force = {
 			name = "Naftikes Amynas Periochi 2"
 			location = 7211 ###Crete
-			ship = { name = "EP Vasilefs Konstantinos" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Florida/Wyoming Class" } } }
 			ship = { name = "EP Kountouriotis" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GRE version_name = "Kountouriotis Class" } } }
 			ship = { name = "EP Hydra" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GRE version_name = "Kountouriotis Class" } } }
 			ship = { name = "EP Leon" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Aetos Class" } } }
