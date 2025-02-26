@@ -8,12 +8,12 @@ units = {
 			location = 13551 ###Change to proper province number
 			ship = { name = "SMS Moltke" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Moltke Class" } } }
 
-			ship = { name = "SMS V 25" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 26" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 27" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 28" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 29" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 30" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS V 26" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 28" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 32" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 36" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 125" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 126" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 	}
 	fleet = {
@@ -22,13 +22,11 @@ units = {
 		task_force = {
 			name = "Westafrikageschwader"
 			location = 6039 ###Change to proper province number
-			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
 			ship = { name = "SMS Erfurt" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
+			ship = { name = "SMS G 7" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS G 8" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
-			ship = { name = "SMS G 9" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS G 10" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
 			ship = { name = "SMS G 11" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
-			ship = { name = "SMS G 12" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
 		}
 	}
 }
