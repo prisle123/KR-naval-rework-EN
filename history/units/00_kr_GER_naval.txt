@@ -253,7 +253,7 @@ units = {
 			ship = { name = "SMS S 156" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 			ship = { name = "SMS S 157" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
-		taskforce = {
+		task_force = {
 			name = "Küsteflotte"
 			location = 6332
 			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
