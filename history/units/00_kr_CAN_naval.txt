@@ -29,11 +29,6 @@ units = {
 			ship = { name = "HMCS Broke" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = IMP version_name = "Shakespeare/Scott Class" } } }
 			ship = { name = "HMCS Steadfast" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
 			ship = { name = "HMCS Sterling" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Success" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tactician" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tilbury" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Trojan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tumult" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
 			ship = { name = "HMCS Turquoise" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
 			ship = { name = "HMCS Walrus" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 			ship = { name = "HMCS Weazel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
@@ -80,29 +75,11 @@ units = {
 			ship = { name = "HMCS Codrington" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = IMP version_name = "A/B/C/D Class" } } }
 			ship = { name = "HMCS Amazon" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = IMP version_name = "A/B/C/D Class" } } }
 			ship = { name = "HMCS Ambuscade" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = IMP version_name = "A/B/C/D Class" } } }
-			ship = { name = "HMCS Shamrock" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Shikari" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Sirdar" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Somme" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
 			ship = { name = "HMCS White Bear" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 			ship = { name = "HMCS Whitshed" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 			ship = { name = "HMCS Wild Swan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 			ship = { name = "HMCS Zealous" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 			ship = { name = "HMCS Windsor" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
-		}
-		task_force = {
-			name = "Reserved Fleet"
-			location = 7361
-			ship = { name = "HMCS Warspite" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Queen Elizabeth Class" } } }
-			ship = { name = "HMCS Conquest" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Delhi" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
-			ship = { name = "HMCS Gabriel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMCS Ithuriel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "Marksman/Parker Class" } } }
-			ship = { name = "HMCS Tintagel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tribune" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Trinidad" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Wishart" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
-			ship = { name = "HMCS Woolston" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 		}
 		task_force = {
 			name = "Coastal Patrol"
@@ -134,25 +111,8 @@ units = {
 			ship = { name = "HMCS L-12" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 			ship = { name = "HMCS L-13" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 			ship = { name = "HMCS L-14" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-16" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-17" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-18" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-19" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-20" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 			ship = { name = "HMCS L-21" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 			ship = { name = "HMCS L-22" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-23" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-24" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-28" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-29" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-30" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-31" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-32" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-33" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-34" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
-			ship = { name = "HMCS L-35" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 
 		}
 	}
@@ -203,18 +163,6 @@ units = {
 			ship = { name = "HMCS Danae" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
 			ship = { name = "HMCS Cassandra" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
 			ship = { name = "HMCS Caledon" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-		}
-		task_force = {
-			name = "Reserved Fleet"
-			location = 7259
-			ship = { name = "HMCS Argus" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = IMP version_name = "Argus Class" } } }
-			ship = { name = "HMCS Caradoc" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Ceres" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Curlew" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Wave" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
-			ship = { name = "HMCS Westminster" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
-			ship = { name = "HMCS Wivern" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
-			ship = { name = "HMCS Wolverine" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
 		}
 		task_force = {
 			name = "Pacific Submarine Fleet"

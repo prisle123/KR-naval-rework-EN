@@ -5,9 +5,24 @@ units = {
         task_force = {
             name = "Reserved Ships"
             location = 7361
+            ship = { name = "HMCS Warspite" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMCS Royal Oak" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
-            ship = { name = "HMCS Ramillies" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
-			ship = { name = "HMCS Resolution" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Revenge Class" } } }
+            ship = { name = "HMCS Caradoc" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMCS Ceres" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMCS Curlew" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+            ship = { name = "HMCS Conquest" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMCS Delhi" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
+			ship = { name = "HMCS Wave" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
+			ship = { name = "HMCS Westminster" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
+			ship = { name = "HMCS Wivern" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
+			ship = { name = "HMCS Wolverine" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
+            ship = { name = "HMCS Gabriel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMCS Ithuriel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMCS Tintagel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMCS Tribune" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMCS Trinidad" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMCS Wishart" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
+			ship = { name = "HMCS Woolston" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W Class" } } }
         }
     }
 }
