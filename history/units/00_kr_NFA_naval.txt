@@ -14,9 +14,6 @@ units = {
 			ship = { name = "Courbet" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }
 			ship = { name = "Paris" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }
 			ship = { name = "Pothuau" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = NFA version_name = "Pothuau Class" } } }
-			ship = { name = "Jaguar" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
-			ship = { name = "Chacal" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
-			ship = { name = "Léopard" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
 			#1re Escadrille
 			ship = { name = "Casque" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Cimeterre" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
@@ -72,9 +69,6 @@ units = {
 			ship = { name = "Bergerac" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = NFA version_name = "Nantes Class" } } }
 			ship = { name = "Nantes" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = NFA version_name = "Nantes Class" } } }
 			#1re Escadrille
-			ship = { name = "Tigre" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
-			ship = { name = "Bison" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
-			ship = { name = "Guépard" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = NFA version_name = "Chacal/Guépard Class" } } }
 			ship = { name = "Voltigeur" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Renaudin" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Janissaire" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
@@ -113,18 +107,5 @@ units = {
 			ship = { name = "Pasteur" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
 			ship = { name = "Henri Poincaré" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
 		}
-	}
-}
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = vnr_ship_hull_cruiser_2
-			creator = "NFA"
-			version_name = "Nantes Class"
-		}
-		requested_factories = 4
-		progress = 0.85
-		amount = 2
 	}
 }
