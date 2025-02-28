@@ -603,6 +603,32 @@ spriteTypes = {
 				name = "GFX_SQI_modern_ship_hull_cruiser_medium"
 				texturefile = "gfx/interface/technologies/China/QIE_light_cruiser6.png"
 			}
+### SHD ###
+
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SHD_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_destroyer1.png"
+        	}
+			spriteType = {
+        		name = "GFX_SHD_modern_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_destroyer6.png"
+        	}
+	# cruiser
+
+        	spriteType = {
+        		name = "GFX_SHD_early_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SHD_basic_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/China/QIE_light_cruiser2.png"
+        	}
+			spriteType = {
+				name = "GFX_SHD_modern_ship_hull_cruiser_medium"
+				texturefile = "gfx/interface/technologies/China/QIE_light_cruiser6.png"
+			}
 ### GXC ###
 
 	# destroyer
