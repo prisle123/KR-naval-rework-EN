@@ -15,7 +15,7 @@ units = {
 			ship = { name = "Fedor Stratilat" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Gadzhibey" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Tserigo" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
-			ship = { name = "Kagul" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
+			ship = { name = "General Kornilov" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Pamiat Merkuria" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Gromoboy" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Gromoboy Class" } } }
 		}
@@ -31,6 +31,12 @@ units = {
 			ship = { name = "Poltava" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Sevastopol" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = RUS version_name = "Gangut Class" } } }
 			ship = { name = "Rurik" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Rurik Class" } } }
+			ship = { name = "Okhotnik" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = RUS version_name = "Okhotnik Class" } } }
+			ship = { name = "Pogranichnik" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = RUS version_name = "Okhotnik Class" } } }
+			ship = { name = "Besstrashny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Besstrashny Class" } } }
+			ship = { name = "Bditelny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Besstrashny Class" } } }
+			ship = { name = "Besposhadny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Besstrashny Class" } } }
+			ship = { name = "Besshumny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Besstrashny Class" } } }
 			ship = { name = "Novik" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Novik/Bespokoyny Class" } } }
 			ship = { name = "Kapitan Belli" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Orfey Class" } } }
 			ship = { name = "Kapitan Izylmetev" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Orfey Class" } } }
@@ -41,7 +47,6 @@ units = {
 			ship = { name = "Prymyslav" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Izyaslav/Fidonisi Class" } } }
 			ship = { name = "Askold" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Askold Class" } } }
 			ship = { name = "Bogatyr" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
-			ship = { name = "Oleg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Admiral Butakov" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Svetlana" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Aurora" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Pallada Class" } } }
@@ -59,6 +64,19 @@ units = {
 			ship = { name = "Krab" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Krab Class" } } }
 			ship = { name = "AG-11" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
 			ship = { name = "AG-15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
+			ship = { name = "M-1" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-2" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-3" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-4" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-5" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-6" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-7" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-8" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-9" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-10" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-11" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-12" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-13" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
 		}
 	}
 	fleet = {
@@ -69,9 +87,12 @@ units = {
 			location = 11668
 			ship = { name = "Admiral Greig" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
 			ship = { name = "Admiral Spiridov" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Svetlana Class" } } }
-			ship = { name = "Leytenant Shestakov" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Leytenant Shestakov Class" } } }
-			ship = { name = "Kapitan Saken" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Leytenant Shestakov Class" } } }
-			ship = { name = "Kapitan-leytenant Baranov" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Leytenant Shestakov Class" } } }
+			ship = { name = "Vnimatelny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
+			ship = { name = "Vynoslivy" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
+			ship = { name = "Vnushitelny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
+			ship = { name = "Vlastny" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
+			ship = { name = "Grozovoy" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
+			ship = { name = "Prytky" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = RUS version_name = "Vnimatelny Class" } } }
 			ship = { name = "Bespokoyny" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Novik/Bespokoyny Class" } } }
 			ship = { name = "Derzky" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Novik/Bespokoyny Class" } } }
 			ship = { name = "Gnevny" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Novik/Bespokoyny Class" } } }
@@ -95,6 +116,17 @@ units = {
 			ship = { name = "AG-24" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
 			ship = { name = "AG-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
 			ship = { name = "AG-26" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
+			ship = { name = "M-14" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-15" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-16" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-17" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-18" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-19" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-20" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-21" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-22" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-23" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-24" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
 		}
 	}
 	fleet = {
@@ -126,38 +158,43 @@ units = {
 			ship = { name = "Volk" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 			ship = { name = "Vepr" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
 			ship = { name = "Yaguar" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Bars Class" } } }
+			ship = { name = "M-25" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-26" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-27" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-28" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
+			ship = { name = "M-29" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
 		}
 	}
 }
 
 instant_effect = {
-	# 2x Okhotnik Cruiser
+	# 2x Aleksandr Cruiser
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_cruiser_2
+			type = vnr_ship_hull_cruiser_3
 			creator = RUS
-			version_name = "Okhotnik Class"
+			version_name = "Aleksandr Class"
 		}
 		requested_factories = 1
-		progress = 0.65
+		progress = 0.43
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_cruiser_2
+			type = vnr_ship_hull_cruiser_3
 			creator = RUS
-			version_name = "Okhotnik Class"
+			version_name = "Aleksandr Class"
 		}
 		requested_factories = 1
-		progress = 0.4
+		progress = 0.32
 		amount = 1
 	}
-	# 6x Besstrashny Class DD
+	# 6x Petrograd Class DD
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.78
@@ -165,9 +202,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.72
@@ -175,9 +212,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.64
@@ -185,9 +222,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.55
@@ -195,9 +232,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.51
@@ -205,9 +242,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_light_2
+			type = vnr_ship_hull_light_3
 			creator = RUS
-			version_name = "Besstrashny Class"
+			version_name = "Petrograd Class"
 		}
 		requested_factories = 1
 		progress = 0.26
