@@ -176,6 +176,11 @@ OTT = {
             }
         }
 
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+            }
+        }
     }
 
     vnr_ship_hull_heavy_2 = {
@@ -188,6 +193,7 @@ OTT = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
                 GFX_OTT_vnr_ship_hull_heavy_1_medium
             }
         }
@@ -204,6 +210,7 @@ OTT = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
                 GFX_OTT_vnr_ship_hull_heavy_1_medium
 				GFX_OTT_vnr_ship_hull_heavy_2_medium
             }
@@ -221,6 +228,7 @@ OTT = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
                 GFX_OTT_vnr_ship_hull_heavy_1_medium
 				GFX_OTT_vnr_ship_hull_heavy_2_medium
 				GFX_OTT_vnr_ship_hull_heavy_3_medium
@@ -327,7 +335,6 @@ OTT = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
 				GFX_OTT_vnr_ship_hull_submarine_1_medium
 				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
             }
@@ -348,7 +355,6 @@ OTT = {
                 GFX_OTT_vnr_ship_hull_submarine_1_medium
 				GFX_OTT_vnr_ship_hull_submarine_2_medium
 				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
             }
         }
 
@@ -368,7 +374,6 @@ OTT = {
 				GFX_OTT_vnr_ship_hull_submarine_2_medium
 				GFX_OTT_vnr_ship_hull_submarine_3_medium
 				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
             }
         }
 
@@ -388,7 +393,409 @@ OTT = {
 				GFX_OTT_vnr_ship_hull_submarine_2_medium
 				GFX_OTT_vnr_ship_hull_submarine_3_medium
 				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+            }
+        }
+
+    }
+
+}
+
+
+TUR = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_1_medium
+				GFX_OTT_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_light_1_medium
+				GFX_OTT_vnr_ship_hull_light_2_medium
+				GFX_OTT_vnr_ship_hull_light_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_medium
+				GFX_OTT_vnr_ship_hull_cruiser_3_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_3_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_panzerschiff = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_panzerschiff_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_medium
+				GFX_OTT_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_OTT_vnr_ship_hull_cruiser_2_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+            }
+        }
+    }
+
+    vnr_ship_hull_heavy_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+                GFX_OTT_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+                GFX_OTT_vnr_ship_hull_heavy_1_medium
+				GFX_OTT_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_heavy_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+                GFX_OTT_vnr_ship_hull_heavy_1_medium
+				GFX_OTT_vnr_ship_hull_heavy_2_medium
+				GFX_OTT_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_ca = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_carrier_conversion_ca_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_conversion_bb = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_carrier_conversion_bb_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_carrier_1_medium
+            }
+        }
+		pool = {
+			icons = {
+				GFX_OTT_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_OTT_vnr_ship_hull_carrier_conversion_bb_medium
+			}
+		}
+    }
+
+    vnr_ship_hull_carrier_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_OTT_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_OTT_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_OTT_vnr_ship_hull_carrier_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_carrier_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_OTT_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_OTT_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_OTT_vnr_ship_hull_carrier_1_medium
+				GFX_OTT_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+				GFX_OTT_vnr_ship_hull_submarine_1_medium
+				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_1_medium
+				GFX_OTT_vnr_ship_hull_submarine_2_medium
+				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_submarine_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_1_medium
+				GFX_OTT_vnr_ship_hull_submarine_2_medium
+				GFX_OTT_vnr_ship_hull_submarine_3_medium
+				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_submarine = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_OTT_vnr_ship_hull_submarine_1_medium
+				GFX_OTT_vnr_ship_hull_submarine_2_medium
+				GFX_OTT_vnr_ship_hull_submarine_3_medium
+				GFX_OTT_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
