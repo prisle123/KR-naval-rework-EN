@@ -95,6 +95,7 @@ units = {
 			ship = { name = "Lyon" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
 			ship = { name = "Toulon" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
 			ship = { name = "Toulouse" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Lyon Class" } } }
+			ship = { name = "Verdun" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Verdun Class" } } }
 			ship = { name = "L'Audacieux" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
 			ship = { name = "Le Fantasque" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
 			ship = { name = "Le Malin" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
@@ -103,7 +104,6 @@ units = {
 			ship = { name = "L'Indomptable" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
 			ship = { name = "Enseigne Roux" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Enseigne Roux Class" } } }
 			ship = { name = "M P Lestin" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Enseigne Roux Class" } } }
-			ship = { name = "Verdun" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Verdun Class" } } }
 			ship = { name = "Bouclier" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Claymore/Spahi/Bouclier Class" } } }
 			ship = { name = "Carquois" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Claymore/Spahi/Bouclier Class" } } }
 			ship = { name = "Céphée" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Claymore/Spahi/Bouclier Class" } } }
