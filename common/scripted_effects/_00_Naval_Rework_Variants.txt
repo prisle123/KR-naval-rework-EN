@@ -6096,25 +6096,6 @@ FRA_starting_naval_variants_kr = {
 			rear_2_custom_slot = ship_light_battery_2
         }
     }
-    create_equipment_variant = {
-        name = "Chacal/Guépard Class"
-		role_icon_index = 31
-        type = vnr_ship_hull_light_2
-        name_group = FRA_DD_HISTORICAL
-        modules = {
-            fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_2
-			front_1_custom_slot = ship_light_battery_2
-			mid_1_custom_slot = ship_depth_charge_1
-			mid_2_custom_slot = ship_light_battery_2
-			rear_1_custom_slot = ship_light_battery_2
-			rear_2_custom_slot = ship_light_battery_2
-        }
-        obsolete = yes
-    }
 
 	create_equipment_variant = {
 		name = "Claymore/Spahi/Bouclier Class" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
@@ -7949,27 +7930,6 @@ NFA_starting_naval_variants_kr = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = empty
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Chacal/Guépard Class"				# represents Chacal, Guépard, Agile, and Vauquelin classes
-		role_icon_index = 31
-		type = vnr_ship_hull_light_2
-		name_group = FRA_DD_HISTORICAL
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			fixed_ship_role_slot = ship_hull_light_role_dl
-			front_1_custom_slot = ship_light_battery_1
-			front_2_custom_slot = ship_light_battery_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = ship_depth_charge_1
-			rear_2_custom_slot = ship_light_battery_1
 		}
 	}
 
