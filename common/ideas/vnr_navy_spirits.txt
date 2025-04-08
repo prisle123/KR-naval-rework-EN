@@ -50,6 +50,22 @@ ideas = {
 				}
             }
         }
+        murwik_naval_academy = {
+            ledger = navy
+            visible = { original_tag = GER }
+            modifier = {
+                navy_leader_start_level = 1
+                trait_ironside_xp_gain_factor = 0.15
+                trait_seawolf_xp_gain_factor = 0.15
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
     }
 
     navy_spirit = {
@@ -146,6 +162,22 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
+            }
+        }
+        lack_maintainence_facilities = {
+            ledger = navy
+            available = {
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { has_global_flag = vnr_enabled }
+				}
+            }
+            modifier = {
+                repair_speed_factor = -0.25
+                naval_morale_factor = -0.25
+            }
+            ai_will_do = {
+                factor = 0
             }
         }
     }

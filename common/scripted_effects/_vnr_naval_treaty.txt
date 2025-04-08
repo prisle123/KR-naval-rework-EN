@@ -65,7 +65,7 @@ add_starting_navy_spirits = {
 	}
 	GER = {
 		add_ideas = kiel_standard
-		add_ideas = recovering_from_naval_race
+		add_ideas = murwik_naval_academy
 	}
 	USA = {
 		add_ideas = annapolis_naval_academy
@@ -74,5 +74,14 @@ add_starting_navy_spirits = {
 	}
 	ENG = {
 		add_ideas = dartmouth_naval_academy
+	}
+	CAN = {
+		add_ideas = lack_maintainence_facilities
+	}
+	NFA = {
+		add_ideas = lack_maintainence_facilities
+	}
+	AST = {
+		add_ideas = AST_oversized_fleet
 	}
 }

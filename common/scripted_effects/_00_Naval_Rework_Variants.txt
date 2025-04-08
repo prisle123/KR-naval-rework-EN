@@ -106,7 +106,7 @@ GER_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			mid_1_custom_slot = ship_deck_space
 		}
@@ -122,7 +122,7 @@ GER_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = empty
 		}
@@ -1849,7 +1849,7 @@ USA_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_secondaries_slot = usa_8in_mk9_secondaries
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_1
 		}
 	}
 	create_equipment_variant = {
@@ -1862,10 +1862,10 @@ USA_starting_naval_variants_kr = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
 		}
 		obsolete = yes
 	}
@@ -1883,7 +1883,7 @@ USA_starting_naval_variants_kr = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 		}
 	}
 }
@@ -2449,7 +2449,7 @@ CSA_starting_naval_variants_kr = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_secondaries_slot = usa_8in_mk9_secondaries
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_1
 		}
 	}
 	create_equipment_variant = {
@@ -2462,10 +2462,10 @@ CSA_starting_naval_variants_kr = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
 			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
 		}
 		obsolete = yes
 	}
@@ -2483,7 +2483,7 @@ CSA_starting_naval_variants_kr = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 		}
 	}
 }
@@ -2664,7 +2664,7 @@ AST_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 			fixed_ship_role_slot = carrier_bc_conversion
 		}
@@ -2834,7 +2834,7 @@ AST_starting_naval_variants_kr = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -3867,7 +3867,7 @@ CAN_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 			fixed_ship_role_slot = carrier_bc_conversion
 		}
@@ -4037,7 +4037,7 @@ CAN_starting_naval_variants_kr = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -4407,7 +4407,7 @@ GBR_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 			fixed_ship_role_slot = carrier_bc_conversion
 		}
@@ -4577,7 +4577,7 @@ GBR_starting_naval_variants_kr = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -5346,7 +5346,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_1
 		}
 		obsolete = yes
 	}
@@ -5380,7 +5380,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			fixed_ship_role_slot = carrier_bc_conversion
 			mid_1_custom_slot = ship_deck_space
 		}
@@ -5400,7 +5400,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			fixed_ship_role_slot = carrier_shbb_conversion
 			mid_1_custom_slot = ship_deck_space
@@ -5421,7 +5421,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_armored
 		}
@@ -5649,7 +5649,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_1
 			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
@@ -5673,7 +5673,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -6357,7 +6357,7 @@ FRA_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_1
 			mid_1_custom_slot = ship_deck_space
 		}
 	}
@@ -7261,7 +7261,7 @@ JAP_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 			front_1_custom_slot = ship_deck_space
 		}
 	}

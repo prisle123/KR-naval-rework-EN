@@ -457,6 +457,8 @@ JAP = {
             icons = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
                 "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
             }
@@ -477,6 +479,8 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_JAP_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
@@ -499,6 +503,8 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_JAP_vnr_ship_hull_carrier_1_medium
 				GFX_JAP_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
@@ -522,6 +528,8 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_carrier_1_medium
 				GFX_JAP_vnr_ship_hull_carrier_2_medium
 				GFX_JAP_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"

@@ -145,10 +145,6 @@ country_event = {
 				load_oob = 01_kr_GEA_air_legacy
 			}
 		}
-		GEO = {
-			GEO_starting_naval_variants_kr = yes
-			load_oob = 00_kr_GEO_naval
-		}
 		GRE = {
 			GRE_starting_naval_variants_kr = yes
 			load_oob = 00_kr_GRE_naval
@@ -254,10 +250,6 @@ country_event = {
 		SWE = {
 			SWE_starting_naval_variants_kr = yes
 			load_oob = 00_kr_SWE_naval
-		}
-		TRM = {
-			TRM_starting_naval_variants_kr = yes
-			load_oob = 00_kr_TRM_naval
 		}
 		TUR = {
 			TUR_starting_naval_variants_kr = yes

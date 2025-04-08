@@ -437,6 +437,7 @@ USA = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -456,6 +457,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -476,6 +478,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -497,6 +500,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -1056,6 +1060,7 @@ PSA = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1075,6 +1080,7 @@ PSA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1095,6 +1101,7 @@ PSA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1116,6 +1123,7 @@ PSA = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -1675,6 +1683,7 @@ CAL = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1694,6 +1703,7 @@ CAL = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1714,6 +1724,7 @@ CAL = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -1735,6 +1746,7 @@ CAL = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -2294,6 +2306,7 @@ CSA = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2313,6 +2326,7 @@ CSA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2333,6 +2347,7 @@ CSA = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2354,6 +2369,7 @@ CSA = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -2913,6 +2929,7 @@ TEX = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2932,6 +2949,7 @@ TEX = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2952,6 +2970,7 @@ TEX = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -2973,6 +2992,7 @@ TEX = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -3532,6 +3552,7 @@ NEE = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -3551,6 +3572,7 @@ NEE = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -3571,6 +3593,7 @@ NEE = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -3592,6 +3615,7 @@ NEE = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -4151,6 +4175,7 @@ COR = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4170,6 +4195,7 @@ COR = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4190,6 +4216,7 @@ COR = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4211,6 +4238,7 @@ COR = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -4770,6 +4798,7 @@ WCC = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4789,6 +4818,7 @@ WCC = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4809,6 +4839,7 @@ WCC = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -4830,6 +4861,7 @@ WCC = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
@@ -5389,6 +5421,7 @@ HAW = {
             icons = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
                 "gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -5408,6 +5441,7 @@ HAW = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -5428,6 +5462,7 @@ HAW = {
 				GFX_USA_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
             }
         }
@@ -5449,6 +5484,7 @@ HAW = {
 				GFX_USA_vnr_ship_hull_carrier_1_medium
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
+				"gfx/interface/technologies/extra/USA_carrier_Bogue.png"
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
