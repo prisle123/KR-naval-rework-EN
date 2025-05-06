@@ -13,117 +13,117 @@ units = {
 			name = "Schlachtgeschwader I"
 			location = 241
 			# Fleet Flagship
-			ship = { name = "SMS Kaiser Wilhelm" pride_of_the_fleet = yes definition = SH_battleship equipment = {vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Wilhelm Class" } } }
+			ship = { name = "SMS Kaiser Wilhelm" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.02 equipment = {vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Wilhelm Class" } } }
 			# VI Battle Squadron
-			ship = { name = "SMS Pommern" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
-			ship = { name = "SMS Hessen" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
-			ship = { name = "SMS Preußen" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
-			ship = { name = "SMS Anhalt" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Pommern" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Hessen" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Preußen" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Anhalt" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 
-			ship = { name = "SMS Dresden" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Königsberg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Emden" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Dresden" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Königsberg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Emden" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 
-			ship = { name = "SMS Z 1" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 2" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 3" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 4" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 5" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 6" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 7" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 8" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 9" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 10" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 1" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 2" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 3" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 4" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 5" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 6" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 7" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 8" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 9" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 10" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
 
-			ship = { name = "SMS H 248" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS H 249" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS H 250" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS H 251" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 252" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 253" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 254" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 255" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 256" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 257" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 258" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS H 248" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS H 249" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS H 250" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS H 251" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 252" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 253" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 254" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 255" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 256" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 257" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 258" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
 		}
 		task_force = {
 			name = "Schlachtgeschwader III"
 			location = 241
 			# Grand Battle Squadron
-			ship = { name = "SMS Elsaß" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
-			ship = { name = "SMS Lothringen" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
+			ship = { name = "SMS Elsaß" definition = SH_battleship start_experience_factor = 0.15 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
+			ship = { name = "SMS Lothringen" definition = SH_battleship start_experience_factor = 0.12 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
 			# VII Battle Squadron
-			ship = { name = "SMS Siegfried" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
-			ship = { name = "SMS Beowulf" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
-			ship = { name = "SMS Frithjof" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
-			ship = { name = "SMS Heimdall" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Siegfried" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Beowulf" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Frithjof" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
+			ship = { name = "SMS Heimdall" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Siegfried Class" } } }
 
-			ship = { name = "SMS Bremen" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
-			ship = { name = "SMS Stralsund" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
-			ship = { name = "SMS Wuppertal" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Bremen" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Stralsund" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Wuppertal" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 
-			ship = { name = "SMS Z 11" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 12" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 13" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 14" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 15" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 16" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS Z 17" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
-			ship = { name = "SMS H 220" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS V 221" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS V 222" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS V 223" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS V 224" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS Z 11" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 12" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 13" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 14" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 15" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 16" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS Z 17" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "Type 1932 Class" } } }
+			ship = { name = "SMS H 220" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS V 221" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS V 222" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS V 223" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS V 224" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
 
-			ship = { name = "SMS S 113" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS S 114" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS S 115" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 116" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 117" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS V 118" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS G 119" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS G 120" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS G 121" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS B 122" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS B 123" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
-			ship = { name = "SMS B 124" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS S 113" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS S 114" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS S 115" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS V 116" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS V 117" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS V 118" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS G 119" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS G 120" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS G 121" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS B 122" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS B 123" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
+			ship = { name = "SMS B 124" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113 Class" } } }
 		}
 		
 		task_force = {
 			name = "Aufklarungsgruppe I"
 			location = 241
 			# carriers
-			ship = { name = "SMS Elbe" definition = carrier equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
+			ship = { name = "SMS Elbe" definition = carrier start_experience_factor = 0.02 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 			# battlecruisers
-			ship = { name = "SMS Mackensen" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
-			ship = { name = "SMS Prinz Eitel Friedrich" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
-			ship = { name = "SMS Fürst Bismarck" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
-			ship = { name = "SMS Graf Spee" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Mackensen" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Prinz Eitel Friedrich" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Fürst Bismarck" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
+			ship = { name = "SMS Graf Spee" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Mackensen Class" } } }
 			# cruisers
-			ship = { name = "SMS Breslau" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
-			ship = { name = "SMS Chemnitz" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
-			ship = { name = "SMS Kiel" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
-			ship = { name = "SMS Wolfsburg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Breslau" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
+			ship = { name = "SMS Chemnitz" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
+			ship = { name = "SMS Kiel" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Wolfsburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 
-			ship = { name = "SMS V 225" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 226" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 227" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 228" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 229" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 230" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 231" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 232" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 233" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 234" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS V 235" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 225" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 226" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 227" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 228" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 229" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 230" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 231" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 232" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 233" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 234" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS V 235" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
 
-			ship = { name = "SMS S 185" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 186" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 187" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 188" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 189" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 190" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 185" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 186" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 187" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 188" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 189" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 190" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 		}
 	}
 
@@ -136,62 +136,62 @@ units = {
 			location = 6389
 
 			# V Battle Squadron / V. Schlact Geschwader
-			ship = { name = "SMS Bayern" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
-			ship = { name = "SMS Baden" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
-			ship = { name = "SMS Sachsen" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
-			ship = { name = "SMS Württemberg" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
+			ship = { name = "SMS Bayern" definition = battleship start_experience_factor = 0.60 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
+			ship = { name = "SMS Baden" definition = battleship start_experience_factor = 0.60 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
+			ship = { name = "SMS Sachsen" definition = battleship start_experience_factor = 0.60 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
+			ship = { name = "SMS Württemberg" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
 
-			ship = { name = "SMS Charlottenburg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
-			ship = { name = "SMS Stettin" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
+			ship = { name = "SMS Charlottenburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
+			ship = { name = "SMS Stettin" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Breslau Class" } } }
 
-			ship = { name = "SMS V 170" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } } # 4 left after dividing by 11
-			ship = { name = "SMS V 171" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 172" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 173" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 174" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 175" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 176" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 177" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 178" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 179" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 180" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 181" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 182" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 183" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 184" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 170" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } } # 4 left after dividing by 11
+			ship = { name = "SMS V 171" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 172" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 173" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 174" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 175" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 176" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 177" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 178" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 179" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 180" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 181" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 182" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 183" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 184" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 		}
 		task_force = {
 			name = "Aufklarungsgruppe II"
 			location = 6389
-			ship = { name = "SMS Weser" definition = carrier equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
+			ship = { name = "SMS Weser" definition = carrier start_experience_factor = 0.03 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 
-			ship = { name = "SMS Blücher" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
-			ship = { name = "SMS Scheer" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
+			ship = { name = "SMS Blücher" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
+			ship = { name = "SMS Scheer" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
 			# cruisers
-			ship = { name = "SMS Straßburg" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
-			ship = { name = "SMS Liegnitz" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
-			ship = { name = "SMS Osnabrück" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
-			ship = { name = "SMS Augsburg" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
-			ship = { name = "SMS Essen" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
-			ship = { name = "SMS Dortmund" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
-			ship = { name = "SMS Duisburg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Straßburg" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
+			ship = { name = "SMS Liegnitz" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
+			ship = { name = "SMS Osnabrück" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
+			ship = { name = "SMS Augsburg" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
+			ship = { name = "SMS Essen" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Dortmund" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
+			ship = { name = "SMS Duisburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 
-			ship = { name = "SMS H 220" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 221" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 222" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 223" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 224" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS S 236" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 237" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 238" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 239" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 240" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 241" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 242" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 243" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 244" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 245" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
-			ship = { name = "SMS S 246" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }		
+			ship = { name = "SMS H 220" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 221" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 222" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 223" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 224" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS S 236" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 237" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 238" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 239" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 240" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 241" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 242" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 243" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 244" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 245" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }
+			ship = { name = "SMS S 246" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924A Class" } } }		
 		}	
 	}
 
@@ -201,75 +201,75 @@ units = {
 		task_force = {
 			name = "Schlachtgeschwader IV"
 			location = 362
-			ship = { name = "SMS König" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
-			ship = { name = "SMS Kronprinz" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
+			ship = { name = "SMS König" definition = battleship start_experience_factor = 0.65 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
+			ship = { name = "SMS Kronprinz" definition = battleship start_experience_factor = 0.65 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
 
-			ship = { name = "SMS Cöln" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Wiesbaden" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Magdeburg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Cöln" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Wiesbaden" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Magdeburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			
-			ship = { name = "SMS S 212" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS B 213" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS B 97" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS B 98" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS V 99" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS V 100" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS H 145" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 146" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 147" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS G 148" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS G 149" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS G 150" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 158" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 162" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 163" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 164" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 165" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 212" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS B 213" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS B 97" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS B 98" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS V 99" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS V 100" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS H 145" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 146" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 147" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS G 148" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS G 149" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS G 150" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 158" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 162" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 163" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 164" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 165" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 		task_force = {
 			name = "Aufklarungsgruppe III"
 			location = 362
-			ship = { name = "SMS Derfflinger" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
-			ship = { name = "SMS Hindenburg" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
+			ship = { name = "SMS Derfflinger" definition = battle_cruiser start_experience_factor = 0.50 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
+			ship = { name = "SMS Hindenburg" definition = battle_cruiser start_experience_factor = 0.50 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
 
-			ship = { name = "SMS Leipzig" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Rostock" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Frauenlob" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Leipzig" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Rostock" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Frauenlob" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 
-			ship = { name = "SMS T 214" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS T 215" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS T 216" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS T 217" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 218" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS H 219" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
-			ship = { name = "SMS V 208" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 209" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS V 210" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 211" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 152" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 153" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 154" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 155" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 156" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 157" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS T 214" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS T 215" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS T 216" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS T 217" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 218" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS H 219" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
+			ship = { name = "SMS V 208" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 209" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS V 210" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 211" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 152" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 153" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 154" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 155" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 156" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 157" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 		task_force = {
 			name = "Küsteflotte"
 			location = 6332
-			ship = { name = "SMS Mülhausen" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
+			ship = { name = "SMS Mülhausen" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GER version_name = "Mülhausen Class" } } }
 
-			ship = { name = "SMS V 80" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 81" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 82" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS V 83" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 131" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 132" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 133" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS S 134" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 166" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 167" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 168" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
-			ship = { name = "SMS H 169" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 80" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 81" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 82" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS V 83" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 131" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 132" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 133" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS S 134" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 166" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 167" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 168" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
+			ship = { name = "SMS H 169" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 	}
 
@@ -280,15 +280,15 @@ units = {
 			name = "Mittelmeergeschwader"
 			location = 11984
 			# Scouting Group
-			ship = { name = "SMS Admiral Koester" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
-			ship = { name = "SMS Graudenz" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
-			ship = { name = "SMS Nürnberg" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Admiral Koester" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Graudenz" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
+			ship = { name = "SMS Nürnberg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 
 			# A half Torpedo boat flottila
-			ship = { name = "SMS G 101" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS G 102" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS G 103" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS G 104" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS G 101" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS G 102" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS G 103" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
+			ship = { name = "SMS G 104" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
 		}
 	}
 
@@ -298,15 +298,15 @@ units = {
 		task_force = {
 			name = "Ostindienflotte"
 			location = 7260
-			ship = { name = "SMS Main" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = GER version_name = "Main Class" } } }
-			ship = { name = "SMS Prinz Adalbert" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
-			ship = { name = "SMS Friedrich Carl" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
-			ship = { name = "SMS H 191" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 192" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 193" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 194" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 195" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 196" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS Main" definition = carrier start_experience_factor = 0.17 equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = GER version_name = "Main Class" } } }
+			ship = { name = "SMS Prinz Adalbert" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
+			ship = { name = "SMS Friedrich Carl" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
+			ship = { name = "SMS H 191" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 192" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 193" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 194" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 195" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 196" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 		}
 	}
 
@@ -317,114 +317,114 @@ units = {
 			name = "I. U-Boot-Nordseeflotte"
 			location = 241
 			
-			ship = { name = "SM U-227" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-228" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-229" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-230" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-231" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-232" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-233" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-234" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-235" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-236" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-237" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-238" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-239" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-240" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-241" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-242" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-243" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-244" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-245" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-246" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-247" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-248" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-249" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-250" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-251" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-252" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-253" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-254" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-255" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-256" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-257" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-258" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-259" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-260" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-261" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-262" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-263" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-264" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-265" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-266" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-267" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-268" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-269" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-227" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-228" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-229" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-230" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-231" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-232" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-233" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-234" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-235" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-236" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-237" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-238" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-239" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-240" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-241" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-242" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-243" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-244" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-245" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-246" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-247" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-248" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-249" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-250" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-251" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-252" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-253" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-254" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-255" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-256" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-257" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-258" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-259" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-260" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-261" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-262" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-263" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-264" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-265" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-266" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-267" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-268" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-269" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
 		}
 
 		task_force = {
 			name = "II. U-Boot-Nordseeflotte"
 			location = 6389
 			
-			ship = { name = "SM U-179" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-180" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-181" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-182" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-183" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-184" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-185" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-186" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-187" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-189" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-190" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-191" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-192" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-193" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-194" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-195" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-142" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-143" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-144" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-145" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-146" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-147" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-148" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-149" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-150" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-173" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-174" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-179" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-180" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-181" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-182" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-183" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-184" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-185" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-186" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-187" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-189" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-190" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-191" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-192" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-193" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-194" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-195" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-142" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-143" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-144" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-145" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-146" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-147" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-148" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-149" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-150" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-173" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-174" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 		}
 
 		task_force = {
 			name = "U-Boot-Ostseeflotte"
 			location = 6282
-			ship = { name = "SM U-196" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-197" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-198" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-199" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-200" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-201" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-202" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-203" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-204" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-205" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-206" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-207" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-208" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-209" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-210" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-211" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-212" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-213" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-214" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-215" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-216" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-217" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-218" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-219" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-220" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-221" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-222" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-196" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-197" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-198" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-199" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-200" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-201" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-202" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-203" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-204" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-205" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-206" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-207" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-208" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-209" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-210" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-211" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-212" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-213" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-214" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-215" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-216" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-217" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-218" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-219" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-220" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-221" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-222" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
 		}
 	}
 }
