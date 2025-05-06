@@ -536,7 +536,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 50
+		value = 80
 	}
 	
 	ai_strategy = {
@@ -711,7 +711,7 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 30
+		value = 60
 	}
 
 	ai_strategy = {
@@ -769,7 +769,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 30
+		value = 60
 	}
 
 	ai_strategy = {
@@ -813,7 +813,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 30
+		value = 60
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 50
 	}
 }
 

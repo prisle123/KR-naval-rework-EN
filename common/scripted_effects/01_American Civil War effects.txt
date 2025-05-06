@@ -816,137 +816,137 @@ USA_release_PSA = {
 		}
 
 		# Pacific Fleet
-	transfer_ship = { prefer_name = "USS Texas" type = battleship target = XXA }
-	transfer_ship = { prefer_name = "USS South Carolina" type = SH_battleship target = XXA }
-	transfer_ship = { prefer_name = "USS Langley" type = carrier target = XXA }
+	transfer_ship = { prefer_name = "USS Texas" type = battleship target = event_target:system }
+	transfer_ship = { prefer_name = "USS South Carolina" type = SH_battleship target = event_target:system }
+	transfer_ship = { prefer_name = "USS Langley" type = carrier target = event_target:system }
   
 
-	transfer_ship = { prefer_name = "USS Lexington" type = battle_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Saratoga" type = battle_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Milwaukee" type = light_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Raleigh" type = light_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Detroit" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS Lexington" type = battle_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Saratoga" type = battle_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Milwaukee" type = light_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Raleigh" type = light_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Detroit" type = light_cruiser target = event_target:system }
 
-	transfer_ship = { prefer_name = "USS Winslow" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Abel P. Upshur" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Hunt" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Welborn C. Wood" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS George E. Badger" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Branch" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Herndon" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Clemson" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Dahlgren" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Goldsborough" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Semmes" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Satterlee" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Greer" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Ward" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS Winslow" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Abel P. Upshur" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Hunt" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Welborn C. Wood" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS George E. Badger" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Branch" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Herndon" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Clemson" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Dahlgren" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Goldsborough" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Semmes" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Satterlee" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Greer" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Ward" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = event_target:system }
 
 	#ADD DESTROYER LEADER FROM PRODUCTION
-	transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Schley" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Chew" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Williams" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Crane" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Rathburne" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Sigourney" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Gregory" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Stringham" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS McKean" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Wickes" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Philip" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Evans" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Little" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Mason" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Jacob Jones" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Schley" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Chew" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Williams" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Crane" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Rathburne" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Sigourney" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Gregory" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Stringham" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS McKean" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Wickes" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Philip" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Evans" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Little" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Mason" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Jacob Jones" type = destroyer target = event_target:system }
 
 	# Pacific Submarine Fleet
-	transfer_ship = { prefer_name = "USS R11" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R12" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R13" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R14" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R15" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R16" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R17" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R18" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R19" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS R20" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R11" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R12" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R13" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R14" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R15" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R16" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R17" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R18" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R19" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS R20" type = submarine target = event_target:system }
 
 	# Pacific Reserve Fleet
 
-	transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Craven" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Conner" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Manley" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Hart" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Stribling" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Murray" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Israel" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Luce" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Maury" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Lansdale" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Craven" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Conner" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Manley" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Hart" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Stribling" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Murray" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Israel" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Luce" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Maury" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Lansdale" type = destroyer target = event_target:system }
 
-	transfer_ship = { prefer_name = "USS S1" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S4" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S11" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S12" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S13" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S1" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S4" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S11" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S12" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S13" type = submarine target = event_target:system }
 
 	# Asiatic Fleet
-	transfer_ship = { prefer_name = "USS Augusta" type = heavy_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Marblehead" type = light_cruiser target = XXA }
-	transfer_ship = { prefer_name = "USS Cincinnati" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS Augusta" type = heavy_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Marblehead" type = light_cruiser target = event_target:system }
+	transfer_ship = { prefer_name = "USS Cincinnati" type = light_cruiser target = event_target:system }
 
 	#ADD DESTROYER LEADER FROM PRODUCTION
-	transfer_ship = { prefer_name = "USS Alden" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Whipple" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Edsall" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Stewart" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Barker" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Paul Jones" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Trever" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Decatur" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS John D. Ford" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Pope" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Peary" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Pillsbury" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Radford" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Gamble" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Badger" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Twiggs" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Babbitt" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Graham" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS Alden" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Whipple" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Edsall" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Stewart" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Barker" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Paul Jones" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Trever" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Decatur" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS John D. Ford" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Pope" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Peary" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Pillsbury" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Radford" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Gamble" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Badger" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Twiggs" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Babbitt" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Graham" type = destroyer target = event_target:system }
 
-	transfer_ship = { prefer_name = "USS S3" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S7" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S8" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S9" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S24" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S25" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S26" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S27" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S28" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S29" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S30" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S31" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S3" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S7" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S8" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S9" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S24" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S25" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S26" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S27" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S28" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S29" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S30" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S31" type = submarine target = event_target:system }
 
 		PSA = {
-			annex_country = { target = XXA }
+			annex_country = { target = event_target:system }
 			load_oob = ACW_PSA_naval
 		}
 	}
@@ -1157,8 +1157,14 @@ USA_civil_war_begins = {
 			NIC = {
 				country_event = { id = nic.41 days = 3 }
 			}
+			ELS = {
+				country_event = { id = els.106 days = 3 }
+			}
 			HON = {
 				country_event = { id = honduras.101 days = 10 }
+			}
+			GUA = {
+				country_event = { id = guatemala.4 days = 3 }
 			}
 			MEX = {
 				activate_targeted_decision = { target = USA decision = MEX_nationalize_oil }
@@ -2121,105 +2127,105 @@ USA_restore_deleted_factories_NEE = {
 ACW_navy_redistribution_CSA = {
 	hidden_effect = {
 		# Atlantic Battle Fleet
-		transfer_ship = { prefer_name = "USS Indiana" type = battleship target = XXA }
-		transfer_ship = { prefer_name = "USS Montana" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Indiana" type = battleship target = event_target:system }
+		transfer_ship = { prefer_name = "USS Montana" type = battleship target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = XXA }
-		transfer_ship = { prefer_name = "USS Idaho" type = battleship target = XXA }
-		transfer_ship = { prefer_name = "USS California" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = event_target:system }
+		transfer_ship = { prefer_name = "USS Idaho" type = battleship target = event_target:system }
+		transfer_ship = { prefer_name = "USS California" type = battleship target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Constitution" type = battle_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Chicago" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Trenton" type = light_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS Constitution" type = battle_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Chicago" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Trenton" type = light_cruiser target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Des Moines" type = light_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Chattanooga" type = light_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS Des Moines" type = light_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Chattanooga" type = light_cruiser target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Selfridge" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS McCormick" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Truxtun" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Hatfield" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Brooks" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Gilmer" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Fox" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Smith Thompson" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Tracy" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Borie" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Ludlow" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS Selfridge" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS McCormick" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Truxtun" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Hatfield" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Brooks" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Gilmer" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Fox" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Smith Thompson" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Tracy" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Borie" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Ludlow" type = destroyer target = event_target:system }
 
 		# Atlantic Submarine Fleet
-		transfer_ship = { prefer_name = "USS O1" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O2" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O3" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O4" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O5" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O6" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O7" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O8" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O1" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O2" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O3" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O4" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O5" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O6" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O7" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O8" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O9" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS O10" type = submarine target = event_target:system }
 
 		if = {
 			limit = { NOT = { country_exists = TEX } }
-			transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Maryland" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = event_target:system }
+			transfer_ship = { prefer_name = "USS Maryland" type = battleship target = event_target:system }
 
-			transfer_ship = { prefer_name = "USS Ranger" type = carrier target = XXA }
+			transfer_ship = { prefer_name = "USS Ranger" type = carrier target = event_target:system }
 																						 
-			transfer_ship = { prefer_name = "USS Northampton" type = heavy_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Chester" type = heavy_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Houston" type = heavy_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Pueblo" type = heavy_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Cleveland" type = light_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS Northampton" type = heavy_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Chester" type = heavy_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Houston" type = heavy_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Pueblo" type = heavy_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Cleveland" type = light_cruiser target = event_target:system }
 			
-			transfer_ship = { prefer_name = "USS McKee" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Robinson" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ringgold" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Harding" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Gridley" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Bell" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Kimberly" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Dyer" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Stevens" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hovey" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Long" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Broome" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Alexander Dallas" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Chandler" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Southard" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Belknap" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS MacLeish" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Simpson" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS McKee" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Robinson" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Ringgold" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Harding" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Gridley" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Bell" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Kimberly" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Dyer" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Stevens" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hovey" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Long" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Broome" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Alexander Dallas" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Chandler" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Southard" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Belknap" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS MacLeish" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Simpson" type = destroyer target = event_target:system }
 
 			# Atlantic Submarine Fleet
-			transfer_ship = { prefer_name = "USS Barracuda" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Bass" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Bonita" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Cachalot" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Cuttlefish" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Pike" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS Barracuda" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Bass" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Bonita" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Cachalot" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Cuttlefish" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Pike" type = submarine target = event_target:system }
 
 			# Pacific Fleet
-			transfer_ship = { prefer_name = "USS Oklahoma" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hart" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Schley" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Chew" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS McKean" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS Oklahoma" type = battleship target = event_target:system }
+			transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Ballard" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Champlin" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Mugford" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hazelwood" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hart" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Ingraham" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Schley" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Chew" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Colhoun" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS McKean" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Fairfax" type = destroyer target = event_target:system }
 		}
 
 		CSA = {
-			annex_country = { target = XXA }
+			annex_country = { target = event_target:system }
 			if = {
 				limit = { NOT = { country_exists = TEX } }
 				load_oob = ACW_CSA_naval_alone
@@ -2240,102 +2246,102 @@ ACW_navy_redistribution_CSA = {
 
 ACW_navy_redistribution_TEX = {
 	hidden_effect = {
-		TEX_samuel_murray_robinson = { set_nationality = TEX }
-		TEX_david_worth_bagley = { set_nationality = TEX }
-		TEX_john_sidney_mccain_sr = { set_nationality = TEX }
-
 		# Atlantic Battle Fleet
-		transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = XXA }
-		transfer_ship = { prefer_name = "USS Maryland" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = event_target:system }
+		transfer_ship = { prefer_name = "USS Maryland" type = battleship target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Ranger" type = carrier target = XXA }
+		transfer_ship = { prefer_name = "USS Ranger" type = carrier target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Northampton" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Chester" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Houston" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Pueblo" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Cleveland" type = light_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS Northampton" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Chester" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Houston" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Pueblo" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Cleveland" type = light_cruiser target = event_target:system }
 		
-		transfer_ship = { prefer_name = "USS McKee" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Robinson" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Ringgold" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Harding" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Gridley" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Bell" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Kimberly" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Dyer" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Stevens" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Hovey" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Long" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Broome" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Alexander Dallas" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Chandler" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Southard" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Belknap" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS MacLeish" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Simpson" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS McKee" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Robinson" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Ringgold" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Harding" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Gridley" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Bell" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Kimberly" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Dyer" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Stevens" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Hovey" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Long" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Broome" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Alexander Dallas" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Chandler" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Southard" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Belknap" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS MacLeish" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Simpson" type = destroyer target = event_target:system }
 
 		# Atlantic Submarine Fleet
-		transfer_ship = { prefer_name = "USS Barracuda" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Bass" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Bonita" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Cachalot" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Cuttlefish" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = XXA }
-		transfer_ship = { prefer_name = "USS Pike" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS Barracuda" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Bass" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Bonita" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Cachalot" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Cuttlefish" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = event_target:system }
+		transfer_ship = { prefer_name = "USS Pike" type = submarine target = event_target:system }
 
 		if = {
 			limit = { NOT = { country_exists = CSA } }
 			# Atlantic Battle Fleet
-			transfer_ship = { prefer_name = "USS Indiana" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS Idaho" type = battleship target = XXA }
-			transfer_ship = { prefer_name = "USS California" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS Indiana" type = battleship target = event_target:system }
+			transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = event_target:system }
+			transfer_ship = { prefer_name = "USS Idaho" type = battleship target = event_target:system }
+			transfer_ship = { prefer_name = "USS California" type = battleship target = event_target:system }
 
-			transfer_ship = { prefer_name = "USS Constitution" type = battle_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Chicago" type = heavy_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS Trenton" type = light_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS Constitution" type = battle_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Chicago" type = heavy_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS Trenton" type = light_cruiser target = event_target:system }
 
-			transfer_ship = { prefer_name = "USS Selfridge" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS McCormick" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Truxtun" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hatfield" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Brooks" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Gilmer" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Fox" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Smith Thompson" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Tracy" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Borie" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ludlow" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS Selfridge" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS McCormick" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Truxtun" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hatfield" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Brooks" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Gilmer" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Fox" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Smith Thompson" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Tracy" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Borie" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Ludlow" type = destroyer target = event_target:system }
 
 			# Atlantic Submarine Fleet
-			transfer_ship = { prefer_name = "USS O1" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O2" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O3" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O4" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O5" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O6" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O7" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O8" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O1" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O2" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O3" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O4" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O5" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O6" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O7" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O8" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O9" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O10" type = submarine target = event_target:system }
 
-			transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Craven" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Conner" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Manley" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Ward" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS Caldwell" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Craven" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Gwin" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Conner" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Stockton" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Manley" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Ward" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Claxton" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = event_target:system }
 		}
 		TEX = {
-			annex_country = { target = XXA }
+			TEX_samuel_murray_robinson = { set_nationality = TEX }
+			TEX_david_worth_bagley = { set_nationality = TEX }
+			TEX_john_sidney_mccain_sr = { set_nationality = TEX }
+
+			annex_country = { target = event_target:system }
 			if = {
 				limit = { NOT = { country_exists = CSA } }
 				load_oob = ACW_TEX_naval_alone
@@ -2364,37 +2370,37 @@ ACW_navy_redistribution_TEX = {
 ACW_navy_redistribution_USA = {
 	hidden_effect = {
 		# Pacific Fleet
-		transfer_ship = { prefer_name = "USS Louisville" type = heavy_cruiser target = XXA }
-		transfer_ship = { prefer_name = "USS Pennsylvania" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS Louisville" type = heavy_cruiser target = event_target:system }
+		transfer_ship = { prefer_name = "USS Pennsylvania" type = battleship target = event_target:system }
 
-		transfer_ship = { prefer_name = "USS Talbot" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Waters" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Dent" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Dorsey" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Lea" type = destroyer target = XXA }
-		transfer_ship = { prefer_name = "USS Lamberton" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS Talbot" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Waters" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Dent" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Dorsey" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Lea" type = destroyer target = event_target:system }
+		transfer_ship = { prefer_name = "USS Lamberton" type = destroyer target = event_target:system }
 
 		PSA = {
-			transfer_ship = { prefer_name = "USS Raleigh" type = light_cruiser target = XXA }
-			transfer_ship = { prefer_name = "USS R11" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R12" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R13" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R14" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R15" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R16" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R17" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R18" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R19" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS R20" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Clemson" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Dahlgren" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Goldsborough" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Semmes" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Satterlee" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Greer" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS Raleigh" type = light_cruiser target = event_target:system }
+			transfer_ship = { prefer_name = "USS R11" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R12" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R13" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R14" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R15" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R16" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R17" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R18" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R19" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS R20" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Clemson" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Dahlgren" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Goldsborough" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Semmes" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Satterlee" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Greer" type = destroyer target = event_target:system }
 		}
 		USA = {
-			annex_country = { target = XXA }
+			annex_country = { target = event_target:system }
 			load_oob = ACW_USA_naval_pacific
 		}
 	}
@@ -2952,7 +2958,7 @@ USA_reset_southern_VP_values = {
 }
 
 USA_canada_seizes_new_england = {
-	set_country_flag = CAN_seized_new_england
+	set_global_flag = CAN_seized_new_england
 	USA_restore_deleted_factories_NEE = yes
 	CAN = {
 		complete_national_focus = CAN_new_england_question
@@ -3026,60 +3032,60 @@ USA_spawn_new_england = {
 			}
 		}
 		USA = {
-			transfer_ship = { prefer_name = "USS McDougal" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Farragut" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Dewey" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Hull" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Macdonough" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Worden" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Dale" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Monaghan" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Aylwin" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Mahan" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Cummings" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Drayton" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Percival" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Kane" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Humphreys" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Flusser" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Reid" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Case" type = destroyer target = XXA }
-			transfer_ship = { prefer_name = "USS Conyngham" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS McDougal" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Farragut" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Dewey" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Hull" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Macdonough" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Worden" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Dale" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Monaghan" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Aylwin" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Mahan" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Cummings" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Drayton" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Percival" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Kane" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Humphreys" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Flusser" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Reid" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Case" type = destroyer target = event_target:system }
+			transfer_ship = { prefer_name = "USS Conyngham" type = destroyer target = event_target:system }
 		
-			transfer_ship = { prefer_name = "USS O11" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O12" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O13" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O14" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O15" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS O16" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R21" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R22" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R23" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R24" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R25" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R26" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS R27" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Argonaut" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Narwhal" type = submarine target = XXA }
-			transfer_ship = { prefer_name = "USS Nautilus" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O11" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O12" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O13" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O14" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O15" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS O16" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R21" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R22" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R23" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R24" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R25" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R26" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS R27" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Argonaut" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Narwhal" type = submarine target = event_target:system }
+			transfer_ship = { prefer_name = "USS Nautilus" type = submarine target = event_target:system }
 			random_character = {
 				limit = { is_character = NEE_harold_stark }
 				set_nationality = NEE
 			}
 		}
 		NEE = {
-			annex_country = { target = XXA }
+			annex_country = { target = event_target:system }
 			load_oob = ACW_NEE_naval
 			if = {
-				limit = { CAN = { has_country_flag = CAN_supports_USA } }
+				limit = { has_global_flag = CAN_supports_USA }
 				add_ideas = ACW_support_usa
 			}
 			else_if = {
-				limit = { CAN = { has_country_flag = CAN_supports_PSA } }
+				limit = { has_global_flag = CAN_supports_PSA }
 				add_ideas = ACW_support_psa
 			}
 			else_if = {
-				limit = { CAN = { has_country_flag = CAN_supports_TEX } }
+				limit = { has_global_flag = CAN_supports_TEX }
 				add_ideas = ACW_support_aus
 			}
 			hidden_effect = {
@@ -3479,11 +3485,15 @@ USA_starting_tank_variants = {
 }
 
 USA_starting_naval_variants = {
+	##################################################################
+	### UPDATE EQUIVALENTS IN CSA HISTORY FILE IF YOU CHANGE THESE ###
+	##################################################################
+
 	create_equipment_variant = {
 		name = "Porpoise Class"
 		type = ship_hull_submarine_2
-
 		name_group = USA_FISH
+		show_position = no
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
@@ -3493,8 +3503,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Barracuda/Dolphin/Cachalot Class"
 		type = ship_hull_submarine_2
-
 		name_group = USA_FISH
+		show_position = no
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -3505,8 +3515,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {			# represents O/R class, S class
 		name = "O/R/S Class"
 		type = ship_hull_submarine_1
-
 		name_group = USA_FISH
+		show_position = no
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -3518,8 +3528,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Argonaut Class"
 		type = ship_hull_cruiser_submarine
-
 		name_group = USA_FISH
+		show_position = no
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -3530,8 +3540,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Narwhal Class"				# cruiser submarine
 		type = ship_hull_cruiser_submarine
-
 		name_group = USA_FISH
+		show_position = no
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
@@ -3544,8 +3554,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Porter/Somers Class"				# represents Porter, Somers classes
 		type = ship_hull_light_2
-
 		name_group = USA_HEROES_NAVY
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3560,8 +3570,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Rodgers/Bagley Class"				# represents Gridley, Badley classes
 		type = ship_hull_light_2
-
 		name_group = USA_HEROES_NAVY
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3576,8 +3586,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Farragut/Mahan Class"				# represents Farragut, Mahan classes
 		type = ship_hull_light_2
-
 		name_group = USA_HEROES_NAVY
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3593,8 +3603,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Caldwell/Clemson/Wickes Class"				# represents Caldwell, Clemson, and Wickes classes
 		type = ship_hull_light_1
-
 		name_group = USA_HEROES_NAVY
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3612,8 +3622,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Pensacola Class"                    #not OTL class - composition like in Wichita class because we haven't OTL naval treaties
 		type = ship_hull_cruiser_2
-
 		name_group = USA_CITIES
+		show_position = no
 		modules = {
 			fixed_ship_armor_slot = ship_armor_cruiser_2
 			fixed_ship_battery_slot = ship_medium_battery_1
@@ -3631,8 +3641,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Brooklyn Class"
 		type = ship_hull_cruiser_2
-
 		name_group = USA_CITIES
+		show_position = no
 		role_icon_index = 3
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2
@@ -3652,8 +3662,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Omaha Class"
 		type = ship_hull_cruiser_1
-
 		name_group = USA_CITIES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2
 			fixed_ship_secondaries_slot = empty
@@ -3672,8 +3682,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
 		name = "Augusta Class"
 		type = ship_hull_cruiser_1
-
 		name_group = USA_CITIES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3691,8 +3701,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {					#Fictional Late Interwar Heavy Cruiser Design close to Admiral Hipper Class
 		name = "Olympia Class"
 		type = ship_hull_cruiser_2
-
 		name_group = USA_CITIES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3713,8 +3723,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Lexington Class"                    #were finished in KRTL, little different design without influence of Hood
 		type = ship_hull_heavy_1
-
 		name_group = USA_BATTLES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3734,8 +3744,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Iowa Class"
 		type = ship_hull_heavy_2
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_armor_slot = ship_armor_bb_2
 			front_1_custom_slot = ship_heavy_battery_2
@@ -3753,8 +3763,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Colorado Class"
 		type = ship_hull_heavy_1
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_armor_slot = ship_armor_bb_2
 			front_1_custom_slot = ship_heavy_battery_2
@@ -3773,8 +3783,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Tennessee Class"
 		type = ship_hull_heavy_1
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_armor_slot = ship_armor_bb_2
 			front_1_custom_slot = ship_heavy_battery_2
@@ -3793,8 +3803,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Pennsylvania/New Mexico Class"
 		type = ship_hull_heavy_1
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3813,8 +3823,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Florida/Wyoming/New York Class"
 		type = ship_hull_heavy_1
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3835,8 +3845,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "South Carolina Class"                    #Tillman project of Dreadnoughts, tho, little chagned and upgraded to 1936 - instead of South Dakotas
 		type = ship_hull_super_heavy_1
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_battery_slot = ship_super_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -3859,8 +3869,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Ranger Class"                    #Converted ship of Lexington project
 		type = ship_hull_carrier_conversion_bb
-
 		name_group = USA_CV_HISTORICAL
+		show_position = no
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -3874,8 +3884,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Massachusetts Class"                    #Converted ship of Tillman project
 		type = ship_hull_carrier_conversion_bb
-
 		name_group = USA_STATES
+		show_position = no
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -3890,8 +3900,8 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "Yorktown Class"                    #Yorktown Class
 		type = ship_hull_carrier_1
-
 		name_group = USA_CV_HISTORICAL
+		show_position = no
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -3910,6 +3920,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "P-6"
 			type = small_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_2x
 				fixed_auxiliary_weapon_slot_1 = light_mg_2x
@@ -3921,6 +3932,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "P-26A"
 			type = small_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_2x
 				fixed_auxiliary_weapon_slot_1 = light_mg_2x
@@ -3932,6 +3944,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "O2U"
 			type = small_plane_cas_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = bomb_locks
 				fixed_auxiliary_weapon_slot_1 = light_mg_2x
@@ -3942,6 +3955,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "SBU Corsair"
 			type = cv_small_plane_cas_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = bomb_locks
 				engine_type_slot = engine_1_1x
@@ -3952,6 +3966,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "BM-2"
 			type = cv_small_plane_naval_bomber_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = torpedo_mounting
 				engine_type_slot = engine_1_1x
@@ -3962,6 +3977,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "A-12"
 			type = small_plane_cas_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = bomb_locks
 				engine_type_slot = engine_1_1x
@@ -3972,6 +3988,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "A-17"
 			type = small_plane_cas_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = small_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = light_mg_4x
@@ -3982,6 +3999,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "P-35A"
 			type = small_plane_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
 				fixed_auxiliary_weapon_slot_1 = light_mg_4x
@@ -3993,6 +4011,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "P-36A"
 			type = small_plane_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
 				fixed_auxiliary_weapon_slot_1 = light_mg_2x
@@ -4003,6 +4022,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "B-6A"
 			type = medium_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				engine_type_slot = engine_1_2x
@@ -4013,6 +4033,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "B-10"
 			type = medium_plane_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				engine_type_slot = engine_1_2x
@@ -4023,6 +4044,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "B-18"
 			type = medium_plane_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				engine_type_slot = engine_2_2x
@@ -4032,6 +4054,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "P2Y"
 			type = medium_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
@@ -4044,6 +4067,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "PBY"
 			type = medium_plane_airframe_1
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
@@ -4056,6 +4080,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "F4B"
 			type = cv_small_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_2x
 				engine_type_slot = engine_1_1x
@@ -4066,6 +4091,7 @@ USA_starting_plane_variants = {
 		create_equipment_variant = {
 			name = "F3F"
 			type = cv_small_plane_airframe_0
+			show_position = no
 			modules = {
 				fixed_main_weapon_slot = light_mg_2x
 				engine_type_slot = engine_2_1x

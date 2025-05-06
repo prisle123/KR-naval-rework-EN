@@ -14,9 +14,8 @@ units = {
 			ship = { name = "Fuso" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
 			ship = { name = "Yamashiro" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Fuso Class" } } }
 			
-			ship = { name = "Tokachi" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
-			ship = { name = "Mikuma" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
-			ship = { name = "Mogami" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
+			ship = { name = "Mikuma" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
+			ship = { name = "Mogami" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
 			ship = { name = "Jintsu" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Sendai Class" } } }
 			ship = { name = "Isuzu" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Kiso" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
@@ -95,8 +94,10 @@ units = {
 			ship = { name = "Akagi" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Amagi Class" } } }
 			ship = { name = "Atago" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Amagi Class" } } }
 
-			ship = { name = "Rokkaku" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
-			ship = { name = "Suzuka" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
+			ship = { name = "Tokachi" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
+			ship = { name = "Myoko" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
+			ship = { name = "Tanigawa" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
+			ship = { name = "Takatsuma" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
 			ship = { name = "Kitakami" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 			ship = { name = "Natori" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
@@ -181,9 +182,7 @@ units = {
 		task_force = {
 			name = "3 Kantai" #Later assigned for the Chinese theater
 			location = 12068  # 12068	# Taiwan
-			ship = { name = "Kirishima" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
 			#Dai 10 Sentai
-			ship = { name = "Sumida" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
 			ship = { name = "Asama" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Izumo" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Kuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
@@ -255,8 +254,8 @@ units = {
 			ship = { name = "Furataka" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "Furutaka/Aoba Class" } } }
 			ship = { name = "Kako" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "Furutaka/Aoba Class" } } }
 
-			ship = { name = "Monobe" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
-			ship = { name = "Kuzuryu" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Tokachi Class" } } }
+			ship = { name = "Monobe" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
+			ship = { name = "Suzuka" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Monobe Class" } } }
 			ship = { name = "Oi" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 			ship = { name = "Tama" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 
@@ -312,6 +311,7 @@ units = {
 			ship = { name = "Ise" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
 			ship = { name = "Hyuga" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Ise Class" } } }
 			ship = { name = "Kongo" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
+			ship = { name = "Kirishima" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
 			ship = { name = "Tenryu" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Tenryu Class" } } }
 			ship = { name = "Shimakaze" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Nadakaze" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }

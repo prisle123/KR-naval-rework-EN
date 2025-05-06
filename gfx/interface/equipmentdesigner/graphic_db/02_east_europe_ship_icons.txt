@@ -1400,6 +1400,7 @@ RUS = {
         pool = {
             icons = {
                 "gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
             }
         }
 
@@ -1417,6 +1418,7 @@ RUS = {
             icons = {
                 GFX_RUS_vnr_ship_hull_light_1_medium
 				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
             }
         }
 
@@ -1435,6 +1437,7 @@ RUS = {
                 GFX_RUS_vnr_ship_hull_light_1_medium
 				GFX_RUS_vnr_ship_hull_light_2_medium
 				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
             }
         }
 
@@ -1454,6 +1457,7 @@ RUS = {
 				GFX_RUS_vnr_ship_hull_light_2_medium
 				GFX_RUS_vnr_ship_hull_light_3_medium
 				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
             }
         }
 
@@ -1474,6 +1478,7 @@ RUS = {
 				GFX_RUS_vnr_ship_hull_light_3_medium
 				GFX_RUS_vnr_ship_hull_light_4_medium
 				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
             }
         }
 
@@ -1495,6 +1500,8 @@ RUS = {
 				GFX_RUS_vnr_ship_hull_light_4_medium
 				GFX_RUS_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/Russia/RUS_destroyer_Shestakov.png"
+				"gfx/interface/technologies/Russia/RUS_destroyer_Novik.png"
+				"gfx/interface/technologies/extra/RUS_destroyer_Kanin.png"
             }
         }
 

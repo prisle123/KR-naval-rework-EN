@@ -231,6 +231,7 @@ USA = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -504,6 +505,17 @@ USA = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -619,7 +631,6 @@ USA = {
     }
 
 }
-
 
 PSA = {
 
@@ -854,6 +865,7 @@ PSA = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -1127,6 +1139,17 @@ PSA = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -1242,7 +1265,6 @@ PSA = {
     }
 
 }
-
 
 CAL = {
 
@@ -1477,6 +1499,7 @@ CAL = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -1750,6 +1773,17 @@ CAL = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -1865,7 +1899,6 @@ CAL = {
     }
 
 }
-
 
 CSA = {
 
@@ -2100,6 +2133,7 @@ CSA = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -2373,6 +2407,17 @@ CSA = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -2488,7 +2533,6 @@ CSA = {
     }
 
 }
-
 
 TEX = {
 
@@ -2723,6 +2767,7 @@ TEX = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -2996,6 +3041,17 @@ TEX = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -3111,7 +3167,6 @@ TEX = {
     }
 
 }
-
 
 NEE = {
 
@@ -3346,6 +3401,7 @@ NEE = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -3619,6 +3675,17 @@ NEE = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -3734,7 +3801,6 @@ NEE = {
     }
 
 }
-
 
 COR = {
 
@@ -3969,6 +4035,7 @@ COR = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -4242,6 +4309,17 @@ COR = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -4357,7 +4435,6 @@ COR = {
     }
 
 }
-
 
 WCC = {
 
@@ -4592,6 +4669,7 @@ WCC = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -4865,6 +4943,17 @@ WCC = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 
@@ -4980,7 +5069,6 @@ WCC = {
     }
 
 }
-
 
 HAW = {
 
@@ -5215,6 +5303,7 @@ HAW = {
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
 				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Albany.png"
             }
         }
 
@@ -5488,6 +5577,17 @@ HAW = {
 				"gfx/interface/technologies/USA/USA_carrier_Mass.png"
 				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
 				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
+				"gfx/interface/technologies/extra/USA_carrier_Oriskany.png"
+            }
+        }
+
+    }
+	
+	vnr_ship_hull_escort_carrier = {
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Princeton.png"
+                "gfx/interface/technologies/extra/USA_carrier_Long_Island.png"
             }
         }
 

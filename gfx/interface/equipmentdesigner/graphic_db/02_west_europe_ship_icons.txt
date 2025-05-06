@@ -28,6 +28,7 @@ FRA = {
             icons = {
                 GFX_FRA_vnr_ship_hull_light_1_medium
 				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
             }
         }
 
@@ -44,6 +45,7 @@ FRA = {
         pool = {
             icons = {
                 "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_1_medium
 				GFX_FRA_vnr_ship_hull_light_2_medium
 				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
@@ -62,6 +64,7 @@ FRA = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
 				GFX_FRA_vnr_ship_hull_light_2_medium
 				GFX_FRA_vnr_ship_hull_light_3_medium
@@ -82,6 +85,7 @@ FRA = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
 				GFX_FRA_vnr_ship_hull_light_2_medium
 				GFX_FRA_vnr_ship_hull_light_3_medium
@@ -103,6 +107,7 @@ FRA = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
 				GFX_FRA_vnr_ship_hull_light_2_medium
 				GFX_FRA_vnr_ship_hull_light_3_medium
@@ -331,6 +336,7 @@ FRA = {
                 GFX_FRA_vnr_ship_hull_heavy_1_medium
 				GFX_FRA_vnr_ship_hull_heavy_2_medium
 				GFX_FRA_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
             }
         }
 
@@ -351,6 +357,7 @@ FRA = {
 				GFX_FRA_vnr_ship_hull_heavy_2_medium
 				GFX_FRA_vnr_ship_hull_heavy_3_medium
 				GFX_FRA_vnr_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
             }
         }
 

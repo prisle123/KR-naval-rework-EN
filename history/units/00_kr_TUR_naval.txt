@@ -13,9 +13,9 @@ units = {
 			ship = { name = "OHG Sultan Mehmed-i Hamis" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "Reşadiye Class" } } } #Reşadiye
 			ship = { name = "OHG Gökceada" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Straßburg Class" } } } #Strassburg
 			#3. Donanma Firkasi
-			ship = { name = "OHG Sultan Abdülmecid-i Evvel" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye Class" } } } #Mecidiye
-			ship = { name = "OHG Peyk-i Şevket" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Peyk-i Şevket Class" } } }
-			ship = { name = "OHG Berk-i Satvet" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Peyk-i Şevket Class" } } }
+			ship = { name = "OHG Sultan Abdülmecid-i Evvel" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye Class" } } } #Mecidiye
+			ship = { name = "OHG Peyk-i Şevket" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Peyk-i Şevket Class" } } }
+			ship = { name = "OHG Berk-i Satvet" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Peyk-i Şevket Class" } } }
 		}
 		task_force = {
 			name = "1. Muhrip Filosu"
@@ -39,7 +39,7 @@ units = {
 			location = 792 #Beirut
 			#2. Donanma Firkasi
 			ship = { name = "OHG Yavuz Sultan Selim-i Evvel" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "Moltke Class" } } } #Yavuz Sultan Selim
-			ship = { name = "OHG Sultan Abdulhamid-i Sani" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye Class" } } } #Hamidiye
+			ship = { name = "OHG Sultan Abdulhamid-i Sani" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "Mecidiye Class" } } } #Hamidiye
 			ship = { name = "OHG Istanköy" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Straßburg Class" } } } #Stralsund
 			ship = { name = "OHG Sakiz" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Bremen Class" } } } #Danzig
 			#3. Muhrip Firkasi
