@@ -80,3 +80,28 @@ CAN_returning_home_decisions = {
         }
     }
 }
+
+naval_develop_category = {
+	remove_recovering_from_naval_race = {
+		icon = generic_naval
+		visible = {
+			has_idea = recovering_from_naval_race
+		}
+		available = {
+			threat > 0.25
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 180
+		modifier = {
+			experience_gain_navy_factor = -0.8
+			political_power_gain = -0.05
+		}
+		remove_effect = {
+			remove_ideas = recovering_from_naval_race
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+	}
+}

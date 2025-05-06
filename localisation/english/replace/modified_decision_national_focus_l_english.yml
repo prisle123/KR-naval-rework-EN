@@ -8,3 +8,4 @@
  CAN_refurbish_fleet: "Refurbish Reserved Fleet"
  CAN_refurbish_fleet_desc: "Now that we are ready to retake the Home Isle, we can first refurbish obsolete capital ships to strengthen our force."
  CAN_refurbish_fleet_tooltip: "A squadron of ships will join our navy after three months of refurbishment."
+ remove_recovering_from_naval_race: "Naval Reform"
