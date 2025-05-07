@@ -1,33 +1,33 @@
 HAW_defect_navy = {
 	#Pacific Fleet
-	transfer_ship = { prefer_name = "USS Massachusetts" type = carrier target = XXA }
+	transfer_ship = { prefer_name = "USS Massachusetts" type = carrier target = event_target:system }
 
-	transfer_ship = { prefer_name = "USS New York" type = battleship target = XXA }
-	transfer_ship = { prefer_name = "USS Arizona" type = battleship target = XXA }
-	transfer_ship = { prefer_name = "USS New Mexico" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS New York" type = battleship target = event_target:system }
+	transfer_ship = { prefer_name = "USS Arizona" type = battleship target = event_target:system }
+	transfer_ship = { prefer_name = "USS New Mexico" type = battleship target = event_target:system }
 
 	#ADD DESTROYER LEADER FROM PRODUCTION
-	transfer_ship = { prefer_name = "USS Hale" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Crowninshield" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Tillman" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Boggs" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Kilty" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Kennison" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Montgomery" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Breese" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Ramsay" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Tattnall" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Buchanan" type = destroyer target = XXA }
-	transfer_ship = { prefer_name = "USS Aaron Ward" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS Hale" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Crowninshield" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Tillman" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Boggs" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Kilty" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Kennison" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Montgomery" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Breese" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Ramsay" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Tattnall" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Buchanan" type = destroyer target = event_target:system }
+	transfer_ship = { prefer_name = "USS Aaron Ward" type = destroyer target = event_target:system }
 
-	transfer_ship = { prefer_name = "USS S14" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S15" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S16" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S17" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S18" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S19" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S20" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S21" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S22" type = submarine target = XXA }
-	transfer_ship = { prefer_name = "USS S23" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S14" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S15" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S16" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S17" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S18" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S19" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S20" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S21" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S22" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS S23" type = submarine target = event_target:system }
 }
