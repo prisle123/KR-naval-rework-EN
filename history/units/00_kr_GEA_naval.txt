@@ -69,8 +69,6 @@ units = {
 			location = 10297
 			ship = { name = "SMS Grosser Kurfürst" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
 			ship = { name = "SMS Markgraf" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
-			ship = { name = "SMS Friedrich der Grosse" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Class" } } }
-			ship = { name = "SMS Kaiserin" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Class" } } }
 
 			ship = { name = "SMS Pillau" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
 			ship = { name = "SMS Frankfurt" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz/Cöln/Königsberg Class" } } }
