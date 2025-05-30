@@ -263,7 +263,10 @@ ideas = {
             available = {
 				custom_trigger_tooltip = {
 					tooltip = recovering_from_naval_race_tt
-					NOT = { has_global_flag = vnr_enabled }
+					NOT = { 
+						has_global_flag = vnr_enabled
+						has_country_flag = recovered_from_naval_race
+					}
 				}
             }
             allowed_to_remove = {

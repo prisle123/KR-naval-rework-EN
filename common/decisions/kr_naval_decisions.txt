@@ -99,6 +99,7 @@ naval_develop_category = {
 		}
 		remove_effect = {
 			remove_ideas = recovering_from_naval_race
+			set_country_flag = recovered_from_naval_race
 		}
 		ai_will_do = {
 			factor = 1000
