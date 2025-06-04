@@ -1,10 +1,11 @@
 # workaround for navy redistribution in ACW
 add_namespace = ACW_navy_redistribution
 
-event = {
+country_event = {
     id = ACW_navy_redistribution.0
     title = ACW_navy_redistribution.0.t
     desc = ACW_navy_redistribution.0.d
+    picture = GFX_report_event_USA_naval_battle
 
     trigger = {
         tag = USA
@@ -17,7 +18,7 @@ event = {
 
     immediate = {
         hidden_effect = {
-            transfer_navy = XXX
+            transfer_navy = { target = XXX }
             add_ideas = USA_ACW_shipbuilding_collapse
             set_country_flag = US_navy_collapsed
         }
@@ -30,7 +31,7 @@ event = {
 }
 
 # load CSA navy
-event = {
+country_event = {
     id = ACW_navy_redistribution.1
     hidden = yes
     trigger = {
@@ -43,14 +44,14 @@ event = {
     immediate = {
         XXX = {
             CSA_defect_navy = yes
-            annex_country = { target = XXA }
         }
+        annex_country = { target = AAA }
         load_oob = 02_kr_CSA_naval
     }
 }
 
 # load TEX navy
-event = {
+country_event = {
     id = ACW_navy_redistribution.2
     hidden = yes
     trigger = {
@@ -63,8 +64,8 @@ event = {
     immediate = {
         XXX = {
             TEX_defect_navy = yes
-            annex_country = { target = XXA }
         }
+        annex_country = { target = AAA }
         load_oob = 02_kr_TEX_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
@@ -77,7 +78,7 @@ event = {
 }
 
 # load PSA navy
-event = {
+country_event = {
     id = ACW_navy_redistribution.3
     hidden = yes
     trigger = {
@@ -90,8 +91,8 @@ event = {
     immediate = {
         XXX = {
             PSA_defect_navy = yes
-            annex_country = { target = XXA }
         }
+        annex_country = { target = AAA }
         load_oob = 02_kr_PSA_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
@@ -104,10 +105,11 @@ event = {
 }
 
 # USA navy comes back
-event = {
+country_event = {
     id = ACW_navy_redistribution.4
     title = ACW_navy_redistribution.4.t
     desc = ACW_navy_redistribution.4.d
+    picture = GFX_report_event_USA_guamtake
 
     trigger = {
         tag = USA
@@ -124,7 +126,7 @@ event = {
 
     immediate = {
         hidden_effect = {
-            XXX = { transfer_navy = FROM }
+            XXX = { transfer_navy = { target = USA } }
             if = {
                 limit = { has_dlc = "By Blood Alone" }
                 load_oob = 01_kr_USA_air_bba
@@ -132,11 +134,12 @@ event = {
             else = {
                 load_oob = 01_kr_USA_air_legacy
             }
+            remove_ideas = USA_ACW_shipbuilding_collapse
         }
     }
 
     option = {
-        name = ACW_navy_redistribution.5.a
+        name = ACW_navy_redistribution.4.a
         custom_effect_tooltip = US_navy_recovered_tt
     }
 }

@@ -2,7 +2,7 @@ ideas = {
     hidden_ideas = {
         USA_ACW_shipbuilding_collapse = {
             modifier = {
-                industrial_capacity_dockyard = -1
+                industrial_capacity_dockyard = -10
             }
         }
     }

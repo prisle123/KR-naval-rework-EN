@@ -9,6 +9,12 @@ units = {
 		naval_base = 1562 ###NS+SB San Diego
 
 		task_force = {
+			name = "Carrier Division 1"
+			location = 1562
+			ship = { name = "USS Massachusetts" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = USA version_name = "Massachusetts Class" } } }
+		}
+
+		task_force = {
 			name = "Battleships, Battle Fleet"
 			location = 1562 ###NS+SB San Diego
 			#Battle Division 1
@@ -17,6 +23,9 @@ units = {
 			ship = { name = "USS Texas" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
 			#Battle Division 2
 			ship = { name = "USS South Carolina" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
+			ship = { name = "USS New York" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
+			ship = { name = "USS Arizona" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
+			ship = { name = "USS New Mexico" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
 		}
 
 		task_force = {
@@ -112,6 +121,26 @@ units = {
 			ship = { name = "USS Maury" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Lansdale" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 		}
+
+		task_force = {
+			name = "Destroyer Squadron 1"
+			location = 9671
+			#Leader ADD FROM PRODUCTION
+			#Division 19
+			ship = { name = "USS Hale" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Crowninshield" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Tillman" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Boggs" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Kilty" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Kennison" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			#Division 20
+			ship = { name = "USS Montgomery" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Breese" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Ramsay" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Tattnall" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Buchanan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Aaron Ward" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+		}
 	}
 
 	fleet = {
@@ -141,6 +170,21 @@ units = {
 			ship = { name = "USS S11" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS S12" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS S13" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+		}
+
+		task_force = {
+			name = "1st Submarine Division"
+			location = 1562 #Honolulu
+			ship = { name = "USS S14" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S16" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S17" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S18" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S19" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S20" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S21" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S22" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS S23" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 		}
 	}
 

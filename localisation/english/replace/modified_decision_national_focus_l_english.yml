@@ -9,3 +9,10 @@
 
  US_navy_collapsed_tt: "§HUS Navy has descended into complete disorder.§!"
  US_navy_recovered_tt: "§HUS fleet has been reorganized.§!"
+ ACW_navy_redistribution.0.t: "The Navy Adrift"
+ ACW_navy_redistribution.0.d: "With looming political turmoils and clashes between the Federal Government and paramilitary organizations, the once-mighty United States Navy has been thrown into chaos. Admirals pledge loyalty to different factions, supply chains are severed, and critical shipyards lie idle or in extremists' hands. Command structures have collapsed, and many ships now drift without orders or clear allegiance. Morale plummets as sailors are forced to choose between their country, their commanders, or their families.\n\nUntil the conflict is resolved, the U.S. Navy is no longer a coherent fighting force—just a fractured fleet lost in civil strife."
+ ACW_navy_redistribution.0.a: "Dark days for the fleet."
+ ACW_navy_redistribution.4.t: "Fleet Reorganized"
+ ACW_navy_redistribution.4.d: "As the nation fractures, swift action is taken by loyalist elements within the Navy. Under the direction of steadfast admirals, a portion of the fleet has been reorganized into a coherent command structure. Key vessels are rallied to secure strategic ports, enforce blockades, and protect loyal coastlines. Though the situation remains fluid and resources are scarce, this rapid naval reorganization provides a lifeline for the war effort. The reorganized fleet may not be at full strength, but it stands ready to fight for its chosen cause."
+ ACW_navy_redistribution.4.a: "Our ships sail again."
+ USA_ACW_shipbuilding_collapse: "Collapsed Shipbuilding Industry"
