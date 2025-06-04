@@ -1,0 +1,142 @@
+# workaround for navy redistribution in ACW
+add_namespace = ACW_navy_redistribution
+
+event = {
+    id = ACW_navy_redistribution.0
+    title = ACW_navy_redistribution.0.t
+    desc = ACW_navy_redistribution.0.d
+
+    trigger = {
+        tag = USA
+        OR = {
+            country_exists = CSA
+            country_exists = TEX
+        }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        hidden_effect = {
+            transfer_navy = XXX
+            add_ideas = USA_ACW_shipbuilding_collapse
+            set_country_flag = US_navy_collapsed
+        }
+    }
+
+    option = {
+        name = ACW_navy_redistribution.0.a
+        custom_effect_tooltip = US_navy_collapsed_tt
+    }
+}
+
+# load CSA navy
+event = {
+    id = ACW_navy_redistribution.1
+    hidden = yes
+    trigger = {
+        tag = CSA
+        country_exists = CSA
+        USA = { has_country_flag = US_navy_collapsed }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        XXX = {
+            CSA_defect_navy = yes
+            annex_country = { target = XXA }
+        }
+        load_oob = 02_kr_CSA_naval
+    }
+}
+
+# load TEX navy
+event = {
+    id = ACW_navy_redistribution.2
+    hidden = yes
+    trigger = {
+        tag = TEX
+        country_exists = TEX
+        USA = { has_country_flag = US_navy_collapsed }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        XXX = {
+            TEX_defect_navy = yes
+            annex_country = { target = XXA }
+        }
+        load_oob = 02_kr_TEX_naval
+        if = {
+            limit = { has_dlc = "By Blood Alone" }
+            load_oob = 01_kr_USA_air_bba
+        }
+        else = {
+            load_oob = 01_kr_USA_air_legacy
+        }
+    }
+}
+
+# load PSA navy
+event = {
+    id = ACW_navy_redistribution.3
+    hidden = yes
+    trigger = {
+        tag = PSA
+        country_exists = PSA
+        USA = { has_country_flag = US_navy_collapsed }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        XXX = {
+            PSA_defect_navy = yes
+            annex_country = { target = XXA }
+        }
+        load_oob = 02_kr_PSA_naval
+        if = {
+            limit = { has_dlc = "By Blood Alone" }
+            load_oob = 01_kr_USA_air_bba
+        }
+        else = {
+            load_oob = 01_kr_USA_air_legacy
+        }
+    }
+}
+
+# USA navy comes back
+event = {
+    id = ACW_navy_redistribution.4
+    title = ACW_navy_redistribution.4.t
+    desc = ACW_navy_redistribution.4.d
+
+    trigger = {
+        tag = USA
+        any_enemy_country = {
+            OR = {
+                tag = CSA
+                tag = TEX
+                tag = PSA
+            }
+        }
+    }
+    fire_only_once = yes
+    mean_time_to_happen = { days = 14 }
+
+    immediate = {
+        hidden_effect = {
+            XXX = { transfer_navy = FROM }
+            if = {
+                limit = { has_dlc = "By Blood Alone" }
+                load_oob = 01_kr_USA_air_bba
+            }
+            else = {
+                load_oob = 01_kr_USA_air_legacy
+            }
+        }
+    }
+
+    option = {
+        name = ACW_navy_redistribution.5.a
+        custom_effect_tooltip = US_navy_recovered_tt
+    }
+}

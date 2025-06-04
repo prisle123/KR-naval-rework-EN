@@ -1,8 +1,4 @@
 ﻿l_english:
- GEA_sms_neckar: "SMS Steinmetz"
- GEA_sms_neckar_desc: "While the Ostasienflotte is already strong and mighty it never hurts to increase its size. We shall lay the keel of a new Battleship, the 'Steinmetz', that will serve as a strong and modern spearhead."
- new_ship_being_built: "A group of ships will be constructed."
- 
  DEI_takeover_fleet: "Takeover Dutch East Indian fleet"
 
  CAN_refurbish_fleet: "Refurbish Reserved Fleet"
@@ -10,3 +6,6 @@
  CAN_refurbish_fleet_tooltip: "A squadron of ships will join our navy after three months of refurbishment."
  remove_recovering_from_naval_race: "Naval Reform"
  remove_recovering_from_naval_race_desc: "Our navy is ready to face the future."
+
+ US_navy_collapsed_tt: "§HUS Navy has descended into complete disorder.§!"
+ US_navy_recovered_tt: "§HUS fleet has been reorganized.§!"
