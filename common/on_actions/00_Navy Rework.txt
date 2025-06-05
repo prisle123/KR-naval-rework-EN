@@ -1,6 +1,8 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			# KR naval rework
+			set_global_flag = krnr_enabled
 			# technology setup
 			CSA = { inherit_technology = USA }
 			PSA = { inherit_technology = USA }

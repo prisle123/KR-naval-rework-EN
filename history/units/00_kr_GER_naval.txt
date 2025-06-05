@@ -176,7 +176,6 @@ units = {
 			ship = { name = "SMS Dortmund" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 			ship = { name = "SMS Duisburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 
-			ship = { name = "SMS H 220" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
 			ship = { name = "SMS H 221" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
 			ship = { name = "SMS H 222" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }
 			ship = { name = "SMS H 223" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = GER version_name = "Type 1924 Class" } } }

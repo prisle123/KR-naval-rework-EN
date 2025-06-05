@@ -77,10 +77,10 @@ add_starting_navy_spirits = {
 		add_ideas = dartmouth_naval_academy
 	}
 	CAN = {
-		add_ideas = lack_maintainence_facilities
+		add_ideas = lack_maintenance_facilities
 	}
 	NFA = {
-		add_ideas = lack_maintainence_facilities
+		add_ideas = lack_maintenance_facilities
 	}
 	AST = {
 		add_ideas = AST_oversized_fleet

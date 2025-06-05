@@ -1,6 +1,5 @@
 # workaround for navy redistribution in ACW
 add_namespace = ACW_navy_redistribution
-add_namespace = amcivwar
 
 country_event = {
     id = ACW_navy_redistribution.0
@@ -10,12 +9,15 @@ country_event = {
 
     trigger = {
         tag = USA
+        has_global_flag = krnr_enabled
         OR = {
-            country_exists = CSA
-            country_exists = TEX
+            has_country_flag = USA_macarthur_coup
+            OR = {
+                country_exists = CSA
+                country_exists = TEX
+            }
         }
     }
-    fire_only_once = yes
 
     immediate = {
         hidden_effect = {
@@ -26,7 +28,7 @@ country_event = {
     }
 
     option = {
-        log = "US navy transferred, XXX has [XXX.num_ships] ships"
+        log = "US navy transferred, XXX has [?XXX.num_ships] ships"
         name = ACW_navy_redistribution.0.a
         custom_effect_tooltip = US_navy_collapsed_tt
         effect_tooltip = {
@@ -47,12 +49,13 @@ country_event = {
     fire_only_once = yes
 
     immediate = {
+        give_military_access = XXX
         XXX = {
             CSA_defect_navy = yes
         }
         annex_country = { target = event_target:system }
         load_oob = 02_kr_CSA_naval
-        log = "CSA navy transferred, XXX has [XXX.num_ships] ships"
+        log = "CSA navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
@@ -68,6 +71,7 @@ country_event = {
     fire_only_once = yes
 
     immediate = {
+        give_military_access = XXX
         XXX = {
             TEX_defect_navy = yes
         }
@@ -80,7 +84,7 @@ country_event = {
         else = {
             load_oob = 01_kr_USA_air_legacy
         }
-        log = "TEX navy transferred, XXX has [XXX.num_ships] ships"
+        log = "TEX navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
@@ -97,6 +101,7 @@ country_event = {
     mean_time_to_happen = { days = 20 }
 
     immediate = {
+        give_military_access = XXX
         XXX = {
             PSA_defect_navy = yes
         }
@@ -109,7 +114,7 @@ country_event = {
         else = {
             load_oob = 01_kr_USA_air_legacy
         }
-        log = "PSA navy transferred, XXX has [XXX.num_ships] ships"
+        log = "PSA navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
@@ -131,13 +136,13 @@ country_event = {
         }
     }
     fire_only_once = yes
-    mean_time_to_happen = { days = 14 }
+    mean_time_to_happen = { days = 7 }
 
     immediate = {
         hidden_effect = {
-            log = "US navy pre back, XXX has [XXX.num_ships] ships"
+            log = "US navy pre back, XXX has [?XXX.num_ships] ships"
             XXX = { transfer_navy = { target = USA } }
-            log = "US navy post back, XXX has [XXX.num_ships] ships"
+            log = "US navy post back, XXX has [?XXX.num_ships] ships"
             if = {
                 limit = { has_dlc = "By Blood Alone" }
                 load_oob = 01_kr_USA_air_bba
@@ -158,10 +163,40 @@ country_event = {
     }
 }
 
-# overwrite base KR navy redistribution event
-country_event = {
-    id = amcivwar.315
-    hidden = yes
 
-    option = {}
+# for kx
+country_event = {
+    id = ACW_navy_redistribution.5
+    title = ACW_navy_redistribution.0.t
+    desc = ACW_navy_redistribution.0.d
+    picture = GFX_report_event_USA_naval_battle
+
+    trigger = {
+        tag = USA
+        has_global_flag = kxnr_enabled
+        OR = {
+            country_exists = CSA
+            country_exists = TEX
+        }
+    }
+
+    immediate = {
+        hidden_effect = {
+            transfer_navy = { target = XXX }
+            annex_country = { target = XXX }
+            load_oob = 00_kr_USA_naval
+            transfer_navy = { target = XXX }
+            add_ideas = USA_ACW_shipbuilding_collapse
+            set_country_flag = US_navy_collapsed
+        }
+    }
+
+    option = {
+        log = "US navy transferred, XXX has [?XXX.num_ships] ships"
+        name = ACW_navy_redistribution.0.a
+        custom_effect_tooltip = US_navy_collapsed_tt
+        effect_tooltip = {
+            add_ideas = USA_ACW_shipbuilding_collapse
+        }
+    }
 }

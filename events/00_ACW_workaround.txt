@@ -1,0 +1,8 @@
+add_namespace = amcivwar
+
+country_event = {
+    id = amcivwar.315
+    hidden = yes
+
+    option = {}
+}

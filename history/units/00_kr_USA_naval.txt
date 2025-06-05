@@ -193,7 +193,7 @@
 			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
 			#Battle Division 2
 			ship = { name = "USS South Carolina" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
-			ship = { name = "USS Georgia" definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
+			ship = { name = "USS Georgia" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "South Carolina Class" } } }
 			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 			#Battle Division 4
