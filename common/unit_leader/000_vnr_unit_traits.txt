@@ -13,9 +13,9 @@ leader_traits = {
 		}
 		
 		slot = navy_chief
-		specialist_advisor_trait = navy_chief_naval_aviation_1
-		expert_advisor_trait = navy_chief_naval_aviation_2
-		genius_advisor_trait = navy_chief_naval_aviation_3
+		specialist_advisor_trait = KR_navy_chief_naval_aviation_1
+		expert_advisor_trait = KR_navy_chief_naval_aviation_2
+		genius_advisor_trait = KR_navy_chief_naval_aviation_3
 		
 		trait_type = assignable_trait
 		mutually_exclusive = fighter_director
