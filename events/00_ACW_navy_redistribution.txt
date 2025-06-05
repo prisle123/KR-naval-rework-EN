@@ -1,5 +1,6 @@
 # workaround for navy redistribution in ACW
 add_namespace = ACW_navy_redistribution
+add_namespace = amcivwar
 
 country_event = {
     id = ACW_navy_redistribution.0
@@ -27,6 +28,9 @@ country_event = {
     option = {
         name = ACW_navy_redistribution.0.a
         custom_effect_tooltip = US_navy_collapsed_tt
+        effect_tooltip = {
+            add_ideas = USA_ACW_shipbuilding_collapse
+        }
     }
 }
 
@@ -45,7 +49,7 @@ country_event = {
         XXX = {
             CSA_defect_navy = yes
         }
-        annex_country = { target = AAA }
+        annex_country = { target = event_target:system }
         load_oob = 02_kr_CSA_naval
     }
 }
@@ -65,7 +69,7 @@ country_event = {
         XXX = {
             TEX_defect_navy = yes
         }
-        annex_country = { target = AAA }
+        annex_country = { target = event_target:system }
         load_oob = 02_kr_TEX_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
@@ -93,7 +97,7 @@ country_event = {
         XXX = {
             PSA_defect_navy = yes
         }
-        annex_country = { target = AAA }
+        annex_country = { target = event_target:system }
         load_oob = 02_kr_PSA_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
@@ -142,5 +146,16 @@ country_event = {
     option = {
         name = ACW_navy_redistribution.4.a
         custom_effect_tooltip = US_navy_recovered_tt
+        effect_tooltip = {
+            remove_ideas = USA_ACW_shipbuilding_collapse
+        }
     }
+}
+
+# overwrite base KR navy redistribution event
+country_event = {
+    id = amcivwar.315
+    hidden = yes
+
+    option = {}
 }
