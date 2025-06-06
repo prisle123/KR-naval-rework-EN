@@ -7,26 +7,26 @@ units = {
 		task_force = {
 			name = "1e Eskader"
 			location = 7381 ###Change to proper province number
-			ship = { name = "HrMs Mercurius" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "Willem van Oranje Class" } } }
-			ship = { name = "HrMs Willem van Oranje" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "Willem van Oranje Class" } } }
-			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }	
-			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }	
-			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = DEI version_name = "Admiralen Class" } } }	
-			ship = { name = "HrMs De Ruyter" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = DEI version_name = "De Ruyter Class" } } }
+			ship = { name = "HrMs Mercurius" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Willem van Oranje" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
 		}
 		task_force = {
 			name = "2e Eskader"
 			location = 7381 ###Change to proper province number
-			ship = { name = "HrMs Celebes" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
-			ship = { name = "HrMs Sumatra" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
-			ship = { name = "HrMs Java" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
-			ship = { name = "HrMs Wolf" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
-			ship = { name = "HrMs Fret" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
-			ship = { name = "HrMs Bulhond" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Celebes" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Java" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Wolf" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Fret" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
+			ship = { name = "HrMs Bulhond" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Wolf Class" } } }
 		}
 	}
 
@@ -36,16 +36,16 @@ units = {
 		task_force = {
 			name = "2e Onderzeebootseskader"
 			location = 4608 ###Change to proper province number
-			ship = { name = "HrMs K II" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K V" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K VI" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K VII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K IX" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K VIII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K X" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K XI" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K XII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
-			ship = { name = "HrMs K XIII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K Class" } } }
+			ship = { name = "HrMs K II" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K V" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K VI" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K VII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K IX" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K VIII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K X" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K XI" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K XII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "HrMs K XIII" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K Class" } } }
 		}
 	}
 }
