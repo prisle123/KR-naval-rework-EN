@@ -9,10 +9,10 @@ units = {
 			location = 11548 #Calais
 			ship = { name = "Henri de Saint-Simon" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
 			ship = { name = "Dombrowski" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Motte-Picquet Class" } } }
-			ship = { name = "Tramontane" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Trombe" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Typhon" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Tempête" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Tramontane" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Trombe" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Typhon" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Tempête" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
 		}
 		task_force = {
 			name = "1er Escadron de Sous-Marins"
@@ -54,13 +54,13 @@ units = {
 			ship = { name = "Pyat" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Communard Class" } } }
 			ship = { name = "Miot" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Communard Class" } } }
 			ship = { name = "Rigault" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Communard Class" } } }
-			ship = { name = "Bourrasque" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Cyclone" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Mistral" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Orage" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Ouragan" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Tornade" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Simoun" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Bourrasque" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Cyclone" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Mistral" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Orage" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Ouragan" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Tornade" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
+			ship = { name = "Simoun" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
 		}
 		task_force = {
 			name = "2ème Escadron de Sous-Marins"
