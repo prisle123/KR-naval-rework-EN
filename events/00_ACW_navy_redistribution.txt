@@ -1,6 +1,7 @@
 # workaround for navy redistribution in ACW
 add_namespace = ACW_navy_redistribution
 
+# start event chain of krnr navy redistribution
 country_event = {
     id = ACW_navy_redistribution.0
     title = ACW_navy_redistribution.0.t

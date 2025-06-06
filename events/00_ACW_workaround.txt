@@ -1,5 +1,6 @@
 add_namespace = amcivwar
 
+# disable base KR navy redistribution for CSA/TEX
 country_event = {
     id = amcivwar.315
     hidden = yes

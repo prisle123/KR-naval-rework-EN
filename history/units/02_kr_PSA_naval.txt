@@ -5,7 +5,7 @@
 
 units = {
 	fleet = {
-		name = "U.S. Fleet, Battle Fleet"
+		name = "U.S. Fleet, Scouting Fleet"
 		naval_base = 1562 ###NS+SB San Diego
 
 		task_force = {
@@ -15,7 +15,7 @@ units = {
 		}
 
 		task_force = {
-			name = "Battleships, Battle Fleet"
+			name = "Battleships, Scouting Fleet"
 			location = 1562 ###NS+SB San Diego
 			#Battle Division 1
 			ship = { name = "USS South Dakota" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
@@ -29,7 +29,7 @@ units = {
 		}
 
 		task_force = {
-			name = "Cruisers, Battle Fleet"
+			name = "Cruisers, Scouting Fleet"
 			location = 7315 ###NS Puget Sound (Seattle)
 			#Cruiser Squadron 4
 			ship = { name = "USS Lexington" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
