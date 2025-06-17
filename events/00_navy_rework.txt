@@ -73,10 +73,6 @@ country_event = {
 			CUB_starting_naval_variants_kr = yes
 			load_oob = 00_kr_CUB_naval
 		}
-		DEI = {
-			HOL_starting_naval_variants_kr = yes
-			load_oob = 00_kr_DEI_naval
-		}
 		DEN = {
 			DEN_starting_naval_variants_kr = yes
 			load_oob = 00_kr_DEN_naval
@@ -163,6 +159,10 @@ country_event = {
 			else = {
 				load_oob = 01_kr_HOL_air_legacy
 			}
+		}
+		DEI = {
+			HOL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_DEI_naval
 		}
 		IRE = {
 			IRE_starting_naval_variants_kr = yes

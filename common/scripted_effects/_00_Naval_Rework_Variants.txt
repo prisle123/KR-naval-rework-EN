@@ -7075,6 +7075,7 @@ ITA_starting_naval_variants_kr = {
 	# Republic of Italy
 	create_equipment_variant = { #modern torpedoboat hunter
 		name = "Dragoner Class"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = ITA_DD_HISTORICAL
