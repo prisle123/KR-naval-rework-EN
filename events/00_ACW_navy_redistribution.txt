@@ -7,6 +7,7 @@ country_event = {
     title = ACW_navy_redistribution.0.t
     desc = ACW_navy_redistribution.0.d
     picture = GFX_report_event_USA_naval_battle
+	fire_only_once = yes
 
     trigger = {
         tag = USA
@@ -14,8 +15,8 @@ country_event = {
         OR = {
             has_country_flag = USA_macarthur_coup
             OR = {
-                country_exists = CSA
-                country_exists = TEX
+                country_exists = WCA
+                country_exists = APG
             }
         }
     }
@@ -38,13 +39,13 @@ country_event = {
     }
 }
 
-# load CSA navy
+# load WCA navy
 country_event = {
     id = ACW_navy_redistribution.1
     hidden = yes
     trigger = {
-        tag = CSA
-        country_exists = CSA
+        tag = WCA
+        country_exists = WCA
         USA = { has_country_flag = US_navy_collapsed }
     }
     fire_only_once = yes
@@ -52,21 +53,21 @@ country_event = {
     immediate = {
         give_military_access = XXX
         XXX = {
-            CSA_defect_navy = yes
+            WCA_defect_navy = yes
         }
         annex_country = { target = event_target:system }
-        load_oob = 02_kr_CSA_naval
-        log = "CSA navy transferred, XXX has [?XXX.num_ships] ships"
+        load_oob = 02_kr_WCA_naval
+        log = "WCA navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
-# load TEX navy
+# load APG navy
 country_event = {
     id = ACW_navy_redistribution.2
     hidden = yes
     trigger = {
-        tag = TEX
-        country_exists = TEX
+        tag = APG
+        country_exists = APG
         USA = { has_country_flag = US_navy_collapsed }
     }
     fire_only_once = yes
@@ -74,10 +75,10 @@ country_event = {
     immediate = {
         give_military_access = XXX
         XXX = {
-            TEX_defect_navy = yes
+            APG_defect_navy = yes
         }
         annex_country = { target = event_target:system }
-        load_oob = 02_kr_TEX_naval
+        load_oob = 02_kr_APG_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
             load_oob = 01_kr_USA_air_bba
@@ -85,17 +86,17 @@ country_event = {
         else = {
             load_oob = 01_kr_USA_air_legacy
         }
-        log = "TEX navy transferred, XXX has [?XXX.num_ships] ships"
+        log = "APG navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
-# load PSA navy
+# load ACC navy
 country_event = {
     id = ACW_navy_redistribution.3
     hidden = yes
     trigger = {
-        tag = PSA
-        country_exists = PSA
+        tag = ACC
+        country_exists = ACC
         USA = { has_country_flag = US_navy_collapsed }
     }
     fire_only_once = yes
@@ -104,10 +105,10 @@ country_event = {
     immediate = {
         give_military_access = XXX
         XXX = {
-            PSA_defect_navy = yes
+            ACC_defect_navy = yes
         }
         annex_country = { target = event_target:system }
-        load_oob = 02_kr_PSA_naval
+        load_oob = 02_kr_ACC_naval
         if = {
             limit = { has_dlc = "By Blood Alone" }
             load_oob = 01_kr_USA_air_bba
@@ -115,7 +116,7 @@ country_event = {
         else = {
             load_oob = 01_kr_USA_air_legacy
         }
-        log = "PSA navy transferred, XXX has [?XXX.num_ships] ships"
+        log = "ACC navy transferred, XXX has [?XXX.num_ships] ships"
     }
 }
 
@@ -130,9 +131,9 @@ country_event = {
         tag = USA
         any_enemy_country = {
             OR = {
-                tag = CSA
-                tag = TEX
-                tag = PSA
+                tag = WCA
+                tag = APG
+                tag = ACC
             }
         }
     }
@@ -176,8 +177,8 @@ country_event = {
         tag = USA
         has_global_flag = kxnr_enabled
         OR = {
-            country_exists = CSA
-            country_exists = TEX
+            country_exists = WCA
+            country_exists = APG
         }
     }
 

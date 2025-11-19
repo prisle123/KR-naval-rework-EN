@@ -4,9 +4,9 @@ historical_ai_style = {
 		tag = GER
 		tag = GEA
 		tag = USA
-		tag = CSA
-		tag = TEX
-		tag = PSA
+		tag = WCA
+		tag = APG
+		tag = ACC
 		tag = ENG
 		tag = FRA
 		tag = GBR
@@ -17,14 +17,17 @@ historical_ai_style = {
 }
 
 expert_ai_style = {
-	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+	OR = {
+		has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+		has_global_flag = manual_enable_expert_ship
+	}
 	OR = {
 		tag = GER
 		tag = GEA
 		tag = USA
-		tag = CSA
-		tag = TEX
-		tag = PSA
+		tag = WCA
+		tag = APG
+		tag = ACC
 		tag = ENG
 		tag = FRA
 		tag = GBR
@@ -32,4 +35,43 @@ expert_ai_style = {
 		tag = CAN
 		tag = NFA
 	}
+}
+
+expert_ai_plane = {
+	OR = {
+		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		has_global_flag = manual_enable_expert_plane
+	}
+	OR = {
+		tag = GER
+		tag = GEA
+		tag = USA
+		tag = WCA
+		tag = APG
+		tag = ACC
+		tag = ENG
+		tag = FRA
+		tag = GBR
+		tag = JAP
+		tag = CAN
+		tag = NFA
+	}
+}
+
+is_ai_naval_major = {
+	OR = {
+		tag = GER
+		tag = GEA
+		tag = USA
+		tag = WCA
+		tag = APG
+		tag = ACC
+		tag = ENG
+		tag = FRA
+		tag = GBR
+		tag = JAP
+		tag = CAN
+		tag = NFA
+	}
+	is_ai = yes
 }

@@ -27,6 +27,7 @@ add_starting_techs = {
             midget_submarines = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			sonar = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -61,6 +62,7 @@ add_starting_techs = {
             midget_submarines = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			sonar = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -95,6 +97,7 @@ add_starting_techs = {
             midget_submarines = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			sonar = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -168,6 +171,7 @@ add_starting_techs = {
 			dive_bomber_study = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			sonar = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -543,6 +547,7 @@ makeup_starting_techs = {
             mixed_armor_scheme = 1
 			basic_heavy_armor = 1
 			krupp_steel = 1
+			fuel_oil_boiler = 1
 			popup = no
 		}
 	}

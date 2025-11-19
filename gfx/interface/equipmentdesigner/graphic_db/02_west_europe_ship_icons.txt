@@ -236,6 +236,7 @@ FRA = {
 				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/FRA_light_cruiser_Colbert.png"
             }
         }
 
@@ -795,6 +796,7 @@ NFA = {
 				GFX_NFA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_NFA_vnr_ship_hull_cruiser_4_capital_medium
 				GFX_NFA_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/FRA_light_cruiser_Colbert.png"
             }
         }
 

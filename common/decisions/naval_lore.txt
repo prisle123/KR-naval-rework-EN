@@ -34,9 +34,9 @@ Naval_lore_category = {
 		allowed = {
 			OR = {
 				tag = USA
-				tag = CSA
-				tag = TEX
-				tag = PSA
+				tag = WCA
+				tag = APG
+				tag = ACC
 				tag = NEE
 				tag = HAW
 			}

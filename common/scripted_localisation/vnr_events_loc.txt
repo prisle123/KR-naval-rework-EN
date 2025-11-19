@@ -67,10 +67,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -142,10 +142,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -209,10 +209,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -280,10 +280,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -347,10 +347,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -418,10 +418,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -485,10 +485,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -549,10 +549,10 @@ defined_text = {
 		trigger = { 
 			OR = {
 				original_tag = USA
-				original_tag = PSA
-				original_tag = TEX
+				original_tag = ACC
+				original_tag = APG
 				original_tag = NEE
-				original_tag = CSA
+				original_tag = WCA
 				original_tag = HAW
 			}
 		}
@@ -621,9 +621,9 @@ defined_text = {
 		trigger = { 
 			OR = {
 				original_tag = USA
-				original_tag = CSA
-				original_tag = TEX
-				original_tag = PSA
+				original_tag = WCA
+				original_tag = APG
+				original_tag = ACC
 				original_tag = NEE
 				original_tag = COR
 				original_tag = WCC

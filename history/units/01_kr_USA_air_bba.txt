@@ -4,16 +4,16 @@
 		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
 	}
 	"USS Constellation" = {
 		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B" }
 		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
 	}
 	"USS Massachusetts" = {
 		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B" }
@@ -22,11 +22,11 @@
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
 		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
 	}
 	"USS Langley" = {
 		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B" }
-		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "BM-2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "USA" amount = 10 version_name = "DT-2" }
 	}
 }

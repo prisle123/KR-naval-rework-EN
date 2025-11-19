@@ -86,9 +86,9 @@ default_role_ratios_minors = {
 			tag = GBR
 			tag = JAP
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = CAN
 		}
 	}
@@ -137,9 +137,9 @@ default_role_ratios_majors = {
 			tag = GBR
 			tag = JAP
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = CAN
 		}
 	}
@@ -261,9 +261,9 @@ naval_unit_role_ratios_minors_coastal = {
 			tag = GER
 			tag = FRA
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = RUS
 		}
 	}
@@ -298,9 +298,9 @@ naval_unit_role_ratios_minors_defensive = {
 			tag = GER
 			tag = FRA
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = RUS
 		}
 	}
@@ -347,9 +347,9 @@ naval_unit_role_ratios_minors_offensive = {
 			tag = GER
 			tag = FRA
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = RUS
 		}
 	}
@@ -402,9 +402,9 @@ naval_unit_role_ratios_minors_global = {
 			tag = GER
 			tag = FRA
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 			tag = RUS
 		}
 	}
@@ -1053,9 +1053,9 @@ naval_unit_role_ratios_CAN_prewar = {
 	enable = {
 		date < 1941.1.1
 		NOT = {
-			has_war_with = CSA
-			has_war_with = TEX
-			has_war_with = PSA
+			has_war_with = WCA
+			has_war_with = APG
+			has_war_with = ACC
 			has_war_with = USA
 			has_war_with = ENG
 			has_war_with = JAP
@@ -1099,9 +1099,9 @@ naval_unit_role_ratios_CAN_atwar_in_USA = {
 	}
 	enable = {
 		OR = {
-			has_war_with = CSA
-			has_war_with = TEX
-			has_war_with = PSA
+			has_war_with = WCA
+			has_war_with = APG
+			has_war_with = ACC
 			has_war_with = USA
 		}
 	}
@@ -1162,9 +1162,9 @@ naval_unit_role_ratios_CAN_atwar = {
 			has_war_with = ENG
 		}
 		NOT = {
-			has_war_with = CSA
-			has_war_with = TEX
-			has_war_with = PSA
+			has_war_with = WCA
+			has_war_with = APG
+			has_war_with = ACC
 			has_war_with = USA
 		}
 	}
@@ -1573,9 +1573,9 @@ naval_unit_role_ratios_ACW = {
 		has_dlc_mtg = yes
 		OR = {
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = {
@@ -1623,9 +1623,9 @@ naval_unit_role_ratios_ACW_end = {
 		has_dlc_mtg = yes
 		OR = {
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = {
@@ -1683,9 +1683,9 @@ naval_unit_role_ratios_USA_go_to_war = {
 		has_dlc_mtg = yes
 		OR = {
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = {
@@ -1797,9 +1797,9 @@ naval_unit_role_ratios_USA_go_to_war = {
 			# tag = GBR
 			# tag = JAP
 			# tag = USA
-			# tag = CSA
-			# tag = TEX
-			# tag = PSA
+			# tag = WCA
+			# tag = APG
+			# tag = ACC
 			# tag = CAN
 			# tag = RUS
 			# tag = SOV
@@ -1864,9 +1864,9 @@ naval_unit_role_ratios_USA_go_to_war = {
 			# tag = GBR
 			# tag = JAP
 			# tag = USA
-			# tag = CSA
-			# tag = TEX
-			# tag = PSA
+			# tag = WCA
+			# tag = APG
+			# tag = ACC
 			# tag = CAN
 		# }
 	# }
@@ -1893,9 +1893,9 @@ naval_unit_role_ratios_USA_go_to_war = {
 			# tag = GBR
 			# tag = JAP
 			# tag = USA
-			# tag = CSA
-			# tag = TEX
-			# tag = PSA
+			# tag = WCA
+			# tag = APG
+			# tag = ACC
 			# tag = CAN
 		# }
 	# }
@@ -1925,9 +1925,9 @@ we_need_convoys_minors = {
 				tag = JAP
 				tag = GER
 				tag = USA
-				tag = CSA
-				tag = TEX
-				tag = PSA
+				tag = WCA
+				tag = APG
+				tag = ACC
 			}
 		}
 	}
@@ -1951,9 +1951,9 @@ we_need_convoys_majors1 = {
 			tag = JAP
 			tag = GER
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 75 } }
@@ -1976,9 +1976,9 @@ we_need_convoys_majors2 = {
 			tag = JAP
 			tag = GER
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 150 } }
@@ -1998,9 +1998,9 @@ we_need_convoys_majors2 = {
 			# tag = JAP
 			# tag = GER
 			# tag = USA
-			# tag = CSA
-			# tag = TEX
-			# tag = PSA
+			# tag = WCA
+			# tag = APG
+			# tag = ACC
 		# }
 	# }
 	# enable = { stockpile_ratio = { archetype = convoy ratio < 250 } }
@@ -2020,9 +2020,9 @@ we_need_convoys_majors2 = {
 			# tag = JAP
 			# tag = GER
 			# tag = USA
-			# tag = CSA
-			# tag = TEX
-			# tag = PSA
+			# tag = WCA
+			# tag = APG
+			# tag = ACC
 		# }
 	# }
 	# enable = { stockpile_ratio = { archetype = convoy ratio < 400 } }
@@ -2043,9 +2043,9 @@ we_dont_need_convoys_1 = {
 				tag = JAP
 				tag = GER
 				tag = USA
-				tag = CSA
-				tag = TEX
-				tag = PSA
+				tag = WCA
+				tag = APG
+				tag = ACC
 			}
 		}
 	}
@@ -2066,9 +2066,9 @@ we_dont_need_convoys_2 = {
 			tag = JAP
 			tag = GER
 			tag = USA
-			tag = CSA
-			tag = TEX
-			tag = PSA
+			tag = WCA
+			tag = APG
+			tag = ACC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }
@@ -2312,5 +2312,112 @@ build_more_missile_cruisers = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = -80
+	}
+}
+
+upgrade_cv_plane_strategy_0 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = basic_small_airframe
+		NOT = { has_tech = improved_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_1
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_1
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_1
+		value = 1000
+	}
+}
+
+upgrade_cv_plane_strategy_1 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = improved_small_airframe
+		NOT = { has_tech = advanced_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_2
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_2
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_2
+		value = 1000
+	}
+}
+
+upgrade_cv_plane_strategy_2 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = advanced_small_airframe
+		NOT = { has_tech = modern_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_3
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_3
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_3
+		value = 1000
+	}
+}
+
+upgrade_cv_plane_strategy_3 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = modern_small_airframe
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_4
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_4
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_4
+		value = 1000
 	}
 }

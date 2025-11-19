@@ -76,6 +76,8 @@ USA = {
 				GFX_USA_vnr_ship_hull_light_3_medium
 				GFX_USA_vnr_ship_hull_light_4_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
+				"gfx/interface/technologies/extra/USA_destroyer_Charles_Adams.png"
+				"gfx/interface/technologies/extra/USA_destroyer_Gyatt.png"
             }
         }
 
@@ -606,6 +608,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -632,7 +635,7 @@ USA = {
 
 }
 
-PSA = {
+ACC = {
 
     vnr_ship_hull_light_1 = {
         pool = {
@@ -1240,6 +1243,7 @@ PSA = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -1874,6 +1878,7 @@ CAL = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -1900,7 +1905,7 @@ CAL = {
 
 }
 
-CSA = {
+WCA = {
 
     vnr_ship_hull_light_1 = {
         pool = {
@@ -2508,6 +2513,7 @@ CSA = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -2534,7 +2540,7 @@ CSA = {
 
 }
 
-TEX = {
+APG = {
 
     vnr_ship_hull_light_1 = {
         pool = {
@@ -3142,6 +3148,7 @@ TEX = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -3776,6 +3783,7 @@ NEE = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -4410,6 +4418,7 @@ COR = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -5044,6 +5053,7 @@ WCC = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 
@@ -5678,6 +5688,7 @@ HAW = {
 				GFX_USA_vnr_ship_hull_submarine_3_medium
 				GFX_USA_vnr_ship_hull_submarine_4_medium
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
 

@@ -1,4 +1,4 @@
-CSA_defect_navy = {
+WCA_defect_navy = {
 	transfer_ship = { prefer_name = "USS Indiana" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Montana" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Mississippi" type = battleship target = event_target:system }
@@ -31,7 +31,7 @@ CSA_defect_navy = {
 	transfer_ship = { prefer_name = "USS O10" type = submarine target = event_target:system }
 }
 
-TEX_defect_navy = {
+APG_defect_navy = {
 	transfer_ship = { prefer_name = "USS Tennessee" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Maryland" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Northampton" type = heavy_cruiser target = event_target:system }
@@ -68,11 +68,11 @@ TEX_defect_navy = {
 	transfer_ship = { prefer_name = "USS Pike" type = submarine target = event_target:system }
 }
 
-PSA_defect_navy = {
+ACC_defect_navy = {
 	transfer_ship = { prefer_name = "USS South Dakota" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Iowa" type = battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Texas" type = battleship target = event_target:system }
-	transfer_ship = { prefer_name = "USS South Carolina" type = SH_battleship target = event_target:system }
+	transfer_ship = { prefer_name = "USS Louisiana" type = SH_battleship target = event_target:system }
 	transfer_ship = { prefer_name = "USS Lexington" type = battle_cruiser target = event_target:system }
 	transfer_ship = { prefer_name = "USS Saratoga" type = battle_cruiser target = event_target:system }
 	transfer_ship = { prefer_name = "USS Omaha" type = light_cruiser target = event_target:system }

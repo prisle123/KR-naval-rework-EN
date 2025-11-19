@@ -4,9 +4,9 @@ on_actions = {
 			# KR naval rework
 			set_global_flag = krnr_enabled
 			# technology setup
-			CSA = { inherit_technology = USA }
-			PSA = { inherit_technology = USA }
-			TEX = { inherit_technology = USA }
+			WCA = { inherit_technology = USA }
+			ACC = { inherit_technology = USA }
+			APG = { inherit_technology = USA }
 			NEE = { inherit_technology = USA }
 			HAW = { inherit_technology = USA }
 
@@ -24,9 +24,9 @@ on_actions = {
 			add_to_array = { global.vnr_naval_powers = GER }
 			add_to_array = { global.vnr_naval_powers = GEA }
 			add_to_array = { global.vnr_naval_powers = USA }
-			add_to_array = { global.vnr_naval_powers = CSA }
-			add_to_array = { global.vnr_naval_powers = TEX }
-			add_to_array = { global.vnr_naval_powers = PSA }
+			add_to_array = { global.vnr_naval_powers = WCA }
+			add_to_array = { global.vnr_naval_powers = APG }
+			add_to_array = { global.vnr_naval_powers = ACC }
 			add_to_array = { global.vnr_naval_powers = ENG }
 			add_to_array = { global.vnr_naval_powers = FRA }
 			add_to_array = { global.vnr_naval_powers = GBR }

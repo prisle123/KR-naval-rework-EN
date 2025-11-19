@@ -85,4 +85,7 @@ add_starting_navy_spirits = {
 	AST = {
 		add_ideas = AST_oversized_fleet
 	}
+	RUS = {
+		add_ideas = nakhimov_naval_academy
+	}
 }
