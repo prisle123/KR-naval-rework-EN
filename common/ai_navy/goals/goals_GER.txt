@@ -61,7 +61,7 @@ GER_convoy_raiding = {
     }
 
     min_priority = 10
-    max_priority = 20
+    max_priority = 15
 }
 
 GER_naval_dominance = {
@@ -71,8 +71,8 @@ GER_naval_dominance = {
         GER
     }
 
-    min_priority = 10
-    max_priority = 20
+    min_priority = 1
+    max_priority = 13
 }
 
 GER_mine_laying = {

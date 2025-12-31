@@ -1,13 +1,13 @@
-GER_StrikeForce_1 = {
+SOV_StrikeForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
-		light_cruiser = {
+		battleship = {
 			amount = 2
 		}
 		destroyer = {
@@ -19,27 +19,27 @@ GER_StrikeForce_1 = {
 		battleship = {
 			amount = 4
 		}
-		heavy_cruiser = {
-			amount = 4
-		}
 		light_cruiser = {
-			amount = 4
+			amount = 10
 		}
 		destroyer = {
-			amount = 14
+			amount = 16
 		}
 	}
 }
 
-GER_StrikeForceCarrier_1 = {
+SOV_StrikeForceCarrier_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
 		factor = 1
-	}		
+	}	
 	mission = { naval_strike }
 	min_composition = {
+		battleship = {
+			amount = 2
+		}
 		destroyer = {
 			amount = 8
 		}
@@ -47,7 +47,7 @@ GER_StrikeForceCarrier_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 2
+			amount = 4
 		}
 		battleship = {
 			amount = 4
@@ -56,18 +56,18 @@ GER_StrikeForceCarrier_1 = {
 			amount = 10
 		}
 		destroyer = {
-			amount = 14
+			amount = 16
 		}
 	}
 }
 
-GER_PatrolReconForce_1 = {
+SOV_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
-		factor = 10
-	}	
+		factor = 5
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
@@ -81,13 +81,50 @@ GER_PatrolReconForce_1 = {
 	}
 }
 
-GER_PatrolDominanceForce_1 = {
+SOV_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
-		factor = 10
-	}		
+		factor = 5
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		battleship = {
+			amount = 3
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		destroyer = {
+			amount = 10
+		}
+	}
+}
+
+SOV_PatrolDominanceForce_2 = {
+	allowed = {
+		original_tag = SOV
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 0
+			has_navy_size = {
+				unit = heavy_cruiser
+				size < 1
+			}
+		}
+	}	
 	mission = { naval_patrol }
 	min_composition = {
 		light_cruiser = {
@@ -100,20 +137,23 @@ GER_PatrolDominanceForce_1 = {
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 3
-		}
-		light_cruiser = {
 			amount = 4
 		}
+		medium_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 3
+		}
 		destroyer = {
-			amount = 12
+			amount = 10
 		}
 	}
 }
 
-GER_ConvoyRaiding_1 = {
+SOV_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
 		factor = 1
@@ -132,34 +172,13 @@ GER_ConvoyRaiding_1 = {
 	}
 }
 
-GER_ConvoySurfaceRaiding_1 = {
+SOV_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = GER
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { convoy_raiding}
-	min_composition = {
-		battle_cruiser = {
-			amount = 1
-		}
-	}
-
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 2
-		}
-	}
-}
-
-GER_ConvoyEscort_1 = {
-	allowed = {
-		original_tag = GER
+		original_tag = SOV
 	}
 	ai_will_do = {
 		factor = 5
-	}		
+	}
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
@@ -169,7 +188,7 @@ GER_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 6
+			amount = 10
 		}
 	}
 }

@@ -318,11 +318,11 @@
  wake_homing_torpedo_desc: "The wake is the region of disturbed flow downstream of a solid body moving through a fluid, caused by the flow of the fluid around the body. Naval engineers have exploited such phenomenon and invented a guidance technique based on the wake trajectory left behind a moving target. Torpedo with wake homing system will be fired to cross behind target's stern and damage its propulsion and steering."
  proximity_detonator: "Proximity Detonator"
  proximity_detonator_desc: "A torpedo fitted with a proximity fuze can be detonated directly under the keel of a target ship. The explosion creates a gas bubble which may damage the keel or underside plating of the target. However, the most destructive part of the explosion is the upthrust of the gas bubble, which will bodily lift the hull in the water. The structure of the hull is designed to resist downward rather than upward pressure, causing severe strain in this phase of the explosion."
- 
+
  improved_ship_torpedo_launcher: "Improved Torpedo Launcher"
  advanced_ship_torpedo_launcher: "Advanced Torpedo Launcher"
  modern_ship_torpedo_launcher: "Modern Torpedo Launcher"
- 
+
  oxygen_torpedo: "Compressed Oxygen Torpedo"
  oxygen_torpedo_desc: "The amount of fuel that can be burned by a torpedo engine is limited by the amount of oxygen it can carry. Since compressed air contains only about 21% oxygen, the compressed oxygen torpedo used pure compressed oxygen instead of compressed air and had performance unmatched by any contemporary torpedo in service.\n\n"
  electric_torpedo: "Electric Torpedo"
@@ -344,15 +344,16 @@
  cryptography_revolution_desc: "Inspired by unprecedented computing power of computers after the war, cryptography has seen breakthroughs in both encryption algorithms and communication technologies. The engineering advance, usually represented by electronic encrypting machines, advanced algorithms, and frequency-hopping technology, is all but perfection in terms of protecting military information."
  luneburg_lens: "Luneburg Lens"
  luneburg_lens_desc: "A Luneburg lens is a spherically symmetric gradient-index lens and can be made for use with electromagnetic radiation from visible light to radio waves. First introduced by Prof. Rudolf Luneburg, this device can be used in manufacture of microwave antenna. Compared to parabolic dish, the antenna with Luneburg lens possesses quite an advantage, which it can be steered by moving the feed around the lens without having to bodily rotate the whole antenna."
- 
+
  converted_super_heavy_carrier: "Converted Super Heavy Carrier"
  advanced_missile_system: "Active Radar Homing Missile"
  advanced_missile_system_desc: "The post-war revolution in electronics has made smaller guidance system possible. The active radar homing technology allows missile to carry radar transceiver and electronics necessary to find and track its target autonomously, which becomes prototype of the later fire-and-forget technologies."
- 
- heavy_armor_research_tt: "§HBreakthrough in heavy armor plate will benefit research on cruiser armor in return.§!"
- cruiser_armor_research_tt: "§HBreakthrough in cruiser armor plate will benefit research on heavy armor in return.§!"
- 
- 
+
+ heavy_armor_research_tt: "\n§GBreakthrough in heavy armor plate will benefit research on cruiser armor in return.§!"
+ cruiser_armor_research_tt: "\n§GBreakthrough in cruiser armor plate will benefit research on heavy armor in return.§!"
+ topgun_spirit_tt: "§HUnlock a special navy officer corps spirits§!"
+
+
  # tech banners
  cv_tech_0_tt: "\n\n\n\n\n£GFX_cv_desc_icon\n\n\n\n\n\n"
  cv_tech_1_tt: "\n\n\n\n\n£GFX_cv_tech_1\n\n\n\n\n\n"
