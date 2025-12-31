@@ -10,5 +10,5 @@ tags={
 }
 name="Kaiserreich Naval Rework"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.17.*"
 remote_file_id="2862849828"

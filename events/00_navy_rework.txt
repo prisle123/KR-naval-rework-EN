@@ -284,6 +284,8 @@ country_event = {
 		}
 		
 		add_starting_navy_spirits = yes
+		
+		ai_doctrine_workaround = yes
 	}
 }
 
