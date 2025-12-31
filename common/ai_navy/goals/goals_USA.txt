@@ -2,7 +2,7 @@ USA_naval_invasion_support = {
     objective_type = naval_invasion_support
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 10
@@ -13,7 +13,7 @@ USA_mine_sweeping = {
     objective_type = mines_sweeping
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 0
@@ -24,7 +24,7 @@ USA_invasion_defense = {
     objective_type = naval_invasion_defense
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 10
@@ -35,7 +35,7 @@ USA_coast_defense = {
     objective_type = coast_defense
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 3
@@ -46,7 +46,7 @@ USA_convoy_protection = {
     objective_type = convoy_protection
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 7
@@ -57,7 +57,7 @@ USA_convoy_raiding = {
     objective_type = convoy_raiding
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 3
@@ -68,7 +68,7 @@ USA_naval_dominance = {
     objective_type = naval_dominance
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 15
@@ -79,7 +79,7 @@ USA_mine_laying = {
     objective_type = mines_planting
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 0
@@ -90,7 +90,7 @@ USA_training = {
     objective_type = training
 
     available_for = {
-        USA
+        USA ACC PSA WCA CSA APG TEX WCC
     }
 
     min_priority = 10

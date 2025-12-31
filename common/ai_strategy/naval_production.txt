@@ -75,107 +75,107 @@
 # }
 
 #### Non-MTG strategies ####
-default_role_ratios_minors = {
-	allowed = {
-		NOT = {
-			has_dlc_mtg = yes
-			tag = GER
-			tag = FRA
-			tag = NFA
-			tag = ENG
-			tag = GBR
-			tag = JAP
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = CAN
-		}
-	}
-	enable = {
-		always = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = unit_ratio
-		id = carrier
-		value = -100
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = -100
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 50
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 50
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = convoy
-		value = 1
-	}
-}
-
-default_role_ratios_majors = {
-	allowed = {
-		has_dlc_mtg = no
-		OR = {
-			tag = GER
-			tag = FRA
-			tag = NFA
-			tag = ENG
-			tag = GBR
-			tag = JAP
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = CAN
-		}
-	}
-	enable = {
-		always = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = unit_ratio
-		id = carrier
-		value = 0
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 20
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 400
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = convoy
-		value = 2
-	}
-}
+# default_role_ratios_minors = {
+# 	allowed = {
+# 		NOT = {
+# 			has_dlc_mtg = yes
+# 			tag = GER
+# 			tag = FRA
+# 			tag = NFA
+# 			tag = ENG
+# 			tag = GBR
+# 			tag = JAP
+# 			tag = USA
+# 			tag = WCA
+# 			tag = APG
+# 			tag = ACC
+# 			tag = CAN
+# 		}
+# 	}
+# 	enable = {
+# 		always = yes
+# 	}
+# 	abort_when_not_enabled = yes
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = carrier
+# 		value = -100
+# 	}
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = capital_ship
+# 		value = -100
+# 	}
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = screen_ship
+# 		value = 50
+# 	}
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = submarine
+# 		value = 50
+# 	}
+# 	ai_strategy = {
+# 		type = equipment_production_min_factories
+# 		id = convoy
+# 		value = 1
+# 	}
+# }
+# 
+# default_role_ratios_majors = {
+# 	allowed = {
+# 		has_dlc_mtg = no
+# 		OR = {
+# 			tag = GER
+# 			tag = FRA
+# 			tag = NFA
+# 			tag = ENG
+# 			tag = GBR
+# 			tag = JAP
+# 			tag = USA
+# 			tag = WCA
+# 			tag = APG
+# 			tag = ACC
+# 			tag = CAN
+# 		}
+# 	}
+# 	enable = {
+# 		always = yes
+# 	}
+# 	abort_when_not_enabled = yes
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = carrier
+# 		value = 0
+# 	}
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = capital_ship
+# 		value = 20
+# 	}
+# 
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = screen_ship
+# 		value = 400
+# 	}
+# 	ai_strategy = {
+# 		type = unit_ratio
+# 		id = submarine
+# 		value = 20
+# 	}
+# 	ai_strategy = {
+# 		type = equipment_production_min_factories
+# 		id = convoy
+# 		value = 2
+# 	}
+# }
 
 ##### MTG strategies ####
 no_old_navy_production = {
@@ -264,6 +264,10 @@ naval_unit_role_ratios_minors_coastal = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = CSA
+			tag = TEX
+			tag = WCC
 			tag = RUS
 		}
 	}
@@ -301,6 +305,10 @@ naval_unit_role_ratios_minors_defensive = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = CSA
+			tag = TEX
+			tag = WCC
 			tag = RUS
 		}
 	}
@@ -350,6 +358,10 @@ naval_unit_role_ratios_minors_offensive = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = CSA
+			tag = TEX
+			tag = WCC
 			tag = RUS
 		}
 	}
@@ -405,6 +417,10 @@ naval_unit_role_ratios_minors_global = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = CSA
+			tag = TEX
+			tag = WCC
 			tag = RUS
 		}
 	}
@@ -482,6 +498,12 @@ naval_unit_role_ratios_GER_prewar = {
 		id = vnr_naval_cruiser_light
 		value = 50
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
 	
 	ai_strategy = {
 		type = role_ratio
@@ -498,7 +520,18 @@ naval_unit_role_ratios_GER_prewar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 20
+		value = 500
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 5
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
 	}
 }
 
@@ -518,7 +551,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 100
+		value = 600
 	}
 
 	ai_strategy = {
@@ -529,26 +562,37 @@ naval_unit_role_ratios_GER_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
+		id = vnr_naval_cruiser_light
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_light
-		value = 80
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
+		id = vnr_naval_cruiser_heavy
+		value = 10
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 60
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 15
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 40
 	}
 }
 
@@ -568,7 +612,7 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 40
+		value = 400
 	}
 
 	ai_strategy = {
@@ -579,32 +623,37 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
+		id = vnr_naval_cruiser_light
+		value = 70
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_light
-		value = 40
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
+		id = vnr_naval_cruiser_heavy
+		value = 10
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 5
+		value = 25
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 50
+		value = 90
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 40
 	}
 }
 
@@ -633,12 +682,6 @@ naval_unit_role_ratios_GER_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 40
 	}
@@ -651,10 +694,10 @@ naval_unit_role_ratios_GER_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
+		id = vnr_naval_cruiser_medium
+		value = 10
 	}
-	
+
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
@@ -693,19 +736,13 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 50
+		value = 200
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
 		value = 300
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 10
 	}
 
 	ai_strategy = {
@@ -718,6 +755,11 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = -30
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
 	}
 }
 
@@ -739,7 +781,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 40
 	}
 
 	ai_strategy = {
@@ -751,7 +793,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 80
+		value = 200
 	}
 
 	ai_strategy = {
@@ -762,20 +804,25 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 60
 	}
 
 	ai_strategy = {
 		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 30
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
 	}
 }
 
@@ -795,13 +842,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 25
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 40
+		value = 60
 	}
 
 	ai_strategy = {
@@ -815,11 +862,28 @@ naval_unit_role_ratios_ENG_atwar = {
 		id = vnr_naval_cruiser_light
 		value = 60
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 20
+	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 50
+		value = 200
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 80
 	}
 }
 
@@ -857,20 +921,20 @@ naval_unit_role_ratios_ENG_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
+		id = vnr_naval_cruiser_light
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_light
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
-	
+
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
+		id = vnr_naval_submarine
+		value = 100
 	}
 }
 
@@ -985,11 +1049,6 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = convoy
-		value = 10
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 20
 	}
@@ -1056,6 +1115,9 @@ naval_unit_role_ratios_CAN_prewar = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
+			has_war_with = TEX
+			has_war_with = PSA
+			has_war_with = CSA
 			has_war_with = USA
 			has_war_with = ENG
 			has_war_with = JAP
@@ -1102,6 +1164,9 @@ naval_unit_role_ratios_CAN_atwar_in_USA = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
+			has_war_with = TEX
+			has_war_with = PSA
+			has_war_with = CSA
 			has_war_with = USA
 		}
 	}
@@ -1165,6 +1230,9 @@ naval_unit_role_ratios_CAN_atwar = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
+			has_war_with = TEX
+			has_war_with = PSA
+			has_war_with = CSA
 			has_war_with = USA
 		}
 	}
@@ -1325,7 +1393,7 @@ naval_unit_role_ratios_RUS_germany_is_dead = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.5
+		value = 50
 	}
 }
 
@@ -1346,7 +1414,7 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 20
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1357,6 +1425,11 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1389,13 +1462,13 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen
-		value = 300
+		id = vnr_naval_submarine
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 10
+		id = vnr_naval_screen
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1404,18 +1477,18 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 50
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1439,13 +1512,13 @@ naval_unit_role_ratios_JAP_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen
-		value = 400
+		id = vnr_naval_submarine
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 20
+		id = vnr_naval_screen
+		value = 400
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1454,13 +1527,27 @@ naval_unit_role_ratios_JAP_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_capital_bb
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = vnr_naval_carrier
-		value = 30
+		value = 60
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 60
 	}
 }
 
@@ -1481,18 +1568,18 @@ naval_unit_role_ratios_JAP_late_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 10
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 30
+		id = vnr_naval_cruiser_medium
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1506,7 +1593,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.3
+		value = 30
 	}
 }
 
@@ -1551,12 +1638,6 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 40
 	}
@@ -1565,6 +1646,12 @@ naval_unit_role_ratios_USA_great_depression = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 20
 	}
 }
 
@@ -1576,6 +1663,10 @@ naval_unit_role_ratios_ACW = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = TEX
+			tag = CSA
+			tag = WCC
 		}
 	}
 	enable = {
@@ -1626,6 +1717,10 @@ naval_unit_role_ratios_ACW_end = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = TEX
+			tag = CSA
+			tag = WCC
 		}
 	}
 	enable = {
@@ -1639,19 +1734,26 @@ naval_unit_role_ratios_ACW_end = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen
-		value = 350
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 10
+		id = vnr_naval_submarine
+		value = 300
 	}
 
 	ai_strategy = {
 		type = role_ratio
+		id = vnr_naval_screen
+		value = 350
+	}
+	
+	ai_strategy = {
+		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 40
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 20
 	}
 
 	ai_strategy = {
@@ -1663,18 +1765,18 @@ naval_unit_role_ratios_ACW_end = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 5
+		value = 15
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 5
+		value = 15
 	}
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 20
+		value = 40
 	}
 }
 
@@ -1697,7 +1799,11 @@ naval_unit_role_ratios_USA_go_to_war = {
 	}
 	abort_when_not_enabled = yes
 	
-
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 400
+	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
@@ -1705,25 +1811,18 @@ naval_unit_role_ratios_USA_go_to_war = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 20
+		id = vnr_naval_cruiser_light
+		value = 70
 	}
-
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_light
+		id = vnr_naval_cruiser_medium
 		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 40
 	}
 
 	ai_strategy = {
@@ -1740,7 +1839,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 40
+		value = 80
 	}
 }
 
@@ -1928,6 +2027,10 @@ we_need_convoys_minors = {
 				tag = WCA
 				tag = APG
 				tag = ACC
+				tag = PSA
+				tag = TEX
+				tag = CSA
+				tag = WCC
 			}
 		}
 	}
@@ -1954,6 +2057,10 @@ we_need_convoys_majors1 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = TEX
+			tag = CSA
+			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 75 } }
@@ -1979,6 +2086,10 @@ we_need_convoys_majors2 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = TEX
+			tag = CSA
+			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 150 } }
@@ -2046,6 +2157,10 @@ we_dont_need_convoys_1 = {
 				tag = WCA
 				tag = APG
 				tag = ACC
+				tag = PSA
+				tag = TEX
+				tag = CSA
+				tag = WCC
 			}
 		}
 	}
@@ -2069,6 +2184,10 @@ we_dont_need_convoys_2 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
+			tag = PSA
+			tag = TEX
+			tag = CSA
+			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }

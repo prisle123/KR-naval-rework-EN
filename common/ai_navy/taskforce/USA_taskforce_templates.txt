@@ -1,6 +1,13 @@
 USA_StrikeForce_1 = {
 	allowed = {
 		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 30
@@ -33,7 +40,14 @@ USA_StrikeForce_1 = {
 
 USA_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = USA
+		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 5
@@ -53,7 +67,14 @@ USA_PatrolReconForce_1 = {
 
 USA_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = USA
+		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 5
@@ -86,7 +107,14 @@ USA_PatrolDominanceForce_1 = {
 
 USA_PatrolDominanceForce_2 = {
 	allowed = {
-		original_tag = USA
+		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 3
@@ -119,7 +147,14 @@ USA_PatrolDominanceForce_2 = {
 
 USA_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = USA
+		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 5
@@ -140,7 +175,14 @@ USA_ConvoyRaiding_1 = {
 
 USA_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = USA
+		original_tag = USA 
+		original_tag = ACC
+		original_tag = PSA
+		original_tag = WCA
+		original_tag = CSA
+		original_tag = APG
+		original_tag = TEX
+		original_tag = WCC
 	}
 	ai_will_do = {
 		factor = 1
