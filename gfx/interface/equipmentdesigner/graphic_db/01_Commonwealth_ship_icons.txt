@@ -38,6 +38,8 @@ ENG = {
             icons = {
                 GFX_ENG_vnr_ship_hull_light_1_medium
 				GFX_ENG_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/extra/ENG_destroyer_Black_Swan.png"
+                "gfx/interface/technologies/extra/ENG_destroyer_Egret.png"
             }
         }
 
@@ -55,6 +57,8 @@ ENG = {
             icons = {
                 GFX_ENG_vnr_ship_hull_light_1_medium
 				GFX_ENG_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/extra/ENG_destroyer_Black_Swan.png"
+                "gfx/interface/technologies/extra/ENG_destroyer_Egret.png"
 				GFX_ENG_vnr_ship_hull_light_3_medium
             }
         }
@@ -73,6 +77,8 @@ ENG = {
             icons = {
                 GFX_ENG_vnr_ship_hull_light_1_medium
 				GFX_ENG_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/extra/ENG_destroyer_Black_Swan.png"
+                "gfx/interface/technologies/extra/ENG_destroyer_Egret.png"
 				GFX_ENG_vnr_ship_hull_light_3_medium
 				GFX_ENG_vnr_ship_hull_light_4_medium
 				"gfx/interface/technologies/extra/ENG_destroyer_Daring.png"
@@ -93,10 +99,12 @@ ENG = {
             icons = {
                 GFX_ENG_vnr_ship_hull_light_1_medium
 				GFX_ENG_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/extra/ENG_destroyer_Black_Swan.png"
+                "gfx/interface/technologies/extra/ENG_destroyer_Egret.png"
 				GFX_ENG_vnr_ship_hull_light_3_medium
 				GFX_ENG_vnr_ship_hull_light_4_medium
-				GFX_ENG_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/extra/ENG_destroyer_Daring.png"
+				GFX_ENG_vnr_ship_hull_light_5_medium
             }
         }
 
@@ -272,6 +280,9 @@ ENG = {
                 "gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 				"gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
+				"gfx/interface/technologies/extra/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
+				"gfx/interface/technologies/extra/ENG_battleship_Queen.png"
             }
         }
 
@@ -293,6 +304,8 @@ ENG = {
 				"gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 				"gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
+				"gfx/interface/technologies/extra/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
 				"gfx/interface/technologies/extra/ENG_battleship_Queen.png"
             }
         }
@@ -311,12 +324,14 @@ ENG = {
             icons = {
 				GFX_ENG_vnr_ship_hull_super_heavy_1_medium
                 GFX_ENG_vnr_ship_hull_heavy_1_medium
-				GFX_ENG_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/extra/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
 				"gfx/interface/technologies/extra/ENG_battleship_Queen.png"
+				GFX_ENG_vnr_ship_hull_heavy_2_medium
             }
         }
 
@@ -334,13 +349,15 @@ ENG = {
             icons = {
 				GFX_ENG_vnr_ship_hull_super_heavy_1_medium
                 GFX_ENG_vnr_ship_hull_heavy_1_medium
-				GFX_ENG_vnr_ship_hull_heavy_2_medium
-				GFX_ENG_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/extra/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
 				"gfx/interface/technologies/extra/ENG_battleship_Queen.png"
+				GFX_ENG_vnr_ship_hull_heavy_2_medium
+				GFX_ENG_vnr_ship_hull_heavy_3_medium
             }
         }
 
@@ -358,14 +375,16 @@ ENG = {
             icons = {
 				GFX_ENG_vnr_ship_hull_super_heavy_1_medium
                 GFX_ENG_vnr_ship_hull_heavy_1_medium
-				GFX_ENG_vnr_ship_hull_heavy_2_medium
-				GFX_ENG_vnr_ship_hull_heavy_3_medium
-				GFX_ENG_vnr_ship_hull_heavy_4_medium
+				"gfx/interface/technologies/extra/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 				"gfx/interface/technologies/UOB/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
 				"gfx/interface/technologies/extra/ENG_battleship_Queen.png"
+				GFX_ENG_vnr_ship_hull_heavy_2_medium
+				GFX_ENG_vnr_ship_hull_heavy_3_medium
+				GFX_ENG_vnr_ship_hull_heavy_4_medium
             }
         }
 

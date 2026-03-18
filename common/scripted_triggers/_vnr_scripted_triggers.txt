@@ -73,5 +73,8 @@ is_ai_naval_major = {
 		tag = CAN
 		tag = NFA
 	}
-	is_ai = yes
+	OR = {
+		is_ai = yes
+		is_debug = yes
+	}
 }

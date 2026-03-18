@@ -6,13 +6,10 @@ StrikeForce_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -53,13 +50,10 @@ PatrolReconForce_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -87,13 +81,10 @@ PatrolDominanceForce_CA_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -125,13 +116,10 @@ PatrolDominanceForce_BC_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -163,13 +151,10 @@ ConvoyRaiding_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -198,13 +183,10 @@ ConvoySurfaceRaiding_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -233,13 +215,10 @@ ConvoyEscort_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}
@@ -268,13 +247,10 @@ MineLaying_1 = {
 			original_tag = RUS
 			original_tag = USA 
 			original_tag = ACC
-			original_tag = PSA
 			original_tag = WCA
-			original_tag = CSA
 			original_tag = APG
-			original_tag = TEX
-			original_tag = WCC
 			original_tag = GER
+			original_tag = GEA
 			original_tag = FRA
 		}		
 	}

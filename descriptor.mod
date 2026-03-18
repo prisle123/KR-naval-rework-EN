@@ -1,5 +1,8 @@
 version="v2.0"
 replace_path="common/units/names_ships"
+replace_path="common/ai_navy/fleet"
+replace_path="common/ai_navy/goals"
+replace_path="common/ai_navy/taskforce"
 dependencies={
 	"Kaiserreich"
 	"KR Tech Extension"

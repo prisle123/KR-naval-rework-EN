@@ -3,7 +3,7 @@
 #You don't have to set all roles, not setting role == 0 or <0 value
 # naval_unit_role_ratios_XXX = {
 # 	allowed = {
-# 		has_dlc_mtg = yes
+# 		
 # 		tag = XXX
 # 	}
 
@@ -78,7 +78,7 @@
 # default_role_ratios_minors = {
 # 	allowed = {
 # 		NOT = {
-# 			has_dlc_mtg = yes
+# 			
 # 			tag = GER
 # 			tag = FRA
 # 			tag = NFA
@@ -180,7 +180,7 @@
 ##### MTG strategies ####
 no_old_navy_production = {
 	enable = {
-		has_dlc_mtg = yes
+		
 	}
 	abort_when_not_enabled = yes
 
@@ -472,7 +472,7 @@ naval_unit_role_ratios_minors_global = {
 
 naval_unit_role_ratios_GER_prewar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = GER
 	}
 	enable = {
@@ -499,12 +499,6 @@ naval_unit_role_ratios_GER_prewar = {
 		value = 50
 	}
 
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
@@ -537,7 +531,7 @@ naval_unit_role_ratios_GER_prewar = {
 
 naval_unit_role_ratios_GER_atwar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = GER
 	}
 	enable = {
@@ -568,12 +562,6 @@ naval_unit_role_ratios_GER_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
@@ -598,7 +586,7 @@ naval_unit_role_ratios_GER_atwar = {
 
 naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = GER
 	}
 	enable = {
@@ -629,14 +617,8 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 10
+		value = 20
 	}
 	
 	ai_strategy = {
@@ -659,7 +641,7 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 
 naval_unit_role_ratios_GER_late_peace = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = GER
 	}
 	enable = {
@@ -694,12 +676,6 @@ naval_unit_role_ratios_GER_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 20
 	}
@@ -708,7 +684,7 @@ naval_unit_role_ratios_GER_late_peace = {
 
 naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -765,7 +741,7 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 
 naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -810,12 +786,6 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
@@ -828,7 +798,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 
 naval_unit_role_ratios_ENG_atwar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -865,12 +835,6 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
@@ -889,7 +853,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 naval_unit_role_ratios_ENG_late_peace = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -927,7 +891,7 @@ naval_unit_role_ratios_ENG_late_peace = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
@@ -942,7 +906,7 @@ naval_unit_role_ratios_ENG_late_peace = {
 
 naval_unit_role_ratios_FRA_prewar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = FRA
 	}
 	enable = {
@@ -980,7 +944,7 @@ naval_unit_role_ratios_FRA_prewar = {
 
 naval_unit_role_ratios_FRA_atwar_with_germany = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = FRA
 	}
 	enable = {
@@ -1013,7 +977,7 @@ naval_unit_role_ratios_FRA_atwar_with_germany = {
 
 naval_unit_role_ratios_FRA_atwar_without_germany = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = FRA
 	}
 	enable = {
@@ -1056,7 +1020,7 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 
 naval_unit_role_ratios_FRA_late_peace = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = FRA
 	}
 	enable = {
@@ -1106,7 +1070,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 
 naval_unit_role_ratios_CAN_prewar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = CAN
 	}
 	enable = {
@@ -1156,7 +1120,7 @@ naval_unit_role_ratios_CAN_prewar = {
 # war in the United States is more dangerous for Canada
 naval_unit_role_ratios_CAN_atwar_in_USA = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = CAN
 	}
 	enable = {
@@ -1217,7 +1181,7 @@ naval_unit_role_ratios_CAN_atwar_in_USA = {
 
 naval_unit_role_ratios_CAN_atwar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = CAN
 	}
 	enable = {
@@ -1269,7 +1233,7 @@ naval_unit_role_ratios_CAN_atwar = {
 
 naval_unit_role_ratios_CAN_late_peace = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = CAN
 	}
 	enable = {
@@ -1320,7 +1284,7 @@ naval_unit_role_ratios_CAN_late_peace = {
 
 naval_unit_role_ratios_RUS_need_to_knock_germany = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = RUS
 			tag = SOV
@@ -1350,7 +1314,7 @@ naval_unit_role_ratios_RUS_need_to_knock_germany = {
 
 naval_unit_role_ratios_RUS_germany_is_dead = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = RUS
 			tag = SOV
@@ -1401,7 +1365,7 @@ naval_unit_role_ratios_RUS_germany_is_dead = {
 
 naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = JAP
 	}
 	enable = {
@@ -1428,11 +1392,6 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = -50
 	}
@@ -1450,7 +1409,7 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 
 naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = JAP
 	}
 	enable = {
@@ -1477,11 +1436,6 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
@@ -1499,7 +1453,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 
 naval_unit_role_ratios_JAP_atwar = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = JAP
 	}
 	enable = {
@@ -1527,11 +1481,6 @@ naval_unit_role_ratios_JAP_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
@@ -1553,7 +1502,7 @@ naval_unit_role_ratios_JAP_atwar = {
 
 naval_unit_role_ratios_JAP_late_peace = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = JAP
 	}
 	enable = {
@@ -1570,11 +1519,6 @@ naval_unit_role_ratios_JAP_late_peace = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 30
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1601,7 +1545,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 
 naval_unit_role_ratios_USA_great_depression = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		tag = USA
 	}
 	enable = {
@@ -1647,17 +1591,11 @@ naval_unit_role_ratios_USA_great_depression = {
 		id = vnr_naval_cruiser_heavy
 		value = 80
 	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
-	}
 }
 
 naval_unit_role_ratios_ACW = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = USA
 			tag = WCA
@@ -1711,7 +1649,7 @@ naval_unit_role_ratios_ACW = {
 
 naval_unit_role_ratios_ACW_end = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = USA
 			tag = WCA
@@ -1752,12 +1690,6 @@ naval_unit_role_ratios_ACW_end = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
@@ -1782,7 +1714,7 @@ naval_unit_role_ratios_ACW_end = {
 
 naval_unit_role_ratios_USA_go_to_war = {
 	allowed = {
-		has_dlc_mtg = yes
+		
 		OR = {
 			tag = USA
 			tag = WCA
@@ -1816,11 +1748,6 @@ naval_unit_role_ratios_USA_go_to_war = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 40
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
@@ -1845,7 +1772,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 # naval_unit_role_ratios_majors_lategame = {
 	# allowed = {
-		# has_dlc_mtg = yes
+		# 
 		# OR = {
 			# tag = GER
 			# tag = FRA
@@ -1887,7 +1814,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 # high_convoy_threat = {
 	# allowed = {
-		# has_dlc_mtg = yes
+		# 
 		# OR = {
 			# tag = GER
 			# tag = FRA
@@ -1956,7 +1883,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 # high_mine_threat_1 = {
 	# allowed = {
-		# has_dlc_mtg = yes
+		# 
 		# OR = {
 			# tag = GER
 			# tag = ENG
@@ -1985,7 +1912,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 # high_mine_threat_2 = {
 	# allowed = {
-		# has_dlc_mtg = yes
+		# 
 		# OR = {
 			# tag = GER
 			# tag = ENG
@@ -2423,7 +2350,7 @@ build_more_missile_cruisers = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 

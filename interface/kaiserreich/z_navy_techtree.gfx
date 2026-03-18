@@ -641,7 +641,7 @@ spriteTypes = {
 		name = "GFX_advanced_submarine_warfare_medium"
 		textureFile = "gfx/interface/technologies/doctrine_tree/advanced_submarine_warfare.png"
 	}
-	
+
 	# support tech extension
 	spriteType = {
 		name = "GFX_coldwar_ship_torpedo_launcher_medium"
@@ -754,5 +754,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sp_submarine_snorkel"
 		textureFile = "gfx/interface/special_project/project_icons/sp_naval_anechoic_tiles.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_shipping_container"
+		textureFile = "gfx/interface/special_project/project_icons/sp_shipping_container.png"
 	}
 }

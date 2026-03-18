@@ -3,6 +3,9 @@ on_actions = {
 		effect = {
 			# KR naval rework
 			set_global_flag = krnr_enabled
+			# VNR language
+            set_global_flag = navy_rework_english
+            # set_global_flag = navy_rework_chinese
 			# technology setup
 			WCA = { inherit_technology = USA }
 			ACC = { inherit_technology = USA }
@@ -11,10 +14,11 @@ on_actions = {
 			HAW = { inherit_technology = USA }
 
 			# show welcome UI
-			set_global_flag = navy_rework_splash_show
+			
 			
 			every_country = {
 				limit = { is_ai = no }
+				set_country_flag = navy_rework_splash_show
 				set_variable = { navy_rework_welcome_splash_variable = 1 }
 			}
 			

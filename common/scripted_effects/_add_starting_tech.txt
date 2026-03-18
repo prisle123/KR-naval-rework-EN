@@ -31,6 +31,7 @@ add_starting_techs = {
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -66,6 +67,7 @@ add_starting_techs = {
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -101,6 +103,7 @@ add_starting_techs = {
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -139,6 +142,7 @@ add_starting_techs = {
 			converted_super_heavy_carrier = 1
 
             basic_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -175,6 +179,7 @@ add_starting_techs = {
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -215,6 +220,7 @@ add_starting_techs = {
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -247,6 +253,7 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 
             basic_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -276,6 +283,7 @@ add_starting_techs = {
             cruiser_submarines = 1
 
             basic_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -310,6 +318,7 @@ add_starting_techs = {
 			enhanced_horizontal_defense = 1
 
             basic_super_heavy_battery = 1
+			bb_conversion_carrier = 1
 			popup = no
         }
     }
@@ -583,16 +592,43 @@ makeup_starting_techs = {
         }
     }
 	every_country = {
+		limit = { has_tech = interwar_ship_hull_light }
+		set_technology = {
+			basic_ship_hull_light = 1
+			popup = no
+		}
+	}
+	every_country = {
+		limit = { has_tech = interwar_ship_hull_cruiser }
+		set_technology = {
+			basic_ship_hull_cruiser = 1
+			popup = no
+		}
+	}
+	every_country = {
+		limit = { has_tech = interwar_ship_hull_heavy }
+		set_technology = {
+			basic_ship_hull_heavy = 1
+			popup = no
+		}
+	}
+    every_country = {
         set_technology = {
             vnr_less_fuel_consumption = 1
             popup = no
         }
     }
-	every_country = {
+    every_country = {
         limit = { has_tech = mtg_transport }
         set_technology = {
             naval_combat_support = 1
-			basic_port_facility = 1
+            popup = no
+        }
+    }
+    every_country = {
+        limit = { num_of_naval_factories > 0 }
+        set_technology = {
+            basic_port_facility = 1
             popup = no
         }
     }
@@ -603,15 +639,6 @@ makeup_starting_techs = {
             # popup = no
         # }
     # }
-    every_country = {
-        limit = { num_of_naval_factories > 0 }
-        set_technology = {
-            basic_port_facility = 1
-			dry_dock = 1
-            heavy_crane = 1
-            popup = no
-        }
-    }
 	for_each_scope_loop = {
 		array = global.vnr_naval_powers
 		

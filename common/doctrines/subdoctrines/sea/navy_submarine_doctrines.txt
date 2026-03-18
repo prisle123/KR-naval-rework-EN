@@ -8,7 +8,12 @@ wolfpacks = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_doctrine = new_convoy_raiding
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+        has_tech = basic_ship_hull_submarine
     }
 
     ai_will_do = { 
@@ -44,9 +49,14 @@ wolfpacks = {
 		}
 		improvisation = {
 			submarine = {
-				reliability = 0.1
 				max_organisation = 10
 			}
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
             sub_retreat_speed = 0.1
 		}
         rough_weather_procedure = {
@@ -76,7 +86,14 @@ submarine_fleet_operations = {
     xp_type = navy
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
     }
 
     ai_will_do = { 
@@ -155,7 +172,14 @@ capital_hunters = {
         }
     }
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_fleet_in_being
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
     }
 
     naval_torpedo_reveal_chance_factor = -0.1
@@ -206,6 +230,11 @@ submarine_coastal_defense = {
     }
 
     available = {
+        has_doctrine = new_littoral_defense
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
         has_tech = midget_submarines
     }
 
@@ -273,6 +302,18 @@ submarine_area_denial = {
     description = SUBDOCTRINE_SUBMARINE_AREA_DENIAL_DESC
     icon = GFX_doctrine_submarine_area_denial_medium
 
+    available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+    }
+
     xp_cost = 100
     xp_type = navy
     ai_will_do = {
@@ -325,6 +366,87 @@ submarine_area_denial = {
             modifier = {
                 sub_retreat_speed = 0.3
                 navy_submarine_attack_factor = -0.15
+            }
+        }
+    }
+}
+
+operation_autonomy = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY
+    description = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY_DESC
+    icon = GFX_doctrine_operation_autonomy_medium
+
+    xp_cost = 100
+    xp_type = navy
+    ai_will_do = {
+        base = 0
+    }
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_base_strike
+        }
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
+    }
+
+    equipment_bonus = {
+        submarine = {
+            naval_range = 0.25
+            instant = yes
+        }
+    }
+    rewards = {
+        leadership_autonomy = {
+            submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.05
+            }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.05
+            }
+        }
+        disguised_submarine_tender = {
+            auxiliary_ship = {
+                surface_visibility = -0.1
+            }
+            modifier = {
+                sub_retreat_speed = 0.1
+            }
+        }
+        radio_silence = {
+            submarine = {
+                sub_visibility = -0.1
+            }
+            equipment_bonus = {
+                submarine = {
+                    surface_detection = -0.2
+                    instant = yes
+                }
+            }
+        }
+        submarine_kampfgruppe = {
+            submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.1
+            }
+        }
+        auxiliary_submarine = {
+            effect = {
+                custom_effect_tooltip = auxiliary_submarine_tt
+                hidden_effect = {
+                    set_technology = { auxiliary_submarine_tech = 1 }
+                }
+            }
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
             }
         }
     }

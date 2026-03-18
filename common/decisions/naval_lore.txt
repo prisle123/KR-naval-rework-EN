@@ -3,7 +3,7 @@ Naval_lore_category = {
 		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }
 		
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	GER_naval_lore = {
 		icon = GFX_vnr_ger_flag
@@ -14,7 +14,7 @@ Naval_lore_category = {
 				tag = MAF
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	ENG_naval_lore = {
 		icon = GFX_vnr_eng_flag
@@ -27,7 +27,7 @@ Naval_lore_category = {
 				tag = WIF
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	USA_naval_lore = {
 		icon = GFX_vnr_usa_flag
@@ -41,7 +41,7 @@ Naval_lore_category = {
 				tag = HAW
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	FRA_naval_lore = {
 		icon = GFX_vnr_fra_flag
@@ -51,14 +51,14 @@ Naval_lore_category = {
 				tag = NFA
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	RUS_naval_lore = {
 		icon = GFX_vnr_rus_flag
 		allowed = {
 			tag = RUS
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	AUS_naval_lore = {
 		icon = GFX_vnr_aus_flag
@@ -71,15 +71,15 @@ Naval_lore_category = {
 				tag = CZE
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	
 	show_intro_panel = {
 		visible = {
-			NOT = { has_global_flag = navy_rework_splash_show }
+			NOT = { has_country_flag = navy_rework_splash_show }
 		}
 		complete_effect = {
-			set_global_flag = navy_rework_splash_show
+			set_country_flag = navy_rework_splash_show
 			set_variable = { navy_rework_welcome_splash_variable = 1 }
 		}
 	}

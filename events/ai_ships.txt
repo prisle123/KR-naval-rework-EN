@@ -12,7 +12,7 @@ country_event = {
 			is_ai = yes
 			NOT = { has_country_flag = GER_SHIPS_1940 }
 		}
-		date > 1940.6.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -88,7 +88,7 @@ country_event = {
 			is_ai = yes
 			NOT = { has_country_flag = ENG_SHIPS_1940 }
 		}
-		date > 1940.10.1
+		date > 1939.1.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -139,7 +139,7 @@ country_event = {
 			is_ai = yes
 			NOT = { has_country_flag = JAP_SHIPS_1940 }
 		}
-		date > 1940.2.1
+		date > 1939.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -185,7 +185,7 @@ country_event = {
 			tag = APG
 		}
 		is_ai = yes
-		date > 1940.6.1
+		date > 1939.6.1
 		has_global_flag = USA_civil_war_over_flag
 		NOT = { has_global_flag = USA_SHIPS_1940 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
@@ -235,7 +235,7 @@ country_event = {
 			is_ai = yes
 			NOT = { has_country_flag = WCA_SHIPS_1940 }
 		}
-		date > 1940.6.1
+		date > 1939.6.1
 		has_global_flag = USA_civil_war_over_flag
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -283,7 +283,7 @@ country_event = {
 			NOT = { has_country_flag = FRA_SHIPS_1940 }
 		}
 
-		date > 1940.2.1
+		date > 1939.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {

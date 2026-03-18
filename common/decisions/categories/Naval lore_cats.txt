@@ -1,5 +1,6 @@
 Naval_lore_category = {
 	picture = GFX_decision_cat_picture_naval_treaties
+	scripted_gui = vnr_manual_handbook_gui
 	allowed = { has_dlc_mtg = yes }
 	priority = 10
 }
