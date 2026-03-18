@@ -4,472 +4,472 @@ spriteTypes = {
 
         	spriteType = {
         		name = "GFX_AST_early_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_AST_basic_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_AST_interwar_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
         	}
         	spriteType = {
         		name = "GFX_AST_improved_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
         	}
         	spriteType = {
         		name = "GFX_AST_advanced_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
         	}
 			spriteType = {
         		name = "GFX_AST_modern_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
         		name = "GFX_AST_early_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
         	}
         	spriteType = {
         		name = "GFX_AST_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
         	}
         	spriteType = {
         		name = "GFX_AST_interwar_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
         	}
         	spriteType = {
         		name = "GFX_AST_improved_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         	}
         	spriteType = {
         		name = "GFX_AST_advanced_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
         	}
 			spriteType = {
         		name = "GFX_AST_modern_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
         		name = "GFX_AST_early_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
         	}
         	spriteType = {
         		name = "GFX_AST_basic_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
         	}
         	spriteType = {
         		name = "GFX_AST_interwar_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
         	}
         	spriteType = {
         		name = "GFX_AST_improved_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
         	}
         	spriteType = {
         		name = "GFX_AST_advanced_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
         		name = "GFX_AST_early_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier1.png"
         	}
         	spriteType = {
         		name = "GFX_AST_basic_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
         	}
         	spriteType = {
         		name = "GFX_AST_improved_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
         	}
         	spriteType = {
         		name = "GFX_AST_advanced_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
         	}
 			spriteType = {
         		name = "GFX_AST_super_carriers_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_super_carrier.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
 	# submarine
 
         	spriteType = {
         		name = "GFX_AST_early_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
         	}
         	spriteType = {
         		name = "GFX_AST_basic_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
         	}
         	spriteType = {
         		name = "GFX_AST_improved_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
         	}
         	spriteType = {
         		name = "GFX_AST_advanced_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
         	}
 			spriteType = {
         		name = "GFX_AST_modern_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine5.png"
         	}
 ### CAN ###
 	# destroyer
 
         	spriteType = {
         		name = "GFX_CAN_early_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_basic_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_interwar_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_improved_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_advanced_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
         	}
 			spriteType = {
         		name = "GFX_CAN_modern_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
         		name = "GFX_CAN_early_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_interwar_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_improved_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_advanced_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
         	}
 			spriteType = {
         		name = "GFX_CAN_modern_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
         		name = "GFX_CAN_early_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_basic_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_interwar_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_improved_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_advanced_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
         		name = "GFX_CAN_early_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier1.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_basic_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_improved_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_advanced_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
         	}
 			spriteType = {
         		name = "GFX_CAN_super_carriers_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
 	# submarine
 
         	spriteType = {
         		name = "GFX_CAN_early_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_basic_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_improved_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
         	}
         	spriteType = {
         		name = "GFX_CAN_advanced_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
         	}
 			spriteType = {
         		name = "GFX_CAN_modern_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine5.png"
         	}
 ### IMP ###
 	# destroyer
 
         	spriteType = {
         		name = "GFX_IMP_early_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_basic_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_interwar_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_improved_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_advanced_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
         	}
 			spriteType = {
         		name = "GFX_IMP_modern_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
         		name = "GFX_IMP_early_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_interwar_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_improved_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_advanced_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
         	}
 			spriteType = {
         		name = "GFX_IMP_modern_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
         		name = "GFX_IMP_early_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_basic_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_interwar_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_improved_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_advanced_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
         		name = "GFX_IMP_early_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier1.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_basic_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_improved_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_advanced_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
         	}
 			spriteType = {
         		name = "GFX_IMP_super_carriers_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
 	# submarine
 
         	spriteType = {
         		name = "GFX_IMP_early_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_basic_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_improved_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
         	}
         	spriteType = {
         		name = "GFX_IMP_advanced_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
         	}
 			spriteType = {
         		name = "GFX_IMP_modern_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine5.png"
         	}
 ### GBR ###
 	# destroyer
 
         	spriteType = {
         		name = "GFX_GBR_early_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_basic_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_interwar_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_improved_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_advanced_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
         	}
 			spriteType = {
         		name = "GFX_GBR_modern_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
         		name = "GFX_GBR_early_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_interwar_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_improved_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_advanced_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
         	}
 			spriteType = {
         		name = "GFX_GBR_modern_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
         		name = "GFX_GBR_early_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_basic_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_interwar_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_improved_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_advanced_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
         		name = "GFX_GBR_early_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier1.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_basic_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_improved_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_advanced_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
         	}
 			spriteType = {
         		name = "GFX_GBR_super_carriers_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_super_carrier.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
 	# submarine
 
         	spriteType = {
         		name = "GFX_GBR_early_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_basic_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_improved_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
         	}
         	spriteType = {
         		name = "GFX_GBR_advanced_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
         	}
 
 ### QIE ###
@@ -3887,119 +3887,119 @@ spriteTypes = {
 
         	spriteType = {
         		name = "GFX_ENG_early_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer1.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_basic_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer2.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_interwar_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer3.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_improved_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer4.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_advanced_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer5.png"
         	}
 			spriteType = {
         		name = "GFX_ENG_modern_ship_hull_light_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_destroyer6.png"
         	}
 	# cruiser
 
         	spriteType = {
         		name = "GFX_ENG_early_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser1.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser2.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_interwar_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_improved_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_advanced_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser5.png"
         	}
 			spriteType = {
         		name = "GFX_ENG_modern_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser6.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_light_cruiser6.png"
         	}
 	# battleship
 
         	spriteType = {
         		name = "GFX_ENG_early_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship1.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_basic_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship2.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_interwar_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship3.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_improved_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship4.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_advanced_ship_hull_heavy_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_battleship5.png"
         	}
 	# carrier
 
         	spriteType = {
         		name = "GFX_ENG_early_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_carrier1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier1.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_basic_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_carrier2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier2.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_improved_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_carrier3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier3.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_advanced_ship_hull_carrier_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_carrier4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_carrier4.png"
         	}
 			spriteType = {
         		name = "GFX_ENG_super_carriers_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_super_carrier.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
 	# submarine
 
         	spriteType = {
         		name = "GFX_ENG_early_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_submarine1.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine1.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_basic_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_submarine2.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine2.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_improved_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_submarine3.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine3.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_advanced_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_submarine4.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine4.png"
         	}
 			spriteType = {
         		name = "GFX_ENG_modern_ship_hull_submarine_medium"
-        		texturefile = "gfx/interface/technologies/UOB/ENG_submarine5.png"
+        		texturefile = "gfx/interface/technologies/England/ENG_submarine5.png"
         	}
 
 ### USA ###

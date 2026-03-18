@@ -26,8 +26,8 @@ JAP = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
                 GFX_JAP_vnr_ship_hull_light_1_medium
-				"gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
             }
         }
 
@@ -43,11 +43,11 @@ JAP = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
-				"gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
-				GFX_JAP_vnr_ship_hull_light_1_medium
-				GFX_JAP_vnr_ship_hull_light_2_medium
 				"gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+                GFX_JAP_vnr_ship_hull_light_1_medium
+				GFX_JAP_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
+				"gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
             }
         }
 
@@ -63,12 +63,14 @@ JAP = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
                 GFX_JAP_vnr_ship_hull_light_1_medium
 				GFX_JAP_vnr_ship_hull_light_2_medium
-				GFX_JAP_vnr_ship_hull_light_3_medium
 				"gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
 				"gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
-				"gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+				GFX_JAP_vnr_ship_hull_light_3_medium
+                "gfx/interface/technologies/extra/JAP_destroyer_Matsu.png"
+				"gfx/interface/technologies/extra/JAP_destroyer_Yugumo.png"
             }
         }
 
@@ -84,13 +86,15 @@ JAP = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
                 GFX_JAP_vnr_ship_hull_light_1_medium
 				GFX_JAP_vnr_ship_hull_light_2_medium
-				GFX_JAP_vnr_ship_hull_light_3_medium
-				GFX_JAP_vnr_ship_hull_light_4_medium
 				"gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
 				"gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
-				"gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+				GFX_JAP_vnr_ship_hull_light_3_medium
+                "gfx/interface/technologies/extra/JAP_destroyer_Matsu.png"
+				"gfx/interface/technologies/extra/JAP_destroyer_Yugumo.png"
+				GFX_JAP_vnr_ship_hull_light_4_medium
             }
         }
 
@@ -106,14 +110,16 @@ JAP = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
                 GFX_JAP_vnr_ship_hull_light_1_medium
 				GFX_JAP_vnr_ship_hull_light_2_medium
-				GFX_JAP_vnr_ship_hull_light_3_medium
-				GFX_JAP_vnr_ship_hull_light_4_medium
-				GFX_JAP_vnr_ship_hull_light_5_medium
 				"gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
 				"gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
-				"gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+				GFX_JAP_vnr_ship_hull_light_3_medium
+                "gfx/interface/technologies/extra/JAP_destroyer_Matsu.png"
+				"gfx/interface/technologies/extra/JAP_destroyer_Yugumo.png"
+				GFX_JAP_vnr_ship_hull_light_4_medium
+				GFX_JAP_vnr_ship_hull_light_5_medium
             }
         }
 
@@ -141,9 +147,9 @@ JAP = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_1_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
+                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
             }
         }
 
@@ -160,12 +166,12 @@ JAP = {
 
         pool = {
             icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
-				"gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
             }
         }
 
@@ -182,14 +188,14 @@ JAP = {
 
         pool = {
             icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
-				"gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_3_medium
             }
         }
 
@@ -206,16 +212,16 @@ JAP = {
 
         pool = {
             icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_medium
-				GFX_JAP_vnr_ship_hull_cruiser_4_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_4_capital_medium
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
-				"gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_3_medium
+                GFX_JAP_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_4_medium
             }
         }
 
@@ -232,18 +238,18 @@ JAP = {
 
         pool = {
             icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_1_medium
+                "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_medium
-				GFX_JAP_vnr_ship_hull_cruiser_4_medium
-				GFX_JAP_vnr_ship_hull_cruiser_5_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_5_capital_medium
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
-				"gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+                GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_3_medium
+                GFX_JAP_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_4_medium
+                GFX_JAP_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_JAP_vnr_ship_hull_cruiser_5_medium
             }
         }
 
@@ -259,7 +265,6 @@ JAP = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/Japan/JAP_cruiser_coastal_defense_ship.png"
 				GFX_JAP_vnr_ship_hull_cruiser_1_medium
 				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
             }
@@ -281,7 +286,6 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
-				"gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
             }
         }
 
@@ -307,11 +311,11 @@ JAP = {
 
         pool = {
             icons = {
+                GFX_JAP_vnr_ship_hull_super_heavy_1_medium
 				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
-				GFX_JAP_vnr_ship_hull_super_heavy_1_medium
+                GFX_JAP_vnr_ship_hull_pre_dreadnought_medium
                 "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
-				"gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
             }
         }
 
@@ -327,13 +331,13 @@ JAP = {
 
         pool = {
             icons = {
-				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
 				GFX_JAP_vnr_ship_hull_super_heavy_1_medium
-                "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
-				GFX_JAP_vnr_ship_hull_heavy_1_medium
-				"gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
+                GFX_JAP_vnr_ship_hull_pre_dreadnought_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+                GFX_JAP_vnr_ship_hull_heavy_1_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
             }
         }
 
@@ -349,14 +353,14 @@ JAP = {
 
         pool = {
             icons = {
-				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
 				GFX_JAP_vnr_ship_hull_super_heavy_1_medium
-                GFX_JAP_vnr_ship_hull_heavy_1_medium
-				GFX_JAP_vnr_ship_hull_heavy_2_medium
-				"gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
+                GFX_JAP_vnr_ship_hull_pre_dreadnought_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
+                GFX_JAP_vnr_ship_hull_heavy_1_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
+				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
             }
         }
@@ -373,16 +377,16 @@ JAP = {
 
         pool = {
             icons = {
-				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
 				GFX_JAP_vnr_ship_hull_super_heavy_1_medium
-                GFX_JAP_vnr_ship_hull_heavy_1_medium
-				GFX_JAP_vnr_ship_hull_heavy_2_medium
-				GFX_JAP_vnr_ship_hull_heavy_3_medium
-				"gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
+                GFX_JAP_vnr_ship_hull_pre_dreadnought_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
+                GFX_JAP_vnr_ship_hull_heavy_1_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
+				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
+				GFX_JAP_vnr_ship_hull_heavy_3_medium
             }
         }
 
@@ -398,17 +402,17 @@ JAP = {
 
         pool = {
             icons = {
-				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
 				GFX_JAP_vnr_ship_hull_super_heavy_1_medium
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
+                GFX_JAP_vnr_ship_hull_pre_dreadnought_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
+				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
+                "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
 				GFX_JAP_vnr_ship_hull_heavy_3_medium
 				GFX_JAP_vnr_ship_hull_heavy_4_medium
-				"gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
-				"gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
-				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
 				"gfx/interface/technologies/extra/JAP_battleship_Yamato_1965.png"
             }
         }
@@ -445,8 +449,12 @@ JAP = {
         pool = {
             weight = 5
             icons = {
-				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
                 GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
+            }
+        }
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
             }
         }
 
@@ -463,6 +471,7 @@ JAP = {
         pool = {
             icons = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
+                "gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
@@ -484,12 +493,13 @@ JAP = {
         pool = {
             icons = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
+                "gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_JAP_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
-				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
+                "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+                GFX_JAP_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
             }
         }
@@ -507,14 +517,15 @@ JAP = {
         pool = {
             icons = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
+                "gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_JAP_vnr_ship_hull_carrier_1_medium
-				GFX_JAP_vnr_ship_hull_carrier_2_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
-				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
+                "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+                GFX_JAP_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
+				GFX_JAP_vnr_ship_hull_carrier_2_medium
             }
         }
 
@@ -531,16 +542,16 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_carrier_conversion_ca_medium
+                "gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
-				GFX_JAP_vnr_ship_hull_carrier_1_medium
-				GFX_JAP_vnr_ship_hull_carrier_2_medium
-				GFX_JAP_vnr_ship_hull_carrier_3_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Shinyo.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
-				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
-				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
+                "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+                GFX_JAP_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
+				GFX_JAP_vnr_ship_hull_carrier_2_medium
+				GFX_JAP_vnr_ship_hull_carrier_3_medium
             }
         }
 
