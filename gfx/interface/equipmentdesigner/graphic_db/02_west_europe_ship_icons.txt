@@ -273,6 +273,17 @@ FRA = {
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Pothau.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_pre_dreadnought = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FRA_vnr_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -584,7 +595,13 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
+                GFX_FRA_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
             }
         }
 
@@ -594,13 +611,15 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_2_medium
+                GFX_FRA_vnr_ship_hull_light_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+                GFX_FRA_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
             }
         }
 
@@ -610,14 +629,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_3_medium
+                GFX_FRA_vnr_ship_hull_light_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
-				GFX_NFA_vnr_ship_hull_light_2_medium
+				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+                GFX_FRA_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
+				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
             }
         }
 
@@ -627,15 +649,18 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_4_medium
+                GFX_FRA_vnr_ship_hull_light_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
-				GFX_NFA_vnr_ship_hull_light_2_medium
-				GFX_NFA_vnr_ship_hull_light_3_medium
+				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+                GFX_FRA_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
+				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
+				GFX_FRA_vnr_ship_hull_light_3_medium
             }
         }
 
@@ -645,16 +670,19 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_5_medium
+                GFX_FRA_vnr_ship_hull_light_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
-				GFX_NFA_vnr_ship_hull_light_2_medium
-				GFX_NFA_vnr_ship_hull_light_3_medium
-				GFX_NFA_vnr_ship_hull_light_4_medium
+				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+                GFX_FRA_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
+				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
+				GFX_FRA_vnr_ship_hull_light_3_medium
+				GFX_FRA_vnr_ship_hull_light_4_medium
             }
         }
 
@@ -664,17 +692,20 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_light_6_medium
+                GFX_FRA_vnr_ship_hull_light_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_light_1_medium
-				GFX_NFA_vnr_ship_hull_light_2_medium
-				GFX_NFA_vnr_ship_hull_light_3_medium
-				GFX_NFA_vnr_ship_hull_light_4_medium
-				GFX_NFA_vnr_ship_hull_light_5_medium
+				"gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+                GFX_FRA_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
+				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
+				GFX_FRA_vnr_ship_hull_light_3_medium
+				GFX_FRA_vnr_ship_hull_light_4_medium
+				GFX_FRA_vnr_ship_hull_light_5_medium
             }
         }
 
@@ -684,8 +715,8 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_1_medium
             }
         }
 
@@ -695,15 +726,15 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
+                GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
             }
         }
 
@@ -713,17 +744,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_medium
+                GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+                GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
             }
         }
 
@@ -733,19 +764,19 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_4_medium
+                GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+                GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+                GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
             }
         }
 
@@ -755,21 +786,21 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_5_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_5_medium
+                GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_medium
-				GFX_NFA_vnr_ship_hull_cruiser_4_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_4_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+                GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+                GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
+                GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_medium
             }
         }
 
@@ -779,23 +810,23 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_6_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_6_medium
+                GFX_FRA_vnr_ship_hull_cruiser_6_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_6_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_medium
-				GFX_NFA_vnr_ship_hull_cruiser_4_medium
-				GFX_NFA_vnr_ship_hull_cruiser_5_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_5_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+                GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+                GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
+                GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_medium
+                GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_5_medium
 				"gfx/interface/technologies/extra/FRA_light_cruiser_Colbert.png"
             }
         }
@@ -806,14 +837,14 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+                GFX_FRA_vnr_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -823,16 +854,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_panzerschiff_medium
+                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_NFA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_1_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Pothau.png"
             }
         }
 
@@ -842,7 +874,7 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_pre_dreadnought_medium
+                GFX_FRA_vnr_ship_hull_cruiser_coastal_defense_ship_medium
             }
         }
 
@@ -852,7 +884,7 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_heavy_1_medium
             }
         }
 
@@ -862,14 +894,14 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_heavy_2_medium
+                GFX_FRA_vnr_ship_hull_heavy_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_super_heavy_1_medium
-                GFX_NFA_vnr_ship_hull_heavy_1_medium
+				GFX_FRA_vnr_ship_hull_super_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_heavy_1_medium
             }
         }
 
@@ -879,15 +911,15 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_heavy_3_medium
+                GFX_FRA_vnr_ship_hull_heavy_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_super_heavy_1_medium
-                GFX_NFA_vnr_ship_hull_heavy_1_medium
-				GFX_NFA_vnr_ship_hull_heavy_2_medium
+				GFX_FRA_vnr_ship_hull_super_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_heavy_1_medium
+				GFX_FRA_vnr_ship_hull_heavy_2_medium
             }
         }
 
@@ -897,16 +929,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_heavy_4_medium
+                GFX_FRA_vnr_ship_hull_heavy_4_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_super_heavy_1_medium
-                GFX_NFA_vnr_ship_hull_heavy_1_medium
-				GFX_NFA_vnr_ship_hull_heavy_2_medium
-				GFX_NFA_vnr_ship_hull_heavy_3_medium
+				GFX_FRA_vnr_ship_hull_super_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_heavy_1_medium
+				GFX_FRA_vnr_ship_hull_heavy_2_medium
+				GFX_FRA_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
             }
         }
 
@@ -916,17 +949,18 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_heavy_5_medium
+                GFX_FRA_vnr_ship_hull_heavy_5_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_super_heavy_1_medium
-                GFX_NFA_vnr_ship_hull_heavy_1_medium
-				GFX_NFA_vnr_ship_hull_heavy_2_medium
-				GFX_NFA_vnr_ship_hull_heavy_3_medium
-				GFX_NFA_vnr_ship_hull_heavy_4_medium
+				GFX_FRA_vnr_ship_hull_super_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_heavy_1_medium
+				GFX_FRA_vnr_ship_hull_heavy_2_medium
+				GFX_FRA_vnr_ship_hull_heavy_3_medium
+				"gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
+				GFX_FRA_vnr_ship_hull_heavy_4_medium
             }
         }
 
@@ -936,7 +970,7 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_super_heavy_1_medium
+                GFX_FRA_vnr_ship_hull_super_heavy_1_medium
             }
         }
 
@@ -946,7 +980,7 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_conversion_ca_medium
+                GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium
             }
         }
 
@@ -956,7 +990,7 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium
             }
         }
 
@@ -966,13 +1000,13 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_1_medium
+                GFX_FRA_vnr_ship_hull_carrier_1_medium
             }
         }
 		pool = {
 			icons = {
-				GFX_NFA_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_NFA_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium
 			}
 		}
     }
@@ -981,15 +1015,15 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_2_medium
+                GFX_FRA_vnr_ship_hull_carrier_2_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_NFA_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_NFA_vnr_ship_hull_carrier_1_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_FRA_vnr_ship_hull_carrier_1_medium
             }
         }
 
@@ -999,16 +1033,16 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_3_medium
+                GFX_FRA_vnr_ship_hull_carrier_3_medium
             }
         }
 
         pool = {
             icons = {
-				GFX_NFA_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_NFA_vnr_ship_hull_carrier_conversion_bb_medium
-                GFX_NFA_vnr_ship_hull_carrier_1_medium
-				GFX_NFA_vnr_ship_hull_carrier_2_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium
+                GFX_FRA_vnr_ship_hull_carrier_1_medium
+				GFX_FRA_vnr_ship_hull_carrier_2_medium
             }
         }
 
@@ -1018,17 +1052,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_super_carrier_medium
+                GFX_FRA_vnr_ship_hull_super_carrier_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_NFA_vnr_ship_hull_carrier_conversion_bb_medium
-				GFX_NFA_vnr_ship_hull_carrier_1_medium
-				GFX_NFA_vnr_ship_hull_carrier_2_medium
-				GFX_NFA_vnr_ship_hull_carrier_3_medium
+                GFX_FRA_vnr_ship_hull_carrier_conversion_ca_medium
+				GFX_FRA_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_FRA_vnr_ship_hull_carrier_1_medium
+				GFX_FRA_vnr_ship_hull_carrier_2_medium
+				GFX_FRA_vnr_ship_hull_carrier_3_medium
             }
         }
 
@@ -1038,13 +1072,13 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1054,14 +1088,14 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_2_medium
+                GFX_FRA_vnr_ship_hull_submarine_2_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
-				GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
+				GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1071,15 +1105,15 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_3_medium
+                GFX_FRA_vnr_ship_hull_submarine_3_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
-				GFX_NFA_vnr_ship_hull_submarine_2_medium
-				GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
+				GFX_FRA_vnr_ship_hull_submarine_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1089,16 +1123,16 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_4_medium
+                GFX_FRA_vnr_ship_hull_submarine_4_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
-				GFX_NFA_vnr_ship_hull_submarine_2_medium
-				GFX_NFA_vnr_ship_hull_submarine_3_medium
-				GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
+				GFX_FRA_vnr_ship_hull_submarine_2_medium
+				GFX_FRA_vnr_ship_hull_submarine_3_medium
+				GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1108,17 +1142,17 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_5_medium
+                GFX_FRA_vnr_ship_hull_submarine_5_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
-				GFX_NFA_vnr_ship_hull_submarine_2_medium
-				GFX_NFA_vnr_ship_hull_submarine_3_medium
-				GFX_NFA_vnr_ship_hull_submarine_4_medium
-				GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
+				GFX_FRA_vnr_ship_hull_submarine_2_medium
+				GFX_FRA_vnr_ship_hull_submarine_3_medium
+				GFX_FRA_vnr_ship_hull_submarine_4_medium
+				GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1128,16 +1162,16 @@ NFA = {
         pool = {
             weight = 5
             icons = {
-                GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
         pool = {
             icons = {
-                GFX_NFA_vnr_ship_hull_submarine_1_medium
-				GFX_NFA_vnr_ship_hull_submarine_2_medium
-				GFX_NFA_vnr_ship_hull_submarine_3_medium
-				GFX_NFA_vnr_ship_hull_cruiser_submarine_medium
+                GFX_FRA_vnr_ship_hull_submarine_1_medium
+				GFX_FRA_vnr_ship_hull_submarine_2_medium
+				GFX_FRA_vnr_ship_hull_submarine_3_medium
+				GFX_FRA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
