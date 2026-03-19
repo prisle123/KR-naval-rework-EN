@@ -11,7 +11,7 @@ units = {
 			ship = { name = "RNS Ramillies" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class" } } }
 			ship = { name = "RNS Resolution" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class" } } }
 			
-			ship = { name = "RNS Plymouth" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
+			ship = { name = "RNS Plymouth" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
 			ship = { name = "RNS Daring" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 			ship = { name = "RNS Daedalus" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 			ship = { name = "RNS Desperate" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
@@ -286,7 +286,7 @@ units = {
 			ship = { name = "RNS Bondfield" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
 			ship = { name = "RNS Judson" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
 			
-			ship = { name = "RNS Talbot" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
+			ship = { name = "RNS Talbot" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
 			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Quaker" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Resurgence" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Measureless Class" } } }

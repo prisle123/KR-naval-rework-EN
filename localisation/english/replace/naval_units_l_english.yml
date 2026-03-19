@@ -20,8 +20,6 @@
  convoy_desc: "Convoys used for international trade of goods and resources. Also used to ferry troops around and for performing naval invasions."
  SH_battleship: "Super Heavy Battleship"
  SH_battleship_desc: "§HSuper Heavy Battleship§!\n\n\n\n\n£GFX_shbb_desc_icon\n\n\n\n\n\nOften fantasized in the wildest dreams of naval architects, super heavy battleships have mostly remained blueprints or concepts in the past. While the building methods remain controversial, with enough money and determination, it is not a daydream to complete a huge ship like this."
- armored_cruiser: "Revived Armored Cruiser"
- armored_cruiser_desc: "Armored cruiser was put into navy playing the role of cruiser-killer after a short absence since Weltkrieg, it is commonly equipped with guns above 8 inches. Some second-rate countries will make it capital ship."
  battlecarrier: "Battlecarrier"
  battlecarrier_desc: "§HBattlecarrier§!\n\n\n\n\n£GFX_bbv_desc_icon\n\n\n\n\n\nA large, often hypothetical, hybrid naval ship designed to combine aspects of both an aircraft carrier and either a battleship or battlecruiser."
  auxiliary_ship: "Auxiliary Ship"

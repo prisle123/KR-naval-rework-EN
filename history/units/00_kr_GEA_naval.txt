@@ -21,8 +21,8 @@ units = {
 			name = "Karolinengeschwader"
 			location = 2489 ###Change to proper province number
 			ship = { name = "SMS Mosel" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
-			ship = { name = "SMS Hans Georg" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
-			ship = { name = "SMS Admiral Pohl" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Hans Georg" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
+			ship = { name = "SMS Admiral Pohl" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
 
 			ship = { name = "SMS Kondor" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Möwe Class" } } }
 			ship = { name = "SMS Falke" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Möwe Class" } } }
@@ -99,9 +99,9 @@ units = {
 			ship = { name = "SMS Gneisenau" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
 			ship = { name = "SMS Scharnhorst" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Yorck Class" } } }
 			
-			ship = { name = "SMS Prinz Heinrich" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
-			ship = { name = "SMS Freiherr von Sanders" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
-			ship = { name = "SMS Von Waldersee" definition = armored_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Prinz Heinrich" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Freiherr von Sanders" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Von Waldersee" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
 
 			ship = { name = "SMS Aachen" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }
 			ship = { name = "SMS Mannheim" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Aachen Class" } } }

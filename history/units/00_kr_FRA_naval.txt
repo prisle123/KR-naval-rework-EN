@@ -7,7 +7,7 @@ units = {
 		task_force = {
 			name = "1ère Région Navale"
 			location = 11548 #Calais
-			ship = { name = "Henri de Saint-Simon" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
+			ship = { name = "Henri de Saint-Simon" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
 			ship = { name = "Dombrowski" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Motte-Picquet Class" } } }
 			ship = { name = "Tramontane" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
 			ship = { name = "Trombe" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
@@ -37,8 +37,8 @@ units = {
 			location = 3552 #Brest
 			ship = { name = "Eugène Pottier" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "Eugène Pottier Class" } } }
 			ship = { name = "Louis Delescluze" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Normandie Class" } } }
-			ship = { name = "Charles Fourier" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
-			ship = { name = "Victor Considerant" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
+			ship = { name = "Charles Fourier" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
+			ship = { name = "Victor Considerant" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = FRA version_name = "Charles Fourier Class" } } }
 			ship = { name = "Proudhon" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "Jules Michelet Class" } } }
 			ship = { name = "Ledru-Rollin" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "Jules Michelet Class" } } }
 			ship = { name = "Noir" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Motte-Picquet Class" } } }

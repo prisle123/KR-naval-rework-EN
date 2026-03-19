@@ -47,7 +47,7 @@ units = {
 			ship = { name = "HMCS Howe" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }	
 			ship = { name = "HMCS Rodney" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }
 
-			ship = { name = "HMCS Agincourt" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "Blenheim Class" } } }
+			ship = { name = "HMCS Agincourt" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "Blenheim Class" } } }
 			ship = { name = "HMCS Moncton" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = IMP version_name = "Moncton Class" } } }
 			ship = { name = "HMCS Montreal" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = IMP version_name = "Moncton Class" } } }
 			ship = { name = "HMCS Ottawa" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = IMP version_name = "Moncton Class" } } }
@@ -145,7 +145,7 @@ units = {
 			name = "Pacific Fleet"
 			location = 7259 ###Change to proper province number
 			
-			ship = { name = "HMCS Blenheim" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "Blenheim Class" } } }
+			ship = { name = "HMCS Blenheim" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "Blenheim Class" } } }
 			ship = { name = "HMCS Frobisher" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "Hawkins Class" } } }
 			ship = { name = "HMCS Hawkins" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "Hawkins Class" } } }
 			ship = { name = "HMCS Scimitar" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }

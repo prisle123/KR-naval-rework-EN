@@ -13,7 +13,7 @@ units = {
 			#1re Division cuirassée
 			ship = { name = "Courbet" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }
 			ship = { name = "Paris" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = NFA version_name = "Courbet Class" } } }
-			ship = { name = "Pothuau" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = NFA version_name = "Pothuau Class" } } }
+			ship = { name = "Pothuau" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = NFA version_name = "Pothuau Class" } } }
 			#1re Escadrille
 			ship = { name = "Casque" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Cimeterre" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }

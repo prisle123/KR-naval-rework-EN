@@ -45,9 +45,9 @@ units = {
 			location = 6050 ###Change to proper province number
 			
 			ship = { name = "HMS Oscar II" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Äran/Oscar II Class" } } }
-			ship = { name = "HMS Drottning Victoria" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
-			ship = { name = "HMS Sverige" pride_of_the_fleet = yes definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
-			ship = { name = "HMS Gustav V" definition = armored_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
+			ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
+			ship = { name = "HMS Sverige" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
+			ship = { name = "HMS Gustav V" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
 			ship = { name = "HMS Oden" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Oden Class" } } }
 			ship = { name = "HMS Gotland" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Gotland Class" } } }
 			ship = { name = "HMS Fylgia" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Fylgia Class" } } }

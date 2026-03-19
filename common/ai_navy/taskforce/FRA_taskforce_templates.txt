@@ -95,27 +95,6 @@ FRA_ConvoyRaiding_1 = {
 	}
 }
 
-FRA_ConvoySurfaceRaiding_1 = {
-	allowed = {
-		original_tag = FRA
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { convoy_raiding}
-	min_composition = {
-		armored_cruiser = {
-			amount = 1
-		}
-	}
-
-	optimal_composition = {
-		armored_cruiser = {
-			amount = 2
-		}
-	}
-}
-
 FRA_ConvoyEscort_1 = {
 	allowed = {
 		original_tag = FRA
