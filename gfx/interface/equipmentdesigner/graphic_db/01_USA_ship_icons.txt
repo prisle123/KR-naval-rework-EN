@@ -538,6 +538,17 @@ USA = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -1189,6 +1200,17 @@ ACC = {
         }
 
     }
+
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
 
     vnr_ship_hull_submarine_1 = {
         pool = {
@@ -1842,6 +1864,17 @@ CAL = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -2493,6 +2526,17 @@ WCA = {
         }
 
     }
+
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
 
     vnr_ship_hull_submarine_1 = {
         pool = {
@@ -3146,6 +3190,17 @@ APG = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -3797,6 +3852,17 @@ NEE = {
         }
 
     }
+
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
 
     vnr_ship_hull_submarine_1 = {
         pool = {
@@ -4450,6 +4516,17 @@ COR = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -5101,6 +5178,17 @@ WCC = {
         }
 
     }
+
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
 
     vnr_ship_hull_submarine_1 = {
         pool = {
@@ -5754,6 +5842,17 @@ HAW = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -6406,6 +6505,17 @@ CSA = {
 
     }
 
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
+
     vnr_ship_hull_submarine_1 = {
         pool = {
             weight = 5
@@ -7057,6 +7167,17 @@ TEX = {
         }
 
     }
+
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_USA_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+
+    }
+
 
     vnr_ship_hull_submarine_1 = {
         pool = {

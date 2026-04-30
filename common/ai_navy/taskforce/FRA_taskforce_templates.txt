@@ -6,6 +6,14 @@ FRA_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike }
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 8
+		}
+	}
 	
 	optimal_composition = {
 		carrier = {
@@ -63,13 +71,13 @@ FRA_PatrolDominanceForce_1 = {
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
+			amount = 2
 		}
 		light_cruiser = {
-			amount = 4
+			amount = 2
 		}
 		destroyer = {
-			amount = 8
+			amount = 6
 		}
 	}
 }
@@ -79,7 +87,7 @@ FRA_ConvoyRaiding_1 = {
 		original_tag = FRA
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 5
 	}	
 	mission = { convoy_raiding }
 	min_composition = {
@@ -103,6 +111,11 @@ FRA_ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 1
+		}
+	}
 	
 	optimal_composition = {
 		destroyer = {

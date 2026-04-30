@@ -6,7 +6,11 @@ GER_StrikeForce_1 = {
 		}
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 1
+		modifier = {
+			factor = 0
+			tag = GEA
+		}
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -23,9 +27,6 @@ GER_StrikeForce_1 = {
 			amount = 2
 		}
 		battleship = {
-			amount = 4
-		}
-		heavy_cruiser = {
 			amount = 4
 		}
 		light_cruiser = {
@@ -45,7 +46,7 @@ GER_StrikeForceCarrier_1 = {
 		}
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 1
 	}		
 	mission = { naval_strike }
 	min_composition = {
@@ -62,9 +63,12 @@ GER_StrikeForceCarrier_1 = {
 			amount = 2
 		}
 		battleship = {
-			amount = 6
+			amount = 4
 		}
 		battle_cruiser = {
+			amount = 2
+		}
+		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
@@ -159,30 +163,6 @@ GER_ConvoyRaiding_1 = {
 	}
 }
 
-GER_ConvoySurfaceRaiding_1 = {
-	allowed = {
-		OR = {
-			original_tag = GER
-			original_tag = GEA
-		}
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { convoy_raiding}
-	min_composition = {
-		battle_cruiser = {
-			amount = 1
-		}
-	}
-
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 2
-		}
-	}
-}
-
 GER_ConvoyEscort_1 = {
 	allowed = {
 		OR = {
@@ -197,13 +177,13 @@ GER_ConvoyEscort_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 2
+			amount = 1
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 6
+			amount = 5
 		}
 	}
 }

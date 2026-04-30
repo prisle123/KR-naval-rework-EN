@@ -686,29 +686,6 @@ USA_AI_variants_1943 = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Alaska Class"
-		role_icon_index = 21
-		type = vnr_ship_hull_cruiser_panzerschiff
-		parent_version = 0
-		name_group = USA_BATTLES  
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_big_1_triple
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-			fixed_ship_radar_slot = ship_radar_3
-			fixed_ship_engine_slot = cruiser_ship_engine_5
-			fixed_ship_secondaries_slot = dp_ship_secondaries_4
-			fixed_ship_armor_slot = ship_armor_cruiser_4
-			fixed_ship_role_slot = ship_hull_cruiser_role_cb
-			front_1_custom_slot = ship_anti_air_4
-			front_2_custom_slot = ship_heavy_battery_big_1_triple
-			mid_1_custom_slot = dp_ship_secondaries_4
-			mid_2_custom_slot = ship_airplane_launcher_1
-			mid_3_custom_slot = ship_anti_air_4
-			rear_1_custom_slot = ship_heavy_battery_big_1_triple
-		}
-	}
-	create_equipment_variant = {
 		name = "Fargo Class"
 		role_icon_index = 25
 		type = vnr_ship_hull_cruiser_5
@@ -883,29 +860,6 @@ WCA_AI_variants_1943 = {
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
 			mid_2_custom_slot = ship_deck_space_open
-		}
-	}
-	create_equipment_variant = {
-		name = "Alaska Class"
-		role_icon_index = 21
-		type = vnr_ship_hull_cruiser_panzerschiff
-		parent_version = 0
-		name_group = WCA_BATTLES  
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_big_1_triple
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-			fixed_ship_radar_slot = ship_radar_3
-			fixed_ship_engine_slot = cruiser_ship_engine_5
-			fixed_ship_secondaries_slot = dp_ship_secondaries_4
-			fixed_ship_armor_slot = ship_armor_cruiser_4
-			fixed_ship_role_slot = ship_hull_cruiser_role_cb
-			front_1_custom_slot = ship_anti_air_4
-			front_2_custom_slot = ship_heavy_battery_big_1_triple
-			mid_1_custom_slot = dp_ship_secondaries_4
-			mid_2_custom_slot = ship_airplane_launcher_1
-			mid_3_custom_slot = ship_anti_air_4
-			rear_1_custom_slot = ship_heavy_battery_big_1_triple
 		}
 	}
 	create_equipment_variant = {

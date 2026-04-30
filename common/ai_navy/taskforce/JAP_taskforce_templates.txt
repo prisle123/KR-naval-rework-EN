@@ -3,7 +3,7 @@ JAP_StrikeForce_1 = {
 		original_tag = JAP 
 	}
 	ai_will_do = {
-		factor = 15
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -20,16 +20,56 @@ JAP_StrikeForce_1 = {
 			amount = 4
 		}
 		SH_battleship = {
-			amount = 1
+			amount = 2
 		}
 		battleship = {
-			amount = 6
+			amount = 4
 		}
-		battle_cruiser = {
+		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
 			amount = 10
+		}
+		destroyer = {
+			amount = 18
+		}
+	}
+}
+
+JAP_StrikeForce_BC_1 = {
+	allowed = {
+		original_tag = JAP 
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_navy_size = { unit = battle_cruiser size > 1 }
+		}
+	}	
+	mission = { naval_strike }
+	min_composition = {
+		battle_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 8
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 8
 		}
 		destroyer = {
 			amount = 18
@@ -122,13 +162,13 @@ JAP_ConvoyEscort_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 2
+			amount = 1
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 6
+			amount = 5
 		}
 	}
 }

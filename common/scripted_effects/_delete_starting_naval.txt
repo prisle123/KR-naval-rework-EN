@@ -43,6 +43,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_base_strike
 			set_sub_doctrine = fast_battleship_primacy
 			set_sub_doctrine = floating_airfields
 			set_sub_doctrine = hunter_killers
@@ -57,6 +58,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_base_strike
 			set_sub_doctrine = battleship_antiair_screen
 			set_sub_doctrine = carrier_battlegroups
 			set_sub_doctrine = support_integrated_operations
@@ -71,6 +73,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_base_strike
 			set_sub_doctrine = fast_battleship_primacy
 			set_sub_doctrine = carrier_concentration
 			set_sub_doctrine = torpedo_primacy
@@ -85,6 +88,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_fleet_in_being
 			set_sub_doctrine = fast_battleship_primacy
 			set_sub_doctrine = floating_airfields
 			set_sub_doctrine = convoy_escort
@@ -99,6 +103,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_convoy_raiding
 			set_sub_doctrine = battlecruiser_primacy
 			set_sub_doctrine = subsidiary_carrier_support
 			set_sub_doctrine = jeune_ecole
@@ -113,6 +118,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_fleet_in_being
 			set_sub_doctrine = fast_battleship_primacy
 			set_sub_doctrine = convoy_escort
 			set_sub_doctrine = capital_hunters
@@ -126,6 +132,7 @@ ai_doctrine_workaround = {
 					is_debug = yes
 				}
 			}
+			set_grand_doctrine = new_littoral_defense
 			set_sub_doctrine = armored_raiders
 			set_sub_doctrine = jeune_ecole
 			set_sub_doctrine = submarine_coastal_defense

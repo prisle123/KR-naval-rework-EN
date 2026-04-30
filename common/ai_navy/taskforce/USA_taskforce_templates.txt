@@ -12,7 +12,7 @@ USA_StrikeForce_1 = {
 		}
 	}
 	ai_will_do = {
-		factor = 30
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -29,16 +29,62 @@ USA_StrikeForce_1 = {
 			amount = 4
 		}
 		SH_battleship = {
-			amount = 1
+			amount = 2
 		}
 		battleship = {
 			amount = 6
 		}
+		light_cruiser = {
+			amount = 10
+		}
+		destroyer = {
+			amount = 18
+		}
+	}
+}
+
+USA_StrikeForce_BC_1 = {
+	allowed = {
+		OR = {
+			original_tag = USA 
+			original_tag = ACC
+			original_tag = PSA
+			original_tag = WCA
+			original_tag = CSA
+			original_tag = APG
+			original_tag = TEX
+			original_tag = WCC
+		}
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_navy_size = { unit = battle_cruiser size > 1 }
+		}
+	}	
+	mission = { naval_strike }
+	min_composition = {
 		battle_cruiser = {
 			amount = 2
 		}
+		destroyer = {
+			amount = 8
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 2
+		}
+		heavy_cruiser = {
+			amount = 6
+		}
 		light_cruiser = {
-			amount = 10
+			amount = 8
 		}
 		destroyer = {
 			amount = 18
@@ -166,13 +212,13 @@ USA_ConvoyEscort_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 2
+			amount = 1
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 8
+			amount = 5
 		}
 	}
 }
