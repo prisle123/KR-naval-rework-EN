@@ -7,8 +7,8 @@
 			name = "Battleships, Battle Fleet"
 			location = 788 ###NS+SB Norfolk
 			#Battle Division 3
-			ship = { name = "USS Kentucky" definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Louisiana Class" } } }
-			ship = { name = "USS Indiana" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "USS Louisiana" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Louisiana Class" } } }
+			ship = { name = "USS Georgia" definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Louisiana Class" } } }
 			ship = { name = "USS Montana" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
 			ship = { name = "USS North Carolina" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
 			#Battle Division 5
@@ -26,9 +26,6 @@
 		task_force = {
 			name = "Cruisers, Battle Fleet"
 			location = 788 ###NS+SB Norfolk
-			#Cruiser Squadron 1
-			ship = { name = "USS Constitution" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
-			ship = { name = "USS United States" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }	#USS United States
 			#Cruiser Squadron 3
 			ship = { name = "USS Northampton" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
@@ -189,13 +186,11 @@
 			location = 4180 ###NS+SB Pearl-Harbour
 			#Battle Division 1
 			ship = { name = "USS South Dakota" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
-			ship = { name = "USS Iowa" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
-			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
+			ship = { name = "USS Indiana" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
 			#Battle Division 2
-			ship = { name = "USS Louisiana" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Louisiana Class" } } }
-			ship = { name = "USS Georgia" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Louisiana Class" } } }
 			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
+			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
 			#Battle Division 4
 			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
 			ship = { name = "USS Pennsylvania" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
@@ -367,12 +362,6 @@
 			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			ship = { name = "USS Marblehead" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			ship = { name = "USS Cincinnati" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
-		}
-
-		task_force = {
-			name = "Carrier Division 2"
-			location = 10265 ###Manila (Philippines)
-			ship = { name = "USS Langley" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = USA version_name = "Langley Class" } } }
 		}
 
 		task_force = {

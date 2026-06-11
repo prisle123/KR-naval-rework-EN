@@ -132,7 +132,6 @@ units = {
 			ship = { name = "RNS Courageous" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } }
 			ship = { name = "RNS Glorious" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } }
 			
-			ship = { name = "RNS Union" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Union Class" } } }
 			ship = { name = "RNS Leveller" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "RNS Nelson" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			ship = { name = "RNS Repulse" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
@@ -283,9 +282,6 @@ units = {
 		task_force = {
 			name = "Atlantic Fleet"
 			location = 6384
-			ship = { name = "RNS Bondfield" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
-			ship = { name = "RNS Judson" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Bondfield Class" } } }
-			
 			ship = { name = "RNS Talbot" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = ENG version_name = "Blenheim Class" } } }
 			ship = { name = "RNS Odger" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Quaker" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
@@ -400,7 +396,7 @@ instant_effect = {
 			creator = ENG
 			version_name = "Union Class"
 		}
-		name = "RNS Revolution"
+		name = "RNS Union"
 		requested_factories = 2
 		progress = 0.45
 		amount = 1
@@ -411,9 +407,31 @@ instant_effect = {
 			creator = ENG
 			version_name = "Bondfield Class"
 		}
-		name = "RNS Mottershead"
+		name = "RNS Bondfield"
 		requested_factories = 3
-		progress = 0.12
+		progress = 0.85
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_heavy_3
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		name = "RNS Judson"
+		requested_factories = 3
+		progress = 0.73
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_heavy_3
+			creator = ENG
+			version_name = "Bondfield Class"
+		}
+		name = "RNS Mottershead"
+		requested_factories = 2
+		progress = 0.33
 		amount = 1
 	}
 	add_equipment_production = {
@@ -423,8 +441,8 @@ instant_effect = {
 			version_name = "Bondfield Class"
 		}
 		name = "RNS Smillie"
-		requested_factories = 3
-		progress = 0.1
+		requested_factories = 2
+		progress = 0.21
 		amount = 1
 	}
 	add_equipment_production = {
@@ -480,7 +498,7 @@ instant_effect = {
 		name = "RNS Gallant"
 		requested_factories = 1
 		progress = 0.94
-		amount = 1
+		amount = 3
 	}
 	add_equipment_production = {
 		equipment = {
@@ -491,7 +509,7 @@ instant_effect = {
 		name = "RNS Garland"
 		requested_factories = 1
 		progress = 0.90
-		amount = 1
+		amount = 3
 	}
 	add_equipment_production = {
 		equipment = {
@@ -502,7 +520,7 @@ instant_effect = {
 		name = "RNS Gipsy"
 		requested_factories = 1
 		progress = 0.94
-		amount = 1
+		amount = 2
 	}
 	add_equipment_production = {
 		equipment = {
@@ -536,5 +554,35 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.88
 		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "ENG" 
+			version_name = "S Type"
+		}
+		requested_factories = 2
+		progress = 0.33
+		amount = 6
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "ENG" 
+			version_name = "T/U Type"
+		}
+		requested_factories = 1
+		progress = 0.58
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_submarine
+			creator = "ENG" 
+			version_name = "X Type"
+		}
+		requested_factories = 1
+		progress = 0.33
+		amount = 2
 	}
 }

@@ -17,8 +17,12 @@ country_event = {
             OR = {
                 country_exists = WCA
                 country_exists = APG
+                country_exists = ACC
             }
         }
+    }
+    mean_time_to_happen = {
+        days = 1
     }
 
     immediate = {
@@ -47,11 +51,20 @@ country_event = {
         tag = WCA
         country_exists = WCA
         USA = { has_country_flag = US_navy_collapsed }
+        OR = {
+            has_war = yes
+            has_navy_size = { size > 0 }
+        }
     }
     fire_only_once = yes
+    mean_time_to_happen = { days = 1 }
 
     immediate = {
-        give_military_access = XXX
+        destroy_ships = { type = ship_hull_light count = all }
+        destroy_ships = { type = ship_hull_cruiser count = all }
+        destroy_ships = { type = ship_hull_heavy count = all }
+        destroy_ships = { type = ship_hull_carrier count = all }
+        destroy_ships = { type = ship_hull_submarine count = all }
         XXX = {
             WCA_defect_navy = yes
         }
@@ -69,11 +82,20 @@ country_event = {
         tag = APG
         country_exists = APG
         USA = { has_country_flag = US_navy_collapsed }
+        OR = {
+            has_war = yes
+            has_navy_size = { size > 0 }
+        }
     }
     fire_only_once = yes
+    mean_time_to_happen = { days = 1 }
 
     immediate = {
-        give_military_access = XXX
+        destroy_ships = { type = ship_hull_light count = all }
+        destroy_ships = { type = ship_hull_cruiser count = all }
+        destroy_ships = { type = ship_hull_heavy count = all }
+        destroy_ships = { type = ship_hull_carrier count = all }
+        destroy_ships = { type = ship_hull_submarine count = all }
         XXX = {
             APG_defect_navy = yes
         }
@@ -98,12 +120,20 @@ country_event = {
         tag = ACC
         country_exists = ACC
         USA = { has_country_flag = US_navy_collapsed }
+        OR = {
+            has_war = yes
+            has_navy_size = { size > 0 }
+        }
     }
     fire_only_once = yes
-    mean_time_to_happen = { days = 20 }
+    mean_time_to_happen = { days = 1 }
 
     immediate = {
-        give_military_access = XXX
+        destroy_ships = { type = ship_hull_light count = all }
+        destroy_ships = { type = ship_hull_cruiser count = all }
+        destroy_ships = { type = ship_hull_heavy count = all }
+        destroy_ships = { type = ship_hull_carrier count = all }
+        destroy_ships = { type = ship_hull_submarine count = all }
         XXX = {
             ACC_defect_navy = yes
         }
@@ -161,44 +191,6 @@ country_event = {
         custom_effect_tooltip = US_navy_recovered_tt
         effect_tooltip = {
             remove_ideas = USA_ACW_shipbuilding_collapse
-        }
-    }
-}
-
-
-# for kx
-country_event = {
-    id = ACW_navy_redistribution.5
-    title = ACW_navy_redistribution.0.t
-    desc = ACW_navy_redistribution.0.d
-    picture = GFX_report_event_USA_naval_battle
-
-    trigger = {
-        tag = USA
-        has_global_flag = kxnr_enabled
-        OR = {
-            country_exists = WCA
-            country_exists = APG
-        }
-    }
-
-    immediate = {
-        hidden_effect = {
-            transfer_navy = { target = XXX }
-            annex_country = { target = XXX }
-            load_oob = 00_kr_USA_naval
-            transfer_navy = { target = XXX }
-            add_ideas = USA_ACW_shipbuilding_collapse
-            set_country_flag = US_navy_collapsed
-        }
-    }
-
-    option = {
-        log = "US navy transferred, XXX has [?XXX.num_ships] ships"
-        name = ACW_navy_redistribution.0.a
-        custom_effect_tooltip = US_navy_collapsed_tt
-        effect_tooltip = {
-            add_ideas = USA_ACW_shipbuilding_collapse
         }
     }
 }
