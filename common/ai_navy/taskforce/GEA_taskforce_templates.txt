@@ -1,9 +1,16 @@
-GER_StrikeForce_1 = {
+GEA_StrikeForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			has_navy_size = {
+				unit = battleship
+				size < 2
+			}
+		}
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -31,16 +38,16 @@ GER_StrikeForce_1 = {
 	}
 }
 
-GER_StrikeForceCarrier_1 = {
+GEA_StrikeForceCarrier_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 1
 	}		
 	mission = { naval_strike }
 	min_composition = {
-		battleship = {
+		battle_cruiser = {
 			amount = 2
 		}
 		destroyer = {
@@ -52,11 +59,8 @@ GER_StrikeForceCarrier_1 = {
 		carrier = {
 			amount = 2
 		}
-		battleship = {
-			amount = 4
-		}
 		battle_cruiser = {
-			amount = 2
+			amount = 4
 		}
 		heavy_cruiser = {
 			amount = 2
@@ -70,9 +74,9 @@ GER_StrikeForceCarrier_1 = {
 	}
 }
 
-GER_PatrolReconForce_1 = {
+GEA_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 10
@@ -92,9 +96,9 @@ GER_PatrolReconForce_1 = {
 	}
 }
 
-GER_PatrolDominanceForce_1 = {
+GEA_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 10
@@ -123,9 +127,9 @@ GER_PatrolDominanceForce_1 = {
 	}
 }
 
-GER_ConvoyRaiding_1 = {
+GEA_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 1
@@ -144,9 +148,9 @@ GER_ConvoyRaiding_1 = {
 	}
 }
 
-GER_ConvoyEscort_1 = {
+GEA_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = GEA
 	}
 	ai_will_do = {
 		factor = 5

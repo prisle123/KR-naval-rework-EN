@@ -20,7 +20,6 @@ units = {
 		task_force = {
 			name = "Cruisers, Continental Battle Fleet"
 			location = 6845 #Philadelphia
-			ship = { name = "CNS Constitution" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
 			ship = { name = "CNS Chicago" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }
 			ship = { name = "CNS Trenton" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			ship = { name = "CNS Des Moines" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
