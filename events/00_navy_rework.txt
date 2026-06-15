@@ -129,6 +129,10 @@ country_event = {
 			else = {
 				load_oob = 01_kr_GER_air_legacy
 			}
+			if = {
+				limit = { has_game_rule = { rule = allow_sms_kaiser_wilhelm option = FREE } }
+				load_oob = 02_kr_GER_naval_kaiser_wilhelm
+			}
 		}
 		GEA = {
 			GER_starting_naval_variants_kr = yes

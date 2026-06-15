@@ -72,8 +72,8 @@ units = {
 		task_force = {
 			name = "Aufklarungsgruppe IV"
 			location = 12299
-			ship = { name = "SMS Roon" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Roon Class" } } }
-			ship = { name = "SMS Blumenthal" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Roon Class" } } }
+			ship = { name = "SMS Graf Zeppelin" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Graf Zeppelin Class" } } }
+			ship = { name = "SMS Max Immelmann" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Graf Zeppelin Class" } } }
 
 			ship = { name = "SMS Scharnhorst" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Scharnhorst Class" } } }
 			ship = { name = "SMS Gneisenau" definition = battle_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Scharnhorst Class" } } }

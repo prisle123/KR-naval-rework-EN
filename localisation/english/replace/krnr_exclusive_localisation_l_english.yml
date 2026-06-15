@@ -16,3 +16,7 @@
  ACW_navy_redistribution.4.d: "As the nation fractures, swift action is taken by loyalist elements within the Navy. Under the direction of steadfast admirals, a portion of the fleet has been reorganized into a coherent command structure. Key vessels are rallied to secure strategic ports, enforce blockades, and protect loyal coastlines. Though the situation remains fluid and resources are scarce, this rapid naval reorganization provides a lifeline for the war effort. The reorganized fleet may not be at full strength, but it stands ready to fight for its chosen cause."
  ACW_navy_redistribution.4.a: "Our ships sail again."
  USA_ACW_shipbuilding_collapse: "Collapsed Shipbuilding Industry"
+
+ RULE_ALLOW_SMS_KAISER_WILHELM: "Spawn SMS Kaiser Wilhelm"
+ RULE_ALLOW_SMS_KAISER_WILHELM_BLOCKED_DESC: "§RDisable§! the spawn of §YSMS Kaiser Wilhelm§!.\n\n§YSMS Kaiser Wilhelm§! is a 80,000-ton battleship that can hardly be built in real world, but it has been a symbol of §gKRNR§! and its inspiration, the old naval rework of §gKaiserreich§!."
+ RULE_ALLOW_SMS_KAISER_WILHELM_FREE_DESC: "§GEnable§! the spawn of §YSMS Kaiser Wilhelm§!.\n\n§YSMS Kaiser Wilhelm§! is a 80,000-ton battleship that can hardly be built in real world, but it has been a symbol of §gKRNR§! and its inspiration, the old naval rework of §gKaiserreich§!."

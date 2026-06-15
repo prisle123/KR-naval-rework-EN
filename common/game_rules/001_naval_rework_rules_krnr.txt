@@ -1,0 +1,17 @@
+allow_sms_kaiser_wilhelm = {
+	name = RULE_ALLOW_SMS_KAISER_WILHELM
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+        name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_ALLOW_SMS_KAISER_WILHELM_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_ALLOW_SMS_KAISER_WILHELM_FREE_DESC
+		allow_achievements = yes
+	}
+}

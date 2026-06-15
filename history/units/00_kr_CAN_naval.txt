@@ -9,7 +9,6 @@ units = {
 			location = 7361
 			# 1st Battle Squadron
 			ship = { name = "HMCS Magnificent" pride_of_the_fleet = yes definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "Magnificent Class" } } }
-			ship = { name = "HMCS Majestic" definition = SH_battleship equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "Magnificent Class" } } }
 			
 			# 2nd Battle Squadron
 			ship = { name = "HMCS Barham" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Queen Elizabeth Class" } } }
@@ -43,7 +42,6 @@ units = {
 			name = "Battle Cruiser Fleet"
 			location = 7361
 			ship = { name = "HMCS Furious" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = IMP version_name = "Furious Class" } } }
-			ship = { name = "HMCS Drake" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Nelson Class" } } }
 			ship = { name = "HMCS Howe" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }	
 			ship = { name = "HMCS Rodney" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = IMP version_name = "Admiral Class" } } }
 

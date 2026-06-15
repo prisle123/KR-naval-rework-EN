@@ -133,7 +133,6 @@ units = {
 			ship = { name = "RNS Glorious" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } }
 			
 			ship = { name = "RNS Leveller" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
-			ship = { name = "RNS Nelson" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			ship = { name = "RNS Repulse" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			ship = { name = "RNS Renown" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			
@@ -242,7 +241,7 @@ units = {
 			ship = { name = "RNS Rebecca" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Rebecca Class" } } }
 			ship = { name = "RNS Hood" pride_of_the_fleet = yes definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
 			ship = { name = "RNS Hawk" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
-			ship = { name = "RNS Cockburn" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "RNS Nelson" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 			
 			ship = { name = "RNS Marx" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Revolutionary Class" } } }
 			ship = { name = "RNS Champion" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C Class" } } }

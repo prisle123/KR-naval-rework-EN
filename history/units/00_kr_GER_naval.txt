@@ -13,7 +13,7 @@ units = {
 			name = "Schlachtgeschwader I"
 			location = 241
 			# Fleet Flagship
-			ship = { name = "SMS Kaiser Wilhelm" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.02 equipment = {vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Wilhelm Class" } } }
+			#ship = { name = "SMS Kaiser Wilhelm" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.02 equipment = {vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Kaiser Wilhelm Class" } } }
 			# VI Battle Squadron
 			ship = { name = "SMS Pommern" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 			ship = { name = "SMS Hessen" definition = battleship start_experience_factor = 0.11 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
@@ -127,7 +127,7 @@ units = {
 			ship = { name = "SMS Mosel" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 
 			ship = { name = "SMS Blücher" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
-			ship = { name = "SMS Scheer" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
+			ship = { name = "SMS Admiral Scheer" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
 			# cruisers
 			ship = { name = "SMS Straßburg" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
 			ship = { name = "SMS Liegnitz" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
@@ -429,22 +429,22 @@ instant_effect = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
 			creator = "GER"
-			version_name = "Roon Class"
+			version_name = "Weser Class"
 		}
 		name = "SMS Maas"
 		requested_factories = 2
-		progress = 0.05
+		progress = 0.55
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
 			creator = "GER"
-			version_name = "Roon Class"
+			version_name = "Weser Class"
 		}
 		name = "SMS Donau"
 		requested_factories = 2
-		progress = 0.03
+		progress = 0.42
 		amount = 1
 	}
 	add_equipment_production = {
