@@ -7618,6 +7618,25 @@ JAP_starting_naval_variants_kr = {
 		}
 	}
 	create_equipment_variant = {
+        name = "Atago Class"
+		parent_version = 0
+		show_position = no
+		role_icon_index = 14
+        type = vnr_ship_hull_carrier_conversion_bb
+        name_group = JAP_CV_HISTORICAL
+        modules = {
+            fixed_ship_deck_slot_1 = ship_deck_space_open
+            fixed_ship_deck_slot_2 = ship_deck_space_open
+            fixed_ship_engine_slot = carrier_ship_engine_2
+            fixed_ship_anti_air_slot = ship_anti_air_2_h
+            fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
+            mid_1_custom_slot = ship_deck_space_open
+            mid_2_custom_slot = ship_deck_space_open
+        }
+        obsolete = yes
+    }
+	create_equipment_variant = {
 		show_position = no
 		name = "Soryu Class"
 		role_icon_index = 10

@@ -31,6 +31,7 @@ units = {
 		task_force = {
 			name = "1 Koku Sentai"
 			location = 9998
+			ship = { name = "Atago" definition = carrier start_experience_factor = 0.30 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = JAP version_name = "Atago Class" } } }
 			ship = { name = "Hosho" definition = carrier start_experience_factor = 0.15 equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "Hosho Class" } } }
 			ship = { name = "Ryuen" definition = carrier start_experience_factor = 0.07 equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "Ryuen Class" } } }
 			#Dai 5 Kuchikutai
