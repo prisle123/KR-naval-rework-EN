@@ -33,25 +33,16 @@
 }
 
 air_wings = {
-	"SMS Roon" = {
+	"SMS Graf Zeppelin" = {
 		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
 		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
 		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
 		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
 	}
-	"SMS Blumenthal" = {
+	"SMS Max Immelmann" = {
 		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
 		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
 		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
 		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
 	}
-	"SMS Mosel" = {
-		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
-		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
-	}
-	"SMS Rhein" = {
-		cv_small_plane_airframe_0 = { owner = "GEA" amount = 10 version_name = "Ff 68 T" }
-		cv_small_plane_naval_bomber_airframe_1 = { owner = "GEA" amount = 10 version_name = "Fi 167 T" }
-	}
-	
 }
