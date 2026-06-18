@@ -150,7 +150,6 @@ ACC_defect_navy = {
 	transfer_ship = { prefer_name = "USS Augusta" type = heavy_cruiser target = event_target:system }
 	transfer_ship = { prefer_name = "USS Marblehead" type = light_cruiser target = event_target:system }
 	transfer_ship = { prefer_name = "USS Cincinnati" type = light_cruiser target = event_target:system }
-	transfer_ship = { prefer_name = "USS Langley" type = carrier target = event_target:system }
 	transfer_ship = { prefer_name = "USS Alden" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Whipple" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Edsall" type = destroyer target = event_target:system }
