@@ -53,8 +53,8 @@ ideas = {
 
 			modifier = {
 				custom_modifier_tooltip = fleet_in_being_academy_spirit_tt
-				trait_ironside_xp_gain_factor = 0.2
-				trait_superior_tactician_xp_gain_factor = 0.2
+				trait_ironside_xp_gain_factor = 0.1
+				trait_superior_tactician_xp_gain_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -71,16 +71,13 @@ ideas = {
 		trade_interdiction_academy_spirit = {
 			ledger = navy
 			available = {
-				AND = { 
-				has_naval_academy = yes
 				has_doctrine = new_convoy_raiding
-				}
 			}
 
 			modifier = {
 				custom_modifier_tooltip = trade_interdiction_academy_spirit_tt
-				trait_seawolf_xp_gain_factor = 0.2
-				trait_blockade_runner_xp_gain_factor = 0.2
+				trait_seawolf_xp_gain_factor = 0.1
+				trait_blockade_runner_xp_gain_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -97,16 +94,13 @@ ideas = {
 		base_strike_academy_spirit = {
 			ledger = navy
 			available = {
-				AND = { 
-				has_naval_academy = yes
 				has_doctrine = new_base_strike
-				}
 			}
 
 			modifier = {
 				custom_modifier_tooltip = base_strike_academy_spirit_tt
-				trait_air_controller_xp_gain_factor = 0.2
-				trait_fleet_protector_xp_gain_factor = 0.2
+				trait_air_controller_xp_gain_factor = 0.1
+				trait_fleet_protector_xp_gain_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -122,11 +116,15 @@ ideas = {
 		}
 		best_of_the_best_naval_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_subdoctrine_in_track = carriers
+				has_subdoctrine_in_track = capital_ships
+				has_subdoctrine_in_track = screens
+				has_subdoctrine_in_track = submarines
+			}
 			modifier = {
 				navy_leader_start_level = 2
 				navy_intel_to_others = -5.0
-				custom_modifier_tooltip = best_of_the_best_naval_academy_spirit_tt
 			}
 			ai_will_do = {
 				factor = 1
@@ -202,7 +200,8 @@ ideas = {
             modifier = {
                 trait_blue_water_expert_xp_gain_factor = 0.15
                 trait_air_controller_xp_gain_factor = 0.25
-                trait_fleet_protector_xp_gain_factor = 0.25
+                trait_fleet_protector_xp_gain_factor = 0.15
+				naval_mastery_gain_factor = 0.15
             }
             ai_will_do = {
                 factor = 1.5
@@ -304,7 +303,7 @@ ideas = {
             }
 			modifier = {
 				fighter_sortie_efficiency = 0.15
-				navy_anti_air_attack_factor = 0.15
+				navy_carrier_air_attack_factor = 0.15
 				air_ace_generation_chance_factor = 0.25
 			}
 			ai_will_do = {
@@ -324,7 +323,7 @@ ideas = {
 				has_doctrine = jeune_ecole
 			}
 			research_bonus = {
-				dd_tech = 0.20
+				dd_tech = 0.10
 			}
 			modifier = {
 				ship_hull_light_design_cost_factor = -0.4
@@ -367,7 +366,8 @@ ideas = {
 			ledger = navy
 			available = { has_doctrine = new_base_strike }
 			modifier = {
-				experience_gain_navy_factor = 0.15
+				experience_gain_navy_factor = 0.1
+				naval_mastery_gain_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -379,6 +379,9 @@ ideas = {
 		}
 		naval_refit_yards_spirit = {
 			ledger = navy
+			available = {
+				has_subdoctrine_in_track = naval_logistics
+			}
 			modifier = {
 				refit_speed = 0.1
 				repair_speed_factor = 0.1
@@ -431,10 +434,10 @@ ideas = {
             ledger = navy
             modifier = {
                 critical_receive_chance = -0.1
-                naval_critical_effect_factor = -0.15
+                naval_critical_effect_factor = -0.1
             }
             ai_will_do = {
-                factor = 1
+                factor = 30
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -503,7 +506,7 @@ ideas = {
 				naval_torpedo_screen_penetration_factor = 0.1
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 10
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -683,7 +686,7 @@ ideas = {
                 convoy_escort_efficiency = 0.1
             }
             ai_will_do = {
-                factor = 1
+                factor = 10
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -716,6 +719,7 @@ ideas = {
                 navy_leader_cost_factor = 0.25
                 navy_intel_to_others = 20
                 experience_gain_navy_factor = -0.15
+				naval_mastery_gain_factor = -0.1
             }
             ai_will_do = {
                 factor = 0

@@ -10,30 +10,6 @@ delete_starting_naval_oob = {
 	special_project_workaround = yes
 }
 
-special_project_workaround = {
-	USA = {
-		complete_special_project = sp:sp_super_heavy_guns
-	}
-	GER = {
-		complete_special_project = sp:sp_super_heavy_guns
-	}
-	JAP = {
-		complete_special_project = sp:sp_super_heavy_guns
-	}
-	ENG = {
-		complete_special_project = sp:sp_super_heavy_guns
-	}
-	CAN = {
-		complete_special_project = sp:sp_super_heavy_guns
-	}
-	FRA = {
-		complete_special_project = sp:sp_high_speed_light_engine
-	}
-	RUS = {
-		complete_special_project = sp:sp_high_speed_light_engine
-	}
-}
-
 ai_doctrine_workaround = {
 	ENG = {
 		if = {

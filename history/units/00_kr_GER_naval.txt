@@ -176,7 +176,7 @@ units = {
 			ship = { name = "SMS S 183" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 			ship = { name = "SMS S 184" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 		}
-		taskforce = {
+		task_force = {
 			name = "Flottenkommando Torpedoboot (Nordsee)"
 			location = 241
 
@@ -258,7 +258,7 @@ units = {
 			ship = { name = "SMS S 133" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 			ship = { name = "SMS S 134" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
-		taskforce = {
+		task_force = {
 			name = "Flottenkommando Torpedoboot (Ostsee)"
 			location = 6332
 

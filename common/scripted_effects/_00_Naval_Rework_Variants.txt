@@ -623,30 +623,6 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Kaiser Wilhelm Class"		# Fictional, mixture of L20 and GK-proposals
-		role_icon_index = 8
-		type = vnr_ship_hull_super_heavy_1		# Dreadnought
-		name_group = GER_BB_IMPERIAL
-		modules = {
-			fixed_ship_battery_slot = ship_super_heavy_battery_big_1
-			fixed_ship_anti_air_slot = ship_anti_air_1_h
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = super_heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_shbb
-			fixed_ship_armor_scheme_slot = ship_scheme_mixed
-			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-			front_1_custom_slot = ship_super_heavy_battery_big_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
-			fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_super_heavy_battery_big_1
-			rear_2_custom_slot = ship_super_heavy_battery_big_1
-		}
-	}
-
-	create_equipment_variant = {
-		show_position = no
 		name = "Elsaß Class"			# L-27 battleship
 		role_icon_index = 8
 		icon = "gfx/interface/technologies/Generic/generic_heavy_battleship1.png"
