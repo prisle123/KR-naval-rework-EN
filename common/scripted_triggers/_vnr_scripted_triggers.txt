@@ -78,3 +78,8 @@ is_ai_naval_major = {
 		is_debug = yes
 	}
 }
+
+enable_krnr_naval_ai = {
+	has_global_flag = krnr_enabled
+	has_game_rule = { rule = krnr_ai_naval_management option = FREE }
+}

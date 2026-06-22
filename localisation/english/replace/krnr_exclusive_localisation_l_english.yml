@@ -1,12 +1,15 @@
 ﻿l_english:
+ # decisions
  DEI_takeover_fleet: "Takeover Dutch East Indian fleet"
-
- CAN_refurbish_fleet: "Refurbish Reserved Fleet"
- CAN_refurbish_fleet_desc: "Now that we are ready to retake the Home Isle, we can first refurbish obsolete capital ships to strengthen our force."
- CAN_refurbish_fleet_tooltip: "A squadron of ships will join our navy after three months of refurbishment."
  remove_recovering_from_naval_race: "Naval Reform"
  remove_recovering_from_naval_race_desc: "Our navy is ready to face the future."
 
+ # Canada reserved fleet event
+ CAN_refurbish_fleet: "Refurbish Reserved Fleet"
+ CAN_refurbish_fleet_desc: "Now that we are ready to retake the Home Isle, we can first refurbish obsolete capital ships to strengthen our force."
+ CAN_refurbish_fleet_tooltip: "A squadron of ships will join our navy after three months of refurbishment."
+
+ # US civil war navy redistribution events
  US_navy_collapsed_tt: "§HUS Navy has descended into complete disorder.§!"
  US_navy_recovered_tt: "§HUS fleet has been reorganized.§!"
  ACW_navy_redistribution.0.t: "The Navy Adrift"
@@ -17,6 +20,10 @@
  ACW_navy_redistribution.4.a: "Our ships sail again."
  USA_ACW_shipbuilding_collapse: "Collapsed Shipbuilding Industry"
 
+ # rules
+ RULE_AI_NAVAL_MANAGEMENT_KR: "Enable KRNR Naval AI"
+ RULE_AI_NAVAL_MANAGEMENT_FREE_KR_DESC: "§GEnable§! naval management AI designed for each specific major country.\n\nThis option is designed to make AI majors act §Yhistorically and competively§! in a §Crecommended WWII scenario§!, by simulating well-known naval strategies such as §CUnrestricted Submarine Warfare§! and §CIsland Hopping§! in real history.\n\n§RThis option is not recommended for the followings:§!\n£white_dot Alt-history mods (even it is a submod of Kaiserreich)\n£white_dot State/Region mods with changes about seas and oceans\n£white_dot Non-default WWII scenarios (random path/alt-history, anything not leading to Reichspakt vs 3rd Internationale)\n£white_dot Other AI mods that change AI behavior in naval warfare"
+ RULE_AI_NAVAL_MANAGEMENT_BLOCKED_KR_DESC: "§RDisable§! naval management AI designed for each specific major country.\n\n§YUse AI from base game or from other mods you play along with KRNR.§!"
  RULE_ALLOW_SMS_KAISER_WILHELM: "Spawn SMS Kaiser Wilhelm"
  RULE_ALLOW_SMS_KAISER_WILHELM_BLOCKED_DESC: "§RDisable§! the spawn of §YSMS Kaiser Wilhelm§!.\n\n§YSMS Kaiser Wilhelm§! is a 80,000-ton battleship that can hardly be built in real world, but it has been a symbol of §gKRNR§! and its inspiration, the old naval rework of §gKaiserreich§!."
  RULE_ALLOW_SMS_KAISER_WILHELM_FREE_DESC: "§GEnable§! the spawn of §YSMS Kaiser Wilhelm§!.\n\n§YSMS Kaiser Wilhelm§! is a 80,000-ton battleship that can hardly be built in real world, but it has been a symbol of §gKRNR§! and its inspiration, the old naval rework of §gKaiserreich§!."

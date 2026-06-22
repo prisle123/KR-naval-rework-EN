@@ -6,9 +6,10 @@ GER_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
-		battleship = {
-			amount = 2
+		SH_battleship = {
+			amount = 1
 		}
 		destroyer = {
 			amount = 8
@@ -39,6 +40,7 @@ GER_StrikeForceCarrier_1 = {
 		factor = 1
 	}		
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battleship = {
 			amount = 2
@@ -81,7 +83,7 @@ GER_PatrolReconForce_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}
 	
@@ -100,6 +102,7 @@ GER_PatrolDominanceForce_1 = {
 		factor = 10
 	}		
 	mission = { naval_patrol }
+	keep_updated = yes
 
 	min_composition = {
 		light_cruiser = {
@@ -131,6 +134,7 @@ GER_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
+	keep_updated = yes
 	min_composition = {
 		submarine = {
 			amount = 4

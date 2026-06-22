@@ -6,6 +6,7 @@ RUS_StrikeForce_1 = {
 		factor = 10
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battleship = {
 			amount = 2
@@ -35,7 +36,7 @@ RUS_StrikeForceCarrier_1 = {
 	ai_will_do = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 1
 			has_navy_size = {
 				unit = carrier
 				size > 0
@@ -43,6 +44,7 @@ RUS_StrikeForceCarrier_1 = {
 		}
 	}
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battleship = {
 			amount = 2
@@ -79,7 +81,7 @@ RUS_PatrolReconForce_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}
 
@@ -98,6 +100,7 @@ RUS_PatrolDominanceForce_1 = {
 		factor = 3
 	}	
 	mission = { naval_patrol }
+	keep_updated = yes
 
 	min_composition = {
 		light_cruiser = {
@@ -129,6 +132,7 @@ RUS_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
+	keep_updated = yes
 	min_composition = {
 		submarine = {
 			amount = 4

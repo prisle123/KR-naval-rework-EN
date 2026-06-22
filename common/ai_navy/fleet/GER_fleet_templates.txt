@@ -1,12 +1,12 @@
 # must-haves
-GER_patrol_fleet_1 = {
-	required_taskforces = {
-		GER_PatrolReconForce_1 = 6
-	}
-}
 GER_escort_fleet_1 = {
 	required_taskforces = {
 		GER_ConvoyEscort_1 = 4
+	}
+}
+GER_patrol_fleet_1 = {
+	required_taskforces = {
+		GER_PatrolReconForce_1 = 4
 	}
 }
 GER_strike_fleet_1 = {

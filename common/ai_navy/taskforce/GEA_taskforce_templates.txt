@@ -11,7 +11,8 @@ GEA_StrikeForce_1 = {
 				size < 2
 			}
 		}
-	}	
+	}
+	keep_updated = yes
 	mission = { naval_strike }
 	min_composition = {
 		battleship = {
@@ -46,6 +47,7 @@ GEA_StrikeForceCarrier_1 = {
 		factor = 1
 	}		
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battle_cruiser = {
 			amount = 2
@@ -85,7 +87,7 @@ GEA_PatrolReconForce_1 = {
 
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}
 	
@@ -104,6 +106,7 @@ GEA_PatrolDominanceForce_1 = {
 		factor = 10
 	}		
 	mission = { naval_patrol }
+	keep_updated = yes
 
 	min_composition = {
 		light_cruiser = {
@@ -135,6 +138,7 @@ GEA_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
+	keep_updated = yes
 	min_composition = {
 		submarine = {
 			amount = 4

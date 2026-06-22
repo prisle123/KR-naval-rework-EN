@@ -6,6 +6,7 @@ ENG_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battleship = {
 			amount = 2
@@ -43,6 +44,7 @@ ENG_StrikeForce_BC_1 = {
 		}
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battle_cruiser = {
 			amount = 2
@@ -81,7 +83,7 @@ ENG_PatrolReconForce_1 = {
 	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}	
 	optimal_composition = {
@@ -97,7 +99,8 @@ ENG_PatrolDominanceForce_1 = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
+	keep_updated = yes
 	mission = { naval_patrol }
 
 	min_composition = {
@@ -128,7 +131,8 @@ ENG_ConvoyRaiding_1 = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
+	keep_updated = yes
 	mission = { convoy_raiding }
 	min_composition = {
 		submarine = {
