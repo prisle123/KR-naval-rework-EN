@@ -1,0 +1,93 @@
+# must-haves
+IMP_escort_fleet_1 = {
+	required_taskforces = {
+		IMP_ConvoyEscort_1 = 2
+	}
+}
+IMP_patrol_fleet_1 = {
+	required_taskforces = {
+		IMP_PatrolReconForce_1 = 4
+	}
+}
+IMP_strike_fleet_1 = {
+	required_taskforces = {
+		IMP_StrikeForce_1 = 1
+	}
+}
+IMP_dominance_fleet_1 = {
+	required_taskforces = {
+		IMP_PatrolDominanceForce_1 = 1
+	}
+}
+IMP_raiding_fleet_1 = {
+	required_taskforces = {
+		IMP_ConvoyRaiding_1 = 3
+	}
+	optional_taskforces = {
+		IMP_ConvoyRaiding_1 = 2
+	}
+}
+
+# advance fleets
+IMP_patrol_fleet_2 = {
+	required_taskforces = {
+		IMP_PatrolReconForce_1 = 2
+	}
+}
+IMP_escort_fleet_2 = {
+	required_taskforces = {
+		IMP_ConvoyEscort_1 = 2
+	}
+}
+IMP_strike_fleet_2 = {
+	required_taskforces = {
+		IMP_StrikeForce_1 = 2
+	}
+}
+IMP_dominance_fleet_2 = {
+	required_taskforces = {
+		IMP_PatrolDominanceForce_1 = 2
+	}
+}
+IMP_raiding_fleet_2 = {
+	required_taskforces = {
+		IMP_ConvoyRaiding_1 = 4
+	}
+	optional_taskforces = {
+		IMP_ConvoyRaiding_1 = 2
+	}
+}
+
+# optional fleets
+IMP_patrol_fleet_3 = {
+	required_taskforces = {
+		IMP_PatrolReconForce_1 = 4
+	}
+	optional_taskforces = {
+		IMP_PatrolReconForce_1 = 2
+	}
+}
+IMP_escort_fleet_3 = {
+	required_taskforces = {
+		IMP_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		IMP_ConvoyEscort_1 = 3
+	}
+}
+IMP_strike_fleet_3 = {
+	required_taskforces = {
+		IMP_StrikeForce_1 = 2
+	}
+	optional_taskforces = {
+		IMP_StrikeForce_1 = 2
+	}
+}
+IMP_dominance_fleet_3 = {
+	required_taskforces = {
+		IMP_PatrolDominanceForce_1 = 2
+	}
+	optional_taskforces = {
+		IMP_PatrolDominanceForce_1 = 2
+	}
+}

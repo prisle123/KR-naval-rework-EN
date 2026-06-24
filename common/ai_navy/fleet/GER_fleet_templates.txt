@@ -14,9 +14,9 @@ GER_strike_fleet_1 = {
 		GER_StrikeForce_1 = 1
 	}
 }
-GER_carrier_fleet_1 = {
+GER_mobile_fleet_1 = {
 	required_taskforces = {
-		GER_StrikeForceCarrier_1 = 2
+		GER_StrikeForce_2 = 1
 	}
 }
 GER_dominance_fleet_1 = {
@@ -45,9 +45,9 @@ GER_escort_fleet_2 = {
 		GER_ConvoyEscort_1 = 4
 	}
 }
-GER_carrier_fleet_2 = {
+GER_strike_fleet_2 = {
 	required_taskforces = {
-		GER_StrikeForceCarrier_1 = 1
+		GER_StrikeForce_1 = 1
 	}
 }
 GER_dominance_fleet_2 = {
@@ -84,7 +84,6 @@ GER_escort_fleet_3 = {
 GER_strike_fleet_3 = {
 	required_taskforces = {
 		GER_StrikeForce_1 = 1
-		GER_StrikeForceCarrier_1 = 1
 	}
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1

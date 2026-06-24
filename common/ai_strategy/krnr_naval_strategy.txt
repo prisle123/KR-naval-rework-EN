@@ -135,6 +135,11 @@ third_internationale_unrestricted_submarine_warfare = {
         id = 51
         value = 30
     }
+    ai_strategy = {
+        type = convoy_raiding_target
+        id = GER
+        value = 75
+    }
 }
 
 third_internationale_avoid_baltic = {
@@ -183,11 +188,9 @@ GER_fight_for_north_sea = {
     enable = {
         OR = {
             has_war_with = ENG
-            any_enemy_country = {
-                owns_state = 126
-            }
+            has_war_with = GBR
         }
-        enemies_naval_strength_ratio > 0.3
+        enemies_naval_strength_ratio > 0.29
         enable_krnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -195,6 +198,42 @@ GER_fight_for_north_sea = {
     ai_strategy = {
         type = naval_dominance
         id = krnr_ger_home_waters
+        value = 99
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 16
+        value = 1000
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 18
+        value = 1000
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 173
+        value = 500
+    }
+}
+
+GER_strike_from_north_sea = {
+    allowed = {
+        original_tag = GER
+    }
+    enable = {
+        OR = {
+            has_war_with = ENG
+            has_war_with = GBR
+        }
+        enemies_naval_strength_ratio < 0.3
+        enable_krnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+
+    ai_strategy = {
+        type = naval_dominance
+        id = krnr_eng_home_waters
         value = 100
     }
     ai_strategy = {
@@ -207,6 +246,21 @@ GER_fight_for_north_sea = {
         id = 18
         value = -1000
     }
+    ai_strategy = {
+        type = invade
+        id = ENG
+        value = 300
+    }
+    ai_strategy = {
+		type = naval_invasion_focus
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_control
+		area = western_europe
+		ordertype = invasion
+    	execute_order = yes
+	}
 }
 
 GER_fight_for_baltic_sea = {
@@ -239,7 +293,7 @@ third_internationale_secure_mediterranean = {
     enable = {
         OR = {
             has_war_with = NFA
-            has_war_with = GER
+            has_war_with = SIC
             has_war_with = AUS
         }
         enable_krnr_naval_ai = yes
@@ -561,5 +615,59 @@ USA_pacific_war_2 = {
         type = invasion_unit_request
         state = 526
         value = 50
+    }
+}
+
+CAN_retake_home_islands = {
+    allowed = {
+        original_tag = IMP
+    }
+    enable = {
+        has_war_with = ENG
+        ENG = {
+            has_capitulated = no
+            has_navy_size = { type = carrier size < 5 }
+            has_navy_size = { type = capital_ship size < 5 }
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_dominance
+        id = krnr_can_landing_zones
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_invasion_dominance_weight
+        value = 100
+    }
+    ai_strategy = {
+        type = invade
+        id = ENG
+        value = 300
+    }
+}
+
+CAN_take_iceland_before_return = {
+    allowed = {
+        original_tag = IMP
+    }
+    enable = {
+        has_war_with = ENG
+        has_war_with = ICE
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_dominance
+        id = 45
+        value = 90
+    }
+    ai_strategy = {
+        type = naval_invasion_dominance_weight
+        value = 100
+    }
+    ai_strategy = {
+        type = invade
+        id = ICE
+        value = 300
     }
 }

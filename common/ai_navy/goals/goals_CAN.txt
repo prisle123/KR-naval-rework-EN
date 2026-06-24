@@ -1,0 +1,98 @@
+IMP_naval_invasion_support = {
+    objective_type = naval_invasion_support
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 10
+    max_priority = 18
+}
+
+IMP_mine_sweeping = {
+    objective_type = mines_sweeping
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 0
+    max_priority = 1
+}
+
+IMP_invasion_defense = {
+    objective_type = naval_invasion_defense
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 10
+    max_priority = 15
+}
+
+IMP_coast_defense = {
+    objective_type = coast_defense
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 5
+    max_priority = 7
+}
+
+IMP_convoy_protection = {
+    objective_type = convoy_protection
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 7
+    max_priority = 12
+}
+
+IMP_convoy_raiding = {
+    objective_type = convoy_raiding
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 3
+    max_priority = 14
+}
+
+IMP_naval_dominance = {
+    objective_type = naval_dominance
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 5
+    max_priority = 15
+}
+
+IMP_mine_laying = {
+    objective_type = mines_planting
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 0
+    max_priority = 1
+}
+
+IMP_training = {
+    objective_type = training
+
+    available_for = {
+        IMP
+    }
+
+    min_priority = 10
+    max_priority = 20
+}

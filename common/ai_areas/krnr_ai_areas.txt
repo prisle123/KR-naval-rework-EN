@@ -12,6 +12,12 @@ areas = {
             173
         }
     }
+    krnr_can_landing_zones = {
+        strategic_regions = {
+            43
+            45
+        }
+    }
     krnr_med_zones = {
         strategic_regions = {
             29

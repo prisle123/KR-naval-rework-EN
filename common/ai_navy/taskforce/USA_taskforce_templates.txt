@@ -202,3 +202,38 @@ USA_ConvoyEscort_1 = {
 		}
 	}
 }
+
+USA_InvasionSupport_1 = {
+	allowed = {
+		OR = {
+			original_tag = USA 
+			original_tag = ACC
+			original_tag = WCA
+			original_tag = APG
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { naval_invasion_support }
+
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+	optimal_composition = {
+		battleship = {
+			amount = 2
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 10
+		}
+	}
+}

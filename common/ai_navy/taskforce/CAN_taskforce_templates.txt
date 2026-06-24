@@ -1,6 +1,6 @@
-GER_StrikeForce_1 = {
+CAN_StrikeForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = IMP
 	}
 	ai_will_do = {
 		factor = 1
@@ -9,7 +9,7 @@ GER_StrikeForce_1 = {
 	keep_updated = yes
 	min_composition = {
 		battleship = {
-			amount = 2
+			amount = 1
 		}
 		destroyer = {
 			amount = 8
@@ -18,19 +18,19 @@ GER_StrikeForce_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 4
+			amount = 2
 		}
 		SH_battleship = {
-			amount = 2
+			amount = 1
 		}
 		battleship = {
 			amount = 4
 		}
-		heavy_cruiser = {
+		battle_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 8
 		}
 		destroyer = {
 			amount = 18
@@ -38,62 +38,19 @@ GER_StrikeForce_1 = {
 	}
 }
 
-GER_StrikeForce_2 = {
+CAN_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = IMP
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			has_navy_size = { unit = battle_cruiser size < 2 }
-		}
-	}		
-	mission = { naval_strike }
-	keep_updated = yes
+		factor = 5
+	}
+	mission = { naval_patrol }
 	min_composition = {
-		battle_cruiser = {
-			amount = 2
-		}
 		destroyer = {
-			amount = 8
+			amount = 5
 		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 2
-		}
-		battle_cruiser = {
-			amount = 4
-		}
-		heavy_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 6
-		}
-		destroyer = {
-			amount = 16
-		}
-	}
-}
-
-GER_PatrolReconForce_1 = {
-	allowed = {
-		original_tag = GER
-	}
-	ai_will_do = {
-		factor = 10
 	}	
-	mission = { naval_patrol }
-
-	min_composition = {
-		destroyer = {
-			amount = 5
-		}
-	}
-	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -101,15 +58,15 @@ GER_PatrolReconForce_1 = {
 	}
 }
 
-GER_PatrolDominanceForce_1 = {
+CAN_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = IMP
 	}
 	ai_will_do = {
-		factor = 10
-	}		
-	mission = { naval_patrol }
+		factor = 5
+	}
 	keep_updated = yes
+	mission = { naval_patrol }
 
 	min_composition = {
 		light_cruiser = {
@@ -119,29 +76,29 @@ GER_PatrolDominanceForce_1 = {
 			amount = 4
 		}
 	}
-
+	
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 4
+			amount = 3
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
 
-GER_ConvoyRaiding_1 = {
+CAN_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = IMP
 	}
 	ai_will_do = {
-		factor = 1
-	}	
-	mission = { convoy_raiding }
+		factor = 5
+	}
 	keep_updated = yes
+	mission = { convoy_raiding }
 	min_composition = {
 		submarine = {
 			amount = 4
@@ -155,13 +112,13 @@ GER_ConvoyRaiding_1 = {
 	}
 }
 
-GER_ConvoyEscort_1 = {
+CAN_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = GER
+		original_tag = IMP
 	}
 	ai_will_do = {
 		factor = 5
-	}		
+	}	
 	mission = { convoy_escort }
 
 	min_composition = {

@@ -742,6 +742,13 @@ ideas = {
         }
         recovering_from_naval_race = {  # saved for KR/KX
             ledger = navy
+			visible = {
+				OR = {
+					original_tag = GER
+					original_tag = JAP
+					original_tag = USA
+				}
+			}
             available = {
 				custom_trigger_tooltip = {
 					tooltip = recovering_from_naval_race_tt
@@ -751,6 +758,9 @@ ideas = {
 					}
 				}
             }
+			cancel = {
+				has_war = yes
+			}
             allowed_to_remove = {
                 always = no
             }
