@@ -44,4 +44,12 @@ air_wings = {
 		cv_small_plane_airframe_1 = { owner = "GER" amount = 15 version_name = "Bf 109 T" }
 		cv_small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 5 version_name = "Fi 167 T" }
 	}
+	"SMS Rhine" = {
+		cv_small_plane_airframe_1 = { owner = "GER" amount = 15 version_name = "Bf 109 T" }
+		cv_small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 5 version_name = "Fi 167 T" }
+	}
+	"SMS Mosel" = {
+		cv_small_plane_airframe_1 = { owner = "GER" amount = 15 version_name = "Bf 109 T" }
+		cv_small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 5 version_name = "Fi 167 T" }
+	}
 }

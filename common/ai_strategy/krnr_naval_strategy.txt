@@ -85,7 +85,7 @@ ENG_strike_from_north_sea = {
 	}
 	ai_strategy = {
 		type = front_control
-		area = europe
+		area = western_europe
 		ordertype = invasion
     	execute_order = yes
 	}
@@ -183,7 +183,7 @@ GER_fight_for_north_sea = {
     enable = {
         OR = {
             has_war_with = ENG
-            any_enemy_county = {
+            any_enemy_country = {
                 owns_state = 126
             }
         }
@@ -194,7 +194,7 @@ GER_fight_for_north_sea = {
 
     ai_strategy = {
         type = naval_dominance
-        id = krnr_north_sea
+        id = krnr_ger_home_waters
         value = 100
     }
     ai_strategy = {
@@ -303,7 +303,7 @@ JAP_invade_malaya = {
     }
     abort = {
 		OR = {
-            GEA = { has_capitulate = yes }
+            GEA = { has_capitulated = yes }
             NOT = { has_war_with = GEA }
         }
 	}
@@ -343,7 +343,7 @@ JAP_invade_indonesia = {
     }
     abort = {
 		OR = {
-            DEI = { has_capitulate = yes }
+            DEI = { has_capitulated = yes }
             NOT = { has_war_with = DEI }
         }
 	}
@@ -373,7 +373,7 @@ JAP_invade_philippines = {
     }
     abort = {
 		OR = {
-            PHI = { has_capitulate = yes }
+            PHI = { has_capitulated = yes }
             NOT = { has_war_with = PHI }
         }
 	}
@@ -405,7 +405,7 @@ JAP_pacific_war_1 = {
             has_war_with = APG
             has_war_with = WCA
         }
-        any_enemy_county = {
+        any_enemy_country = {
             controls_state = 631
         }
         631 = { is_controlled_by_ROOT_or_ally = no }
@@ -424,7 +424,7 @@ JAP_pacific_war_1 = {
     }
     ai_strategy = {
 		type = front_control
-		area = pacifc
+		area = pacific
 		ordertype = invasion
     	execute_order = yes
 	}
@@ -442,12 +442,12 @@ JAP_pacific_war_2 = {
             has_war_with = APG
             has_war_with = WCA
         }
-        any_enemy_county = {
+        any_enemy_country = {
             controls_state = 629
         }
         629 = { is_controlled_by_ROOT_or_ally = no }
         OR = {
-            all_enemy_county = {
+            all_enemy_country = {
                 NOT = { controls_state = 631 }
             }
             631 = { is_controlled_by_ROOT_or_ally = yes }
@@ -472,7 +472,7 @@ JAP_pacific_war_2 = {
     }
     ai_strategy = {
 		type = front_control
-		area = pacifc
+		area = pacific
 		ordertype = invasion
     	execute_order = yes
 	}
@@ -489,7 +489,7 @@ USA_pacific_war_1 = {
     }
     enable = {
         has_war_with = JAP
-        any_enemy_county = {
+        any_enemy_country = {
             controls_state = 645
         }
         enable_krnr_naval_ai = yes
@@ -534,7 +534,7 @@ USA_pacific_war_2 = {
     enable = {
         has_war_with = JAP
         OR = {
-            all_enemy_county = {
+            all_enemy_country = {
                 NOT = { controls_state = 645 }
             }
             645 = { is_controlled_by_ROOT_or_ally = yes }

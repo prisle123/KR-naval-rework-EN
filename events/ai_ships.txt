@@ -381,9 +381,7 @@ country_event = {
 					advanced_ship_torpedo_launcher = 1 
 					improved_ship_hull_carrier = 1
 					improved_cruiser_armor = 1 
-					advanced_torpedo_defense = 1
 					improved_heavy_armor = 1
-					all_or_nothing_armor_scheme = 1
 					sonar = 1
 					improved_sonar = 1
 					improved_depth_charges = 1
@@ -481,8 +479,6 @@ country_event = {
 					advanced_light_battery = 1
 					advanced_heavy_armor = 1
 					advanced_cruiser_armor = 1
-					advanced_torpedo_defense = 1
-					all_or_nothing_armor_box_armor_scheme = 1
 					advanced_sonar = 1
 					advanced_depth_charges = 1
 					modern_depth_charges = 1
@@ -838,11 +834,13 @@ country_event = {
 			}
 		}
 		USA = {
-			limit = { is_ai = yes }
-			set_technology = {
-				large_shipyard = 1
-				port_construction_corps = 1
-				integrated_shipyard_complex = 1
+			if = {
+				limit = { is_ai = yes }
+				set_technology = {
+					large_shipyard = 1
+					port_construction_corps = 1
+					integrated_shipyard_complex = 1
+				}
 			}
 		}
 		set_global_flag = naval_tech_1941

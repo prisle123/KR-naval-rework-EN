@@ -180,7 +180,7 @@
 ##### MTG strategies ####
 no_old_navy_production = {
 	enable = {
-		
+		always = yes
 	}
 	abort_when_not_enabled = yes
 
