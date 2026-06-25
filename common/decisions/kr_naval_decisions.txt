@@ -43,19 +43,14 @@ CAN_returning_home_decisions = {
         icon = generic_naval
 
         available = {
-			has_completed_focus = CAN_project_plough
-			OR = {
-				threat > 0.75
-				FROM = { has_war_with = GER }
-				NOT = { country_exists = GER }
-			}
+			ENG = { has_war = yes }
+			can_declare_war_on = ENG
 		}
 
 		visible = {
-			is_monarchy = yes
 			is_subject = no
-			NOT = { country_exists = GBR }
-			can_declare_war_on = FROM
+			has_completed_focus = CAN_project_plough
+			country_exists = ENG
 		}
 
 		priority = 70
@@ -63,9 +58,9 @@ CAN_returning_home_decisions = {
         fire_only_once = yes
 		cancel_if_not_visible = yes
 
-		targets = { ENG GBP }
+		targets = { ENG }
 		target_trigger = {
-			can_declare_war_on = FROM
+			can_declare_war_on = ENG
 		}
 
         ai_will_do = {

@@ -51,7 +51,7 @@ units = {
 			name = "Schlachtgeschwader III"
 			location = 241
 			# Grand Battle Squadron
-			ship = { name = "SMS Elsaß" definition = SH_battleship start_experience_factor = 0.15 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
+			ship = { name = "SMS Elsaß" pride_of_the_fleet = yes definition = SH_battleship start_experience_factor = 0.15 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
 			ship = { name = "SMS Lothringen" definition = SH_battleship start_experience_factor = 0.12 equipment = { vnr_ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Elsaß Class" } } }
 			# V Battle Squadron
 			ship = { name = "SMS Bayern" definition = battleship start_experience_factor = 0.60 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Bayern Class" } } }
