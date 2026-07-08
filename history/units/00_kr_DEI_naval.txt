@@ -7,8 +7,8 @@ units = {
 		task_force = {
 			name = "1e Eskader"
 			location = 7381 ###Change to proper province number
-			ship = { name = "HrMs Mercurius" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
-			ship = { name = "HrMs Willem van Oranje" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Mercurius" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Willem van Oranje" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = HOL version_name = "Willem van Oranje Class" } } }
 			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
 			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
 			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
