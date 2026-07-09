@@ -15,11 +15,26 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
+		name = "Type IA Class"
+		role_icon_index = 38
+		type = vnr_ship_hull_submarine_1
+		name_group = GER_SS_IMPERIAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_armor_slot = pressure_hull_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		show_position = no
 		name = "Type II Class"				 # cruiser submarine
 		allow_without_tech = yes
 		role_icon_index = 40
 		type = vnr_ship_hull_cruiser_submarine
-		name_group = GER_SS_IMPERIAL
+		name_group = GER_SC_IMPERIAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -31,16 +46,14 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Type IV Class"				# cruiser submarine
+		name = "Type IV Class"				# midget submarine
 		allow_without_tech = yes
-		role_icon_index = 40
-		type = vnr_ship_hull_cruiser_submarine
+		role_icon_index = 50
+		type = vnr_ship_hull_midget_submarine
 		name_group = GER_SS_IMPERIAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
-			front_1_custom_slot = sub_airplane_launcher_1
-			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
 
@@ -76,7 +89,7 @@ GER_starting_naval_variants_kr = {
 		allow_without_tech = yes
 		type = vnr_ship_hull_cruiser_submarine
 		role_icon_index = 40
-		name_group = GER_SS_IMPERIAL
+		name_group = GER_SC_IMPERIAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
@@ -89,7 +102,7 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Main Class"
+		name = "Main Class"					# Carrier I, converted from passenger ship Ausonia
 		role_icon_index = 12
 		type = vnr_ship_hull_carrier_conversion_ca
 		name_group = GER_THEME_RIVERS_IMPERIAL
@@ -105,7 +118,7 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Graf Zeppelin Class"		# Fictional
+		name = "Graf Zeppelin Class"		# Fleet carrier built for east asian fleet
 		role_icon_index = 10
 		icon = "gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
 		type = vnr_ship_hull_carrier_1
@@ -125,7 +138,7 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Weser Class"
+		name = "Weser Class"				# light carrier for scouting fleet
 		role_icon_index = 12
 		type = vnr_ship_hull_carrier_1
 		name_group = GER_THEME_RIVERS_IMPERIAL

@@ -312,49 +312,49 @@ units = {
 			name = "I. U-Boot-Nordseeflotte"
 			location = 241
 			
-			ship = { name = "SM U-227" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-228" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-229" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-230" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-231" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-232" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-233" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-234" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-235" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-236" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-237" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-238" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-239" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-240" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-241" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-242" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-243" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-244" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-245" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-246" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-247" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-248" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-249" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-250" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-251" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-252" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-253" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-254" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-255" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-256" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-257" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-258" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-259" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-260" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-261" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-262" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-263" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-264" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-265" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-266" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-267" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-268" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
-			ship = { name = "SM U-269" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-227" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-228" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-229" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-230" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-231" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-232" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-233" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-234" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-235" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-236" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-237" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-238" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-239" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-240" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-241" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-242" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-243" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-244" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-245" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-246" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
+			ship = { name = "SM U-247" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-248" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-249" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-250" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-251" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-252" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-253" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-254" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-255" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-256" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-257" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-258" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-259" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-260" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-261" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-262" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-263" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-264" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-265" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-266" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-267" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-268" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
+			ship = { name = "SM U-269" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = GER version_name = "Type IV Class" } } }
 		}
 
 		task_force = {
@@ -371,12 +371,12 @@ units = {
 			ship = { name = "SM U-186" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 			ship = { name = "SM U-187" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 			ship = { name = "SM U-189" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-190" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-191" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-192" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-193" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-194" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-195" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-190" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-191" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-192" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-193" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-194" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-195" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
 			ship = { name = "SM U-142" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 			ship = { name = "SM U-143" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 			ship = { name = "SM U-144" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
@@ -393,25 +393,25 @@ units = {
 		task_force = {
 			name = "U-Boot-Ostseeflotte"
 			location = 6282
-			ship = { name = "SM U-196" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-197" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-198" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-199" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-200" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-201" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-202" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-203" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-204" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-205" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-206" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-196" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-197" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-198" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-199" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-200" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-201" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-202" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-203" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-204" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-205" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-206" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
 			ship = { name = "SM U-207" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-208" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-209" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-210" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-211" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-212" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-213" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
-			ship = { name = "SM U-214" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
+			ship = { name = "SM U-208" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-209" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-210" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-211" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-212" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-213" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
+			ship = { name = "SM U-214" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type IA Class" } } }
 			ship = { name = "SM U-215" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
 			ship = { name = "SM U-216" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
 			ship = { name = "SM U-217" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class" } } }
@@ -557,5 +557,25 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.1
 		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_submarine
+			creator = "GER"
+			version_name = "Type IX Class"
+		}
+		requested_factories = 1
+		progress = 0.1
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_submarine
+			creator = "GER"
+			version_name = "Type IX Class"
+		}
+		requested_factories = 1
+		progress = 0.1
+		amount = 1
 	}
 }

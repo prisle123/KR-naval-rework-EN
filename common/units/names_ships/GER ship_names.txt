@@ -298,6 +298,17 @@ GER_SS_IMPERIAL = {
 	}
 }
 
+GER_SC_IMPERIAL = {
+	name = NAME_THEME_HISTORICAL_CRUISER_SUBMARINES
+
+	for_countries = { GER GEA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = "SM "
+	fallback_name = "SM KU-%d"
+}
+
 GER_CA_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CA
 
