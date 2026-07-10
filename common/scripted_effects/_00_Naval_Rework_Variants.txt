@@ -132,7 +132,6 @@ GER_starting_naval_variants_kr = {
 			fixed_ship_armor_slot = ship_armor_carrier_2
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			fixed_ship_role_slot = ship_hull_carrier_role_cv
-			mid_1_custom_slot = ship_deck_space_open
 		}
 	}
 
@@ -668,14 +667,14 @@ GER_starting_naval_variants_kr = {
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
 			fixed_ship_armor_slot = ship_armor_bb_2
 			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 			fixed_ship_torpedo_defense_system_slot = torpedo_belt
 			front_1_custom_slot = ship_heavy_battery_2
 			front_2_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = dp_ship_secondaries_1_bb
 			rear_1_custom_slot = ship_heavy_battery_2
 			rear_2_custom_slot = ship_heavy_battery_2
 		}
