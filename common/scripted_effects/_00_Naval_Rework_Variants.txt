@@ -17,6 +17,7 @@ GER_starting_naval_variants_kr = {
 		show_position = no
 		name = "Type IA Class"
 		role_icon_index = 38
+		icon = "gfx/interface/technologies/Germany/GER_submarine_Type_I.png"
 		type = vnr_ship_hull_submarine_1
 		name_group = GER_SS_IMPERIAL
 		modules = {
@@ -741,7 +742,6 @@ GER_starting_naval_variants_kr = {
 			front_1_custom_slot = ship_light_medium_battery_1_single
 			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = empty
-			mid_3_custom_slot = ship_light_medium_battery_1_single
 			rear_1_custom_slot = ship_light_medium_battery_1_single
 			rear_2_custom_slot = ship_light_medium_battery_1_single
 		}
@@ -790,7 +790,69 @@ GER_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Graudenz/Cöln/Königsberg Class"
+		name = "Cöln Class"
+		role_icon_index = 24
+		icon = "gfx/interface/technologies/Germany/GER_light_cruiser_Wiesbaden.png"
+		type = vnr_ship_hull_cruiser_1
+		name_group = GER_CL_IMPERIAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			mid_3_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		show_position = no
+		name = "Brummer Class"
+		role_icon_index = 52
+		icon = "gfx/interface/technologies/Germany/GER_light_cruiser_Brummer.png"
+		type = vnr_ship_hull_cruiser_1
+		name_group = GER_CL_IMPERIAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		show_position = no
+		name = "Pillau/Wiesbaden/Königsberg Class"
+		role_icon_index = 24
+		icon = "gfx/interface/technologies/Germany/GER_light_cruiser_Wiesbaden.png"
+		type = vnr_ship_hull_cruiser_1
+		name_group = GER_CL_IMPERIAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		show_position = no
+		name = "Graudenz Class"
 		role_icon_index = 24
 		type = vnr_ship_hull_cruiser_1
 		name_group = GER_CL_IMPERIAL
@@ -802,8 +864,6 @@ GER_starting_naval_variants_kr = {
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = ship_light_medium_battery_1_single
 			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_torpedo_1
-			mid_3_custom_slot = ship_light_medium_battery_1_single
 			rear_1_custom_slot = ship_light_medium_battery_1_single
 			rear_2_custom_slot = ship_light_medium_battery_1_single
 		}

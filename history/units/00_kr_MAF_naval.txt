@@ -24,7 +24,6 @@ units = {
 			location = 6039 ###Change to proper province number
 			ship = { name = "SMS B 97" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
 			ship = { name = "SMS B 98" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
-			ship = { name = "SMS V 99" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
 			ship = { name = "SMS V 100" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }
 		}
 	}
