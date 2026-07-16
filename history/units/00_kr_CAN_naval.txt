@@ -14,7 +14,7 @@ units = {
 			ship = { name = "HMCS Barham" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMCS Valiant" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "Queen Elizabeth Class" } } }
 
-			ship = { name = "HMCS Capatown" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMCS Capetown" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
 			ship = { name = "HMCS Despatch" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
 			ship = { name = "HMCS Dragon" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
 			ship = { name = "HMCS Calypso" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
