@@ -2,10 +2,10 @@
 
 units = {
 	fleet = {
-		name = "Home Squadron"
+		name = "West Indies Naval Service"
 		naval_base = 4982 ###Change to proper province number
 		task_force = {
-			name = "Home Squadron"
+			name = "West Indies Naval Service"
 			location = 4982 ###Change to proper province number
 			ship = { name = "HMWIS Magic" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }
 			ship = { name = "HMWIS Martial" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = WIF version_name = "L/M Class" } } }

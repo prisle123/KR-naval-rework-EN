@@ -2,16 +2,16 @@
 
 units = {
 	fleet = {
-		name = "South African Fleet"
+		name = "South African Naval Service"
 		naval_base = 12589
 		task_force = {
-			name = "South African Fleet"
+			name = "South African Naval Service"
 			location = 12589
-			ship = { name = "SAS Matchless" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
-			ship = { name = "SAS Milne" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
-			ship = { name = "SAS Lawford" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
-			ship = { name = "SAS Lance" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
-			ship = { name = "SAS Laverock" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "HMSAS Matchless" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "HMSAS Milne" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "HMSAS Lawford" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "HMSAS Lance" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
+			ship = { name = "HMSAS Laverock" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SAF version_name = "L/M Class" } } }
 		}
 	}
 }
