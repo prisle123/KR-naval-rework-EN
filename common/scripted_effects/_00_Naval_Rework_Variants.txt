@@ -727,6 +727,26 @@ GER_starting_naval_variants_kr = {
 		}
 	}
 
+	create_equipment_variant = { # kept as colonial patrols
+		show_position = no
+		name = "Bremen Class"
+		role_icon_index = 24
+		type = vnr_ship_hull_cruiser_1
+		name_group = GER_CL_IMPERIAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
 	create_equipment_variant = {
 		show_position = no
 		name = "Kolberg Class"
@@ -789,7 +809,7 @@ GER_starting_naval_variants_kr = {
 		}
 	}
 
-	create_equipment_variant = {
+	create_equipment_variant = { # refitted in the 1920s with 2 twin guns
 		show_position = no
 		name = "Cöln Class"
 		role_icon_index = 24
@@ -797,7 +817,7 @@ GER_starting_naval_variants_kr = {
 		type = vnr_ship_hull_cruiser_1
 		name_group = GER_CL_IMPERIAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2_single
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = cruiser_ship_engine_2
@@ -806,12 +826,12 @@ GER_starting_naval_variants_kr = {
 			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_torpedo_1
 			mid_3_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_light_medium_battery_2_single
+			rear_1_custom_slot = ship_light_medium_battery_2_double
 			rear_2_custom_slot = ship_light_medium_battery_2_single
 		}
 		obsolete = yes
 	}
-	create_equipment_variant = {
+	create_equipment_variant = { # kept as colonial patrols
 		show_position = no
 		name = "Brummer Class"
 		role_icon_index = 52
@@ -830,7 +850,7 @@ GER_starting_naval_variants_kr = {
 		}
 		obsolete = yes
 	}
-	create_equipment_variant = {
+	create_equipment_variant = { # refitted in the 1920s with 2 twin guns
 		show_position = no
 		name = "Pillau/Wiesbaden/Königsberg Class"
 		role_icon_index = 24
@@ -838,15 +858,14 @@ GER_starting_naval_variants_kr = {
 		type = vnr_ship_hull_cruiser_1
 		name_group = GER_CL_IMPERIAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2_single
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = ship_light_medium_battery_2_single
 			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_light_medium_battery_2_single
+			rear_1_custom_slot = ship_light_medium_battery_2_double
 			rear_2_custom_slot = ship_light_medium_battery_2_single
 		}
 		obsolete = yes
@@ -4047,6 +4066,21 @@ CAN_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
+		name = "K Type"
+		role_icon_index = 37
+		type = vnr_ship_hull_submarine_1
+		name_group = CAN_SS_HTYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_armor_slot = pressure_hull_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		show_position = no
 		name = "X1 Type"
 		allow_without_tech = yes
 		role_icon_index = 39
@@ -4054,9 +4088,10 @@ CAN_starting_naval_variants_kr = {
 		name_group = CAN_SS_X1TYPE_HISTORICAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_1
-			fixed_ship_armor_slot = pressure_hull_1
-			rear_1_custom_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_secondaries_slot = sub_deck_gun_2
+			rear_1_custom_slot = ship_extra_fuel_tank
 		}
 	}
 	create_equipment_variant = {
@@ -5614,7 +5649,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
 			fixed_ship_armor_slot = pressure_hull_1
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
 
@@ -5630,7 +5665,7 @@ ENG_starting_naval_variants_kr = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			fixed_ship_armor_slot = pressure_hull_1
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
 
@@ -5643,7 +5678,7 @@ ENG_starting_naval_variants_kr = {
 		name_group = ENG_SS_COMMUNISM
 		parent_version = 0
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
 			fixed_ship_armor_slot = pressure_hull_1
 			rear_1_custom_slot = ship_torpedo_sub_1

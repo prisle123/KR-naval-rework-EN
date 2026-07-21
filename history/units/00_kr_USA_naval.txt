@@ -245,7 +245,6 @@
 			ship = { name = "USS Hamilton" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Tarbell" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Yarnall" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Upshur" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 		}
 
 		task_force = {
@@ -385,7 +384,6 @@
 			#Division 12
 			ship = { name = "USS Radford" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Gamble" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Badger" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Twiggs" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Babbitt" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Graham" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }

@@ -65,7 +65,6 @@ units = {
 			ship = { name = "USS Hamilton" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Tarbell" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Yarnall" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Upshur" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 		}
 
 		task_force = {
@@ -220,7 +219,6 @@ units = {
 			#Division 12
 			ship = { name = "USS Radford" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Gamble" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
-			ship = { name = "USS Badger" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Twiggs" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Babbitt" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
 			ship = { name = "USS Graham" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }

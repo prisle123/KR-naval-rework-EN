@@ -3,7 +3,7 @@
 
 units = {
 	fleet = {
-		name = "Australasian Royal Navy"
+		name = "Royal Australasian Navy"
 		naval_base = 12406 ###Change to proper province number
 		task_force = {
 			name = "Capital Fleet"
@@ -44,12 +44,12 @@ units = {
 			ship = { name = "HMAS H-48" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
 			ship = { name = "HMAS H-49" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
 			ship = { name = "HMAS H-50" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-23" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-24" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-26" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-27" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
-			ship = { name = "HMAS K-28" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H Type" } } }
+			ship = { name = "HMAS K-23" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
+			ship = { name = "HMAS K-24" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
+			ship = { name = "HMAS K-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
+			ship = { name = "HMAS K-26" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
+			ship = { name = "HMAS K-27" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
+			ship = { name = "HMAS K-28" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "K Type" } } }
 		}
 		task_force = {
 			name = "New Zealand Squadron"

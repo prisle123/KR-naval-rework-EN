@@ -96,13 +96,13 @@ units = {
 			ship = { name = "HMCS N-4" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N Type" } } }
 			ship = { name = "HMCS N-5" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N Type" } } }
 			ship = { name = "HMCS N-6" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N Type" } } }
-			ship = { name = "HMCS K-38" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-39" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-40" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-41" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-42" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-43" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS X-2" definition = submarine equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = IMP version_name = "X1 Type" } } }
+			ship = { name = "HMCS K-38" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-39" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-40" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-41" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-42" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-43" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS X-1" definition = submarine equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = IMP version_name = "X1 Type" } } }
 			
 			ship = { name = "HMCS L-11" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
 			ship = { name = "HMCS L-12" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L Type" } } }
@@ -166,10 +166,10 @@ units = {
 			ship = { name = "HMCS H-25" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
 			ship = { name = "HMCS H-26" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
 			ship = { name = "HMCS H-27" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-29" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-30" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-36" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
-			ship = { name = "HMCS K-37" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H Type" } } }
+			ship = { name = "HMCS K-29" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-30" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-36" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
+			ship = { name = "HMCS K-37" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "K Type" } } }
 		}
 	}
 }

@@ -95,7 +95,6 @@ ACC_defect_navy = {
 	transfer_ship = { prefer_name = "USS Hamilton" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Tarbell" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Yarnall" type = destroyer target = event_target:system }
-	transfer_ship = { prefer_name = "USS Upshur" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Taylor" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Schley" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Chew" type = destroyer target = event_target:system }
@@ -164,7 +163,6 @@ ACC_defect_navy = {
 	transfer_ship = { prefer_name = "USS Pillsbury" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Radford" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Gamble" type = destroyer target = event_target:system }
-	transfer_ship = { prefer_name = "USS Badger" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Twiggs" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Babbitt" type = destroyer target = event_target:system }
 	transfer_ship = { prefer_name = "USS Graham" type = destroyer target = event_target:system }
