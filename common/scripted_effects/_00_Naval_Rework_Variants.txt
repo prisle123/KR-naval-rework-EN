@@ -7599,11 +7599,11 @@ JAP_starting_naval_variants_kr = {
 		show_position = no
 		name = "Kaidai Class"
 		role_icon_index = 38
-		type = vnr_ship_hull_submarine_1
+		type = vnr_ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 		obsolete = yes
