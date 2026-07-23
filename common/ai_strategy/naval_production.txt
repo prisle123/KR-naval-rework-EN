@@ -253,27 +253,22 @@ no_old_navy_production = {
 ### Minors ###
 naval_unit_role_ratios_minors_coastal = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
-			tag = ENG
-			tag = CAN
-			tag = JAP
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = CSA
-			tag = TEX
-			tag = WCC
-			tag = RUS
+			OR = {
+				tag = ENG
+				tag = CAN
+				tag = JAP
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = WCA
+				tag = APG
+				tag = ACC
+				tag = RUS
+			}
 		}
 	}
-	enable = { 
-		num_of_naval_factories > 0 
-		num_of_naval_factories < 10
+	enable = {
 		has_navy_size = { size < 50 }
 	}
 
@@ -294,27 +289,23 @@ naval_unit_role_ratios_minors_coastal = {
 
 naval_unit_role_ratios_minors_defensive = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
-			tag = ENG
-			tag = CAN
-			tag = JAP
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = CSA
-			tag = TEX
-			tag = WCC
-			tag = RUS
+			OR = {
+				tag = ENG
+				tag = CAN
+				tag = JAP
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = WCA
+				tag = APG
+				tag = ACC
+				tag = RUS
+			}
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 9 
-		num_of_naval_factories < 20
+		has_navy_size = { size > 49 }
 		has_navy_size = { size < 100 }
 	}
 
@@ -347,27 +338,23 @@ naval_unit_role_ratios_minors_defensive = {
 
 naval_unit_role_ratios_minors_offensive = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
-			tag = ENG
-			tag = CAN
-			tag = JAP
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = CSA
-			tag = TEX
-			tag = WCC
-			tag = RUS
+			OR = {
+				tag = ENG
+				tag = CAN
+				tag = JAP
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = WCA
+				tag = APG
+				tag = ACC
+				tag = RUS
+			}
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 19 
-		num_of_naval_factories < 30
+		has_navy_size = { size > 99 }
 		has_navy_size = { size < 200 }
 	}
 
@@ -406,26 +393,23 @@ naval_unit_role_ratios_minors_offensive = {
 
 naval_unit_role_ratios_minors_global = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
-			tag = ENG
-			tag = CAN
-			tag = JAP
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = CSA
-			tag = TEX
-			tag = WCC
-			tag = RUS
+			OR = {
+				tag = ENG
+				tag = CAN
+				tag = JAP
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = WCA
+				tag = APG
+				tag = ACC
+				tag = RUS
+			}
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 29
+		has_navy_size = { size > 199 }
 		has_navy_size = { size < 300 }
 	}
 
