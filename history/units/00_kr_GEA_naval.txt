@@ -139,8 +139,8 @@ units = {
 		name = "Chinageschwader"
 		naval_base = 13670 ###Change to proper province number
 		task_force = {
-			name = "Weihaiweigeschwader"
-			location = 13670 ###Change to proper province number
+			name = "Auslandservice Ostasien"
+			location = 13669 ###Change to proper province number
 			# Fleet flagship
 			ship = { name = "SMS Regensburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz Class" } } }
 

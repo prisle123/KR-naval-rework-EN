@@ -1641,7 +1641,6 @@ USA_starting_naval_variants_kr = {
 			front_1_custom_slot = ship_light_medium_battery_1_single
 			rear_1_custom_slot = ship_light_medium_battery_1_single
 			rear_2_custom_slot = ship_light_medium_battery_1_single
-			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_light_medium_battery_1_single
 		}
 	}
@@ -2273,7 +2272,6 @@ WCA_starting_naval_variants_kr = {
 			front_1_custom_slot = ship_light_medium_battery_1_single
 			rear_1_custom_slot = ship_light_medium_battery_1_single
 			rear_2_custom_slot = ship_light_medium_battery_1_single
-			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_light_medium_battery_1_single
 		}
 	}
