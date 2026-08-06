@@ -137,7 +137,7 @@ units = {
 	}
 	fleet = {
 		name = "Chinageschwader"
-		naval_base = 13670 ###Change to proper province number
+		naval_base = 13669 ###Change to proper province number
 		task_force = {
 			name = "Auslandservice Ostasien"
 			location = 13669 ###Change to proper province number
