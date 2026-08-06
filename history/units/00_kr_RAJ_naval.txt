@@ -1,0 +1,24 @@
+units = {
+    fleet = {
+		name = "Royal Indian Navy"
+		naval_base = 3456 ###Change to proper province number
+		task_force = {
+			name = "Royal Indian Navy"
+			location = 3456 ###Change to proper province number
+            ship = { name = "HMIS Diomede" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
+			ship = { name = "HMIS Cambrian" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMIS Canterbury" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMIS Centaur" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
+			ship = { name = "HMIS Sardonyx" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Saturn" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Speedy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Spindrift" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Sturdy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Sycamore" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Tobago" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Tenedos" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Thanet" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+			ship = { name = "HMIS Thracian" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
+		}
+	}
+}

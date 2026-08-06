@@ -220,6 +220,9 @@ country_event = {
 			QIE_starting_naval_variants_kr = yes
 			load_oob = 00_kr_QIE_naval
 		}
+		RAJ = {
+			load_oob = 00_kr_RAJ_naval
+		}
 		ROM = {
 			ROM_starting_naval_variants_kr = yes
 			load_oob = 00_kr_ROM_naval

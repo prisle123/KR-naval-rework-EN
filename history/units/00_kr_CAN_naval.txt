@@ -114,28 +114,6 @@ units = {
 		}
 	}
 	fleet = {
-		name = "Indian Squadron"
-		naval_base = 3456 ###Change to proper province number
-		task_force = {
-			name = "Indian Squadron"
-			location = 3456 ###Change to proper province number
-			ship = { name = "HMCS Sardonyx" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Saturn" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Speedy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Spindrift" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Sturdy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Sycamore" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tobago" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Tenedos" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Thanet" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Thracian" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S Class" } } }
-			ship = { name = "HMCS Diomede" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "Danae Class" } } }
-			ship = { name = "HMCS Cambrian" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Canterbury" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-			ship = { name = "HMCS Centaur" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "C Class" } } }
-		}
-	}
-	fleet = {
 		name = "Pacific Fleet"
 		naval_base = 7259 ###Change to proper province number
 		task_force = {

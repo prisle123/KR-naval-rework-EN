@@ -78,4 +78,35 @@ units = {
 	}
 }
 
-
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "SRI"
+			version_name = "Etruria Class"
+		}
+		requested_factories = 2
+		progress = 0.24
+		amount = 6
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SRI"
+			version_name = "SE-I/II Class"
+		}
+		requested_factories = 2
+		progress = 0.4
+		amount = 6
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SRI"
+			version_name = "SE-I/II Class"
+		}
+		requested_factories = 1
+		progress = 0.66
+		amount = 2
+	}
+}

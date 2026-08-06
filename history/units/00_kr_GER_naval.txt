@@ -1,6 +1,6 @@
 ﻿### OOB for file GER.txt
 # 8-11 torpedo boats / destroyers for each Torpedo boat Flottila (Torpedobootflotte)
-# 4-5 cruisers / battlecruisers formed a Scouting Group (Aufklarungsgruppe)
+# 4-5 cruisers / battlecruisers formed a Scouting Group (Aufklärungsgruppe)
 # 4-5 battleships made up 1 Division, 2 Divisons formed a Battle Squadron (Geschwader)
 # Assuming the same logic, 2 Aircraft Carrier made up 1 Aircraft Carrier Squadron (Fleugzeug Geschwader)
 
@@ -88,7 +88,7 @@ units = {
 		}
 		
 		task_force = {
-			name = "Aufklarungsgruppe I"
+			name = "Aufklärungsgruppe I"
 			location = 241
 			# carriers
 			ship = { name = "SMS Elbe" definition = carrier start_experience_factor = 0.02 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
@@ -121,13 +121,11 @@ units = {
 			ship = { name = "SMS H 187" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
 		}
 		task_force = {
-			name = "Aufklarungsgruppe II"
+			name = "Aufklärungsgruppe II"
 			location = 6389
 			ship = { name = "SMS Weser" definition = carrier start_experience_factor = 0.03 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 			ship = { name = "SMS Mosel" definition = carrier start_experience_factor = 0.06 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } } }
 
-			ship = { name = "SMS Blücher" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
-			ship = { name = "SMS Admiral Scheer" definition = battleship start_experience_factor = 0.01 equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
 			# cruisers
 			ship = { name = "SMS Straßburg" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
 			ship = { name = "SMS Liegnitz" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "Osnabrück Class" } } }
@@ -220,7 +218,7 @@ units = {
 			ship = { name = "SMS V 165" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 		task_force = {
-			name = "Aufklarungsgruppe III"
+			name = "Aufklärungsgruppe III"
 			location = 362
 			ship = { name = "SMS Derfflinger" definition = battle_cruiser start_experience_factor = 0.50 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
 			ship = { name = "SMS Hindenburg" definition = battle_cruiser start_experience_factor = 0.50 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
@@ -427,7 +425,7 @@ instant_effect = {
 			version_name = "Weser Class"
 		}
 		name = "SMS Maas"
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.55
 		amount = 1
 	}
@@ -438,8 +436,30 @@ instant_effect = {
 			version_name = "Weser Class"
 		}
 		name = "SMS Donau"
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.42
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_heavy_3
+			creator = "GER"
+			version_name = "Blücher Class"
+		}
+		name = "SMS Blücher"
+		requested_factories = 2
+		progress = 0.95
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_heavy_3
+			creator = "GER"
+			version_name = "Blücher Class"
+		}
+		name = "SMS Admiral Scheer"
+		requested_factories = 2
+		progress = 0.88
 		amount = 1
 	}
 	add_equipment_production = {

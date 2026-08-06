@@ -448,5 +448,35 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.01
 		amount = 1
-	}	
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "JAP"
+			version_name = "Kaidai Class"
+		}
+		requested_factories = 1
+		progress = 0.22
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "JAP"
+			version_name = "Kaidai Class"
+		}
+		requested_factories = 1
+		progress = 0.36
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_submarine
+			creator = "JAP"
+			version_name = "Junsen III Class"
+		}
+		requested_factories = 1
+		progress = 0.13
+		amount = 2
+	}
 }

@@ -91,3 +91,26 @@ units = {
 	}
 }
 
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SIC"
+			version_name = "Freccia Class"
+		}
+		requested_factories = 2
+		progress = 0.63
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "SIC"
+			version_name = "Glauco Class"
+		}
+		name = "R.Smg. Glauco"
+		requested_factories = 2
+		progress = 0.7
+		amount = 4
+	}
+}
