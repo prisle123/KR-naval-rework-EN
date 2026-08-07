@@ -12,6 +12,7 @@ StrikeForce_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}
@@ -59,6 +60,7 @@ PatrolReconForce_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}
@@ -92,6 +94,7 @@ PatrolDominanceForce_CA_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}
@@ -136,6 +139,7 @@ ConvoyRaiding_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}
@@ -171,6 +175,7 @@ ConvoySurfaceRaiding_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}
@@ -205,6 +210,7 @@ ConvoyEscort_1 = {
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
+				original_tag = IMP
 			}
 		}		
 	}

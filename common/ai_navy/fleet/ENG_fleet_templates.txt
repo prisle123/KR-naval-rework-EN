@@ -6,7 +6,7 @@ ENG_escort_fleet_1 = {
 }
 ENG_patrol_fleet_1 = {
 	required_taskforces = {
-		ENG_PatrolReconForce_1 = 6
+		ENG_PatrolReconForce_1 = 4
 	}
 }
 ENG_mobile_fleet_1 = {

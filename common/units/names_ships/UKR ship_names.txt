@@ -138,7 +138,7 @@ UKR_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	fallback_name = "PCh-%d"
+	fallback_name = "PCH-%d"
 
 	ordered = {
 		## New Ships
