@@ -13,7 +13,6 @@ units = {
 			ship = { name = "Gromkiy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
 			ship = { name = "Pylkiy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
 			ship = { name = "Pospeshnyy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
-			ship = { name = "Pospeshnyy" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Schastlivyy Class" } } }
 			ship = { name = "Hetman Bohdan Khmelnytskyi" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Leytenant Shestakov Class" } } }
 			ship = { name = "Hetman Petro Doroshenko" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = UKR version_name = "Leytenant Shestakov Class" } } }
 		}
