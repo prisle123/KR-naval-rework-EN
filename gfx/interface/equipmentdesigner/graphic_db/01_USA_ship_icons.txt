@@ -419,6 +419,7 @@ USA = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }
@@ -1091,6 +1092,7 @@ ACC = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }
@@ -1763,6 +1765,7 @@ WCA = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }
@@ -2435,6 +2438,7 @@ WPA = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }
@@ -3107,6 +3111,7 @@ NEE = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }
@@ -3779,6 +3784,7 @@ HAW = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/USA_battleship_Montana.png"
+				"gfx/interface/technologies/KR_imported/USA_battleship_Tillman_IV_2.png"
 			}
 		}
     }

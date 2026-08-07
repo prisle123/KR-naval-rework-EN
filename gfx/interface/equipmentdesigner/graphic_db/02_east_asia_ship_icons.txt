@@ -417,6 +417,7 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_heavy_3_medium
 				GFX_JAP_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/extra/JAP_battleship_Yamato_1965.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_No13.png"
             }
         }
 
