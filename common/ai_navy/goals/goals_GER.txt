@@ -49,8 +49,8 @@ GER_convoy_protection = {
         GER GEA
     }
 
-    min_priority = 1
-    max_priority = 5
+    min_priority = 5
+    max_priority = 17
 }
 
 GER_convoy_raiding = {
@@ -71,7 +71,7 @@ GER_naval_dominance = {
         GER GEA
     }
 
-    min_priority = 15
+    min_priority = 12
     max_priority = 20
 }
 

@@ -18,7 +18,7 @@ ENG_protect_home_waters = {
     ai_strategy = {
         type = naval_dominance
         id = krnr_eng_home_waters
-        value = 99
+        value = 100
     }
     ai_strategy = {
         type = naval_avoid_region
@@ -138,7 +138,7 @@ third_internationale_unrestricted_submarine_warfare = {
     ai_strategy = {
         type = convoy_raiding_target
         id = GER
-        value = 75
+        value = 100
     }
 }
 
@@ -314,6 +314,51 @@ third_internationale_secure_mediterranean = {
         type = naval_convoy_raid_region
         id = 69
         value = 100
+    }
+}
+
+ENG_avoid_mediterranean = {
+    allowed = {
+        original_tag = ENG
+    }
+    enable = {
+        GER = {
+            exists = yes
+            NOT = { is_ally_with = ENG }
+        }
+        enable_krnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+
+    ai_strategy = {
+        type = naval_dominance
+        id = krnr_med_zones
+        value = -100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 29
+        value = -1000
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 68
+        value = -1000
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 69
+        value = -1000
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 168
+        value = -1000
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 169
+        value = -1000
     }
 }
 
