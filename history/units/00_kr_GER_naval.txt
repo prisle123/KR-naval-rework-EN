@@ -269,8 +269,8 @@ units = {
 			name = "Mittelmeergeschwader"
 			location = 11984
 			# Scouting Group
-			ship = { name = "SMS Prinz Heinrich" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
-			ship = { name = "SMS Admiral Koester" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Prinz Heinrich" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
+			ship = { name = "SMS Admiral Koester" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Prinz Heinrich Class" } } }
 
 			# A half Torpedo boat flottila
 			ship = { name = "SMS G 101" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97 Class" } } }

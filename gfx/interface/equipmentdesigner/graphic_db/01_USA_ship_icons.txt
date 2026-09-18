@@ -255,25 +255,6 @@ USA = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -586,6 +567,7 @@ USA = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -604,7 +586,8 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -622,8 +605,9 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -641,9 +625,10 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
@@ -928,25 +913,6 @@ ACC = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -1259,6 +1225,7 @@ ACC = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                    "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -1277,7 +1244,8 @@ ACC = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1295,8 +1263,9 @@ ACC = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1314,9 +1283,10 @@ ACC = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
@@ -1601,25 +1571,6 @@ WCA = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -1932,6 +1883,7 @@ WCA = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                    "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -1950,7 +1902,8 @@ WCA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1968,8 +1921,9 @@ WCA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -1987,9 +1941,10 @@ WCA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
@@ -2274,25 +2229,6 @@ WPA = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -2605,6 +2541,7 @@ WPA = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                    "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -2623,7 +2560,8 @@ WPA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2641,8 +2579,9 @@ WPA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -2660,9 +2599,10 @@ WPA = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
@@ -2947,25 +2887,6 @@ NEE = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -3278,6 +3199,7 @@ NEE = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                    "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -3296,7 +3218,8 @@ NEE = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -3314,8 +3237,9 @@ NEE = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -3333,9 +3257,10 @@ NEE = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }
@@ -3620,25 +3545,6 @@ HAW = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_cruiser_coastal_defense_ship = {
         pool = {
             weight = 5
@@ -3951,6 +3857,7 @@ HAW = {
         pool = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
+                    "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
 				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -3969,7 +3876,8 @@ HAW = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -3987,8 +3895,9 @@ HAW = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 
@@ -4006,9 +3915,10 @@ HAW = {
             icons = {
                 GFX_USA_vnr_ship_hull_submarine_1_medium
 				GFX_USA_vnr_ship_hull_submarine_2_medium
-				GFX_USA_vnr_ship_hull_submarine_3_medium
-				GFX_USA_vnr_ship_hull_submarine_4_medium
-				GFX_USA_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
+                GFX_USA_vnr_ship_hull_submarine_3_medium
+                GFX_USA_vnr_ship_hull_submarine_4_medium
+                GFX_USA_vnr_ship_hull_cruiser_submarine_medium
 				"gfx/interface/technologies/extra/USA_submarine_Nautilus.png"
             }
         }

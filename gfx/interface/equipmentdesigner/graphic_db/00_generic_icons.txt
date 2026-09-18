@@ -156,18 +156,6 @@ default = {
             }
         }
     }
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-			weight = 0.1
-            icons = {
-                GFX_vnr_ship_hull_cruiser_1_medium
-                GFX_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_vnr_ship_hull_cruiser_2_medium
-                GFX_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-    }
     vnr_ship_hull_pre_dreadnought = {
         pool = {
 			weight = 0.1

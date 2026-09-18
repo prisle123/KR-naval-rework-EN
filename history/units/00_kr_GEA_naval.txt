@@ -20,8 +20,8 @@ units = {
 		task_force = {
 			name = "Karolinengeschwader"
 			location = 2489 ###Change to proper province number
-			ship = { name = "SMS Prinz Adalbert" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
-			ship = { name = "SMS Friedrich Carl" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
+			ship = { name = "SMS Prinz Adalbert" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
+			ship = { name = "SMS Friedrich Carl" definition = heavy_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Prinz Adalbert Class" } } }
 
 			ship = { name = "SMS Kondor" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Möwe Class" } } }
 			ship = { name = "SMS Falke" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Möwe Class" } } }
@@ -131,7 +131,7 @@ units = {
 			ship = { name = "SM U-178" definition = submarine start_experience_factor = 0.06 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class" } } }
 		}
 		task_force = {
-			name = "Malaya Freiwilligenmarinedienst"
+			name = "Freiwilliger Marinedienst Malaya"
 			location = 1208
 			ship = { name = "SMS S 52" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 			ship = { name = "SMS S 53" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }

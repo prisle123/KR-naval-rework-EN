@@ -250,25 +250,6 @@ ITA = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-                GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -815,25 +796,6 @@ SRI = {
                 GFX_ITA_vnr_ship_hull_cruiser_1_medium
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
 				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-                GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
             }
         }
 
@@ -1390,25 +1352,6 @@ SIC = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-                GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -1960,25 +1903,6 @@ PAP = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-                GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -2525,25 +2449,6 @@ SRD = {
                 GFX_ITA_vnr_ship_hull_cruiser_1_medium
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
 				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-                GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
             }
         }
 

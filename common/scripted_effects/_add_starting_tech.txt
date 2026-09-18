@@ -23,6 +23,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -54,6 +56,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -85,6 +89,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -120,6 +126,7 @@ add_starting_techs = {
             cruiser_submarines = 1
 			ship_hull_super_heavy = 1
 			converted_super_heavy_carrier = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -152,6 +159,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			oxygen_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -188,6 +197,7 @@ add_starting_techs = {
 			usa_8in_mk9 = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -217,6 +227,7 @@ add_starting_techs = {
 			panzerschiffe = 1
             cruiser_submarines = 1
 			ship_hull_super_heavy = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -242,6 +253,7 @@ add_starting_techs = {
             basic_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -272,6 +284,7 @@ add_starting_techs = {
 			high_speed_light_engine = 1
 			panzerschiffe = 1
 			enhanced_horizontal_defense = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -318,6 +331,7 @@ add_starting_techs = {
             improved_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			popup = no
@@ -341,6 +355,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
 			midget_submarines = 1
+			magnetic_detonator = 1
 			popup = no
         }
     }
@@ -529,6 +544,7 @@ makeup_starting_techs = {
 			diesel_electric_transmission = 1
 			teardrop_hull = 1
 			improved_ship_torpedo_launcher = 1
+			acoustic_signature = 1
 			popup = no
         }
     }
@@ -602,18 +618,23 @@ makeup_starting_techs = {
 special_project_workaround = {
 	USA = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	GER = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	JAP = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	ENG = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	CAN = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	FRA = {
 		complete_special_project = sp:sp_high_speed_light_engine
@@ -631,15 +652,11 @@ special_project_workaround = {
 		complete_special_project = sp:sp_naval_cruiser_submarine
 	}
 	every_country = {
-		limit = { has_tech = ship_hull_super_heavy }
-		complete_special_project = sp:sp_naval_super_heavy_battleship
-	}
-	every_country = {
 		limit = { has_tech = midget_submarines }
 		complete_special_project = sp:sp_naval_midget_submarine
 	}
 	every_country = {
 		limit = { has_tech = support_fleet_ncns }
-		complete_special_project = sp:sp_naval_support_ship
+		complete_special_project = sp:sp_naval_support_ships
 	}
 }

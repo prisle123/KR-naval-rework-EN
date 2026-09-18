@@ -1689,25 +1689,6 @@ RUS = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_RUS_vnr_ship_hull_cruiser_1_medium
-                GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_RUS_vnr_ship_hull_cruiser_2_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -2289,25 +2270,6 @@ FER = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_RUS_vnr_ship_hull_cruiser_1_medium
-                GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_RUS_vnr_ship_hull_cruiser_2_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -2884,25 +2846,6 @@ RSA = {
             icons = {
                 GFX_RUS_vnr_ship_hull_cruiser_1_medium
 				GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_RUS_vnr_ship_hull_cruiser_1_capital_medium
-                GFX_RUS_vnr_ship_hull_cruiser_1_medium
-                GFX_RUS_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_RUS_vnr_ship_hull_cruiser_2_medium
             }
         }
 
