@@ -327,6 +327,7 @@ country_event = {
 			date > 1938.1.1
 			OR = {
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -340,6 +341,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no

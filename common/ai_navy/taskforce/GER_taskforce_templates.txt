@@ -11,8 +11,8 @@ GER_StrikeForce_1 = {
 		battleship = {
 			amount = 2
 		}
-		destroyer = {
-			amount = 8
+		light_cruiser = {
+			amount = 4
 		}
 	}
 	
@@ -55,8 +55,8 @@ GER_StrikeForce_2 = {
 		battle_cruiser = {
 			amount = 2
 		}
-		destroyer = {
-			amount = 8
+		light_cruiser = {
+			amount = 4
 		}
 	}
 	

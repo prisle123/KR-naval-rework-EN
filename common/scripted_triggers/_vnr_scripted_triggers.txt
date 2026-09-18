@@ -1,21 +1,3 @@
-historical_ai_style = {
-	has_game_rule = { rule = ai_ship_design_style option = HISTORICAL }
-	OR = {
-		tag = GER
-		tag = GEA
-		tag = USA
-		tag = WCA
-		tag = APG
-		tag = ACC
-		tag = ENG
-		tag = FRA
-		tag = GBR
-		tag = JAP
-		tag = CAN
-		tag = NFA
-	}
-}
-
 expert_ai_style = {
 	OR = {
 		has_game_rule = { rule = ai_ship_design_style option = EXPERT }
