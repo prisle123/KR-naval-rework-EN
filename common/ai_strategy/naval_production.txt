@@ -492,19 +492,13 @@ naval_unit_role_ratios_GER_prewar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 10
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 500
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_carrier
-		value = 5
 	}
 }
 
@@ -548,7 +542,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 60
+		value = 30
 	}
 
 	ai_strategy = {
@@ -598,7 +592,7 @@ naval_unit_role_ratios_GER_atwar_shocked_by_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 25
+		value = 20
 	}
 	
 	ai_strategy = {
@@ -653,7 +647,6 @@ naval_unit_role_ratios_GER_late_peace = {
 
 naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	allowed = {
-		
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -669,7 +662,7 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 10
+		value = 20
 	}
 
 	ai_strategy = {
@@ -681,13 +674,13 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 200
+		value = 500
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 300
+		value = 350
 	}
 
 	ai_strategy = {
@@ -727,19 +720,19 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = -50
+		value = 5
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 200
+		value = 500
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 350
+		value = 450
 	}
 
 	ai_strategy = {
@@ -777,13 +770,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 60
+		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 350
+		value = 400
 	}
 
 	ai_strategy = {
@@ -801,7 +794,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 200
+		value = 600
 	}
 }
 
