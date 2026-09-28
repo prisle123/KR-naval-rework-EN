@@ -148,7 +148,7 @@ units = {
 			location = 6389
 
 			# VI Battle Squadron / VI. Schlact Geschwader
-			# dismantled as training ships
+			# sold to Netherlands
 			#ship = { name = "SMS Grosser Kurfürst" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
 			#ship = { name = "SMS Markgraf" definition = battleship start_experience_factor = 0.06 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } }
 			
@@ -163,7 +163,7 @@ units = {
 			ship = { name = "SMS G 150" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 		task_force = {
-			name = "Flottenkommando Torpedoboot (Nordsee)"
+			name = "Nordsee Torpedobootkommando"
 			location = 241
 
 			ship = { name = "SMS Dresden" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Cöln Class" } } }
@@ -233,7 +233,7 @@ units = {
 			ship = { name = "SMS S 134" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
 		task_force = {
-			name = "Flottenkommando Torpedoboot (Ostsee)"
+			name = "Ostsee Torpedobootkommando"
 			location = 6332
 
 			ship = { name = "SMS H 166" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }

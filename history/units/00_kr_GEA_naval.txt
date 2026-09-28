@@ -1,21 +1,6 @@
 ﻿###OOB File for GEA.txt
 units = {
 	fleet = {
-		name = "Camranhgeschwader"
-		naval_base = 4401 ###Change to proper province number
-		task_force = {
-			name = "Camranhgeschwader"
-			location = 4401 ###Change to proper province number
-			ship = { name = "SMS Kolberg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Kolberg Class" } } }
-			ship = { name = "SMS Augsburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Kolberg Class" } } }
-			
-			ship = { name = "SMS S 212" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS S 213" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 195" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-			ship = { name = "SMS H 196" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
-		}
-	}
-	fleet = {
 		name = "Karolinengeschwader"
 		naval_base = 2489 ###Change to proper province number
 		task_force = {
@@ -140,12 +125,23 @@ units = {
 			ship = { name = "SMS S 55" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 			ship = { name = "SMS S 56" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V25/V125 Class" } } }
 		}
+		task_force = {
+			name = "Freiwilliger Marinedienst Indochina"
+			location = 4401 ###Change to proper province number
+			ship = { name = "SMS Kolberg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Kolberg Class" } } }
+			ship = { name = "SMS Augsburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Kolberg Class" } } }
+			
+			ship = { name = "SMS S 212" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS S 213" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 195" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+			ship = { name = "SMS H 196" definition = destroyer start_experience_factor = 0.06 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170 Class" } } }
+		}
 	}
 	fleet = {
 		name = "Chinageschwader"
 		naval_base = 13669 ###Change to proper province number
 		task_force = {
-			name = "Jangtsegeschwader"
+			name = "Jangtsedivision"
 			location = 7014 ###Change to proper province number
 			# Fleet flagship
 			ship = { name = "SMS Regensburg" definition = light_cruiser start_experience_factor = 0.06 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Graudenz Class" } } }
