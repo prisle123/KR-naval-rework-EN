@@ -14,11 +14,9 @@ country_event = {
         has_global_flag = krnr_enabled
         OR = {
             has_country_flag = USA_macarthur_coup
-            OR = {
-                country_exists = WCA
-                country_exists = APG
-                country_exists = ACC
-            }
+            country_exists = WCA
+            country_exists = APG
+            country_exists = ACC
         }
     }
     mean_time_to_happen = {

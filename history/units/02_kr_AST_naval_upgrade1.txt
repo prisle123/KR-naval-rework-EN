@@ -1,0 +1,19 @@
+﻿###OOB File for AST.txt
+units = {
+	fleet = {
+		name = "Upgraded Fleet 1"
+		naval_base = 12406 ###Change to proper province number
+		task_force = {
+			name = "Upgraded Fleet 1"
+			location = 12406 ###Change to proper province number
+			ship = { name = "HMAS Grenville" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS Parker" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "Marksman/Parker Class" } } }
+			ship = { name = "HMAS White Bear" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Whitshed" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Wild Swan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Zealous" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Windsor" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+		}
+	}
+}
+

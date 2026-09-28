@@ -134,7 +134,7 @@
 			ship = { name = "USS Bonita" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
 			ship = { name = "USS Cachalot" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
 			ship = { name = "USS Cuttlefish" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
-			ship = { name = "USS Doplhin" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Dolphin" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
 			ship = { name = "USS Porpoise" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			ship = { name = "USS Pike" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			#+4 submarines production here

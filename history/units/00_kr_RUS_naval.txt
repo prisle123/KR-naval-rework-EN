@@ -19,6 +19,15 @@ units = {
 			ship = { name = "Pamiat Merkuria" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Bogatyr Class" } } }
 			ship = { name = "Gromoboy" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RUS version_name = "Gromoboy Class" } } }
 		}
+		task_force = {
+			name = "Severny Podvodniy Flot"
+			location = 3134
+			ship = { name = "Som" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
+			ship = { name = "Sudak" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
+			ship = { name = "Krab" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Krab Class" } } }
+			ship = { name = "AG-11" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
+			ship = { name = "AG-15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
+		}
 	}
 	fleet = {
 		name = "Baltiyskiy Flot"
@@ -59,11 +68,6 @@ units = {
 			ship = { name = "Plotva" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
 			ship = { name = "Schluka" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
 			ship = { name = "Sig" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
-			ship = { name = "Som" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
-			ship = { name = "Sudak" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = RUS version_name = "Akula Class" } } }
-			ship = { name = "Krab" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "Krab Class" } } }
-			ship = { name = "AG-11" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
-			ship = { name = "AG-15" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = RUS version_name = "AG Class" } } }
 			ship = { name = "M-1" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
 			ship = { name = "M-2" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }
 			ship = { name = "M-3" definition = submarine equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = RUS version_name = "M Class" } } }

@@ -62,7 +62,7 @@ APG_defect_navy = {
 	transfer_ship = { prefer_name = "USS Bonita" type = submarine target = event_target:system }
 	transfer_ship = { prefer_name = "USS Cachalot" type = submarine target = event_target:system }
 	transfer_ship = { prefer_name = "USS Cuttlefish" type = submarine target = event_target:system }
-	transfer_ship = { prefer_name = "USS Doplhin" type = submarine target = event_target:system }
+	transfer_ship = { prefer_name = "USS Dolphin" type = submarine target = event_target:system }
 	transfer_ship = { prefer_name = "USS Porpoise" type = submarine target = event_target:system }
 	transfer_ship = { prefer_name = "USS Pike" type = submarine target = event_target:system }
 }

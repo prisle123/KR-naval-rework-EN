@@ -44,13 +44,14 @@ CAN_returning_home_decisions = {
 
         available = {
 			ENG = { has_war = yes }
+			has_completed_focus = CAN_project_plough
 			can_declare_war_on = ENG
 		}
 
 		visible = {
 			is_subject = no
-			has_completed_focus = CAN_project_plough
 			country_exists = ENG
+			NOT = { has_country_flag = CAN_fleet_refurbished }
 		}
 
 		priority = 70
@@ -70,7 +71,7 @@ CAN_returning_home_decisions = {
             set_country_flag = CAN_fleet_refurbished
             custom_effect_tooltip = CAN_refurbish_fleet_tooltip
             hidden_effect = {
-                load_oob = CAN_naval_upgrade
+                load_oob = 02_kr_CAN_naval_upgrade
             }
         }
     }
