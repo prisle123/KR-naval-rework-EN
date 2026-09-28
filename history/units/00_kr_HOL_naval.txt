@@ -8,7 +8,7 @@ units = {
 			name = "Kustverdedigingseskader"
 			location = 9498
 			ship = { name = "HrMs Koningin Wilhelmina" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } } # SMS Grosser Kurfürst
-			ship = { name = "HrMs Prinses Juliana" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } } # SMS Markgraf
+			ship = { name = "HrMs De Zeven Provinciën" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "König Class" } } } # SMS Markgraf
 
 			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } } }
 			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }
