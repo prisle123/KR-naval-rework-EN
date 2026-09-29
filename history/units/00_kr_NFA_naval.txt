@@ -56,6 +56,9 @@ units = {
 			ship = { name = "Amazone" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Amphitrite/Lagrange Class" } } }
 			ship = { name = "Lagrange" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Amphitrite/Lagrange Class" } } }
 			ship = { name = "Romazotti" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Amphitrite/Lagrange Class" } } }
+			ship = { name = "Bellone" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Clorinde/Bellone Class" } } }
+			ship = { name = "Hermione" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Clorinde/Bellone Class" } } }
+			ship = { name = "Gorgone" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Clorinde/Bellone Class" } } }
 		}
 	}
 	fleet = {
@@ -70,7 +73,6 @@ units = {
 			ship = { name = "Nantes" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = NFA version_name = "Nantes Class" } } }
 			#1re Escadrille
 			ship = { name = "Voltigeur" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
-			ship = { name = "Renaudin" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Janissaire" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "Tirailleur" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Branlebas/Spahi/Bouclier Class" } } }
 			ship = { name = "L'Aventurier" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Aventurier/Arabe Class" } } }
@@ -98,14 +100,8 @@ units = {
 			ship = { name = "Algérien" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Aventurier/Arabe Class" } } }
 			ship = { name = "Sakalave" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Aventurier/Arabe Class" } } }
 			ship = { name = "Sénégalais" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = NFA version_name = "Aventurier/Arabe Class" } } }
-			ship = { name = "Argonaute" definition = submarine equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "Argonaute Class" } } }
-			ship = { name = "La Vestale" definition = submarine equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "Argonaute Class" } } }
-			ship = { name = "La Sultane" definition = submarine equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "Argonaute Class" } } }
-			ship = { name = "Redoutable" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
-			ship = { name = "Vengeur" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
-			ship = { name = "Pascal" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
-			ship = { name = "Pasteur" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
-			ship = { name = "Henri Poincaré" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "Redoutable Class" } } }
+			ship = { name = "Clorinde" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Clorinde/Bellone Class" } } }
+			ship = { name = "Cornélie" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "Clorinde/Bellone Class" } } }
 		}
 	}
 }

@@ -6535,7 +6535,7 @@ FRA_starting_naval_variants_kr = {
 
 	create_equipment_variant = {
 		show_position = no
-		name = "Bourrasque Class"				# represents Bourrasque and L'Adroit classes
+		name = "Bourrasque/L'Adroit Class"				# represents Bourrasque and L'Adroit classes
 		role_icon_index = 32
 		icon = "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
 		type = vnr_ship_hull_light_2
@@ -7194,7 +7194,7 @@ HOL_starting_naval_variants_kr = {
 IRE_starting_naval_variants_kr = {
 	create_equipment_variant = {
 		show_position = no
-		name = "G192 Class"
+		name = "G192 Class" # German torpedo boat G192-193, 195-197
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = IRE_BATTLES
@@ -8411,6 +8411,18 @@ NFA_starting_naval_variants_kr = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		show_position = no
+		name = "Clorinde/Bellone Class"
+		role_icon_index = 37
+		type = vnr_ship_hull_submarine_1
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
 	create_equipment_variant = {

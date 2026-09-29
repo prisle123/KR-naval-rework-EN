@@ -12,7 +12,6 @@ units = {
 			ship = { name = "LÉ Clonmel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IRE version_name = "G192 Class" } } }
 			ship = { name = "LÉ Portlester" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IRE version_name = "G192 Class" } } }
 			ship = { name = "LÉ Clontibret" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IRE version_name = "G192 Class" } } }
-			ship = { name = "LÉ Yellow Ford" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = IRE version_name = "G192 Class" } } }
 		}
 	}
 }
