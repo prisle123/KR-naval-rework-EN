@@ -11,7 +11,7 @@ units = {
 			ship = { name = "Ping Hai" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "Ping Hai Class" } } }
 			
 			ship = { name = "Hai Rong" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hai Rong Class" } } }
-			ship = { name = "Hai Chou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hai Chou Class" } } }
+			ship = { name = "Hai Chou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hai Rong Class" } } }
 			ship = { name = "Da Dong" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Jian Wei Class" } } }
 			ship = { name = "Ze Jiang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Jian Wei Class"} } }
 			ship = { name = "Yung Chi" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Yung Feng/Yung Chi Class"} } }
