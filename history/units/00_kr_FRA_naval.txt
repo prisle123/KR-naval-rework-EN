@@ -104,7 +104,7 @@ units = {
 			ship = { name = "L'Alcyon" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			ship = { name = "Le Mars" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			ship = { name = "Le Fortune" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
-			ship = { name = "Le Palme" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "La Palme" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			ship = { name = "La Railleuse" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			ship = { name = "Brestois" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			ship = { name = "Boulonnais" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
