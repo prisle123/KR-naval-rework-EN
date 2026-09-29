@@ -68,7 +68,7 @@ CHYN_CL_HISTORICAL = {
 
 	unique = {
 		## Hai Rong Class
-		"Hai Chen" "Hai Qi" "Hai Rong" "Hai Chou" "Hai Yung"
+		"Hai Chen" "Hai Chi" "Hai Rong" "Hai Chou" "Hai Yung"
 
 		## Miscellaneous Class
 		"Jue Chuan" "Jun Shu" "Ying Rui" "Zhao He" "Hao Ran" "Fei Hung" "Chao Ho" "Ying Swei"
@@ -89,7 +89,7 @@ CHYN_CA_HISTORICAL = {
 
 	unique = {
 		## Ping Hai Class
-		"Pinghai" "Ninghai" "Dinghai" "Weihai" "Chenghai" "Zhenhai"
+		"Ping Hai" "Ning Hai" "Ding Hai" "Wei Hai" "Cheng Hai" "Chen Hai"
 	}
 }
 
@@ -107,7 +107,7 @@ CHYN_BB_HISTORICAL = {
 
 	unique = {
 		## Wuwei Class
-		"Wuwei" "Huwei" "Longwei"
+		"Wu Wei" "Hu Wei" "Long Wei"
 	}
 }
 
@@ -244,6 +244,6 @@ CHYN_THEME_ANCIENT_GENERAL = {
 	fallback_name = "%s."
 
 	unique = {
-		"Piaoji Jiangjun" "Cheji Jiangjun" "Wei Jiangjun" "Qian Jiangjun" "Hou Jiangjun" "Zuo Jiangjun" "You Jiangjun" "Dangkou Jiangjun" "Taolu Jiangjun" "Polu Jiangjun" "Taoni Jiangjun" "Wuya Jiangjun" "Zhechong Jiangjun" "Fubo Jiangjun" "Longxiang Jiangjun" "Huyi Jiangjun" "Xiaoji Jiangjun" "Pian Jiangjun" "Pi Jiangjun" "Zhong Hujun"
+		"Piaoqi Jiangjun" "Cheqi Jiangjun" "Wei Jiangjun" "Qian Jiangjun" "Hou Jiangjun" "Zuo Jiangjun" "You Jiangjun" "Dangkou Jiangjun" "Taolu Jiangjun" "Polu Jiangjun" "Taoni Jiangjun" "Wuya Jiangjun" "Zhechong Jiangjun" "Fubo Jiangjun" "Longxiang Jiangjun" "Huyi Jiangjun" "Xiaoji Jiangjun" "Pian Jiangjun" "Pi Jiangjun" "Zhong Hujun"
 	}
 }

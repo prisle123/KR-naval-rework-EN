@@ -7,22 +7,23 @@ units = {
 		task_force = {
 			name = "1st Fleet"
 			location = 7191 ###Change to proper province number
-			ship = { name = "Wuwei" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = QIE version_name = "Nassau Class" } } }
-			ship = { name = "Pinghai" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "Pinghai Class" } } }
+			ship = { name = "Wu Wei" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = QIE version_name = "Nassau Class" } } }
+			ship = { name = "Ping Hai" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "Ping Hai Class" } } }
 			
-			ship = { name = "Hairong" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hairong Class" } } }
-			ship = { name = "Haichou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hairong Class" } } }
-			ship = { name = "Dadong" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Jianwei Class" } } }
-			ship = { name = "Zejiang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Jianwei Class"} } }
+			ship = { name = "Hai Rong" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hai Rong Class" } } }
+			ship = { name = "Hai Chou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Hai Chou Class" } } }
+			ship = { name = "Da Dong" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Jian Wei Class" } } }
+			ship = { name = "Ze Jiang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Jian Wei Class"} } }
 			ship = { name = "Yung Chi" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Yung Feng/Yung Chi Class"} } }
 			ship = { name = "Yung Chien" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Yung Feng/Yung Chi Class"} } }
 			ship = { name = "Yung Feng" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE  version_name = "Yung Feng/Yung Chi Class"} } }
 			ship = { name = "Chien Kang" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Chang Feng Class" } } }
-			ship = { name = "Daiyun Shan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Luoxiao Shan Class" } } }
-			ship = { name = "Luoxiao Shan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Luoxiao Shan Class" } } }
-			ship = { name = "Wanyang Shan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Luoxiao Shan Class" } } }
-			ship = { name = "Tianzhu Shan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Yimen Shan Class" } } }
-			ship = { name = "Yimen Shan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = QIE version_name = "Yimen Shan Class" } } }
+			ship = { name = "Tai Ho" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
+			ship = { name = "Tai Hu" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
+			ship = { name = "Tai Tsang" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
+			ship = { name = "Tai Chao" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
+			ship = { name = "Gao An" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
+			ship = { name = "Te An" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = GER version_name = "V1/G7 Class" } } }
 		}
 		task_force = {
 			name = "2nd Fleet"
@@ -38,7 +39,7 @@ units = {
 		task_force = {
 			name = "Training Fleet"
 			location = 7191
-			ship = { name = "Yingrui" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Zhaohe Class" } } }
+			ship = { name = "Ying Rui" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "Zhao He Class" } } }
 		}
 	}
 }
