@@ -1,4 +1,4 @@
-add_namespace = austral
+add_namespace = australasia_events
 
 # First part of fleet upgraded
 country_event = {
