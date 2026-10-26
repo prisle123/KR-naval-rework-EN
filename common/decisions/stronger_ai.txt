@@ -1,4 +1,4 @@
-Naval_lore_category = {
+navy_rework_category = {
     buff_ai_difficulty = {
 		icon = generic_civil_support
         complete_effect = {

@@ -1,4 +1,4 @@
-Naval_lore_category = {
+navy_rework_category = {
 	picture = GFX_decision_cat_picture_naval_treaties
 	allowed = { has_dlc = "Man the Guns" }
 	priority = 10

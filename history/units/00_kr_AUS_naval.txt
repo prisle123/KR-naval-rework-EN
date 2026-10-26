@@ -78,7 +78,6 @@ units = {
 			ship = { name = "SMS Admiral Spaun" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Admiral Spaun Class" } } }
 			ship = { name = "SMS Csepel" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Tátra Class" } } }
 			ship = { name = "SMS Warasdiner" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
-			ship = { name = "SMS Wildfang" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Ulan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 			ship = { name = "SMS Uskoke" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Huszár Class" } } }
 		}
@@ -151,27 +150,6 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_heavy_2
-			creator = "AUS"
-			version_name = "Schwarzenberg Class"
-		}
-		requested_factories = 2
-		progress = 0.5
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = vnr_ship_hull_heavy_2
-			creator = "AUS"
-			version_name = "Schwarzenberg Class"
-		}
-		requested_factories = 2
-		progress = 0.5
-		amount = 1
-	}
-
-	add_equipment_production = {
-		equipment = {
 			type = vnr_ship_hull_light_3
 			creator = "AUS"
 			version_name = "Meteor Class"
@@ -180,7 +158,6 @@ instant_effect = {
 		progress = 0.9
 		amount = 4
 	}
-
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
@@ -189,6 +166,26 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.7
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "AUS"
+			version_name = "U-120 Class"
+		}
+		requested_factories = 1
+		progress = 0.43
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "AUS"
+			version_name = "U-120 Class"
+		}
+		requested_factories = 1
+		progress = 0.28
 		amount = 4
 	}
 }

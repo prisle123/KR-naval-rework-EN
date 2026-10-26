@@ -221,7 +221,7 @@ ideas = {
                 is_ai = no
 				is_debug = no
             }
-            # for historical mode
+            # for expert mode
             equipment_bonus = {
 				ship_hull_light = {
 					instant = yes
@@ -234,14 +234,15 @@ ideas = {
                 is_ai = no
 				is_debug = no
             }
-            # for expert mode
+            # for historical mode
             equipment_bonus = {
 				ship_hull_light = {
 					instant = yes
-					build_cost_ic = -0.65
+					build_cost_ic = -0.2
 				}
 			}
         }
+
 		
 		vnr_expert_navy_treaty_workaround = {
 			cancel = {

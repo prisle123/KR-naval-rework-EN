@@ -1,4 +1,4 @@
-Naval_lore_category = {
+navy_rework_category = {
 	JAP_naval_lore = {
 		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }

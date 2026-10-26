@@ -1,4 +1,4 @@
-Naval_lore_category = {
+navy_rework_category = {
     add_never_built_blueprints = {
         icon = generic_naval
         fire_only_once = yes
