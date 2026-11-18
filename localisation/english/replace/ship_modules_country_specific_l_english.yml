@@ -505,7 +505,6 @@
  JAP_ship_armor_cruiser_2: "100mm Belt/60mm Deck"
  JAP_ship_armor_cruiser_3: "127mm Belt/60mm Deck"
  JAP_ship_armor_cruiser_4: "145mm Belt/65mm Deck"
- JAP_ship_armor_carrier_deck: "79mm Flight Deck"
  
 ### United States ###
  USA_ship_light_battery_1: "4in/50 Mk 9"
@@ -674,7 +673,6 @@
  USA_ship_armor_cruiser_2: "4in Belt/1.75in Deck"
  USA_ship_armor_cruiser_3: "5in Belt/2.25in Deck"
  USA_ship_armor_cruiser_4: "6in Belt/3.75in Deck"
- USA_ship_armor_carrier_deck: "3.5in Flight Deck"
  
 ### United Kingdom ###
  ENG_ship_light_battery_1: "4.7in/45 BL Mk I"
@@ -843,7 +841,6 @@
  ENG_ship_armor_cruiser_2: "4in Belt/2in Deck"
  ENG_ship_armor_cruiser_3: "4.5in Belt/2in Deck"
  ENG_ship_armor_cruiser_4: "4.5in Belt/4in Deck"
- ENG_ship_armor_carrier_deck: "3in Flight Deck"
  
 ### Canada and Australia ###
  CAN_ship_light_battery_1: "4.7in/45 BL Mk I"
@@ -1012,7 +1009,6 @@
  CAN_ship_armor_cruiser_2: "4in Belt/2in Deck"
  CAN_ship_armor_cruiser_3: "4.5in Belt/2in Deck"
  CAN_ship_armor_cruiser_4: "4.5in Belt/4in Deck"
- CAN_ship_armor_carrier_deck: "3in Flight Deck"
  
  AST_ship_light_battery_1: "4.7in/45 BL Mk I"
  AST_ship_light_battery_1_short: "Single 4.7in/45 BL Mk I"
@@ -1180,7 +1176,6 @@
  AST_ship_armor_cruiser_2: "4in Belt/2in Deck"
  AST_ship_armor_cruiser_3: "4.5in Belt/2in Deck"
  AST_ship_armor_cruiser_4: "4.5in Belt/4in Deck"
- AST_ship_armor_carrier_deck: "3in Flight Deck"
  
 ### France ###
  FRA_ship_light_battery_1: "130mm/40 Model 1919"
@@ -1494,7 +1489,6 @@
  SOV_ship_armor_cruiser_2: "50mm Belt/50mm Deck"
  SOV_ship_armor_cruiser_3: "70mm Belt/50mm Deck"
  SOV_ship_armor_cruiser_4: "100mm Belt/50mm Deck"
- SOV_ship_armor_carrier_deck: "50mm Flight Deck"
  
 ### Italy ###
  ITA_ship_light_battery_1: "102mm/35 Model 1914"
@@ -3167,11 +3161,6 @@
  WCA_ship_armor_cruiser_4: "6in Belt/3.75in Deck"
  NEE_ship_armor_cruiser_4: "6in Belt/3.75in Deck"
  HAW_ship_armor_cruiser_4: "6in Belt/3.75in Deck"
- ACC_ship_armor_carrier_deck: "3.5in Flight Deck"
- APG_ship_armor_carrier_deck: "3.5in Flight Deck"
- WCA_ship_armor_carrier_deck: "3.5in Flight Deck"
- NEE_ship_armor_carrier_deck: "3.5in Flight Deck"
- HAW_ship_armor_carrier_deck: "3.5in Flight Deck"
  IMP_ship_light_battery_1: "4.7in/45 BL Mk I"
  GBR_ship_light_battery_1: "4.7in/45 BL Mk I"
  IMP_ship_light_battery_1_short: "Single 4.7in/45 BL Mk I"
@@ -3504,8 +3493,6 @@
  GBR_ship_armor_cruiser_3: "4.5in Belt/2in Deck"
  IMP_ship_armor_cruiser_4: "4.5in Belt/4in Deck"
  GBR_ship_armor_cruiser_4: "4.5in Belt/4in Deck"
- IMP_ship_armor_carrier_deck: "3in Flight Deck"
- GBR_ship_armor_carrier_deck: "3in Flight Deck"
  NFA_ship_light_battery_1: "130mm/40 Model 1919"
  NFA_ship_light_battery_1_short: "Single 130mm/40 Model 1919"
  NFA_ship_light_battery_1_double: "130mm/40 Model 1919"
@@ -3815,7 +3802,6 @@
  RUS_ship_armor_cruiser_2: "50mm Belt/50mm Deck"
  RUS_ship_armor_cruiser_3: "70mm Belt/50mm Deck"
  RUS_ship_armor_cruiser_4: "100mm Belt/50mm Deck"
- RUS_ship_armor_carrier_deck: "50mm Flight Deck"
  ACC_ship_missile_1: "SSM-N-2 Triton"
  APG_ship_missile_1: "SSM-N-2 Triton"
  WCA_ship_missile_1: "SSM-N-2 Triton"

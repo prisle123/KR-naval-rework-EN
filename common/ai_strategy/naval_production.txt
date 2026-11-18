@@ -647,10 +647,7 @@ naval_unit_role_ratios_GER_late_peace = {
 
 naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 	allowed = {
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
+		original_tag = ENG
 	}
 	enable = {
 		date < 1941.1.1
@@ -698,11 +695,7 @@ naval_unit_role_ratios_ENG_prewar_need_eight_cv = {
 
 naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	allowed = {
-		
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
+		original_tag = ENG
 	}
 	enable = {
 		date < 1941.1.1
@@ -738,7 +731,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 60
+		value = 80
 	}
 
 	ai_strategy = {
@@ -750,11 +743,7 @@ naval_unit_role_ratios_ENG_prewar_had_eight_cv = {
 
 naval_unit_role_ratios_ENG_atwar = {
 	allowed = {
-		
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
+		original_tag = ENG
 	}
 	enable = {
 		has_war_with_major = yes
@@ -764,13 +753,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 25
+		value = 35
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 50
+		value = 30
 	}
 
 	ai_strategy = {
@@ -782,7 +771,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 60
+		value = 70
 	}
 
 	ai_strategy = {
@@ -800,11 +789,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 naval_unit_role_ratios_ENG_late_peace = {
 	allowed = {
-		
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
+		original_tag = ENG
 	}
 	enable = {
 		date > 1941.1.1
@@ -950,11 +935,6 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 20
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 50
 	}
@@ -1017,8 +997,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 
 naval_unit_role_ratios_CAN_prewar = {
 	allowed = {
-		
-		tag = CAN
+		original_tag = IMP
 	}
 	enable = {
 		date < 1941.1.1
@@ -1026,12 +1005,12 @@ naval_unit_role_ratios_CAN_prewar = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
-			has_war_with = TEX
-			has_war_with = PSA
-			has_war_with = CSA
 			has_war_with = USA
 			has_war_with = ENG
 			has_war_with = JAP
+		}
+		all_controlled_state = { # British Isles not liberated
+			NOT = { is_core_of = ENG }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1045,7 +1024,7 @@ naval_unit_role_ratios_CAN_prewar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 25
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1054,12 +1033,7 @@ naval_unit_role_ratios_CAN_prewar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_armor
-		value = 10
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = convoy
+		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 }
@@ -1067,18 +1041,17 @@ naval_unit_role_ratios_CAN_prewar = {
 # war in the United States is more dangerous for Canada
 naval_unit_role_ratios_CAN_atwar_in_USA = {
 	allowed = {
-		
-		tag = CAN
+		original_tag = IMP
 	}
 	enable = {
 		OR = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
-			has_war_with = TEX
-			has_war_with = PSA
-			has_war_with = CSA
 			has_war_with = USA
+		}
+		all_controlled_state = { # British Isles not liberated
+			NOT = { is_core_of = ENG }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1114,22 +1087,11 @@ naval_unit_role_ratios_CAN_atwar_in_USA = {
 		id = vnr_naval_carrier
 		value = -50
 	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_capital_bc
-		value = -50
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_armor
-		value = -50
-	}
 }
 
 naval_unit_role_ratios_CAN_atwar = {
 	allowed = {
-		
-		tag = CAN
+		original_tag = IMP
 	}
 	enable = {
 		OR = {
@@ -1141,10 +1103,10 @@ naval_unit_role_ratios_CAN_atwar = {
 			has_war_with = WCA
 			has_war_with = APG
 			has_war_with = ACC
-			has_war_with = TEX
-			has_war_with = PSA
-			has_war_with = CSA
 			has_war_with = USA
+		}
+		all_controlled_state = { # British Isles not liberated
+			NOT = { is_core_of = ENG }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1157,35 +1119,81 @@ naval_unit_role_ratios_CAN_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 30
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_submarine
-		value = 30
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 25
+	}
+}
+
+naval_unit_role_ratios_CAN_atwar_home = {
+	allowed = {
+		original_tag = IMP
+	}
+	enable = {
+		has_war_with_major = yes
+		any_controlled_state = { # British Isles liberated
+			is_core_of = ENG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 300
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 500
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 70
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 25
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 20
 	}
 }
 
 naval_unit_role_ratios_CAN_late_peace = {
 	allowed = {
-		
-		tag = CAN
+		original_tag = IMP
 	}
 	enable = {
 		date > 1941.1.1
-		has_war = no
+		has_war_with_major = no
+		all_controlled_state = { # British Isles not liberated
+			NOT = { is_core_of = ENG }
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -1194,36 +1202,77 @@ naval_unit_role_ratios_CAN_late_peace = {
 		id = vnr_naval_screen
 		value = 250
 	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 20
-	}
-
+	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = -10
+		value = 350
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 30
+		value = 60
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 10
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 50
+		value = 30
+	}
+}
+
+naval_unit_role_ratios_CAN_late_peace_home = {
+	allowed = {
+		original_tag = IMP
+	}
+	enable = {
+		date > 1941.1.1
+		has_war_with_major = no
+		any_controlled_state = { # British Isles liberated
+			is_core_of = ENG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 250
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 350
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 30
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 30
 	}
 }
 
@@ -1231,11 +1280,7 @@ naval_unit_role_ratios_CAN_late_peace = {
 
 naval_unit_role_ratios_RUS_need_to_knock_germany = {
 	allowed = {
-		
-		OR = {
-			tag = RUS
-			tag = SOV
-		}
+		original_tag = RUS
 	}
 	enable = {
 		country_exists = GER
@@ -1261,17 +1306,18 @@ naval_unit_role_ratios_RUS_need_to_knock_germany = {
 
 naval_unit_role_ratios_RUS_germany_is_dead = {
 	allowed = {
-		
-		OR = {
-			tag = RUS
-			tag = SOV
-		}
+		original_tag = RUS
 	}
 	enable = {
 		NOT = { country_exists = GER }
 	}
 	abort_when_not_enabled = yes
 
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 500
+	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
@@ -1289,18 +1335,13 @@ naval_unit_role_ratios_RUS_germany_is_dead = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 80
+		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 60
+		value = 30
 	}
 }
 
@@ -1308,8 +1349,7 @@ naval_unit_role_ratios_RUS_germany_is_dead = {
 
 naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	allowed = {
-		
-		tag = JAP
+		original_tag = JAP
 	}
 	enable = {
 		NOT = { has_war_with = GEA }
@@ -1352,8 +1392,7 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 
 naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	allowed = {
-		
-		tag = JAP
+		original_tag = JAP
 	}
 	enable = {
 		NOT = { has_war_with = GEA }
@@ -1396,8 +1435,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 
 naval_unit_role_ratios_JAP_atwar = {
 	allowed = {
-		
-		tag = JAP
+		original_tag = JAP
 	}
 	enable = {
 		OR = {
@@ -1435,14 +1473,13 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 60
+		value = 40
 	}
 }
 
 naval_unit_role_ratios_JAP_late_peace = {
 	allowed = {
-		
-		tag = JAP
+		original_tag = JAP
 	}
 	enable = {
 		NOT = { country_exists = GEA }
@@ -1480,8 +1517,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 
 naval_unit_role_ratios_USA_great_depression = {
 	allowed = {
-		
-		tag = USA
+		original_tag = USA
 	}
 	enable = {
 		NOT = { 
@@ -1529,16 +1565,11 @@ naval_unit_role_ratios_USA_great_depression = {
 
 naval_unit_role_ratios_ACW = {
 	allowed = {
-		
 		OR = {
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = TEX
-			tag = CSA
-			tag = WCC
+			original_tag = USA
+			original_tag = WCA
+			original_tag = APG
+			original_tag = ACC
 		}
 	}
 	enable = {
@@ -1583,16 +1614,11 @@ naval_unit_role_ratios_ACW = {
 
 naval_unit_role_ratios_ACW_end = {
 	allowed = {
-		
 		OR = {
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
-			tag = PSA
-			tag = TEX
-			tag = CSA
-			tag = WCC
+			original_tag = USA
+			original_tag = WCA
+			original_tag = APG
+			original_tag = ACC
 		}
 	}
 	enable = {
@@ -1640,12 +1666,11 @@ naval_unit_role_ratios_ACW_end = {
 
 naval_unit_role_ratios_USA_go_to_war = {
 	allowed = {
-		
 		OR = {
-			tag = USA
-			tag = WCA
-			tag = APG
-			tag = ACC
+			original_tag = USA
+			original_tag = WCA
+			original_tag = APG
+			original_tag = ACC
 		}
 	}
 	enable = {
@@ -1672,7 +1697,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 40
 	}
 
 	ai_strategy = {
@@ -1872,10 +1897,6 @@ we_need_convoys_minors = {
 				tag = WCA
 				tag = APG
 				tag = ACC
-				tag = PSA
-				tag = TEX
-				tag = CSA
-				tag = WCC
 			}
 		}
 	}
@@ -1902,10 +1923,6 @@ we_need_convoys_majors1 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
-			tag = PSA
-			tag = TEX
-			tag = CSA
-			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 75 } }
@@ -1931,10 +1948,6 @@ we_need_convoys_majors2 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
-			tag = PSA
-			tag = TEX
-			tag = CSA
-			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 150 } }
@@ -2002,10 +2015,6 @@ we_dont_need_convoys_1 = {
 				tag = WCA
 				tag = APG
 				tag = ACC
-				tag = PSA
-				tag = TEX
-				tag = CSA
-				tag = WCC
 			}
 		}
 	}
@@ -2029,10 +2038,6 @@ we_dont_need_convoys_2 = {
 			tag = WCA
 			tag = APG
 			tag = ACC
-			tag = PSA
-			tag = TEX
-			tag = CSA
-			tag = WCC
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }
@@ -2050,6 +2055,9 @@ we_need_screen_1 = {
 		OR = {
 			tag = ENG
 			tag = USA
+			tag = APG
+			tag = ACC
+			tag = WCA
 			tag = JAP
 			tag = GER
 		}
@@ -2227,23 +2235,14 @@ we_need_cv_fighters_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			num_of_military_factories < 60
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2258,21 +2257,13 @@ we_need_cv_fighters_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2287,17 +2278,12 @@ we_need_cv_fighters_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2313,8 +2299,9 @@ we_need_cv_fighters_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_airframe > 560
+			cv_small_plane_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2330,23 +2317,14 @@ we_need_cv_naval_bombers_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			num_of_military_factories < 60
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2361,21 +2339,13 @@ we_need_cv_naval_bombers_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2390,17 +2360,12 @@ we_need_cv_naval_bombers_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2416,8 +2381,9 @@ we_need_cv_naval_bombers_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_naval_bomber_airframe > 560
+			cv_small_plane_naval_bomber_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2433,24 +2399,14 @@ we_need_cv_cas_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			num_of_military_factories < 60
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_cas_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-			num_of_military_factories < 30
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2465,21 +2421,13 @@ we_need_cv_cas_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_cas_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2494,17 +2442,12 @@ we_need_cv_cas_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_cas_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2520,8 +2463,9 @@ we_need_cv_cas_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_cas_airframe > 560
+			cv_small_plane_cas_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2539,13 +2483,15 @@ build_more_missile_cruisers = {
 	}
 	enable = {
 		has_tech = modern_ship_hull_cruiser
+		has_tech = ship_to_ship_missile
+		has_tech = cruiser_missile_upgrade
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 150
 	}
 
 	ai_strategy = {
@@ -2553,6 +2499,7 @@ build_more_missile_cruisers = {
 		id = vnr_naval_capital_bb
 		value = -80
 	}
+
 }
 
 upgrade_cv_plane_is_important = {
@@ -2567,7 +2514,7 @@ upgrade_cv_plane_is_important = {
 	ai_strategy = {
 		type = air_xp_spend_priority
 		id = equipment_variant
-		value = 100
+		value = 30
 	}
 }
 

@@ -38,6 +38,7 @@ technologies = {
 			ship_secondaries_1_light
 			ship_civilian_light_battery_1
 			ship_anti_air_1_h
+			ship_anti_air_1
 
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -178,6 +179,7 @@ technologies = {
 			dp_ship_secondaries_1_bb
 			ship_secondaries_2_light
 			ship_anti_air_2_h
+			ship_anti_air_2
 
 			ship_light_medium_battery_2
 			ship_light_medium_battery_2_double
@@ -302,6 +304,7 @@ technologies = {
 			ship_light_battery_3
 			ship_light_battery_3_double
 			ship_anti_air_3_h
+			ship_anti_air_3
 
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
@@ -411,12 +414,13 @@ technologies = {
 
 		research_cost = 0.25
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_light_battery_4
 			ship_light_battery_4_double
 			ship_anti_air_4_h
+			ship_anti_air_4
 			ship_light_medium_battery_4
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
@@ -581,7 +585,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_heavy_battery_4
@@ -854,7 +858,7 @@ technologies = {
 
 		research_cost = 0.3
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			dp_ship_medium_1
@@ -1241,6 +1245,7 @@ technologies = {
 			ship_missile_1
 			ship_cruise_missile_1
 			ship_missile_aa_1
+			ship_carrier_missile_aa_1
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
@@ -1276,6 +1281,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_missile_2
 			ship_missile_aa_2
+			ship_carrier_missile_aa_2
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
@@ -1500,7 +1506,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 20 }
+			position = { x = 2 y = 21 }
 		}
 		path = {
 			leads_to_tech = wake_homing_torpedo
@@ -1686,7 +1692,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
-		start_year = 1943
+		start_year = 1942
 		dependencies = {
 			radio_detection = 1
 		}
@@ -1757,6 +1763,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_13_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_1 = 1 }
+			}
 		}
 
 		enable_equipment_modules = {
@@ -1792,7 +1802,7 @@ technologies = {
 
 		research_cost = 0.5
 
-		start_year = 1940
+		start_year = 1939
 
 		path = {
 			leads_to_tech = modern_ship_torpedo_launcher
@@ -1802,6 +1812,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_6_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_2 = 1 }
+			}
 		}
 
 		enable_equipment_modules = {
@@ -1838,7 +1852,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_torpedo_4
@@ -1849,6 +1863,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_6_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_3 = 1 }
+			}
 		}
 
 		path = {

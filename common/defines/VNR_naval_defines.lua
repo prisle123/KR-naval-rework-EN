@@ -155,7 +155,7 @@ NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that tak
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)
 NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 50   -- spotting speed mult against naval invasion armies (was 10)
-NDefines.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.0   -- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick) (was 8.0)
+NDefines.NNavy.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.0   -- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick) (was 8.0)
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.6   -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible. (was 0.9)
 NDefines.NNavy.MIN_SPOTTING_PROGRESS = 0.05   -- Minimum spotting progress (in percent) per hourly tick (was 0.01)
 NDefines.NNavy.BASE_SPOTTING = 5   -- base spotting percentage for navy	(was 1)
@@ -303,8 +303,8 @@ NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- i
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
 NDefines.NNavy.MAX_SHIP_COUNT_FOR_DOMINANCE_PATROL_ROLE_ASSIGNMENT = 8   -- define the maximum number of ships that should be in a task force for it to be considered a dominance building patrol (provided they have any capitals as well) (was 15)
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
-NDefines.NAI.AI_TASKFORCE_REQUIRED_RESERVE_RATIO = 0.1   -- Fraction of required TF optimal composition held in reserve for reinforcement (rounded up per type) (was 0.2)
-NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 4.0   -- maximum patrol/strike force ratio (was 4)
+NDefines.NAI.AI_TASKFORCE_REQUIRED_RESERVE_RATIO = 0.18   -- Fraction of required TF optimal composition held in reserve for reinforcement (rounded up per type) (was 0.2)
+NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 3.0   -- maximum patrol/strike force ratio (was 4)
 
 
 --AI Production / Designs
@@ -315,7 +315,7 @@ NDefines.NAI.PRODUCTION_WAIT_TO_FINISH_IF_EXPENSIVE = 0.02   -- If produced item
 NDefines.NAI.WANTED_CARRIER_PLANES_PER_CARRIER_CAPACITY_FACTOR = 2   -- Scales how many carrier planes the AI want per carrier deck space. (was 1.5)
 NDefines.NAI.WANTED_CARRIER_PLANES_PER_CARRIER_CAPACITY_IN_PRODUCTION_FACTOR = 1.2   -- Scales how many carrier planes the AI want per deck space of carriers in production. (was 1)
 NDefines.NAI.CARRIER_CAPACITY_IN_PRODUCTION_MAX_DAYS_LEFT_TO_INCLUDE_FACTOR = 180   -- Carriers in production that will take more days to complete than this value will be ignored when calculating the above. (was 365)
-NDefines.NAI.AI_WANTED_CARRIER_BASED_PLANES_FACTOR = 1.5   -- Factor applied to desire for carrier based planes (total carrier space * define) (was 1)
+NDefines.NAI.AI_WANTED_CARRIER_BASED_PLANES_FACTOR = 1   -- Factor applied to desire for carrier based planes (total carrier space * define) (was 1)
 NDefines.NAI.DESIRE_USE_XP_TO_UNLOCK_NAVAL_DOCTRINE = 1   -- How quickly is desire to unlock naval doctrines accumulated? (was 0.5)
 NDefines.NAI.DESIRE_USE_XP_TO_UPGRADE_NAVAL_EQUIPMENT = 1   -- How quickly is desire to update/create naval equipment variants accumulated?
 NDefines.NAI.DEFAULT_MODULE_VARIANT_CREATION_XP_CUTOFF_NAVY = 30   -- Navy XP needed before attempting to create a variant of a type (was 50)
@@ -327,7 +327,7 @@ NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 1.60   -- AI will try and keep 15% more
 
 --AI Mission
 NDefines.NAI.PEACE_TIME_NAVY_FUEL_FACTOR = 0.75   -- Percentage of fuel available to navy that is allowed to use for missiosn during peace time (was 0.25)
-NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 250   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
+NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 200   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
 NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	200, -- PATROL
@@ -379,8 +379,8 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0.275,	-- naval dominance strategy (was 0.125)
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
-NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
-NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 7   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
+NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 14   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
+NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 5   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
 NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 7   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
 NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.95   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
 NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 10   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
