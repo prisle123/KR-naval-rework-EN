@@ -37,12 +37,14 @@ GER_AI_variants_1940 = {
 			fixed_ship_engine_slot = cruiser_ship_engine_4
 			fixed_ship_secondaries_slot = dp_ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_cruiser_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 			front_1_custom_slot = empty
 			front_2_custom_slot = ship_light_medium_battery_3
 			mid_1_custom_slot = ship_torpedo_2
 			mid_2_custom_slot = ship_torpedo_2
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -63,6 +65,7 @@ GER_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -84,6 +87,7 @@ GER_AI_variants_1942 = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 }
@@ -129,6 +133,7 @@ GER_AI_variants_1943 = {
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -152,6 +157,7 @@ GER_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -172,6 +178,7 @@ GER_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -217,6 +224,7 @@ ENG_AI_variants_1940 = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -239,6 +247,7 @@ ENG_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_2
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -259,6 +268,7 @@ ENG_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -306,6 +316,7 @@ ENG_AI_variants_1943 = {
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -329,6 +340,7 @@ ENG_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -349,6 +361,7 @@ ENG_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -394,6 +407,7 @@ JAP_AI_variants_1940 = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
 			fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -417,6 +431,7 @@ JAP_AI_variants_1940 = {
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
 			rear_2_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -437,6 +452,7 @@ JAP_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -482,6 +498,7 @@ JAP_AI_variants_1943 = {
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
 			mid_2_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -529,6 +546,7 @@ JAP_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -549,6 +567,7 @@ JAP_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -594,6 +613,7 @@ USA_AI_variants_1940 = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -616,6 +636,7 @@ USA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_2
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -636,6 +657,7 @@ USA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -683,6 +705,7 @@ USA_AI_variants_1943 = {
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
 			mid_2_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -706,6 +729,7 @@ USA_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -726,6 +750,7 @@ USA_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -771,6 +796,7 @@ WCA_AI_variants_1940 = {
 			fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -793,6 +819,7 @@ WCA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_2
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -813,6 +840,7 @@ WCA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -860,6 +888,7 @@ WCA_AI_variants_1943 = {
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
 			mid_2_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -883,6 +912,7 @@ WCA_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -903,6 +933,7 @@ WCA_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -951,6 +982,7 @@ FRA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_2
 			mid_3_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -971,6 +1003,7 @@ FRA_AI_variants_1940 = {
 			mid_2_custom_slot = ship_torpedo_3
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_3_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
@@ -1017,6 +1050,7 @@ FRA_AI_variants_1943 = {
 			front_1_custom_slot = ship_deck_space_open
 			mid_1_custom_slot = ship_deck_space_open
 			mid_2_custom_slot = ship_deck_space_open
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 	create_equipment_variant = {
@@ -1040,6 +1074,7 @@ FRA_AI_variants_1943 = {
 			mid_3_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_light_medium_battery_4
 			rear_2_custom_slot = ship_light_medium_battery_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_c
 		}
 	}
 	create_equipment_variant = {
@@ -1060,6 +1095,7 @@ FRA_AI_variants_1943 = {
 			mid_2_custom_slot = ship_torpedo_4
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_4_double
+			fixed_ship_role_slot = ship_hull_light_role_dd
 		}
 	}
 }
