@@ -710,7 +710,7 @@ vnr_historical_rus_dd = {
 	# Design basis: Inspired by Novik Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Russian_destroyer_Novik_(1911)
 	vnr_hist_RUS_petrograd_design = {
-		name = vnr_hist_RUS_leningrad
+		name = vnr_hist_RUS_petrograd
 		role_icon_index = 31
 		priority = {
 			base = 20
